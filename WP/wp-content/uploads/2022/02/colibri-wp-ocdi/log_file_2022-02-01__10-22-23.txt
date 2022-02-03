@@ -1,0 +1,51 @@
+
+---Downloaded files---
+The import files for: Business I were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://hugo-chabert.students-laplateforme.io/WP
+Data file = /var/www/vhosts/hugo-chabert.students-laplateforme.io/httpdocs/WP/wp-content/uploads/2022/02/colibri-wp-ocdi/demo-content-import-file_2022-02-01__10-22-23.xml
+Widget file = /var/www/vhosts/hugo-chabert.students-laplateforme.io/httpdocs/WP/wp-content/uploads/2022/02/colibri-wp-ocdi/demo-widgets-import-file_2022-02-01__10-22-23.json
+Customizer file = /var/www/vhosts/hugo-chabert.students-laplateforme.io/httpdocs/WP/wp-content/uploads/2022/02/colibri-wp-ocdi/demo-customizer-import-file_2022-02-01__10-22-23.dat
+Redux files:
+not defined!
+
+---extendthemes-ocdi/before_content_import---
+
+
+--- Colibri Importer ---
+[INFO] - Installed Plugin: contact-form-7/wp-contact-form-7.php
+
+--- Colibri Importer ---
+[INFO] - Plugins instalantion requests new ajax call
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog sidebar widget area : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+newsletter_subscriber_widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Imported to Inactive
+Recent Posts - No Title - Imported to Inactive
+Recent Comments - No Title - Imported to Inactive
+Archives - No Title - Imported to Inactive
+Categories - No Title - Imported to Inactive
+Meta - No Title - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---extendthemes-ocdi/after_import---
+
