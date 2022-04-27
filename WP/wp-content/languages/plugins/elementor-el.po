@@ -2,52 +2,52 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-16 13:21:28+0000\n"
+"PO-Revision-Date: 2022-03-01 14:22:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: el_GR\n"
 "Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
 
-#: includes/widgets/common.php:1120
+#: includes/widgets/common.php:1504
 msgid "Bottom Center"
 msgstr "Κάτω κέντρο"
 
-#: includes/widgets/common.php:1121
+#: includes/widgets/common.php:1505
 msgid "Bottom Left"
 msgstr "Κάτω αριστερά"
 
-#: includes/widgets/common.php:1122
+#: includes/widgets/common.php:1506
 msgid "Bottom Right"
 msgstr "Κάτω δεξιά"
 
-#: includes/widgets/common.php:1114
+#: includes/widgets/common.php:1498
 msgid "Center Center"
 msgstr "Κέντρο κέντρο"
 
-#: includes/widgets/common.php:1115
+#: includes/widgets/common.php:1499
 msgid "Center Left"
 msgstr "Κέντρο αριστερά"
 
-#: includes/widgets/common.php:1116
+#: includes/widgets/common.php:1500
 msgid "Center Right"
 msgstr "Κεντρο δεξιά"
 
-#: includes/settings/settings.php:590
+#: includes/settings/settings.php:567
 msgid "Swap"
 msgstr "Εναλλαγή"
 
-#: includes/widgets/common.php:1117
+#: includes/widgets/common.php:1501
 msgid "Top Center"
 msgstr "Πάνω κέντρο"
 
-#: includes/widgets/common.php:1118
+#: includes/widgets/common.php:1502
 msgid "Top Left"
 msgstr "Πάνω αριστερά"
 
-#: includes/widgets/common.php:1119
+#: includes/widgets/common.php:1503
 msgid "Top Right"
 msgstr "Πάνω δεξιά"
 
@@ -75,16 +75,16 @@ msgstr "Αποτυχία εισαγωγής κατηγορίας %s"
 msgid "Failed to import post tag %s"
 msgstr "Αποτυχία εισαγωγής ετικέτας %s"
 
-#: core/utils/import-export/wp-import.php:1028
+#: core/utils/import-export/wp-import.php:1045
 msgid "Fetching attachments is not enabled"
 msgstr "Η μεταφορά συνημμένων δεν είναι ενεργοποιημένη"
 
-#: core/utils/import-export/wp-import.php:1045
+#: core/utils/import-export/wp-import.php:1062
 msgid "Invalid file type"
 msgstr "Μη έγκυρος τύπος αρχείου"
 
-#: core/app/modules/import-export/module.php:226
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3302
+#: core/app/modules/import-export/module.php:290 assets/js/app.js:10420
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3524
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
@@ -108,24 +108,24 @@ msgstr "Δε φαίνεται να πρόκειται για αρχείο WXR, �
 msgid "Word Spacing"
 msgstr "Απόσταση Λέξεων"
 
-#: core/utils/import-export/wp-import.php:1128
+#: core/utils/import-export/wp-import.php:1145
 msgid "Zero size file downloaded"
 msgstr "Κατέβηκε αρχείο μηδενικού μεγέθους"
 
-#: core/experiments/manager.php:339
+#: core/experiments/manager.php:352
 msgid "Development"
 msgstr "Ανάπτυξη"
 
-#: core/experiments/manager.php:341
+#: core/experiments/manager.php:354
 msgid "Beta"
 msgstr "Υπό δοκιμή"
 
 #: core/common/modules/finder/categories/settings.php:60
-#: core/experiments/manager.php:413
+#: core/experiments/manager.php:426
 msgid "Experiments"
 msgstr "Πειράματα"
 
-#: core/admin/notices/elementor-dev-notice.php:83
+#: core/admin/notices/elementor-dev-notice.php:87
 msgid "Install & Activate"
 msgstr "Εγκατάσταση και ενεργοποίηση"
 
@@ -143,12 +143,13 @@ msgid "Choose SVG"
 msgstr "Επιλέξτε SVG"
 
 #: core/kits/documents/tabs/global-colors.php:24
-#: core/kits/documents/tabs/global-colors.php:43 assets/js/app-packages.js:9694
-#: assets/js/app.js:9804 assets/js/editor.js:39181
+#: core/kits/documents/tabs/global-colors.php:43 assets/js/app.js:13319
+#: assets/js/editor.js:42532
 msgid "Global Colors"
 msgstr "Καθολικά χρώματα"
 
 #: core/kits/documents/tabs/settings-site-identity.php:65
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1209
 msgid "Site Name"
 msgstr "Όνομα Ιστότοπου"
 
@@ -160,13 +161,13 @@ msgstr "Επιλέξτε όνομα"
 msgid "Choose description"
 msgstr "Επιλέξτε περιγραφή"
 
-#: core/kits/manager.php:366 assets/js/app-packages.js:9692
-#: assets/js/app.js:9802 assets/js/editor.js:39128 assets/js/editor.js:39132
-#: assets/js/editor.js:39142
+#: core/kits/manager.php:392 assets/js/app.js:13317 assets/js/app.js:13884
+#: assets/js/editor.js:42479 assets/js/editor.js:42483
+#: assets/js/editor.js:42493
 msgid "Site Settings"
 msgstr "Ρυθμίσεις Ιστότοπου"
 
-#: includes/widgets/icon-list.php:159
+#: includes/elements/container.php:492 includes/widgets/icon-list.php:159
 msgid "Items"
 msgstr "Στοιχεία"
 
@@ -174,11 +175,12 @@ msgstr "Στοιχεία"
 msgid "Rows Gap"
 msgstr "Κενό μεταξύ Γραμμών"
 
-#: core/settings/editor-preferences/model.php:38 assets/js/editor.js:27098
+#: core/settings/editor-preferences/model.php:38 assets/js/editor.js:32153
 msgid "User Preferences"
 msgstr "Προτιμήσεις Χρήστη"
 
 #: core/kits/documents/tabs/settings-site-identity.php:87
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1213
 msgid "Site Logo"
 msgstr "Λογότυπο Ιστότοπου"
 
@@ -194,7 +196,7 @@ msgstr "Περιγραφή Ιστοτόπου."
 msgid "Site Identity"
 msgstr "Ταυτότητα Ιστοτόπου"
 
-#: core/kits/documents/tabs/settings-layout.php:140
+#: core/kits/documents/tabs/settings-layout.php:150
 msgid "Default Page Layout"
 msgstr "Προεπιλεγμένη διάταξη σελίδας"
 
@@ -202,16 +204,15 @@ msgstr "Προεπιλεγμένη διάταξη σελίδας"
 msgid "Download"
 msgstr "Λήψη"
 
-#: includes/widgets/common.php:1061 includes/widgets/image.php:363
+#: includes/widgets/common.php:1445 includes/widgets/image.php:363
 msgid "Fill"
 msgstr "Γέμισμα"
 
-#: core/kits/documents/tabs/settings-layout.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
+#: core/kits/documents/tabs/settings-layout.php:47 assets/js/app.js:13319
 msgid "Layout Settings"
 msgstr "Ρύθμιση διάταξης"
 
-#: core/kits/documents/tabs/settings-layout.php:143
+#: core/kits/documents/tabs/settings-layout.php:153
 msgid "Theme"
 msgstr "Θέμα εμφάνισης"
 
@@ -219,7 +220,7 @@ msgstr "Θέμα εμφάνισης"
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: includes/settings/settings.php:289
+#: includes/settings/settings.php:290
 msgid "Watch the Full Guide"
 msgstr "Δείτε τον Πλήρη Οδηγό"
 
@@ -275,15 +276,15 @@ msgstr "Συνιστάται ιδιαίτερα η δημιουργία αντι
 msgid "The upgrade process includes a database update"
 msgstr "Η διαδικασία αναβάθμισης περιλαμβάνει ενημέρωση βάσης δεδομένων"
 
-#: includes/managers/controls.php:1096
+#: includes/managers/controls.php:1095
 msgid "Attributes lets you add custom HTML attributes to any element."
 msgstr "Τα Χαρακτηριστικά σάς επιτρέπουν να προσθέσετε προσαρμοσμένα χαρακτηριστικά HTML σε οποιοδήποτε στοιχείο."
 
-#: includes/managers/controls.php:1094
+#: includes/managers/controls.php:1093
 msgid "Meet Our Attributes"
 msgstr "Γνωρίστε τα Χαρακτηριστικά μας"
 
-#: includes/managers/controls.php:1084
+#: includes/managers/controls.php:1083
 msgid "Attributes"
 msgstr "Χαρακτηριστικά"
 
@@ -312,7 +313,7 @@ msgstr "Κοινή χρήση"
 msgid "Fullscreen"
 msgstr "Πλήρης οθόνη"
 
-#: core/kits/manager.php:124 core/kits/manager.php:142
+#: core/kits/manager.php:150 core/kits/manager.php:168
 msgid "Default Kit"
 msgstr "Προεπιλεγμένο Κιτ"
 
@@ -362,13 +363,9 @@ msgstr "Με το WooCommerce Builder του Elementor Pro, θα είστε σε
 msgid "Already connected."
 msgstr "Ήδη συνδεδεμένος."
 
-#: includes/widgets/image-carousel.php:289
+#: includes/widgets/image-carousel.php:301
 msgid "Pause on Interaction"
 msgstr "Παύση της αλληλεπίδρασης"
-
-#: includes/widgets/common.php:1232
-msgid "Positioning"
-msgstr "Θέση"
 
 #. translators: %s: Video provider
 #: includes/embed.php:175
@@ -388,7 +385,7 @@ msgid "Cover"
 msgstr "Εξώφυλλο"
 
 #: includes/controls/groups/background.php:716
-#: includes/widgets/social-icons.php:276
+#: includes/elements/container.php:430 includes/widgets/social-icons.php:276
 msgid "Auto"
 msgstr "Αυτόματο"
 
@@ -438,15 +435,15 @@ msgstr "Ανοιχτό"
 msgid "Auto Detect"
 msgstr "Αυτόματος Εντοπισμός"
 
-#: includes/settings/settings.php:335
+#: includes/settings/settings.php:336
 msgid "Don't rely solely on the FontAwesome icons everyone else is using! Differentiate your website and your style with custom icons you can upload from your favorite icons source."
 msgstr "Μην βασίζεστε αποκλειστικά στα εικονίδια FontAwesome που χρησιμοποιούν όλοι οι άλλοι! Διαφοροποιήστε τον ιστότοπό σας και το στυλ σας με προσαρμοσμένα εικονίδια που μπορείτε να ανεβάσετε από την αγαπημένη σας πηγή εικονιδίων."
 
-#: includes/settings/settings.php:334
+#: includes/settings/settings.php:335
 msgid "Add Your Custom Icons"
 msgstr "Προσθέστε τα προσαρμοσμένα εικονίδια σας"
 
-#: includes/settings/settings.php:155 includes/settings/settings.php:156
+#: includes/settings/settings.php:156 includes/settings/settings.php:157
 msgid "Custom Icons"
 msgstr "Προσαρμοσμένα Εικονίδια"
 
@@ -477,15 +474,17 @@ msgstr "Βίντεο"
 msgid "Clear Log"
 msgstr "Καθάρισμα αρχείου καταγραφών"
 
-#: includes/frontend.php:1307 includes/widgets/image-carousel.php:795
-#: assets/js/app-packages.js:8330 assets/js/app-packages.js:9065
-#: assets/js/app.js:8440 assets/js/app.js:9175
+#: includes/frontend.php:1307 includes/widgets/image-carousel.php:832
+#: assets/js/app.js:9819 assets/js/app.js:11647 assets/js/app.js:12601
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1860
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1914
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2224
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2525
 msgid "Next"
 msgstr "Επόμενο"
 
-#: includes/frontend.php:1306 includes/widgets/image-carousel.php:791
-#: assets/js/app-packages.js:8402 assets/js/app-packages.js:9059
-#: assets/js/app.js:8512 assets/js/app.js:9169
+#: includes/frontend.php:1306 includes/widgets/image-carousel.php:828
+#: assets/js/app.js:10849 assets/js/app.js:11636 assets/js/app.js:12595
 msgid "Previous"
 msgstr "Προηγούμενο"
 
@@ -570,11 +569,11 @@ msgstr "Αυτή η εικόνα εξωφύλλου θα αντικαταστή�
 msgid "Play On Mobile"
 msgstr "Αναπαραγωγή Σε Κινητό"
 
-#: includes/settings/tools.php:337 includes/settings/tools.php:339
+#: includes/settings/tools.php:356 includes/settings/tools.php:358
 msgid "Reinstall"
 msgstr "Επανεγκατάσταση"
 
-#: includes/settings/tools.php:139
+#: includes/settings/tools.php:150
 msgid "Error occurred, The version selected is invalid. Try selecting different version."
 msgstr "Ένα σφάλμα προέκυψε, η επιλεγμένη έκδοση δεν είναι έγκυρη. Προσπαθήστε να επιλέξετε μία διαφορετική έκδοση."
 
@@ -591,15 +590,15 @@ msgctxt "shapes"
 msgid "Curly"
 msgstr "Κατσαρό"
 
-#: includes/controls/groups/background.php:770
+#: includes/controls/groups/background.php:781
 msgid "Out"
 msgstr "Έξω"
 
-#: includes/controls/groups/background.php:769
+#: includes/controls/groups/background.php:780
 msgid "In"
 msgstr "Μέσα"
 
-#: includes/widgets/common.php:708
+#: includes/widgets/common.php:1067
 msgid "Transition Duration (ms)"
 msgstr "Διάρκεια Μετάβασης (ms)"
 
@@ -646,7 +645,7 @@ msgstr "Πολλαπλοί"
 msgid "YouTube/Vimeo link, or link to video file (mp4 is recommended)."
 msgstr "Σύνδεσμος YouTube/Vimeo, ή σύνδεσμος αρχείου βίντεο (προτείνεται mp4)."
 
-#: includes/controls/groups/background.php:754
+#: includes/controls/groups/background.php:765
 msgid "Ken Burns Effect"
 msgstr "Επίδραση του Ken Burns"
 
@@ -660,14 +659,9 @@ msgstr "Διαδρομή Αρχείου: %s"
 msgid "Need Help"
 msgstr "Χρειάζεστε Βοήθεια;"
 
-#: includes/base/widget-base.php:984
+#: includes/base/widget-base.php:1009
 msgid "Deprecated"
 msgstr "Απαρχαιωμένο"
-
-#: includes/elements/column.php:883 includes/elements/section.php:1345
-#: includes/widgets/common.php:1572
-msgid "Responsive visibility will take effect only on preview or live page, and not while editing in Elementor."
-msgstr "Η προσαρμοζόμενη στις κινητές συσκευές προβολή θα τεθεί σε ισχύ μόνο στην προεπισκόπηση ή στη ζωντανή σελίδα, και όχι ενώ γίνονται τροποιήσεις στο Elementor."
 
 #: includes/managers/icons.php:527
 msgid "Hurray! The upgrade process to Font Awesome 5 was completed successfully."
@@ -698,8 +692,8 @@ msgstr "Όλα τα εικονίδια"
 msgid "Upload"
 msgstr "Ανέβασμα"
 
-#: includes/controls/icons.php:88 includes/controls/icons.php:121
-#: includes/controls/icons.php:125 assets/js/editor.js:9555
+#: includes/controls/icons.php:88 includes/controls/icons.php:114
+#: includes/controls/icons.php:198 assets/js/editor.js:9555
 msgid "Icon Library"
 msgstr "Βιβλιοθήκη Εικονιδίων"
 
@@ -719,11 +713,11 @@ msgstr "Αποκτήστε Ενημερώσεις Beta"
 msgid "As a beta tester, you’ll receive an update that includes a testing version of Elementor and its content directly to your Email"
 msgstr "Ως beta tester, θα λάβετε μία ενημέρωση που περιέχει την δοκιμαστική έκδοση του Elementor και το περιεχόμενό του κατευθείαν στο email σας"
 
-#: includes/settings/settings.php:579
+#: includes/settings/settings.php:556
 msgid "We recommend you only enable this feature if you understand the security risks involved."
 msgstr "Συνιστούμε να ενεργοποιήσετε αυτό το χαρακτηριστικό μόνο αν καταλαβαίνετε τους κινδύνους ασφαλείας που υπάρχουν."
 
-#: includes/template-library/sources/local.php:548
+#: includes/template-library/sources/local.php:556
 msgid "Template not exist."
 msgstr "Το πρότυπο δεν υπάρχει."
 
@@ -731,8 +725,8 @@ msgstr "Το πρότυπο δεν υπάρχει."
 msgid "Choose Video"
 msgstr "Επιλογή Βίντεο"
 
-#: includes/controls/icons.php:89 includes/controls/icons.php:114
-#: includes/controls/icons.php:116
+#: includes/controls/icons.php:89 includes/controls/icons.php:110
+#: includes/controls/icons.php:194
 msgid "Upload SVG"
 msgstr "Μεταφόρτωση SVG"
 
@@ -785,20 +779,29 @@ msgstr "Το αρχείου .htaccess του ιστοτόπού σας φαίν�
 msgid "By upgrading, whenever you edit a page containing a Font Awesome 4 icon, Elementor will convert it to the new Font Awesome 5 icon."
 msgstr "Αναβαθμίζοντας, κάθε φορά που επεξεργάζεστε μια σελίδα που περιέχει ένα εικονίδιο Font Awesome 4, το Elementor θα το μετατρέπει στο νέο εικονίδιο Font Awesome 5."
 
-#: includes/settings/settings.php:579
+#: includes/settings/settings.php:556
 msgid "Please note! Allowing uploads of any files (SVG & JSON included) is a potential security risk."
 msgstr "Παρακαλούμε να σημειωθεί! Το να επιτρέπεται η μεταφόρτωση οποιωνδήποτε αρχείων (συμπεριλαμβανομένων των SVG & JSON) αποτελεί ενδεχόμενο κίνδυνο ασφαλείας."
 
-#: includes/elements/section.php:477
+#: includes/elements/column.php:886 includes/elements/container.php:1565
+#: includes/elements/section.php:1348 includes/widgets/common.php:1632
+msgid "Responsive visibility will take effect only on preview or live page, and not while editing in Elementor."
+msgstr "Η προσαρμοζόμενη στις κινητές συσκευές προβολή θα τεθεί σε ισχύ μόνο στην προεπισκόπηση ή στη ζωντανή σελίδα, και όχι ενώ γίνονται τροποποιήσεις στο Elementor."
+
+#: core/files/file-types/svg.php:99 core/files/uploads-manager.php:517
+msgid "This file is not allowed for security reasons."
+msgstr "Το αρχείο αυτό δεν επιτρέπεται για λόγους ασφαλείας."
+
+#: includes/elements/container.php:429 includes/elements/section.php:477
 msgid "Hidden"
 msgstr "Κρυμμένο"
 
-#: includes/elements/section.php:472
+#: includes/elements/container.php:423 includes/elements/section.php:472
 msgid "Overflow"
 msgstr "Υπερχείλιση"
 
-#: includes/elements/column.php:822 includes/elements/section.php:1258
-#: includes/widgets/common.php:260
+#: includes/elements/column.php:825 includes/elements/container.php:1489
+#: includes/elements/section.php:1261 includes/widgets/common.php:617
 msgid "Motion Effects"
 msgstr "Εφέ Κίνησης"
 
@@ -807,49 +810,48 @@ msgid "Horizontal Align"
 msgstr "Οριζόντια Ευθυγράμμιση"
 
 #: includes/elements/column.php:183 includes/elements/section.php:444
-#: includes/widgets/common.php:1292 includes/widgets/image-carousel.php:526
+#: includes/widgets/common.php:306 includes/widgets/image-carousel.php:553
 msgid "Vertical Align"
 msgstr "Κάθετη Ευθυγράμμιση"
 
-#: includes/widgets/common.php:453 includes/widgets/common.php:1384
-#: includes/widgets/common.php:1423 includes/widgets/common.php:1486
-#: includes/widgets/common.php:1524
+#: includes/elements/container.php:1260 includes/elements/container.php:1299
+#: includes/elements/container.php:1362 includes/elements/container.php:1400
+#: includes/widgets/common.php:390 includes/widgets/common.php:429
+#: includes/widgets/common.php:492 includes/widgets/common.php:530
+#: includes/widgets/common.php:812
 msgid "Offset"
 msgstr "Αντιστάθμισμα"
 
-#: includes/widgets/common.php:1359
+#: includes/elements/container.php:1235 includes/widgets/common.php:365
 msgid "Horizontal Orientation"
 msgstr "Οριζόντιος Προσανατολισμός"
 
-#: includes/widgets/common.php:1462
+#: includes/elements/container.php:1338 includes/widgets/common.php:468
 msgid "Vertical Orientation"
 msgstr "Κάθετος Προσανατολισμός"
 
-#: core/experiments/manager.php:270 includes/widgets/common.php:1327
+#: core/experiments/manager.php:265 includes/elements/container.php:1196
+#: includes/widgets/common.php:332
 msgid "Please note!"
 msgstr "Παρακαλούμε να σημειωθεί!"
 
-#: includes/widgets/common.php:1327
+#: includes/elements/container.php:1196 includes/widgets/common.php:332
 msgid "Custom positioning is not considered best practice for responsive web design and should not be used too frequently."
 msgstr "Η προσαρμοσμένη τοποθέτηση δεν θεωρείται καλή πρακτική για τον σχεδιασμό σελίδων που προσαρμόζονται στις κινητές συσκευές και δεν θα πρέπει να χρησιμοποιείται πολύ συχνά."
 
-#: includes/widgets/common.php:1346
+#: includes/elements/container.php:1216 includes/widgets/common.php:351
 msgid "Fixed"
 msgstr "Σταθερό"
 
-#: includes/widgets/common.php:1345
+#: includes/elements/container.php:1215 includes/widgets/common.php:350
 msgid "Absolute"
 msgstr "Απόλυτο"
-
-#: includes/widgets/common.php:1262
-msgid "Custom Width"
-msgstr "Προσαρμοσμένο Πλάτος"
 
 #: includes/settings/controls.php:236
 msgid "Super Admin"
 msgstr "Υπερδιαχειριστής"
 
-#: includes/settings/settings.php:208
+#: includes/settings/settings.php:209
 msgid "Get Help"
 msgstr "Λάβετε Βοήθεια"
 
@@ -872,7 +874,7 @@ msgid "The issue was probably caused by one of your plugins or theme."
 msgstr "Το πρόβλημα πιθανώς να προκλήθηκε από κάποιο από τα πρόσθετα ή το θέμα σας."
 
 #. translators: %s: Accepted chars.
-#: includes/widgets/menu-anchor.php:107
+#: includes/widgets/menu-anchor.php:110
 msgid "Note: The ID link ONLY accepts these chars: %s"
 msgstr "Σημείωση: Ο σύνδεσμος αναγνωριστικού δέχεται ΜΟΝΟ αυτούς τους χαρακτήρες: %s"
 
@@ -917,10 +919,9 @@ msgstr "Ταξινόμηση Κατά"
 msgid "Read More Text"
 msgstr "Κείμενο Διάβαστε Περισσότερα"
 
-#: includes/settings/settings.php:182
-#: includes/template-library/sources/local.php:1632
-#: assets/js/app-packages.js:9677 assets/js/app.js:9787
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1928
+#: includes/settings/settings.php:183
+#: includes/template-library/sources/local.php:1640 assets/js/app.js:13302
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2147
 msgid "Popups"
 msgstr "Αναδυόμενα παράθυρα"
 
@@ -942,12 +943,14 @@ msgstr "Αποθηκευμένα Πρότυπα"
 msgid "Every %d minutes"
 msgstr "Κάθε %d λεπτά"
 
-#: includes/template-library/sources/local.php:310
+#: includes/template-library/sources/local.php:318
 msgctxt "Template Library"
 msgid "Categories"
 msgstr "Κατηγορίες"
 
-#: includes/template-library/sources/local.php:231
+#: core/admin/menu/main.php:34 core/admin/menu/main.php:35
+#: includes/template-library/sources/local.php:221
+#: includes/template-library/sources/local.php:239
 msgctxt "Template Library"
 msgid "Templates"
 msgstr "Πρότυπα"
@@ -969,17 +972,17 @@ msgstr "Συνέχεια ανάγνωσης"
 msgid "Continue reading %s"
 msgstr "Συνέχεια ανάγνωσης %s"
 
-#: includes/template-library/sources/local.php:1335
+#: includes/template-library/sources/local.php:1343
 msgctxt "Template Library"
 msgid "Filter by category"
 msgstr "Φιλτράρισμα κατά κατηγορία"
 
-#: includes/template-library/sources/local.php:312
+#: includes/template-library/sources/local.php:320
 msgctxt "Template Library"
 msgid "All Categories"
 msgstr "Όλες οι Κατηγορίες"
 
-#: includes/template-library/sources/local.php:311
+#: includes/template-library/sources/local.php:319
 msgctxt "Template Library"
 msgid "Category"
 msgstr "Κατηγορία"
@@ -989,15 +992,15 @@ msgstr "Κατηγορία"
 msgid "Note: This widget only affects themes that use `%s` in archive pages."
 msgstr "Σημείωση: Αυτή η μικροεφαρμογή επηρεάζει μόνο θέματα που χρησιμοποιούν `%s` στις σελίδες αρχείου."
 
-#: includes/settings/settings.php:357
+#: includes/settings/settings.php:358
 msgid "Popup Builder lets you take advantage of all the amazing features in Elementor, so you can build beautiful & highly converting popups. Go pro and start designing your popups today."
 msgstr "Το Popup Builder σας επιτρέπει να επωφεληθείτε από όλες τις εκπληκτικές δυνατότητες του Elementor, ώστε να μπορείτε να δημιουργήσετε όμορφα και εξαιρετικά μετατρέψιμα αναδυόμενα παράθυρα. Γίνετε pro και αρχίστε να σχεδιάζετε τα αναδυόμενα παράθυρά σας σήμερα."
 
-#: core/app/app.php:39 core/app/app.php:40
+#: core/app/app.php:40 core/app/app.php:41
 #: core/app/modules/site-editor/module.php:31
 #: core/common/modules/finder/categories/general.php:72
-#: includes/template-library/sources/local.php:1631
-#: assets/js/app-packages.js:11423 assets/js/editor.js:39153
+#: includes/template-library/sources/local.php:1639
+#: assets/js/app-packages.js:7506 assets/js/editor.js:42504
 msgid "Theme Builder"
 msgstr "Theme Builder"
 
@@ -1025,7 +1028,7 @@ msgstr "Απενεργοποίηση Ασφαλούς Λειτουργίας"
 msgid "Safe Mode allows you to troubleshoot issues by only loading the editor, without loading the theme or any other plugin."
 msgstr "Η Ασφαλής Λειτουργία σας επιτρέπει να αντιμετωπίσετε τα προβλήματα φορτώνοντας μόνο τον επεξεργαστή, χωρίς να γίνει φόρτωση του θέματος ή κανενός άλλου προσθέτου."
 
-#: includes/settings/settings.php:356
+#: includes/settings/settings.php:357
 msgid "Get Popup Builder"
 msgstr "Αποκτήστε το Popup Builder"
 
@@ -1053,7 +1056,7 @@ msgstr "Δεν Υποστηρίζεται"
 msgid "Users"
 msgstr "Χρήστες"
 
-#: core/common/modules/finder/categories/site.php:76
+#: core/common/modules/finder/categories/site.php:76 assets/js/app.js:13892
 msgid "Plugins"
 msgstr "Πρόσθετα"
 
@@ -1111,7 +1114,7 @@ msgstr "Συντομεύσεις Πληκτρολογίου"
 msgid "Connect"
 msgstr "Σύνδεση"
 
-#: core/base/document.php:1562
+#: core/base/document.php:1597
 msgid "Future"
 msgstr "Μέλλον"
 
@@ -1120,7 +1123,7 @@ msgid "Homepage"
 msgstr "Αρχική Σελίδα"
 
 #: core/common/modules/finder/categories/create.php:27
-#: assets/js/editor.js:37431
+#: assets/js/editor.js:40782
 msgid "Create"
 msgstr "Δημιουργία"
 
@@ -1161,7 +1164,7 @@ msgid "Dashboard"
 msgstr "Πίνακας Ελέγχου"
 
 #: includes/editor-templates/hotkeys.php:92 assets/js/admin-top-bar.js:477
-#: assets/js/common.js:12461 assets/js/editor.js:27110
+#: assets/js/common.js:5506 assets/js/editor.js:32165
 msgid "Finder"
 msgstr "Εντοπιστής"
 
@@ -1186,19 +1189,20 @@ msgstr "Αφίσα"
 msgid "Enter your URL"
 msgstr "Εισάγετε το URL σας"
 
-#: includes/settings/settings.php:276
+#: includes/settings/settings.php:277
 msgid "Welcome to Elementor"
 msgstr "Καλώς ήρθατε στο Elementor"
 
-#: includes/settings/settings.php:254
+#: includes/settings/settings.php:255
 msgid "Create Your First Post"
 msgstr "Δημιουργήστε το πρώτο σας άρθρο"
 
-#: includes/settings/settings.php:251
+#: includes/settings/settings.php:252
 msgid "Create Your First Page"
 msgstr "Δημιουργήστε την πρώτη σας σελίδα"
 
-#: includes/settings/settings.php:199 includes/settings/settings.php:267
+#: includes/settings/settings.php:200 includes/settings/settings.php:268
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:961
 msgid "Getting Started"
 msgstr "Ξεκινώντας"
 
@@ -1214,7 +1218,7 @@ msgstr "Συγχαρητήρια!"
 msgid "Debug Bar"
 msgstr "Γραμμή Αποσφαλμάτωσης"
 
-#: includes/widgets/inner-section.php:35 assets/js/editor.js:18780
+#: includes/widgets/inner-section.php:35 assets/js/editor.js:23150
 msgid "Inner Section"
 msgstr "Εσωτερική Ενότητα"
 
@@ -1233,8 +1237,8 @@ msgstr "Άδειο"
 #: includes/editor-templates/hotkeys.php:126
 #: includes/editor-templates/navigator.php:12
 #: includes/editor-templates/panel.php:69
-#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:15531
-#: assets/js/editor.js:21364
+#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:15576
+#: assets/js/editor.js:25810
 msgid "Navigator"
 msgstr "Πλοηγός"
 
@@ -1278,8 +1282,13 @@ msgid "Happy To Help"
 msgstr "Χαρά μας να Βοηθήσουμε"
 
 #: includes/editor-templates/library-layout.php:13
-#: includes/settings/settings.php:270 includes/settings/settings.php:271
-#: assets/js/app-packages.js:4170 assets/js/app.js:4950
+#: includes/settings/settings.php:271 includes/settings/settings.php:272
+#: assets/js/app-packages.js:3787 assets/js/app.js:5273
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1485
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1756
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2020
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2214
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2563
 msgid "Skip"
 msgstr "Παράλειψη"
 
@@ -1316,22 +1325,22 @@ msgstr "URL"
 msgid "Source"
 msgstr "Πηγή"
 
-#: includes/widgets/button.php:256
+#: includes/widgets/traits/button-trait.php:214
 msgid "Button ID"
 msgstr "ID κουμπιού"
 
-#: includes/managers/elements.php:289
+#: includes/managers/elements.php:296
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
 #: core/app/modules/site-editor/module.php:32
-#: core/common/modules/finder/categories/site.php:26 core/kits/manager.php:367
-#: includes/managers/elements.php:285
+#: core/common/modules/finder/categories/site.php:26 core/kits/manager.php:393
+#: includes/managers/elements.php:292
 msgid "Site"
 msgstr "Ιστότοπος"
 
-#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:14784
-#: assets/js/editor.js:20617
+#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:14778
+#: assets/js/editor.js:25012
 msgid "Copy"
 msgstr "Αντιγραφή"
 
@@ -1355,12 +1364,12 @@ msgctxt "Filter Control"
 msgid "CSS Filters"
 msgstr "Φίλτρα CSS"
 
-#: includes/editor-templates/global.php:27
+#: includes/editor-templates/global.php:34
 msgid "Drag widget here"
 msgstr "Σύρετε την μικροεφαρμογή εδώ"
 
-#: includes/elements/column.php:406 includes/elements/section.php:697
-#: includes/widgets/heading.php:266
+#: includes/elements/column.php:406 includes/elements/container.php:705
+#: includes/elements/section.php:697 includes/widgets/heading.php:266
 msgid "Blend Mode"
 msgstr "Κατάσταση ανάμειξης"
 
@@ -1376,7 +1385,7 @@ msgstr "Έχω το Elementor Pro"
 msgid "Specify a start time (in seconds)"
 msgstr "Καθορίστε χρόνο έναρξης (σε δευτερόλεπτα)"
 
-#: includes/managers/elements.php:278
+#: includes/managers/elements.php:285
 msgid "Pro"
 msgstr "Pro"
 
@@ -1413,12 +1422,7 @@ msgstr "Καλλιτέχνημα"
 msgid "Self Hosted"
 msgstr "ΑυτοΦιλοξενούμενο"
 
-#. translators: 1: Code open tag, 2: Code close tag.
-#: includes/widgets/button.php:265
-msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows %1$sA-z 0-9%2$s & underscore chars without spaces."
-msgstr "Παρακαλώ ελέγξτε ότι το  ID δεν χρησιμοποιείται αλλού στη σελίδα όπου εμφανίζεται η συγκεκριμένη φόρμα. Το πεδίο αυτό επιτρέπει χαρακτήρες %1$sA-z 0-9%2$s & underscore χωρίς όμως κενά."
-
-#: core/admin/admin.php:151 assets/js/admin.js:5285 assets/js/gutenberg.js:796
+#: core/admin/admin.php:174 assets/js/admin.js:5400 assets/js/gutenberg.js:796
 msgid "Back to WordPress Editor"
 msgstr "Επιστροφή στον WordPress επεξεργαστή"
 
@@ -1428,14 +1432,14 @@ msgid "Elementor %s"
 msgstr "Elementor %s"
 
 #. translators: %s: Template type label.
-#: core/base/document.php:171
+#: core/base/document.php:173
 #: core/common/modules/finder/categories/create.php:86
-#: includes/template-library/sources/local.php:1309
+#: includes/template-library/sources/local.php:1317
 msgid "Add New %s"
 msgstr "Προσθήκη νέου %s"
 
 #. translators: %d: Number of rows.
-#: includes/utils.php:195
+#: includes/utils.php:197
 msgid "%d row affected."
 msgid_plural "%d rows affected."
 msgstr[0] "%d γραμμή επηρεάζεται."
@@ -1443,17 +1447,18 @@ msgstr[1] "%d γραμμές επηρεάζονται."
 
 #: core/kits/documents/tabs/theme-style-images.php:95
 #: core/kits/documents/tabs/theme-style-images.php:166
-#: includes/elements/column.php:375 includes/elements/column.php:446
-#: includes/elements/section.php:651 includes/elements/section.php:752
-#: includes/widgets/image-box.php:312 includes/widgets/image-box.php:366
+#: includes/elements/column.php:375 includes/elements/column.php:449
+#: includes/elements/container.php:659 includes/elements/container.php:771
+#: includes/elements/section.php:651 includes/elements/section.php:755
+#: includes/widgets/image-box.php:322 includes/widgets/image-box.php:376
 #: includes/widgets/image.php:393 includes/widgets/image.php:427
 msgid "Opacity"
 msgstr "Αδιαφάνεια"
 
-#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:580
-#: includes/plugin.php:593 assets/js/app-packages.js:9303 assets/js/app.js:9413
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:960
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3653
+#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:579
+#: includes/plugin.php:592 assets/js/app.js:14217
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1166
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3875
 msgid "Something went wrong."
 msgstr "Κάτι πήγε λάθος."
 
@@ -1471,15 +1476,15 @@ msgstr "Elementor Πλήρους Πλάτους"
 msgid "Max Width"
 msgstr "Μέγιστο Πλάτος"
 
-#: includes/widgets/common.php:1111 includes/widgets/common.php:1340
-#: includes/widgets/divider.php:736 includes/widgets/divider.php:876
-#: includes/widgets/image-carousel.php:401
-#: includes/widgets/image-carousel.php:465 includes/widgets/tabs.php:152
+#: includes/elements/container.php:1210 includes/widgets/common.php:345
+#: includes/widgets/common.php:1495 includes/widgets/divider.php:736
+#: includes/widgets/divider.php:876 includes/widgets/image-carousel.php:413
+#: includes/widgets/image-carousel.php:477 includes/widgets/tabs.php:152
 msgid "Position"
 msgstr "Θέση"
 
 #. translators: 1: Elementor, 2: Link to plugin review
-#: core/admin/admin.php:335
+#: core/admin/admin.php:358
 msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
 msgstr "Απολαύσατε το %1$s; Παρακαλώ αφήστε μας μια %2$s αξιολόγηση. Εκτιμούμε πραγματικά την υποστήριξή σας!"
 
@@ -1515,11 +1520,11 @@ msgstr "Διαχωριστής"
 msgid "Action not found."
 msgstr "Η ενέργεια δεν βρέθηκε."
 
-#: includes/frontend.php:1305 includes/widgets/video.php:951
+#: includes/frontend.php:1305 includes/widgets/video.php:827
 msgid "Play Video"
 msgstr "Αναπαραγωγή Βίντεο"
 
-#: includes/template-library/sources/local.php:1175
+#: includes/template-library/sources/local.php:1183
 msgid "All"
 msgstr "Όλα"
 
@@ -1532,13 +1537,13 @@ msgid "More actions"
 msgstr "Περισσότερες ενέργειες"
 
 #: core/document-types/page.php:41 modules/library/documents/page.php:61
-#: assets/js/editor.js:10812
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1916
+#: assets/js/editor.js:10814
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2135
 msgid "Pages"
 msgstr "Σελίδες"
 
 #. translators: %s: Document title.
-#: core/base/document.php:1026 core/settings/page/model.php:126
+#: core/base/document.php:1040 core/settings/page/model.php:126
 #: includes/editor-templates/panel.php:67
 msgid "%s Settings"
 msgstr "Ρυθμίσεις %s"
@@ -1547,7 +1552,7 @@ msgstr "Ρυθμίσεις %s"
 msgid "Search Templates:"
 msgstr "Αναζήτηση προτύπων:"
 
-#: modules/landing-pages/module.php:263 assets/js/app-packages.js:6395
+#: modules/landing-pages/module.php:285 assets/js/app-packages.js:5919
 msgid "Add New"
 msgstr "Προσθήκη Νέου"
 
@@ -1555,12 +1560,12 @@ msgstr "Προσθήκη Νέου"
 msgid "Create Template"
 msgstr "Δημιουργία Πρότυπου"
 
-#: includes/widgets/common.php:1246 includes/widgets/icon-list.php:104
+#: includes/widgets/common.php:223 includes/widgets/icon-list.php:104
 #: includes/widgets/icon-list.php:196
 msgid "Inline"
 msgstr "Στην γραμμή"
 
-#: includes/template-library/sources/local.php:1269
+#: includes/template-library/sources/local.php:1277
 msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
 msgstr "Προσθέστε πρότυπα και επαναχρησιμοποιήστε τα στον ιστότοπό σας. Εύκολη εισαγωγή και εξαγωγή σε οποιοδήποτε άλλο πρότζεκτ, για βελτιστοποιημένη ροή εργασιών."
 
@@ -1580,11 +1585,11 @@ msgstr "Επιλέξτε Τύπο Προτύπου"
 msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
 msgstr "Χρησιμοποιήστε πρότυπα για να δημιουργήσετε τα διάφορα κομμάτια του ιστότοπού σας, και επαναχρησιμοποιήστε τα με ένα κλικ οποτεδήποτε χρειάζεται."
 
-#: includes/settings/settings.php:313
+#: includes/settings/settings.php:314
 msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
 msgstr "Οι Προσαρμοσμένες Γραμματοσειρές σας επιτρέπουν να προσθέσετε τις αυτοφιλοξενούμενές σας γραμματοσειρές και να τις χρησιμοποιήσετε στα Elementor πρότζεκτ σας για να δημιουργήσετε μοναδική γλώσσα μάρκας."
 
-#: includes/editor-templates/global.php:48
+#: includes/editor-templates/global.php:69
 msgid "This tag has no settings."
 msgstr "Αυτή η ετικέτα δεν έχει ρυθμίσεις."
 
@@ -1593,23 +1598,23 @@ msgctxt "Border Control"
 msgid "Groove"
 msgstr "Ράβδωση"
 
-#: core/role-manager/role-manager.php:169
+#: core/role-manager/role-manager.php:170
 msgid "Want to give access only to content?"
 msgstr "Θέλετε να δώσετε πρόσβαση μόνο στο περιεχόμενο;"
 
-#: core/role-manager/role-manager.php:134
+#: core/role-manager/role-manager.php:135
 msgid "No access to editor"
 msgstr "Χωρίς πρόσβαση στον επεξεργαστή"
 
-#: core/role-manager/role-manager.php:127
+#: core/role-manager/role-manager.php:128
 msgid "Role Excluded"
 msgstr "Ο Ρόλος Εξαιρέθηκε"
 
-#: core/role-manager/role-manager.php:91
+#: core/role-manager/role-manager.php:92
 msgid "Manage What Your Users Can Edit In Elementor"
 msgstr "Διαχειριστείτε τι μπορούν να επεξεργαστούν οι χρήστες σας στο Elementor"
 
-#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:591
+#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:568
 msgid "Fallback"
 msgstr "Εφεδρικό"
 
@@ -1626,33 +1631,34 @@ msgid "Token Expired."
 msgstr "Το Token Έληξε."
 
 #. translators: %s: Template type label.
-#: includes/template-library/sources/local.php:1302
+#: includes/template-library/sources/local.php:1310
 msgid "Create Your First %s"
 msgstr "Δημιουργήστε το Πρώτο Σας %s"
 
-#: includes/template-library/sources/local.php:219
+#: includes/template-library/sources/local.php:223
 msgctxt "Template Library"
 msgid "My Templates"
 msgstr "Τα Πρότυπά Μου"
 
-#: includes/settings/settings.php:312
+#: includes/settings/settings.php:313
 msgid "Add Your Custom Fonts"
 msgstr "Προσθέστε τις Προσαρμοσμένες Γραμματοσειρές σας"
 
-#: includes/settings/settings.php:146 includes/settings/settings.php:147
+#: core/kits/documents/tabs/global-typography.php:177
+#: includes/settings/settings.php:147 includes/settings/settings.php:148
 msgid "Custom Fonts"
 msgstr "Προσαρμοσμένες Γραμματοσειρές"
 
 #: core/common/modules/finder/categories/general.php:61
-#: core/role-manager/role-manager.php:31
+#: core/role-manager/role-manager.php:32
 msgid "Role Manager"
 msgstr "Διαχειριστής Pόλων"
 
-#: core/base/document.php:163
+#: core/base/document.php:165
 msgid "Document"
 msgstr "Έγγραφο"
 
-#: includes/template-library/manager.php:544
+#: includes/template-library/manager.php:565
 msgid "Post not found."
 msgstr "Το άρθρο δεν βρέθηκε."
 
@@ -1664,7 +1670,7 @@ msgstr "Ορίστε πόσες διαφάνειες θα γίνεται κύλ�
 msgid "Note: Attachment Fixed works only on desktop."
 msgstr "Σημείωση: Το Σταθερό Συνημμένο λειτουργεί μόνο σε σταθερό υπολογιστή."
 
-#: core/admin/admin.php:386
+#: core/admin/admin.php:409
 msgid "Create New Post"
 msgstr "Δημιουργία Νέου Άρθρου"
 
@@ -1676,7 +1682,7 @@ msgstr "Πρόωρη Πρόσβαση Google"
 msgid "Favorite"
 msgstr "Αγαπημένο"
 
-#: core/base/document.php:1267
+#: core/base/document.php:1303
 msgctxt "revision date format"
 msgid "M j, H:i"
 msgstr "j M, H:i"
@@ -1691,20 +1697,21 @@ msgstr "Αναζήτηση"
 
 #: includes/editor-templates/templates.php:234
 #: includes/editor-templates/templates.php:250
-#: includes/editor-templates/templates.php:263 includes/widgets/button.php:141
-#: includes/widgets/button.php:142
+#: includes/editor-templates/templates.php:263
+#: includes/widgets/traits/button-trait.php:58
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2796
 msgid "Click here"
 msgstr "Πατήστε εδώ"
 
 #: includes/editor-templates/templates.php:66
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3633
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3855
 msgid "New"
 msgstr "Νέο"
 
-#: core/kits/views/panel.php:38 includes/controls/icons.php:82
+#: core/kits/views/panel.php:44 includes/controls/icons.php:82
 #: includes/controls/media.php:214 includes/controls/media.php:260
 #: includes/editor-templates/repeater.php:27
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:782
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:986
 msgid "Remove"
 msgstr "Αφαίρεση"
 
@@ -1713,14 +1720,16 @@ msgid "Drag & Drop"
 msgstr "Σύρε & Άφησε"
 
 #: includes/editor-templates/templates.php:245
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2399
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2784
 msgid "or"
 msgstr "ή"
 
-#: includes/editor-templates/panel.php:95 assets/js/editor.js:18376
+#: includes/editor-templates/panel.php:95 assets/js/editor.js:22738
 msgid "Publish"
 msgstr "Δημοσίευση"
 
-#: core/admin/admin.php:470
+#: core/admin/admin.php:493
 msgid "Blog"
 msgstr "Ιστολόγιο"
 
@@ -1733,22 +1742,22 @@ msgstr "Εισάγεται την περιγραφή σας"
 msgid "This is an Alert"
 msgstr "Αυτό είναι μια Ειδοποίηση"
 
-#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3853
-#: assets/js/app.js:4633
+#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3444
+#: assets/js/app.js:4930
 msgid "Select File"
 msgstr "Επιλέξτε αρχείο"
 
-#: core/common/modules/finder/template.php:19 assets/js/editor.js:11925
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1609
+#: core/common/modules/finder/template.php:19 assets/js/editor.js:11946
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1828
 msgid "No Results Found"
 msgstr "Δεν βρέθηκαν αποτελέσματα"
 
-#: includes/controls/groups/typography.php:177
+#: includes/controls/groups/typography.php:182
 msgctxt "Typography Control"
 msgid "Underline"
 msgstr "Υπογραμισμένο"
 
-#: core/admin/admin.php:432
+#: core/admin/admin.php:455
 msgid "News & Updates"
 msgstr "Νέα & Ενημερώσεις"
 
@@ -1769,17 +1778,17 @@ msgid "Active Icon"
 msgstr "Εικονίδιο Ενεργού"
 
 #. translators: 1: Editing date, 2: Author display name.
-#: core/base/document.php:1275
+#: core/base/document.php:1311
 msgid "Last edited on %1$s by %2$s"
 msgstr "Τελευταία επεξεργασία στις %1$s από %2$s"
 
 #. translators: 1: Saving date, 2: Author display name.
-#: core/base/document.php:1272
+#: core/base/document.php:1308
 msgid "Draft saved on %1$s by %2$s"
 msgstr "Το Προσχέδιο αποθηκεύτηκε στις %1$s από %2$s"
 
 #. translators: %s: Document title.
-#: core/base/document.php:146
+#: core/base/document.php:148
 msgid "Hurray! Your %s is live."
 msgstr "Ζήτω! Το %s είναι live."
 
@@ -1802,8 +1811,8 @@ msgid "Trend"
 msgstr "Τάση"
 
 #: includes/editor-templates/hotkeys.php:67
-#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:14769
-#: assets/js/editor.js:20602 assets/js/editor.js:42668
+#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:14763
+#: assets/js/editor.js:24997 assets/js/editor.js:46044
 msgid "Duplicate"
 msgstr "Διπλότυπο"
 
@@ -1817,17 +1826,17 @@ msgstr "Απόκρυψη Πίνακα"
 msgid "Back to default"
 msgstr "Επιστροφή στις προεπιλογές"
 
-#: includes/controls/groups/typography.php:179
+#: includes/controls/groups/typography.php:184
 msgctxt "Typography Control"
 msgid "Line Through"
 msgstr "Διακριτή Διαγραφή"
 
-#: includes/controls/groups/typography.php:178
+#: includes/controls/groups/typography.php:183
 msgctxt "Typography Control"
 msgid "Overline"
 msgstr "Υπεργράμμιση"
 
-#: includes/controls/groups/typography.php:172
+#: includes/controls/groups/typography.php:177
 msgctxt "Typography Control"
 msgid "Decoration"
 msgstr "Διακόσμηση"
@@ -1836,11 +1845,11 @@ msgstr "Διακόσμηση"
 msgid "Unlinked values"
 msgstr "Μη συνδεδεμένες τιμές"
 
-#: core/admin/admin.php:451
+#: core/admin/admin.php:474
 msgid "(opens in a new window)"
 msgstr "(ανοίγει σε νέο παράθυρο)"
 
-#: core/admin/admin.php:355
+#: core/admin/admin.php:378
 msgid "Elementor Overview"
 msgstr "Επισκόπηση Elementor"
 
@@ -1889,7 +1898,7 @@ msgid "My Favorites"
 msgstr "Τα Αγαπημένα μου"
 
 #: includes/editor-templates/templates.php:70
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3636
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3858
 msgid "Popular"
 msgstr "Δημοφιλέστερα"
 
@@ -1898,8 +1907,9 @@ msgstr "Δημοφιλέστερα"
 msgid "Import Template"
 msgstr "Εισαγωγή Πρότυπου"
 
-#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:16237
-#: assets/js/editor.js:22685
+#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:16733
+#: assets/js/editor-document.js:17004 assets/js/editor.js:27438
+#: assets/js/editor.js:27709
 msgid "Save as Template"
 msgstr "Αποθήκευση ως Πρότυπο"
 
@@ -1921,39 +1931,39 @@ msgstr "Προεπισκόπηση Αλλαγών"
 msgid "Search Widget:"
 msgstr "Αναζήτηση Μικροεφαρμογής:"
 
-#: core/admin/admin.php:421
+#: core/admin/admin.php:444
 msgctxt "Dashboard Overview Widget Recently Date"
 msgid "M jS"
 msgstr "Dj M"
 
-#: core/admin/admin.php:383
+#: core/admin/admin.php:406
 msgid "Create New Page"
 msgstr "Δημιουργία Νέας Σελίδας"
 
-#: core/admin/admin.php:414
+#: core/admin/admin.php:437
 msgid "Recently Edited"
 msgstr "Πρόσφατα Τροποποιημένα"
 
-#: includes/template-library/sources/local.php:464
-#: includes/template-library/sources/local.php:542
-#: includes/template-library/sources/local.php:684
+#: includes/template-library/sources/local.php:472
+#: includes/template-library/sources/local.php:550
+#: includes/template-library/sources/local.php:692
 #: modules/history/revisions-manager.php:264
 msgid "Access denied."
 msgstr "Η πρόσβαση δεν επιτρέπεται."
 
-#: includes/settings/settings.php:476
+#: includes/settings/settings.php:477
 msgid "Disable Default Fonts"
 msgstr "Απενεργοποίηση Προεπιλεγμένων Γραμματοσειρών"
 
 #: includes/elements/column.php:218 includes/widgets/accordion.php:388
-#: includes/widgets/common.php:1304 includes/widgets/image-carousel.php:538
+#: includes/widgets/common.php:318 includes/widgets/image-carousel.php:565
 #: includes/widgets/tabs.php:179 includes/widgets/tabs.php:209
 #: includes/widgets/toggle.php:407
 msgid "End"
 msgstr "Τέλος"
 
 #: includes/elements/column.php:216 includes/widgets/accordion.php:384
-#: includes/widgets/common.php:1296 includes/widgets/image-carousel.php:530
+#: includes/widgets/common.php:310 includes/widgets/image-carousel.php:557
 #: includes/widgets/tabs.php:171 includes/widgets/tabs.php:201
 #: includes/widgets/toggle.php:403
 msgid "Start"
@@ -1982,13 +1992,13 @@ msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm
 
 #: includes/editor-templates/hotkeys.php:14
 #: includes/editor-templates/templates.php:124
-#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:42354
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:45730
 msgid "Actions"
 msgstr "Ενέργειες"
 
 #: includes/editor-templates/hotkeys.php:117
 #: includes/editor-templates/panel.php:73
-#: includes/editor-templates/panel.php:75 assets/js/editor.js:43042
+#: includes/editor-templates/panel.php:75 assets/js/editor.js:46418
 msgid "History"
 msgstr "Ιστορικό"
 
@@ -2006,12 +2016,12 @@ msgstr "Πηγαίνετε στην καρτέλα Αναθεωρήσεις γι
 
 #: modules/history/views/history-panel-template.php:10
 #: modules/history/views/revisions-panel-template.php:26
-#: assets/js/editor.js:42357
+#: assets/js/editor.js:45733
 msgid "Revisions"
 msgstr "Αναθεωρήσεις"
 
 #: core/kits/documents/tabs/settings-lightbox.php:152
-#: includes/widgets/video.php:764
+#: includes/widgets/video.php:765
 msgid "UI Hover Color"
 msgstr "UI Χρώμα Αιώρησης"
 
@@ -2039,7 +2049,7 @@ msgstr "Σκιά Κειμένου"
 msgid "Image Lightbox"
 msgstr "Lightbox Εικόνας"
 
-#: includes/template-library/sources/local.php:908
+#: includes/template-library/sources/local.php:916
 msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
 msgstr "Επιλέξτε ένα πρότυπο του Elementor σε μορφή αρχείου JSON ή σε μορφή .zip συμπιεσμένου φακέλου με πρότυπα του Elementor και προσθέστε τα στη λίστα των διαθέσιμων προτύπων της βιβλιοθήκης σας."
 
@@ -2047,21 +2057,21 @@ msgstr "Επιλέξτε ένα πρότυπο του Elementor σε μορφή 
 msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
 msgstr "Ανοίξτε όλους τους συνδέσμους εικόνων σε ένα αναδυόμενο παράθυρο Lightbox. Το Lightbox θα λειτουργήσει αυτόματα για κάθε σύνδεσμο που οδηγεί σε αρχείο εικόνας."
 
-#: core/common/modules/finder/categories/tools.php:71
-#: includes/settings/tools.php:317
+#: core/common/modules/finder/categories/tools.php:77
+#: includes/settings/tools.php:336
 msgid "Version Control"
 msgstr "Έλεγχος Έκδοσης"
 
-#: includes/settings/tools.php:341
+#: includes/settings/tools.php:360
 msgid "Warning: Please backup your database before making the rollback."
 msgstr "Προειδοποίηση: Παρακαλώ δημιουργήστε αντίγραφο ασφαλείας της βάσης δεδομένων σας πριν κάνετε επαναφορά."
 
-#: includes/elements/column.php:758 includes/elements/section.php:1214
-#: includes/widgets/common.php:217
+#: includes/elements/column.php:761 includes/elements/container.php:1438
+#: includes/elements/section.php:1217 includes/widgets/common.php:568
 msgid "Z-Index"
 msgstr "Z-Index"
 
-#: core/kits/documents/tabs/settings-layout.php:83
+#: core/kits/documents/tabs/settings-layout.php:85
 #: includes/elements/column.php:234
 msgid "Widgets Space"
 msgstr "Απόσταση Μικροεφαρμογών"
@@ -2088,63 +2098,64 @@ msgctxt "Box Shadow Control"
 msgid "Position"
 msgstr "Θέση"
 
-#: includes/settings/tools.php:369
+#: includes/settings/tools.php:388
 msgid "Please Note: We do not recommend updating to a beta version on production sites."
 msgstr "Παρακαλούμε Σημειώστε: Δεν προτείνουμε την ανανέωση σε εκδόσεις beta (προς δοκιμή) σε ιστοσελίδες κανονικής λειτουργιας."
 
-#: includes/settings/tools.php:361
+#: includes/settings/tools.php:380
 msgid "Beta Tester"
 msgstr "Δοκιμαστής Beta-Προσωρινής έκδοσης"
 
-#: includes/settings/tools.php:347
+#: includes/settings/tools.php:366
 msgid "Become a Beta Tester"
 msgstr "Γίνετε Δοκιμαστής Προσωρινής Έκδοσης"
 
-#: includes/settings/settings.php:559
+#: includes/settings/settings.php:536
 msgid "Switch Editor Loader Method"
 msgstr "Εναλλαγή Μεθόδου Φόρτωσης Επεξεργαστή"
 
 #. translators: %s: Elementor version.
-#: includes/settings/tools.php:324
+#: includes/settings/tools.php:343
 msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
 msgstr "Αντιμετωπίζετε κάποιο πρόβλημα με την έκδοση %s? του Elementor; Τότε επιστρέψτε την έκδοση που είχατε πριν σας παρουσιαστεί το πρόβλημα."
 
-#: includes/settings/settings.php:516
+#: includes/settings/settings.php:493
 msgid "Integrations"
 msgstr "Ενσωματώσεις"
 
 #: core/kits/documents/tabs/theme-style-form-fields.php:139
 #: core/kits/documents/tabs/theme-style-images.php:203
 #: includes/controls/groups/background.php:700 includes/elements/column.php:321
-#: includes/elements/column.php:477 includes/elements/column.php:584
-#: includes/elements/section.php:600 includes/elements/section.php:783
-#: includes/elements/section.php:889 includes/widgets/common.php:858
-#: includes/widgets/common.php:965 includes/widgets/google-maps.php:240
-#: includes/widgets/image-box.php:330 includes/widgets/image.php:453
-#: modules/shapes/widgets/text-path.php:454
+#: includes/elements/column.php:480 includes/elements/column.php:587
+#: includes/elements/container.php:591 includes/elements/container.php:802
+#: includes/elements/container.php:923 includes/elements/section.php:600
+#: includes/elements/section.php:786 includes/elements/section.php:892
+#: includes/widgets/common.php:1224 includes/widgets/common.php:1338
+#: includes/widgets/google-maps.php:240 includes/widgets/image-box.php:340
+#: includes/widgets/image.php:453 modules/shapes/widgets/text-path.php:454
 #: modules/shapes/widgets/text-path.php:628
 msgid "Transition Duration"
 msgstr "Διάρκεια Mετάβασης"
 
-#: includes/settings/tools.php:350
+#: includes/settings/tools.php:369
 msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or Elementor Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
 msgstr "Ενεργοποιήστε τη δοκιμή προσωρινής έκδοσης, για να ειδοποιηθείτε όταν θα είναι διαθέσιμη μία νέα έκδοση beta του Elementor ή του Elementor Pro. Η προσωρινή αυτή έκδοση δεν θα εγκατασταθεί αυτόματα. Θα έχετε πάντα την επιλογή να την αγνοήσετε."
 
-#: core/kits/documents/tabs/settings-layout.php:95
+#: core/kits/documents/tabs/settings-layout.php:104
 msgid "Sets the default space between widgets (Default: 20)"
 msgstr "Ορίζει την προεπιλεγμένη απόσταση μεταξύ των μικροεφαρμογών (Προεπιλογή: 20)"
 
-#: includes/settings/tools.php:333
+#: includes/settings/tools.php:352
 msgid "Rollback Version"
 msgstr "Έκδοση Επαναφοράς"
 
-#: includes/rollback.php:165 includes/settings/tools.php:156
-#: includes/settings/tools.php:320 assets/js/admin.js:5457
+#: includes/rollback.php:165 includes/settings/tools.php:167
+#: includes/settings/tools.php:339 assets/js/admin.js:5572
 msgid "Rollback to Previous Version"
 msgstr "Επαναφορά σε Προηγούμενη Έκδοση"
 
-#: includes/elements/column.php:857 includes/elements/section.php:1293
-#: includes/widgets/common.php:295
+#: includes/elements/column.php:860 includes/elements/container.php:1524
+#: includes/elements/section.php:1296 includes/widgets/common.php:652
 msgid "Animation Delay"
 msgstr "Καθυστέρηση Κίνησης"
 
@@ -2153,48 +2164,49 @@ msgstr "Καθυστέρηση Κίνησης"
 msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
 msgstr "Το Elementor απαιτεί WordPress έκδοση %s+. Επειδή χρησιμοποιείτε μια παλαιότερη έκδοση, το πρόσθετο ΕΙΝΑΙ ΑΝΕΝΕΡΓΟ αυτή την στιγμή."
 
-#: includes/settings/settings.php:553
+#: includes/settings/settings.php:530
 msgid "Internal Embedding"
 msgstr "Εσωτερική Ενσωμάτωση"
 
-#: includes/settings/settings.php:552
+#: includes/settings/settings.php:529
 msgid "External File"
 msgstr "Εξωτερικό Αρχείο"
 
-#: includes/settings/settings.php:546
+#: includes/settings/settings.php:523
 msgid "CSS Print Method"
 msgstr "Μέθοδος Εκτύπωσης CSS"
 
-#: includes/settings/settings.php:555
+#: includes/settings/settings.php:532
 msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
 msgstr "Χρησιμοποιήστε εσωτερικό CSS που είναι ενσωματωμένο στην κεφαλίδα της σελίδας. Για την αντιμετώπιση διενέξεων ρυθμίσεων διακομιστή και τη διαχείριση περιβαλλόντων ανάπτυξης."
 
-#: includes/settings/settings.php:555
+#: includes/settings/settings.php:532
 msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
 msgstr "Χρησιμοποιήστε εξωτερικά αρχεία CSS για όλα τα παραγόμενα stylesheets. Επιλέξτε αυτό τον τρόπο για να έχετε καλύτερες επιδόσεις (συνιστάται)."
 
-#: core/debug/inspector.php:55 includes/settings/settings.php:565
-#: includes/settings/settings.php:577 includes/settings/tools.php:367
-#: modules/safe-mode/module.php:48 assets/js/app-packages.js:4166
-#: assets/js/app.js:4946 assets/js/common.js:2572 assets/js/editor.js:28977
+#: core/debug/inspector.php:55 includes/settings/settings.php:542
+#: includes/settings/settings.php:554 includes/settings/tools.php:386
+#: modules/safe-mode/module.php:48 assets/js/admin.js:867
+#: assets/js/app-packages.js:3783 assets/js/app.js:5269
+#: assets/js/common.js:2572 assets/js/editor.js:34359
 msgid "Enable"
 msgstr "Ενεργοποίηση"
 
-#: core/debug/inspector.php:54 includes/settings/settings.php:564
-#: includes/settings/settings.php:576 includes/settings/tools.php:366
+#: core/debug/inspector.php:54 includes/settings/settings.php:541
+#: includes/settings/settings.php:553 includes/settings/tools.php:385
 #: modules/safe-mode/module.php:47
 msgid "Disable"
 msgstr "Απενεργοποίηση"
 
-#: core/base/document.php:1568
+#: core/base/document.php:1603
 msgid "Status"
 msgstr "Κατάσταση"
 
-#: includes/settings/settings.php:567
+#: includes/settings/settings.php:544
 msgid "For troubleshooting server configuration conflicts."
 msgstr "Για την αντιμετώπιση διενέξεων ρυθμίσεων διακομιστή."
 
-#: includes/widgets/common.php:1216 includes/widgets/spacer.php:108
+#: includes/widgets/common.php:1600 includes/widgets/spacer.php:108
 #: includes/widgets/text-editor.php:338
 msgid "Space"
 msgstr "Απόσταση"
@@ -2209,7 +2221,7 @@ msgid "Select"
 msgstr "Επιλογή"
 
 #: core/common/modules/finder/categories/edit.php:118
-#: assets/js/editor-document.js:3370 assets/js/editor-document.js:5332
+#: assets/js/editor-document.js:5268 assets/js/editor.js:18039
 msgid "Template"
 msgstr "Πρότυπο"
 
@@ -2222,7 +2234,7 @@ msgid "Choose Template"
 msgstr "Επιλογή Πρότυπου"
 
 #: includes/maintenance-mode.php:292 includes/maintenance-mode.php:369
-#: assets/js/app-packages.js:8927 assets/js/app.js:9037
+#: assets/js/app.js:12463
 msgid "Edit Template"
 msgstr "Επεξεργασία Πρότυπου"
 
@@ -2247,15 +2259,15 @@ msgid "Coming Soon"
 msgstr "Σύντομα Κοντά Σας"
 
 #: core/kits/documents/kit.php:168 includes/maintenance-mode.php:215
-#: assets/js/editor.js:42667
+#: assets/js/editor.js:46043
 msgid "Disabled"
 msgstr "Απενεργοποιήθηκε"
 
-#: core/kits/documents/tabs/settings-layout.php:105
+#: core/kits/documents/tabs/settings-layout.php:115
 msgid "Page Title Selector"
 msgstr "Selector Τίτλου Σελίδας"
 
-#: core/kits/documents/tabs/settings-layout.php:109
+#: core/kits/documents/tabs/settings-layout.php:119
 msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
 msgstr "Το Elementor σας επιτρέπει να κρύβετε το τίτλο της σελίδας. Αυτό λειτουργεί για θέματα που έχουν τον selector \"h1.entry-title\". Εάν ο selector του θέματός σας είναι διαφορετικός, παρακαλούμε εισάγετέ τον παραπάνω."
 
@@ -2292,12 +2304,12 @@ msgstr "Επιλέξτε μεταξύ λειτουργίας Σύντομα Κο
 msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
 msgstr "Για να ενεργοποιήσετε την λειτουργία συντήρησης θα πρέπει να ορίσετε ένα πρότυπο για την σελίδα λειτουργίας συντήρησης"
 
-#: includes/editor-templates/hotkeys.php:51 assets/js/editor-document.js:14808
-#: assets/js/editor.js:20641
+#: includes/editor-templates/hotkeys.php:51 assets/js/editor-document.js:14802
+#: assets/js/editor.js:25036
 msgid "Paste Style"
 msgstr "Επικόληση στυλ"
 
-#: includes/elements/section.php:1064
+#: includes/elements/container.php:1105 includes/elements/section.php:1067
 msgid "Bring to Front"
 msgstr "Μεταφορά στο Προσκήνιο"
 
@@ -2316,7 +2328,7 @@ msgctxt "Shapes"
 msgid "Mountains"
 msgstr "Βουνά"
 
-#: includes/elements/section.php:1051
+#: includes/elements/container.php:1092 includes/elements/section.php:1054
 msgid "Invert"
 msgstr "Αντιστροφή"
 
@@ -2375,7 +2387,7 @@ msgid "Triangle"
 msgstr "Τρίγωνο"
 
 #: core/kits/documents/tabs/settings-lightbox.php:18
-#: includes/widgets/image-carousel.php:207
+#: includes/widgets/image-carousel.php:210
 #: includes/widgets/image-gallery.php:142 includes/widgets/image.php:219
 #: includes/widgets/video.php:605 includes/widgets/video.php:729
 msgid "Lightbox"
@@ -2412,11 +2424,11 @@ msgctxt "Shapes"
 msgid "Zigzag"
 msgstr "Ζιγκ ζαγκ"
 
-#: includes/elements/section.php:1037
+#: includes/elements/container.php:1078 includes/elements/section.php:1040
 msgid "Flip"
 msgstr "Ανάριψη"
 
-#: includes/elements/section.php:933
+#: includes/elements/container.php:974 includes/elements/section.php:936
 msgid "Shape Divider"
 msgstr "Διαχωριστής Σχήματος"
 
@@ -2424,31 +2436,34 @@ msgstr "Διαχωριστής Σχήματος"
 msgid "Navigation Width"
 msgstr "Πλάτος Πλοήγησης"
 
-#: includes/elements/column.php:776 includes/elements/section.php:1232
-#: includes/widgets/button.php:262 includes/widgets/common.php:235
-msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
-msgstr "Προσθέστε το προσαρμοσμένο σας ID, ΧΩΡΙΣ τη Δίεση. π.χ. my-id"
-
-#: includes/elements/column.php:770 includes/elements/section.php:1226
-#: includes/widgets/common.php:229
-msgid "CSS ID"
-msgstr " ID CSS"
-
 #: core/kits/documents/tabs/theme-style-buttons.php:167
 #: core/kits/documents/tabs/theme-style-images.php:134
 #: core/kits/documents/tabs/theme-style-typography.php:156
-#: includes/elements/column.php:306 includes/elements/column.php:431
-#: includes/elements/column.php:549 includes/elements/section.php:585
-#: includes/elements/section.php:737 includes/elements/section.php:854
-#: includes/widgets/button.php:350 includes/widgets/common.php:329
-#: includes/widgets/common.php:843 includes/widgets/common.php:930
-#: includes/widgets/google-maps.php:225 includes/widgets/icon-box.php:302
+#: includes/elements/column.php:306 includes/elements/column.php:434
+#: includes/elements/column.php:552 includes/elements/container.php:576
+#: includes/elements/container.php:748 includes/elements/container.php:888
+#: includes/elements/section.php:585 includes/elements/section.php:740
+#: includes/elements/section.php:857 includes/widgets/common.php:688
+#: includes/widgets/common.php:1209 includes/widgets/common.php:1303
+#: includes/widgets/google-maps.php:225 includes/widgets/icon-box.php:301
 #: includes/widgets/icon-list.php:412 includes/widgets/icon-list.php:505
-#: includes/widgets/icon.php:248 includes/widgets/image-box.php:351
-#: includes/widgets/image.php:420 modules/shapes/widgets/text-path.php:427
+#: includes/widgets/icon.php:248 includes/widgets/image-box.php:361
+#: includes/widgets/image.php:420 includes/widgets/traits/button-trait.php:309
+#: modules/shapes/widgets/text-path.php:427
 #: modules/shapes/widgets/text-path.php:567
 msgid "Hover"
 msgstr "Αιώρηση"
+
+#: includes/elements/column.php:779 includes/elements/container.php:1456
+#: includes/elements/section.php:1235 includes/widgets/common.php:585
+#: includes/widgets/traits/button-trait.php:220
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "Προσθέστε το προσαρμοσμένο σας ID, ΧΩΡΙΣ τη Δίεση. π.χ. my-id"
+
+#: includes/elements/column.php:773 includes/elements/container.php:1450
+#: includes/elements/section.php:1229 includes/widgets/common.php:579
+msgid "CSS ID"
+msgstr " ID CSS"
 
 #: includes/controls/groups/background.php:187
 msgctxt "Background Control"
@@ -2486,27 +2501,27 @@ msgctxt "Background Control"
 msgid "Linear"
 msgstr "Γραμμικό"
 
-#: includes/settings/settings.php:480
+#: includes/settings/settings.php:481
 msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
 msgstr "Επιλέγοντας αυτό το πεδίο θα απενεργοποιηθούν οι Προεπιλεγμένες Γραμματοσειρές του Elementor και θα χρησιμοποιηθούν εκείνες που ορίζονται από το θέμα σας."
 
-#: includes/settings/settings.php:472
+#: includes/settings/settings.php:473
 msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
 msgstr "Επιλέγοντας αυτό το πεδίο θα απενεργοποιηθούν τα Προεπιλεγμένα Χρώματα του Elementor και θα χρησιμοποιηθούν εκείνα που ορίζονται από το θέμα σας."
 
-#: core/admin/admin.php:305
+#: core/admin/admin.php:328
 msgid "Video Tutorials"
 msgstr "Ιδιαίτερα μέσω Βίντεο"
 
-#: core/admin/admin.php:305
+#: core/admin/admin.php:328
 msgid "View Elementor Video Tutorials"
 msgstr "Προβολή Ιδιαίτερων μέσω Βίντεο του Elementor"
 
-#: core/admin/admin.php:304
+#: core/admin/admin.php:327
 msgid "Docs & FAQs"
 msgstr "Τεκμηρίωση και Συχνές Ερωτήσεις"
 
-#: core/admin/admin.php:304
+#: core/admin/admin.php:327
 msgid "View Elementor Documentation"
 msgstr "Προβολή Τεκμηρίωσης του Elementor"
 
@@ -2518,35 +2533,28 @@ msgstr "Αναθεώρηση"
 msgid "By"
 msgstr "Από"
 
-#: includes/utils.php:167
+#: includes/utils.php:169
 msgid "The `from` and `to` URL's must be different"
 msgstr "Οι διευθύνσεις URL «από» και «προς» πρέπει να είναι διαφορετικές"
 
-#: includes/settings/tools.php:308
+#: includes/settings/tools.php:327
 msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
 msgstr "Εισάγετε τις παλιές και νέες διευθύνσεις URL της εγκατάστασής σας WordPress, ώστε να ενημερώσετε όλα τα δεδομένα του Elementor (Σχετικό με μεταφορά ονόματος τομέα ή για μετατροπή σε «HTTPS»)."
 
-#: includes/settings/tools.php:304
+#: includes/settings/tools.php:323
 msgid "Update Site Address (URL)"
 msgstr "Ενημέρωση Διεύθυνσης Ιστότοπου (διεύθυνση URL)"
 
 #. translators: %s: WordPress backups documentation.
-#: includes/settings/tools.php:294
+#: includes/settings/tools.php:313
 msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
 msgstr "<strong>Σημαντικό:</strong> Συνιστάται ανεπιφύλακτα η δημιουργία <a target=\"_blank\" href=\"%s\">αντιγράφου ασφαλείας της βάσης δεδομένων σας</a> πριν από τη χρήση Αντικατάσταση Διεύθυνσης URL."
 
 #: core/common/modules/finder/categories/tools.php:56
-#: includes/settings/tools.php:288 includes/settings/tools.php:299
-#: includes/settings/tools.php:307
+#: includes/settings/tools.php:307 includes/settings/tools.php:318
+#: includes/settings/tools.php:326
 msgid "Replace URL"
 msgstr "Αντικατάσταση Διεύθυνσης URL"
-
-#. translators: 1: Minimum recommended_memory, 2: WordPress wp-config memory
-#. documentation.
-#: modules/system-info/reporters/wordpress.php:89
-msgctxt "System Info"
-msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
-msgstr "Συνιστούμε να ορίσετε τη μνήμη τουλάχιστον σε %1$s. Για περισσότερες πληροφορίες, διαβάστε <a href=\"%2$s\">πως να αυξήσετε τη μνήμη που κατανέμεται στην PHP</a>."
 
 #. translators: 1: Human readable time difference, 2: Date.
 #: modules/history/revisions-manager.php:179
@@ -2578,7 +2586,7 @@ msgstr "Το ιστορικό αναθεωρήσεων σας επιτρέπει
 msgid "No Revisions Saved Yet"
 msgstr "Καμία Αποθηκευμένη Αναθεώρηση Ακόμη "
 
-#: includes/utils.php:172
+#: includes/utils.php:174
 msgid "The `from` and `to` URL's must be valid URL's"
 msgstr "Οι URL «από» και «προς» πρέπει να είναι έγκυρες διευθύνσεις URL's"
 
@@ -2594,30 +2602,30 @@ msgctxt "Background Control"
 msgid "Default"
 msgstr "Προεπιλογή"
 
-#: includes/widgets/common.php:372 includes/widgets/common.php:534
-#: includes/widgets/common.php:1000 includes/widgets/icon-list.php:263
+#: includes/widgets/common.php:731 includes/widgets/common.php:893
+#: includes/widgets/common.php:1381 includes/widgets/icon-list.php:263
 #: includes/widgets/text-editor.php:122 includes/widgets/video.php:608
 #: modules/shapes/widgets/text-path.php:204
 msgid "Off"
 msgstr "Ανενεργό"
 
-#: includes/widgets/common.php:371 includes/widgets/common.php:533
-#: includes/widgets/common.php:999 includes/widgets/icon-list.php:264
+#: includes/widgets/common.php:730 includes/widgets/common.php:892
+#: includes/widgets/common.php:1380 includes/widgets/icon-list.php:264
 #: includes/widgets/text-editor.php:123 includes/widgets/video.php:609
 #: modules/shapes/widgets/text-path.php:203
 msgid "On"
 msgstr "Ενεργό"
 
-#: includes/managers/controls.php:979
+#: includes/managers/controls.php:978
 msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
 msgstr "Το προσαρμοσμένο CSS σας επιτρέπει να προσθέσετε κώδικα CSS σε οποιοδήποτε μικροεφαρμογή και να τον δείτε να εκτελείται ζωντανά μέσα στον επεξεργαστή."
 
-#: includes/managers/controls.php:991
+#: includes/managers/controls.php:990
 msgid "Meet Our Custom CSS"
 msgstr "Γνωρίστε Το Προσαρμοσμένο μας CSS"
 
 #: core/kits/documents/tabs/settings-custom-css.php:17
-#: includes/managers/controls.php:973
+#: includes/managers/controls.php:972
 msgid "Custom CSS"
 msgstr "Προσαρμοσμένο CSS"
 
@@ -2629,17 +2637,17 @@ msgstr "Με αυτή τη λειτουργία μπορείτε να αποθη
 msgid "Meet Our Global Widget"
 msgstr "Γνωρίστε τη Γενική Μικροεφαρμογή μας"
 
-#: core/admin/admin.php:279 core/admin/admin.php:481
-#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:170
+#: core/admin/admin.php:302 core/admin/admin.php:504
+#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:171
 #: includes/editor-templates/panel-elements.php:23
 #: includes/editor-templates/panel-elements.php:63
-#: includes/managers/controls.php:1059 includes/settings/settings.php:176
-#: includes/settings/settings.php:315 includes/settings/settings.php:337
-#: includes/settings/settings.php:359 includes/settings/settings.php:380
-#: includes/settings/settings.php:648 assets/js/app-packages.js:3638
-#: assets/js/app-packages.js:11055 assets/js/app-packages.js:11345
-#: assets/js/app-packages.js:11380 assets/js/app.js:4418
-#: assets/js/editor.js:9022
+#: includes/managers/controls.php:1058 includes/settings/settings.php:177
+#: includes/settings/settings.php:316 includes/settings/settings.php:338
+#: includes/settings/settings.php:360 includes/settings/settings.php:381
+#: includes/settings/settings.php:631 assets/js/app-packages.js:7138
+#: assets/js/app-packages.js:7428 assets/js/app-packages.js:7463
+#: assets/js/app.js:4678 assets/js/editor.js:9022
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:934
 msgid "Go Pro"
 msgstr "Γίνετε Pro"
 
@@ -2648,23 +2656,23 @@ msgid "Get more with Elementor Pro"
 msgstr "Αποκτήστε περισσότερα με το Elementor Pro"
 
 #: includes/editor-templates/panel-elements.php:11
-#: assets/js/editor-document.js:6924 assets/js/editor.js:26284
+#: assets/js/editor-document.js:6849 assets/js/editor.js:31346
 msgid "Global"
 msgstr "Γενικά"
 
-#: includes/widgets/button.php:96
+#: includes/widgets/traits/button-trait.php:37
 msgid "Extra Large"
 msgstr "Πολύ Μεγάλο"
 
-#: includes/widgets/button.php:92
+#: includes/widgets/traits/button-trait.php:33
 msgid "Extra Small"
 msgstr "Πολύ Μικρό"
 
-#: includes/settings/settings.php:486
+#: includes/settings/settings.php:487
 msgid "Improve Elementor"
 msgstr "Βελτίωση Elementor"
 
-#: includes/base/widget-base.php:283 includes/base/widget-base.php:292
+#: includes/base/widget-base.php:296 includes/base/widget-base.php:305
 msgid "Skin"
 msgstr "Απόχρωση"
 
@@ -2692,11 +2700,11 @@ msgstr "Ορισμός προεπιλεγμένου πλάτους της περ
 msgid "Stretch Section"
 msgstr "Επέκταση Τμήματος"
 
-#: core/kits/documents/tabs/settings-layout.php:124
+#: core/kits/documents/tabs/settings-layout.php:134
 msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
 msgstr "Εισάγετε τον selector του γονεϊκού στοιχείου στου οποίου τα εκτεταμένα τμήματα θα εφαρμοστούν(π.χ. #primary / .wrapper / main κτλ.). Αφήστε το κενό για προσαρμογή στο πλάτος της σελίδας."
 
-#: core/kits/documents/tabs/settings-layout.php:121
+#: core/kits/documents/tabs/settings-layout.php:131
 msgid "Stretched Section Fit To"
 msgstr "Προσαρμογή Επεκταμένου Τμήματος Σε"
 
@@ -2709,13 +2717,13 @@ msgstr "Επέκταση του τμήματος στο πλήρες πλάτο�
 msgid "Learn more."
 msgstr "Μάθετε Περισσότερα."
 
-#: includes/elements/section.php:1324
+#: includes/elements/section.php:1327
 msgid "Reverse Columns"
 msgstr "Αντιστροφή Στηλών"
 
-#: core/breakpoints/manager.php:312
+#: core/breakpoints/manager.php:313
 #: core/settings/editor-preferences/model.php:133
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4298
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4520
 msgid "Mobile"
 msgstr "Κινητό"
 
@@ -2727,19 +2735,17 @@ msgstr "Σύνδεση τιμών μεταξύ τους"
 msgid "Shortcode"
 msgstr "Shortcode"
 
-#: includes/template-library/sources/local.php:269
+#: includes/template-library/sources/local.php:277
 msgctxt "Template Library"
 msgid "Type"
 msgstr "Τύπος"
 
-#: includes/template-library/sources/local.php:468
+#: includes/template-library/sources/local.php:476
 msgid "(no title)"
 msgstr "(χωρίς τίτλο)"
 
 #: includes/editor-templates/templates.php:190
-#: includes/template-library/sources/local.php:1093
-#: assets/js/app-packages.js:7776 assets/js/app-packages.js:10187
-#: assets/js/app.js:7886 assets/js/app.js:10297
+#: includes/template-library/sources/local.php:1101 assets/js/app.js:14351
 msgid "Export"
 msgstr "Εξαγωγή"
 
@@ -2748,7 +2754,7 @@ msgstr "Εξαγωγή"
 msgid "Insert"
 msgstr "Εισαγωγή"
 
-#: core/common/modules/connect/apps/library.php:15 assets/js/editor.js:11491
+#: core/common/modules/connect/apps/library.php:15 assets/js/editor.js:11494
 msgid "Library"
 msgstr "Βιβλιοθήκη"
 
@@ -2757,80 +2763,81 @@ msgstr "Βιβλιοθήκη"
 #: includes/editor-templates/library-layout.php:16
 #: includes/editor-templates/responsive-bar.php:65
 #: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1308
-#: assets/js/app-packages.js:3119 assets/js/app-packages.js:5681
-#: assets/js/app-packages.js:6299 assets/js/app-packages.js:9308
-#: assets/js/app.js:3899 assets/js/app.js:6168 assets/js/app.js:6634
-#: assets/js/app.js:9418 assets/js/editor.js:39464
+#: assets/js/app-packages.js:2910 assets/js/app-packages.js:5205
+#: assets/js/app-packages.js:5823 assets/js/app.js:4066 assets/js/app.js:6579
+#: assets/js/app.js:7045 assets/js/app.js:9488 assets/js/app.js:10488
+#: assets/js/app.js:14277 assets/js/editor.js:42815
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: includes/template-library/sources/local.php:228
+#: includes/template-library/sources/local.php:236
 msgctxt "Template Library"
 msgid "No Templates found"
 msgstr "Δεν Βρέθηκαν Πρότυπα"
 
-#: includes/template-library/sources/local.php:227
+#: includes/template-library/sources/local.php:235
 msgctxt "Template Library"
 msgid "Search Template"
 msgstr "Αναζήτηση Προτύπου"
 
-#: includes/template-library/sources/local.php:223
+#: includes/template-library/sources/local.php:231
 msgctxt "Template Library"
 msgid "Edit Template"
 msgstr "Επεξεργασία Προτύπου"
 
-#: includes/template-library/sources/local.php:222
+#: includes/template-library/sources/local.php:230
 msgctxt "Template Library"
 msgid "Add New Template"
 msgstr "Προσθήκη Νέου Προτύπου"
 
-#: includes/template-library/sources/local.php:221
+#: includes/template-library/sources/local.php:229
 msgctxt "Template Library"
 msgid "Add New"
 msgstr "Προσθήκη Νέου"
 
-#: includes/template-library/sources/local.php:220
+#: includes/template-library/sources/local.php:228
 msgctxt "Template Library"
 msgid "Template"
 msgstr "Πρότυπο"
 
 #: includes/editor-templates/templates.php:14
-#: includes/editor-templates/templates.php:15 includes/settings/tools.php:276
-#: includes/settings/tools.php:279
+#: includes/editor-templates/templates.php:15 includes/settings/tools.php:295
+#: includes/settings/tools.php:298
 msgid "Sync Library"
 msgstr "Συγχρονισμός Βιβλιοθήκης"
 
-#: includes/editor-templates/global.php:24
+#: includes/editor-templates/global.php:31
 msgid "Add Template"
 msgstr "Προσθήκη Προτύπου"
 
 #: core/document-types/page.php:37 modules/library/documents/page.php:57
-#: assets/js/editor.js:11106
+#: assets/js/editor.js:11108
 msgid "Page"
 msgstr "Σελίδα"
 
 #: core/common/modules/finder/categories/tools.php:28
 #: core/common/modules/finder/categories/tools.php:50
-#: includes/settings/tools.php:38 includes/settings/tools.php:39
-#: includes/settings/tools.php:402
+#: includes/settings/tools.php:28 includes/settings/tools.php:29
+#: includes/settings/tools.php:49 includes/settings/tools.php:50
+#: includes/settings/tools.php:421
 msgid "Tools"
 msgstr "Εργαλεία"
 
-#: includes/template-library/sources/local.php:225
+#: includes/template-library/sources/local.php:233
 msgctxt "Template Library"
 msgid "All Templates"
 msgstr "Όλα τα Πρότυπα"
 
-#: includes/template-library/sources/local.php:224
+#: includes/template-library/sources/local.php:232
 msgctxt "Template Library"
 msgid "New Template"
 msgstr "Νέο Πρότυπο"
 
-#: includes/settings/tools.php:280
+#: includes/settings/tools.php:299
 msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
 msgstr "Η Βιβλιοθήκη του Elementor ενημερώνεται αυτόματα σε καθημερινή βάση. Μπορείτε επίσης να την ενημερώσετε μόνοι σας κάνοντας κλικ στο κουμπί συγχρονισμού."
 
-#: includes/utils.php:185 assets/js/editor.js:11271
+#: includes/utils.php:187 assets/js/editor.js:11274
 msgid "An error occurred"
 msgstr "Προέκυψε ένα σφάλμα"
 
@@ -2850,24 +2857,24 @@ msgstr "Βιβλιοθήκη Προτύπων"
 msgid "Remote"
 msgstr "Απομακρυσμένες"
 
-#: includes/template-library/sources/local.php:915
+#: includes/template-library/sources/local.php:923
 msgid "Import Now"
 msgstr "Εισαγωγή Τώρα"
 
-#: includes/template-library/sources/local.php:906
+#: includes/template-library/sources/local.php:914
 msgid "Import Templates"
 msgstr "Εισαγωγή Πρότυπων"
 
-#: includes/template-library/sources/local.php:878
+#: includes/template-library/sources/local.php:886
 msgid "Export Template"
 msgstr "Εξαγωγή Πρότυπου"
 
-#: includes/template-library/sources/local.php:229
+#: includes/template-library/sources/local.php:237
 msgctxt "Template Library"
 msgid "No Templates found in Trash"
 msgstr "Δεν βρέθηκαν Πρότυπα στα Διαγραμμένα"
 
-#: includes/template-library/sources/local.php:226
+#: includes/template-library/sources/local.php:234
 msgctxt "Template Library"
 msgid "View Template"
 msgstr "Προβολή Προτύπου"
@@ -2877,17 +2884,17 @@ msgid "Local"
 msgstr "Τοπικές"
 
 #: includes/editor-templates/templates.php:37
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1218
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1437
 msgid "Back to Library"
 msgstr "Πίσω στη Βιβλιοθήκη"
 
-#: includes/editor-templates/global.php:30
+#: includes/editor-templates/global.php:37
+#: includes/editor-templates/global.php:52
 msgid "Select your Structure"
 msgstr "Επιλέξτε τη Δομή σας"
 
-#: includes/template-library/sources/local.php:377
-#: includes/template-library/sources/local.php:1630
-#: assets/js/app-packages.js:9676 assets/js/app.js:9786
+#: includes/template-library/sources/local.php:385
+#: includes/template-library/sources/local.php:1638 assets/js/app.js:13301
 msgid "Saved Templates"
 msgstr "Αποθηκευμένα Πρότυπα"
 
@@ -2898,36 +2905,30 @@ msgid "If you want to modify the source code of your theme, we recommend using a
 msgstr "Αν θέλετε να τροποποιήσετε τον πηγαίο κώδικα του θέματός σας, συνιστούμε να χρησιμοποιήσετε ένα <a href=\"%s\">θυγατρικό θέμα</a>."
 
 #: core/kits/documents/tabs/global-typography.php:28
-#: core/kits/documents/tabs/global-typography.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
-#: assets/js/editor.js:39191
+#: core/kits/documents/tabs/global-typography.php:47 assets/js/app.js:13319
+#: assets/js/editor.js:42542
 msgid "Global Fonts"
 msgstr "Γενικές Γραμματοσειρές"
 
 #: core/admin/admin-notices.php:329 core/admin/admin-notices.php:370
 #: core/admin/admin-notices.php:412 core/admin/admin-notices.php:454
 #: core/admin/admin-notices.php:496
-#: core/app/modules/import-export/module.php:245
-#: core/app/modules/import-export/module.php:257
-#: core/experiments/manager.php:223 core/experiments/manager.php:236
-#: core/experiments/manager.php:249 core/experiments/manager.php:262
-#: core/experiments/manager.php:272 core/experiments/manager.php:300
-#: includes/controls/url.php:76 includes/settings/settings.php:375
-#: includes/settings/settings.php:508 modules/safe-mode/module.php:392
-#: modules/safe-mode/module.php:401
+#: core/app/modules/import-export/module.php:309
+#: core/app/modules/import-export/module.php:321
+#: core/experiments/manager.php:218 core/experiments/manager.php:231
+#: core/experiments/manager.php:244 core/experiments/manager.php:257
+#: core/experiments/manager.php:267 core/experiments/manager.php:295
+#: includes/controls/url.php:76 includes/settings/settings.php:376
+#: modules/safe-mode/module.php:392 modules/safe-mode/module.php:401
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:104
-#: assets/js/app-packages.js:4035 assets/js/app-packages.js:7998
-#: assets/js/app-packages.js:8416 assets/js/app-packages.js:8522
-#: assets/js/app-packages.js:9077 assets/js/app-packages.js:9306
-#: assets/js/app-packages.js:9358 assets/js/app-packages.js:9399
-#: assets/js/app-packages.js:11143 assets/js/app-packages.js:11279
-#: assets/js/app.js:4815 assets/js/app.js:8108 assets/js/app.js:8526
-#: assets/js/app.js:8632 assets/js/app.js:9187 assets/js/app.js:9416
-#: assets/js/app.js:9468 assets/js/app.js:9509 assets/js/editor.js:15890
-#: assets/js/editor.js:19322 assets/js/editor.js:19354
-#: assets/js/editor.js:29579
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:980
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3656
+#: assets/js/app-packages.js:3651 assets/js/app-packages.js:7226
+#: assets/js/app-packages.js:7362 assets/js/app.js:5137 assets/js/app.js:9828
+#: assets/js/app.js:11109 assets/js/app.js:12618 assets/js/app.js:12984
+#: assets/js/app.js:13024 assets/js/app.js:14276 assets/js/editor.js:14952
+#: assets/js/editor.js:23692 assets/js/editor.js:23724
+#: assets/js/editor.js:35001
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1186
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3878
 msgid "Learn More"
 msgstr "Μάθετε Περισσότερα"
 
@@ -2936,20 +2937,21 @@ msgctxt "Background Control"
 msgid "Contain"
 msgstr "Περιέχεται"
 
-#: includes/widgets/button.php:399 includes/widgets/icon-box.php:338
-#: includes/widgets/icon.php:286 includes/widgets/image-box.php:288
-#: includes/widgets/image.php:470 includes/widgets/social-icons.php:539
+#: includes/widgets/icon-box.php:337 includes/widgets/icon.php:286
+#: includes/widgets/image-box.php:298 includes/widgets/image.php:470
+#: includes/widgets/social-icons.php:539
+#: includes/widgets/traits/button-trait.php:362
 #: modules/shapes/widgets/text-path.php:446
 msgid "Hover Animation"
 msgstr "Κίνηση κατά την αιώρηση"
 
-#: includes/elements/column.php:843 includes/elements/section.php:1279
-#: includes/widgets/common.php:281
+#: includes/elements/column.php:846 includes/elements/container.php:1510
+#: includes/elements/section.php:1282 includes/widgets/common.php:638
 msgid "Slow"
 msgstr "Αργή"
 
-#: includes/elements/column.php:845 includes/elements/section.php:1281
-#: includes/widgets/common.php:283
+#: includes/elements/column.php:848 includes/elements/container.php:1512
+#: includes/elements/section.php:1284 includes/widgets/common.php:640
 msgid "Fast"
 msgstr "Γρήγορη"
 
@@ -2986,7 +2988,7 @@ msgctxt "Box Shadow Control"
 msgid "Inset"
 msgstr "Ένθεση"
 
-#: includes/settings/settings.php:468
+#: includes/settings/settings.php:469
 msgid "Disable Default Colors"
 msgstr "Απενεργοποίηση Προεπιλεγμένων Χρωμάτων"
 
@@ -2994,8 +2996,9 @@ msgstr "Απενεργοποίηση Προεπιλεγμένων Χρωμάτω
 msgid "Color Palettes"
 msgstr "Παλέτες Χρωμάτων"
 
-#: includes/elements/column.php:830 includes/elements/section.php:1266
-#: includes/widgets/common.php:268 includes/widgets/video.php:814
+#: includes/elements/column.php:833 includes/elements/container.php:1497
+#: includes/elements/section.php:1269 includes/widgets/common.php:625
+#: includes/widgets/video.php:816
 msgid "Entrance Animation"
 msgstr "Κίνηση Εισόδου"
 
@@ -3052,7 +3055,8 @@ msgstr "Κουμπί Μεταφόρτωσης"
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/elements/column.php:347 includes/elements/section.php:626
+#: includes/elements/column.php:347 includes/elements/container.php:623
+#: includes/elements/section.php:626
 msgid "Background Overlay"
 msgstr "Επικάλυψη Φόντου"
 
@@ -3124,11 +3128,12 @@ msgid "Custom URL"
 msgstr "Προσαρμοσμένη διασύνδεση URL"
 
 #: core/kits/documents/tabs/settings-background.php:18
-#: includes/elements/column.php:273 includes/elements/section.php:553
-#: includes/widgets/accordion.php:287 includes/widgets/accordion.php:452
-#: includes/widgets/button.php:328 includes/widgets/button.php:370
-#: includes/widgets/common.php:816 includes/widgets/toggle.php:314
-#: includes/widgets/toggle.php:471
+#: includes/elements/column.php:273 includes/elements/container.php:538
+#: includes/elements/section.php:553 includes/widgets/accordion.php:287
+#: includes/widgets/accordion.php:452 includes/widgets/common.php:1182
+#: includes/widgets/toggle.php:314 includes/widgets/toggle.php:471
+#: includes/widgets/traits/button-trait.php:286
+#: includes/widgets/traits/button-trait.php:331
 msgid "Background"
 msgstr "Φόντο"
 
@@ -3137,20 +3142,21 @@ msgid "Wider"
 msgstr "Φαρδύτερο"
 
 #: core/common/modules/finder/categories/general.php:29
-#: core/role-manager/role-manager.php:59 includes/managers/elements.php:281
-#: includes/settings/settings.php:447 includes/settings/tools.php:263
+#: core/role-manager/role-manager.php:60 includes/managers/elements.php:288
+#: includes/settings/settings.php:448 includes/settings/tools.php:282
 msgid "General"
 msgstr "Γενικά"
 
-#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:14796
-#: assets/js/editor-document.js:15865 assets/js/editor-document.js:17382
-#: assets/js/editor.js:20629 assets/js/editor.js:22313
-#: assets/js/editor.js:31612 assets/js/editor.js:32574
+#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:14790
+#: assets/js/editor-document.js:16279 assets/js/editor-document.js:18490
+#: assets/js/editor.js:25024 assets/js/editor.js:26984
+#: assets/js/editor.js:37106 assets/js/editor.js:38152
 msgid "Paste"
 msgstr "Επικόληση"
 
-#: includes/elements/column.php:839 includes/elements/section.php:1275
-#: includes/widgets/common.php:277 includes/widgets/counter.php:159
+#: includes/elements/column.php:842 includes/elements/container.php:1506
+#: includes/elements/section.php:1278 includes/widgets/common.php:634
+#: includes/widgets/counter.php:159
 msgid "Animation Duration"
 msgstr "Διάρκεια Κίνησης"
 
@@ -3167,31 +3173,31 @@ msgid "Arrows and Dots"
 msgstr "Βέλη και Τελείες"
 
 #: includes/widgets/accordion.php:424 includes/widgets/divider.php:760
-#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:350
-#: includes/widgets/icon-box.php:517 includes/widgets/image-box.php:225
-#: includes/widgets/image-box.php:451 includes/widgets/image-carousel.php:554
+#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:349
+#: includes/widgets/icon-box.php:537 includes/widgets/image-box.php:225
+#: includes/widgets/image-box.php:461 includes/widgets/image-carousel.php:581
 #: includes/widgets/image-gallery.php:191 includes/widgets/image.php:602
 #: includes/widgets/social-icons.php:428 includes/widgets/star-rating.php:291
 #: includes/widgets/toggle.php:443
 msgid "Spacing"
 msgstr "Ορισμός Κενών"
 
-#: includes/widgets/image-carousel.php:406
-#: includes/widgets/image-carousel.php:469
+#: includes/widgets/image-carousel.php:418
+#: includes/widgets/image-carousel.php:481
 msgid "Outside"
 msgstr "Εξωτερικά"
 
-#: includes/widgets/image-carousel.php:405
-#: includes/widgets/image-carousel.php:470
+#: includes/widgets/image-carousel.php:417
+#: includes/widgets/image-carousel.php:482
 msgid "Inside"
 msgstr "Εσωτερικά"
 
-#: includes/controls/groups/background.php:765
-#: includes/widgets/image-carousel.php:363
+#: includes/controls/groups/background.php:776
+#: includes/widgets/image-carousel.php:375
 msgid "Direction"
 msgstr "Κατεύθυνση"
 
-#: includes/widgets/image-carousel.php:352
+#: includes/widgets/image-carousel.php:364
 msgid "Animation Speed"
 msgstr "Ταχύτητα Κίνησης"
 
@@ -3199,7 +3205,7 @@ msgstr "Ταχύτητα Κίνησης"
 msgid "Intro Byline"
 msgstr "Υπογραφή Συντάκτη Εισαγωγής"
 
-#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:250
+#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:253
 msgid "Additional Options"
 msgstr "Πρόσθετες Επιλογές"
 
@@ -3265,10 +3271,6 @@ msgstr "Βίντεο"
 msgid "Display"
 msgstr "Απεικόνιση"
 
-#: includes/controls/image-dimensions.php:81
-msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
-msgstr "Ο διακομιστής δεν έχει εγκατεστημένο και/ή ενεργοποιημένο το ImageMagick ή το GD! Οποιαδήποτε από αυτές τις βιβλιοθήκες απαιτούνται από το WordPress για να είναι δυνατή η αλλαγή μεγέθους εικόνων. Παρακαλούμε επικοινωνήστε με τον διαχειριστή του διακομιστή σας για την ενεργοποίησή τους πριν συνεχίσετε."
-
 #: includes/controls/groups/image-size.php:378
 msgctxt "Image Size Control"
 msgid "Custom"
@@ -3279,11 +3281,15 @@ msgctxt "Border Control"
 msgid "Solid"
 msgstr "Συμπαγής"
 
-#: includes/widgets/image-carousel.php:335
+#: includes/controls/image-dimensions.php:81
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "Ο διακομιστής δεν έχει εγκατεστημένο και/ή ενεργοποιημένο το ImageMagick ή το GD! Οποιαδήποτε από αυτές τις βιβλιοθήκες απαιτούνται από το WordPress για να είναι δυνατή η αλλαγή μεγέθους εικόνων. Παρακαλούμε επικοινωνήστε με τον διαχειριστή του διακομιστή σας για την ενεργοποίησή τους πριν συνεχίσετε."
+
+#: includes/widgets/image-carousel.php:347
 msgid "Effect"
 msgstr "Εφέ"
 
-#: includes/widgets/image-carousel.php:340
+#: includes/widgets/image-carousel.php:352
 msgid "Fade"
 msgstr "Ξεθώριασμα"
 
@@ -3293,16 +3299,15 @@ msgid "Full"
 msgstr "Πλήρες"
 
 #: includes/widgets/image-carousel.php:170
-#: includes/widgets/image-carousel.php:453
 msgid "Dots"
 msgstr "Τελείες"
 
-#: includes/widgets/icon-box.php:493 includes/widgets/image-box.php:427
+#: includes/widgets/icon-box.php:513 includes/widgets/image-box.php:437
 msgid "Vertical Alignment"
 msgstr "Κάθετη Στοίχιση"
 
 #: includes/controls/groups/background.php:661
-#: includes/widgets/image-carousel.php:321
+#: includes/widgets/image-carousel.php:333
 msgid "Infinite Loop"
 msgstr "Άπειρος Βρόχος"
 
@@ -3311,12 +3316,12 @@ msgctxt "Image Size Control"
 msgid "Image Size"
 msgstr "Μέγεθος Εικόνας"
 
-#: includes/controls/groups/typography.php:180
+#: includes/controls/groups/typography.php:185
 msgctxt "Typography Control"
 msgid "None"
 msgstr "Καμία"
 
-#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:219
+#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:218
 #: includes/widgets/image-box.php:186 includes/widgets/toggle.php:211
 msgid "Title HTML Tag"
 msgstr "HTML ετικέτα Τίτλου"
@@ -3325,123 +3330,128 @@ msgstr "HTML ετικέτα Τίτλου"
 msgid "This is the heading"
 msgstr "Αυτή είναι η επικεφαλίδα"
 
-#: includes/elements/column.php:792 includes/elements/section.php:1248
-#: includes/widgets/common.php:250
+#: includes/elements/column.php:795 includes/elements/container.php:1472
+#: includes/elements/section.php:1251 includes/widgets/common.php:600
 msgid "Add your custom class WITHOUT the dot. e.g: my-class"
 msgstr "Προσθέστε το προσαρμοσμένο σας class ΧΩΡΙΣ την τελεία. π.χ. my-class"
 
-#: core/kits/documents/tabs/global-typography.php:178
+#: core/kits/documents/tabs/global-typography.php:195
 msgid "The list of fonts used if the chosen font is not available."
 msgstr "Η λίστα των γραμματοσειρών που χρησιμοποιούνται εάν η επιλεγμένη γραμματοσειρά δεν είναι διαθέσιμη."
 
-#: includes/managers/elements.php:322
+#: includes/managers/elements.php:329
 msgid "Pojo Themes"
 msgstr "Θέματα Pojo"
 
 #: includes/editor-templates/panel-elements.php:10
-#: assets/js/editor-document.js:5930 assets/js/editor-document.js:8113
-#: assets/js/editor-document.js:8644 assets/js/editor.js:26281
+#: assets/js/editor-document.js:5857 assets/js/editor-document.js:8038
+#: assets/js/editor-document.js:8569 assets/js/editor.js:18628
+#: assets/js/editor.js:31343
 msgid "Elements"
 msgstr "Στοιχεία"
 
-#: modules/system-info/reporters/server.php:121
+#: modules/system-info/reporters/server.php:122
 msgctxt "System Info"
 msgid "We recommend to use php 5.4 or higher"
 msgstr "Σας συνιστούμε να χρησιμοποιήσετε PHP 5.4 ή νεότερη έκδοση"
 
-#: includes/widgets/wordpress.php:230
+#: includes/widgets/wordpress.php:234
 msgid "Form"
 msgstr "Φόρμα"
 
-#: core/admin/admin.php:275
+#: core/admin/admin.php:298 core/admin/menu/main.php:75
 #: core/common/modules/finder/categories/settings.php:28
 #: core/dynamic-tags/base-tag.php:171 includes/editor-templates/panel.php:65
 #: includes/editor-templates/responsive-bar.php:61
-#: includes/managers/controls.php:304 includes/settings/settings.php:413
-#: assets/js/editor.js:10300 assets/js/editor.js:27094
-#: assets/js/editor.js:39615
+#: includes/managers/controls.php:304 includes/settings/settings.php:414
+#: includes/settings/settings.php:593 assets/js/editor.js:10300
+#: assets/js/editor.js:32149 assets/js/editor.js:42965
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: includes/controls/groups/typography.php:152
+#: includes/controls/groups/typography.php:157
 msgctxt "Typography Control"
 msgid "Uppercase"
 msgstr "Κεφαλαία"
 
-#: includes/controls/groups/typography.php:153
+#: includes/controls/groups/typography.php:158
 msgctxt "Typography Control"
 msgid "Lowercase"
 msgstr "Πεζά"
 
-#: includes/controls/groups/typography.php:154
+#: includes/controls/groups/typography.php:159
 msgctxt "Typography Control"
 msgid "Capitalize"
 msgstr "Κεφαλαία Αρχικά"
 
-#: includes/controls/groups/typography.php:155
-#: includes/controls/groups/typography.php:165
+#: includes/controls/groups/typography.php:160
+#: includes/controls/groups/typography.php:170
 msgctxt "Typography Control"
 msgid "Normal"
 msgstr "Κανονικά"
 
-#: includes/controls/groups/typography.php:167
+#: includes/controls/groups/typography.php:172
 msgctxt "Typography Control"
 msgid "Oblique"
 msgstr "Λοξά"
 
-#: includes/controls/groups/typography.php:166
+#: includes/controls/groups/typography.php:171
 msgctxt "Typography Control"
 msgid "Italic"
 msgstr "Πλάγια"
 
-#: core/experiments/manager.php:325
+#: core/experiments/manager.php:338
 #: core/settings/editor-preferences/model.php:132
-#: includes/base/widget-base.php:268 includes/controls/animation.php:152
+#: includes/base/widget-base.php:281 includes/controls/animation.php:152
 #: includes/controls/font.php:66 includes/controls/groups/background.php:715
 #: includes/controls/groups/background.php:734
-#: includes/controls/groups/typography.php:132
-#: includes/controls/groups/typography.php:151
-#: includes/controls/groups/typography.php:164
-#: includes/controls/groups/typography.php:176
+#: includes/controls/groups/typography.php:145
+#: includes/controls/groups/typography.php:156
+#: includes/controls/groups/typography.php:169
+#: includes/controls/groups/typography.php:181
 #: includes/editor-templates/panel.php:213 includes/elements/column.php:187
 #: includes/elements/column.php:215 includes/elements/column.php:255
-#: includes/elements/section.php:284 includes/elements/section.php:335
-#: includes/elements/section.php:384 includes/elements/section.php:448
-#: includes/elements/section.php:476 includes/elements/section.php:512
-#: includes/settings/settings.php:588 includes/widgets/button.php:123
-#: includes/widgets/common.php:1244 includes/widgets/common.php:1344
+#: includes/elements/container.php:428 includes/elements/container.php:451
+#: includes/elements/container.php:1214 includes/elements/section.php:284
+#: includes/elements/section.php:335 includes/elements/section.php:384
+#: includes/elements/section.php:448 includes/elements/section.php:476
+#: includes/elements/section.php:512 includes/settings/settings.php:565
+#: includes/widgets/common.php:221 includes/widgets/common.php:349
 #: includes/widgets/divider.php:793 includes/widgets/heading.php:143
 #: includes/widgets/icon-box.php:111 includes/widgets/icon-list.php:100
 #: includes/widgets/icon.php:126 includes/widgets/image-carousel.php:122
 #: includes/widgets/image-carousel.php:139
-#: includes/widgets/image-carousel.php:211
-#: includes/widgets/image-carousel.php:557
+#: includes/widgets/image-carousel.php:214
+#: includes/widgets/image-carousel.php:584
 #: includes/widgets/image-gallery.php:146
 #: includes/widgets/image-gallery.php:162
 #: includes/widgets/image-gallery.php:194 includes/widgets/image.php:223
 #: includes/widgets/image.php:362 includes/widgets/progress.php:113
 #: includes/widgets/text-editor.php:131 includes/widgets/text-editor.php:266
+#: includes/widgets/traits/button-trait.php:74
 #: modules/page-templates/module.php:296
-#: modules/shapes/widgets/text-path.php:187 assets/js/editor.js:37242
-#: assets/js/editor.js:37254
+#: modules/shapes/widgets/text-path.php:187 assets/js/editor.js:40593
+#: assets/js/editor.js:40605
 msgid "Default"
 msgstr "Προεπιλογή"
 
 #: includes/controls/dimensions.php:88 includes/elements/column.php:188
+#: includes/elements/container.php:990 includes/elements/container.php:1344
 #: includes/elements/section.php:426 includes/elements/section.php:449
-#: includes/elements/section.php:949 includes/widgets/common.php:792
-#: includes/widgets/common.php:1468 includes/widgets/icon-box.php:193
-#: includes/widgets/icon-box.php:496 includes/widgets/image-box.php:170
-#: includes/widgets/image-box.php:430 includes/widgets/testimonial.php:172
-#: includes/widgets/video.php:800
+#: includes/elements/section.php:952 includes/widgets/common.php:474
+#: includes/widgets/common.php:1151 includes/widgets/icon-box.php:193
+#: includes/widgets/icon-box.php:516 includes/widgets/image-box.php:170
+#: includes/widgets/image-box.php:440 includes/widgets/testimonial.php:172
+#: includes/widgets/video.php:802
 msgid "Top"
 msgstr "Κορυφή"
 
 #: includes/controls/dimensions.php:90 includes/elements/column.php:190
+#: includes/elements/container.php:991 includes/elements/container.php:1348
 #: includes/elements/section.php:428 includes/elements/section.php:451
-#: includes/elements/section.php:950 includes/widgets/common.php:800
-#: includes/widgets/common.php:1472 includes/widgets/icon-box.php:498
-#: includes/widgets/image-box.php:432
+#: includes/elements/section.php:953 includes/widgets/common.php:478
+#: includes/widgets/common.php:1159 includes/widgets/icon-box.php:518
+#: includes/widgets/image-box.php:442
 msgid "Bottom"
 msgstr "Κάτω"
 
@@ -3468,63 +3478,66 @@ msgctxt "Background Control"
 msgid "Image"
 msgstr "Εικόνα"
 
-#: includes/controls/groups/background.php:225
-#: includes/controls/groups/background.php:267
-msgctxt "Background Control"
-msgid "Position"
-msgstr "Θέση"
-
-#: includes/controls/dimensions.php:89 includes/elements/column.php:698
-#: includes/elements/section.php:1155 includes/widgets/button.php:176
-#: includes/widgets/common.php:772 includes/widgets/common.php:1353
-#: includes/widgets/common.php:1354 includes/widgets/divider.php:460
+#: includes/controls/dimensions.php:89 includes/elements/column.php:701
+#: includes/elements/container.php:1227 includes/elements/section.php:1158
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1131 includes/widgets/divider.php:460
 #: includes/widgets/divider.php:748 includes/widgets/divider.php:888
 #: includes/widgets/heading.php:188 includes/widgets/icon-box.php:197
-#: includes/widgets/icon-box.php:476 includes/widgets/icon-list.php:250
+#: includes/widgets/icon-box.php:496 includes/widgets/icon-list.php:250
 #: includes/widgets/icon-list.php:461 includes/widgets/icon.php:179
-#: includes/widgets/image-box.php:174 includes/widgets/image-box.php:410
-#: includes/widgets/image-carousel.php:368
-#: includes/widgets/image-carousel.php:639
+#: includes/widgets/image-box.php:174 includes/widgets/image-box.php:420
+#: includes/widgets/image-carousel.php:380
+#: includes/widgets/image-carousel.php:666
 #: includes/widgets/image-gallery.php:291 includes/widgets/image.php:146
 #: includes/widgets/image.php:539 includes/widgets/social-icons.php:309
 #: includes/widgets/star-rating.php:182 includes/widgets/tabs.php:380
 #: includes/widgets/testimonial.php:198 includes/widgets/text-editor.php:200
+#: includes/widgets/traits/button-trait.php:130
 #: modules/shapes/widgets/text-path.php:169
 msgid "Right"
 msgstr "Δεξιά"
 
-#: includes/controls/dimensions.php:91 includes/elements/column.php:690
-#: includes/elements/section.php:1147 includes/widgets/button.php:168
-#: includes/widgets/common.php:764 includes/widgets/common.php:1353
-#: includes/widgets/common.php:1354 includes/widgets/divider.php:452
+#: includes/controls/dimensions.php:91 includes/elements/column.php:693
+#: includes/elements/container.php:1226 includes/elements/section.php:1150
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1123 includes/widgets/divider.php:452
 #: includes/widgets/divider.php:740 includes/widgets/divider.php:880
 #: includes/widgets/heading.php:180 includes/widgets/icon-box.php:189
-#: includes/widgets/icon-box.php:468 includes/widgets/icon-list.php:242
+#: includes/widgets/icon-box.php:488 includes/widgets/icon-list.php:242
 #: includes/widgets/icon-list.php:453 includes/widgets/icon.php:171
-#: includes/widgets/image-box.php:166 includes/widgets/image-box.php:402
-#: includes/widgets/image-carousel.php:367
-#: includes/widgets/image-carousel.php:631
+#: includes/widgets/image-box.php:166 includes/widgets/image-box.php:412
+#: includes/widgets/image-carousel.php:379
+#: includes/widgets/image-carousel.php:658
 #: includes/widgets/image-gallery.php:283 includes/widgets/image.php:138
 #: includes/widgets/image.php:531 includes/widgets/social-icons.php:301
 #: includes/widgets/star-rating.php:174 includes/widgets/tabs.php:372
 #: includes/widgets/testimonial.php:190 includes/widgets/text-editor.php:192
+#: includes/widgets/traits/button-trait.php:122
 #: modules/shapes/widgets/text-path.php:161
 msgid "Left"
 msgstr "Αριστερά"
 
 #: core/kits/documents/tabs/theme-style-typography.php:116
-#: includes/widgets/audio.php:103 includes/widgets/button.php:149
+#: includes/elements/container.php:466 includes/widgets/audio.php:103
 #: includes/widgets/heading.php:124 includes/widgets/icon-box.php:171
 #: includes/widgets/icon-list.php:147 includes/widgets/icon.php:155
 #: includes/widgets/image-box.php:148 includes/widgets/image-carousel.php:180
 #: includes/widgets/image-carousel.php:194
 #: includes/widgets/image-gallery.php:128 includes/widgets/image.php:189
 #: includes/widgets/image.php:203 includes/widgets/social-icons.php:170
-#: includes/widgets/testimonial.php:155 includes/widgets/video.php:126
+#: includes/widgets/testimonial.php:155
+#: includes/widgets/traits/button-trait.php:102 includes/widgets/video.php:126
 #: includes/widgets/video.php:148 includes/widgets/video.php:169
 #: modules/shapes/widgets/text-path.php:142
 msgid "Link"
 msgstr "Σύνδεσμος"
+
+#: includes/controls/groups/background.php:225
+#: includes/controls/groups/background.php:267
+msgctxt "Background Control"
+msgid "Position"
+msgstr "Θέση"
 
 #: includes/controls/groups/background.php:229
 #: includes/controls/groups/background.php:274
@@ -3578,11 +3591,12 @@ msgstr "Τύπος Περιγράμματος"
 #: core/kits/documents/tabs/settings-lightbox.php:99
 #: core/kits/documents/tabs/settings-lightbox.php:116
 #: includes/controls/animation.php:153 includes/controls/groups/border.php:63
-#: includes/controls/hover-animation.php:125 includes/controls/icons.php:108
-#: includes/controls/icons.php:110 includes/elements/section.php:941
-#: includes/widgets/divider.php:479 includes/widgets/image-carousel.php:171
+#: includes/controls/hover-animation.php:125 includes/controls/icons.php:106
+#: includes/controls/icons.php:190 includes/elements/container.php:982
+#: includes/elements/section.php:944 includes/widgets/divider.php:479
+#: includes/widgets/image-carousel.php:171
 #: includes/widgets/image-carousel.php:184
-#: includes/widgets/image-carousel.php:228
+#: includes/widgets/image-carousel.php:231
 #: includes/widgets/image-gallery.php:134 includes/widgets/image.php:162
 #: includes/widgets/image.php:193
 msgid "None"
@@ -3615,6 +3629,29 @@ msgctxt "Border Control"
 msgid "Color"
 msgstr "Χρώμα"
 
+#: core/kits/documents/tabs/theme-style-buttons.php:92
+#: core/kits/documents/tabs/theme-style-form-fields.php:119
+#: core/kits/documents/tabs/theme-style-images.php:63
+#: core/kits/documents/tabs/theme-style-typography.php:126
+#: includes/controls/groups/typography.php:146 includes/elements/column.php:283
+#: includes/elements/column.php:360 includes/elements/column.php:409
+#: includes/elements/column.php:515 includes/elements/column.php:847
+#: includes/elements/container.php:551 includes/elements/container.php:636
+#: includes/elements/container.php:708 includes/elements/container.php:850
+#: includes/elements/container.php:1511 includes/elements/section.php:563
+#: includes/elements/section.php:636 includes/elements/section.php:700
+#: includes/elements/section.php:822 includes/elements/section.php:1283
+#: includes/widgets/common.php:639 includes/widgets/common.php:688
+#: includes/widgets/common.php:1192 includes/widgets/common.php:1266
+#: includes/widgets/google-maps.php:209 includes/widgets/heading.php:269
+#: includes/widgets/icon-box.php:260 includes/widgets/icon.php:205
+#: includes/widgets/image-box.php:307 includes/widgets/image.php:386
+#: includes/widgets/traits/button-trait.php:264
+#: modules/shapes/widgets/text-path.php:403
+#: modules/shapes/widgets/text-path.php:501
+msgid "Normal"
+msgstr "Κανονικό"
+
 #: includes/widgets/image-carousel.php:135
 msgid "Slides to Scroll"
 msgstr "Διαφάνειες προς Κύλιση "
@@ -3622,25 +3659,6 @@ msgstr "Διαφάνειες προς Κύλιση "
 #: includes/widgets/image-carousel.php:119
 msgid "Slides to Show"
 msgstr "Διαφάνειες προς Εμφάνιση"
-
-#: core/kits/documents/tabs/theme-style-buttons.php:92
-#: core/kits/documents/tabs/theme-style-form-fields.php:119
-#: core/kits/documents/tabs/theme-style-images.php:63
-#: core/kits/documents/tabs/theme-style-typography.php:126
-#: includes/elements/column.php:283 includes/elements/column.php:360
-#: includes/elements/column.php:409 includes/elements/column.php:512
-#: includes/elements/column.php:844 includes/elements/section.php:563
-#: includes/elements/section.php:636 includes/elements/section.php:700
-#: includes/elements/section.php:819 includes/elements/section.php:1280
-#: includes/widgets/button.php:308 includes/widgets/common.php:282
-#: includes/widgets/common.php:329 includes/widgets/common.php:826
-#: includes/widgets/common.php:893 includes/widgets/google-maps.php:209
-#: includes/widgets/heading.php:269 includes/widgets/icon-box.php:261
-#: includes/widgets/icon.php:205 includes/widgets/image-box.php:297
-#: includes/widgets/image.php:386 modules/shapes/widgets/text-path.php:403
-#: modules/shapes/widgets/text-path.php:501
-msgid "Normal"
-msgstr "Κανονικό"
 
 #: includes/controls/groups/typography.php:113
 msgctxt "Typography Control"
@@ -3652,12 +3670,12 @@ msgctxt "Typography Control"
 msgid "Family"
 msgstr "Οικογένεια"
 
-#: includes/controls/groups/typography.php:140
+#: includes/controls/groups/typography.php:132
 msgctxt "Typography Control"
 msgid "Weight"
 msgstr "Βάρος"
 
-#: includes/controls/groups/typography.php:147
+#: includes/controls/groups/typography.php:152
 msgctxt "Typography Control"
 msgid "Transform"
 msgstr "Μεταμόρφωση"
@@ -3669,9 +3687,9 @@ msgstr "Προσθήκη Στοιχείου"
 #: core/kits/views/trash-kit-confirmation.php:30
 #: includes/editor-templates/hotkeys.php:60
 #: includes/editor-templates/templates.php:185
-#: assets/js/editor-document.js:14850 assets/js/editor.js:11259
-#: assets/js/editor.js:15592 assets/js/editor.js:19015
-#: assets/js/editor.js:20683 assets/js/editor.js:39814
+#: assets/js/editor-document.js:14844 assets/js/editor.js:11262
+#: assets/js/editor.js:14654 assets/js/editor.js:23385
+#: assets/js/editor.js:25078 assets/js/editor.js:43176
 msgid "Delete"
 msgstr "Διαγραφή"
 
@@ -3679,12 +3697,12 @@ msgstr "Διαγραφή"
 msgid "Select Icon"
 msgstr "Επιλογή Εικονιδίου"
 
-#: includes/controls/groups/typography.php:326
+#: includes/controls/groups/typography.php:331
 msgctxt "Typography Control"
 msgid "Typography"
 msgstr "Τυπογραφία"
 
-#: includes/controls/groups/typography.php:185
+#: includes/controls/groups/typography.php:190
 msgctxt "Typography Control"
 msgid "Line-Height"
 msgstr "Ύψος-Γραμμής"
@@ -3721,6 +3739,7 @@ msgstr "Παλέτα Χρωμάτων"
 #: core/schemes/base-ui.php:119 includes/controls/image-dimensions.php:102
 #: includes/editor-templates/panel.php:151
 #: modules/history/views/revisions-panel-template.php:18
+#: assets/js/editor.js:11004
 msgid "Apply"
 msgstr "Εφαρμογή"
 
@@ -3734,7 +3753,7 @@ msgstr "Απόρριψη"
 msgid "Reset"
 msgstr "Επαναφορά"
 
-#: includes/editor-templates/templates.php:172 assets/js/editor.js:25476
+#: includes/editor-templates/templates.php:172 assets/js/editor.js:30502
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
@@ -3747,9 +3766,9 @@ msgstr "Προεπισκόπηση"
 #: core/kits/documents/tabs/theme-style-typography.php:145
 #: core/kits/documents/tabs/theme-style-typography.php:175
 #: core/kits/documents/tabs/theme-style-typography.php:221
-#: core/schemes/typography.php:64 includes/elements/column.php:628
-#: includes/elements/section.php:1086 assets/js/editor-modules.js:2605
-#: assets/js/editor.js:32225
+#: core/schemes/typography.php:64 includes/elements/column.php:631
+#: includes/elements/section.php:1089 assets/js/editor-modules.js:2605
+#: assets/js/editor.js:37803
 msgid "Typography"
 msgstr "Τυπογραφία"
 
@@ -3758,7 +3777,7 @@ msgid "Column"
 msgstr "Στήλη"
 
 #: includes/elements/section.php:78 modules/library/documents/section.php:43
-#: assets/js/editor.js:11107
+#: assets/js/container-converter.js:942 assets/js/editor.js:11109
 msgid "Section"
 msgstr "Ενότητα"
 
@@ -3768,12 +3787,12 @@ msgstr "Δομή"
 
 #: includes/managers/controls.php:299 includes/widgets/accordion.php:110
 #: includes/widgets/accordion.php:444 includes/widgets/alert.php:125
-#: includes/widgets/icon-box.php:456 includes/widgets/image-box.php:132
-#: includes/widgets/image-box.php:390 includes/widgets/tabs.php:112
+#: includes/widgets/icon-box.php:476 includes/widgets/image-box.php:132
+#: includes/widgets/image-box.php:400 includes/widgets/tabs.php:112
 #: includes/widgets/tabs.php:396 includes/widgets/testimonial.php:95
 #: includes/widgets/testimonial.php:224 includes/widgets/toggle.php:111
-#: includes/widgets/toggle.php:463 assets/js/app-packages.js:9684
-#: assets/js/app.js:9794 assets/js/editor.js:26114
+#: includes/widgets/toggle.php:463 assets/js/app.js:13309
+#: assets/js/app.js:13888 assets/js/editor.js:31142
 msgid "Content"
 msgstr "Περιεχόμενο"
 
@@ -3783,17 +3802,20 @@ msgid "Columns"
 msgstr "Στήλες"
 
 #: core/kits/documents/tabs/settings-layout.php:55
-#: includes/elements/section.php:245 includes/widgets/video.php:776
+#: includes/elements/container.php:309 includes/elements/section.php:245
+#: includes/widgets/video.php:778
 msgid "Content Width"
 msgstr "Πλάτος Περιεχομένου"
 
-#: includes/elements/section.php:250 includes/widgets/common.php:1245
-#: includes/widgets/icon-list.php:195
+#: includes/elements/container.php:314 includes/elements/section.php:250
+#: includes/widgets/common.php:222 includes/widgets/icon-list.php:195
 msgid "Full Width"
 msgstr "Πλήρες Πλάτος"
 
-#: includes/controls/image-dimensions.php:95 includes/elements/section.php:259
-#: includes/elements/section.php:989 includes/widgets/common.php:1240
+#: includes/controls/image-dimensions.php:95
+#: includes/elements/container.php:328 includes/elements/container.php:1030
+#: includes/elements/section.php:259 includes/elements/section.php:992
+#: includes/widgets/common.php:217 includes/widgets/common.php:239
 #: includes/widgets/divider.php:421 includes/widgets/icon-list.php:321
 #: includes/widgets/image-box.php:248 includes/widgets/image.php:255
 #: modules/shapes/widgets/text-path.php:540
@@ -3802,9 +3824,10 @@ msgid "Width"
 msgstr "Πλάτος"
 
 #: core/kits/documents/tabs/settings-layout.php:24
-#: includes/elements/column.php:113 includes/elements/section.php:227
-#: includes/managers/controls.php:303 includes/widgets/icon-list.php:95
-#: assets/js/editor.js:26123
+#: includes/elements/column.php:113 includes/elements/container.php:1147
+#: includes/elements/section.php:227 includes/managers/controls.php:303
+#: includes/widgets/common.php:172 includes/widgets/icon-list.php:95
+#: assets/js/editor.js:31151
 msgid "Layout"
 msgstr "Δομή"
 
@@ -3812,54 +3835,54 @@ msgstr "Δομή"
 msgid "Column Width"
 msgstr "Πλάτος Στήλης"
 
-#: includes/elements/column.php:785 includes/elements/section.php:1241
-#: includes/widgets/common.php:244
+#: includes/elements/column.php:788 includes/elements/container.php:1465
+#: includes/elements/section.php:1244 includes/widgets/common.php:594
 msgid "CSS Classes"
 msgstr "Κλάσεις CSS"
 
-#: includes/elements/column.php:686 includes/elements/section.php:1143
-msgid "Text Align"
-msgstr "Στοίχιση Κειμένου"
-
-#: includes/elements/column.php:637 includes/elements/section.php:1094
-msgid "Heading Color"
-msgstr "Χρώμα Κεφαλίδας"
-
-#: includes/widgets/image-carousel.php:164
-#: includes/widgets/image-carousel.php:378
-msgid "Navigation"
-msgstr "Πλοήγηση"
-
-#: includes/elements/section.php:1336
-msgid "Visibility"
-msgstr "Ορατότητα"
-
-#: includes/widgets/video.php:795
-msgid "Content Position"
-msgstr "Θέση Περιεχομένου"
-
-#: includes/elements/column.php:217 includes/elements/column.php:694
-#: includes/elements/section.php:1151 includes/widgets/button.php:172
-#: includes/widgets/common.php:768 includes/widgets/common.php:796
-#: includes/widgets/common.php:1300 includes/widgets/divider.php:456
-#: includes/widgets/divider.php:744 includes/widgets/divider.php:884
-#: includes/widgets/heading.php:184 includes/widgets/icon-box.php:472
-#: includes/widgets/icon-list.php:246 includes/widgets/icon-list.php:457
-#: includes/widgets/icon.php:175 includes/widgets/image-box.php:406
-#: includes/widgets/image-carousel.php:534
-#: includes/widgets/image-carousel.php:635
+#: includes/elements/column.php:217 includes/elements/column.php:697
+#: includes/elements/section.php:1154 includes/widgets/common.php:314
+#: includes/widgets/common.php:1127 includes/widgets/common.php:1155
+#: includes/widgets/divider.php:456 includes/widgets/divider.php:744
+#: includes/widgets/divider.php:884 includes/widgets/heading.php:184
+#: includes/widgets/icon-box.php:492 includes/widgets/icon-list.php:246
+#: includes/widgets/icon-list.php:457 includes/widgets/icon.php:175
+#: includes/widgets/image-box.php:416 includes/widgets/image-carousel.php:561
+#: includes/widgets/image-carousel.php:662
 #: includes/widgets/image-gallery.php:287 includes/widgets/image.php:142
 #: includes/widgets/image.php:535 includes/widgets/social-icons.php:305
 #: includes/widgets/star-rating.php:178 includes/widgets/tabs.php:175
 #: includes/widgets/tabs.php:205 includes/widgets/tabs.php:376
 #: includes/widgets/testimonial.php:194 includes/widgets/text-editor.php:196
-#: includes/widgets/video.php:799 modules/shapes/widgets/text-path.php:165
+#: includes/widgets/traits/button-trait.php:126 includes/widgets/video.php:801
+#: modules/shapes/widgets/text-path.php:165
 msgid "Center"
 msgstr "Κέντρο"
 
+#: includes/elements/column.php:689 includes/elements/section.php:1146
+msgid "Text Align"
+msgstr "Στοίχιση Κειμένου"
+
+#: includes/elements/column.php:640 includes/elements/section.php:1097
+msgid "Heading Color"
+msgstr "Χρώμα Κεφαλίδας"
+
+#: includes/widgets/image-carousel.php:164
+#: includes/widgets/image-carousel.php:390
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: includes/elements/container.php:1557 includes/elements/section.php:1339
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+#: includes/widgets/video.php:797
+msgid "Content Position"
+msgstr "Θέση Περιεχομένου"
+
 #: includes/elements/column.php:189 includes/elements/section.php:427
-#: includes/elements/section.php:450 includes/widgets/icon-box.php:497
-#: includes/widgets/image-box.php:431
+#: includes/elements/section.php:450 includes/widgets/icon-box.php:517
+#: includes/widgets/image-box.php:441
 msgid "Middle"
 msgstr "Κέντρο"
 
@@ -3871,22 +3894,24 @@ msgstr "Θέση Στήλης"
 msgid "Minimum Height"
 msgstr "Ελάχιστο Ύψος"
 
-#: includes/elements/section.php:337 includes/elements/section.php:386
+#: includes/elements/container.php:397 includes/elements/section.php:337
+#: includes/elements/section.php:386
 msgid "Min Height"
 msgstr "Ελάχιστο Ύψος"
 
-#: includes/controls/image-dimensions.php:100 includes/elements/section.php:331
-#: includes/elements/section.php:380 includes/elements/section.php:1018
+#: includes/controls/image-dimensions.php:100
+#: includes/elements/container.php:1059 includes/elements/section.php:331
+#: includes/elements/section.php:380 includes/elements/section.php:1021
 #: includes/widgets/google-maps.php:167 includes/widgets/icon-list.php:339
 #: includes/widgets/image.php:325 includes/widgets/progress.php:211
 msgid "Height"
 msgstr "Ύψος"
 
-#: core/role-manager/role-manager.php:64
+#: core/role-manager/role-manager.php:65
 msgid "Exclude Roles"
 msgstr "Αποκλεισμός Ρόλων"
 
-#: includes/settings/settings.php:459
+#: includes/settings/settings.php:460
 msgid "Post Types"
 msgstr "Τύποι Άρθρων"
 
@@ -3901,9 +3926,10 @@ msgstr "Πρωτεύων"
 
 #: core/kits/documents/tabs/global-colors.php:88
 #: core/kits/documents/tabs/global-typography.php:137 core/schemes/color.php:97
-#: includes/widgets/button.php:136 includes/widgets/divider.php:483
-#: includes/widgets/divider.php:510 includes/widgets/divider.php:700
-#: includes/widgets/icon-list.php:120 includes/widgets/icon-list.php:482
+#: includes/widgets/divider.php:483 includes/widgets/divider.php:510
+#: includes/widgets/divider.php:700 includes/widgets/icon-list.php:120
+#: includes/widgets/icon-list.php:482
+#: includes/widgets/traits/button-trait.php:59
 #: modules/shapes/widgets/text-path.php:94
 #: modules/shapes/widgets/text-path.php:302
 msgid "Text"
@@ -3948,16 +3974,16 @@ msgstr "Στοιχεία Καρτελών"
 msgid "Tabs"
 msgstr "Καρτέλες"
 
-#: includes/widgets/image-carousel.php:306
+#: includes/widgets/image-carousel.php:318
 msgid "Autoplay Speed"
 msgstr "Ταχύτητα Αυτόματης Αναπαραγωγής"
 
 #: includes/widgets/image-carousel.php:169
-#: includes/widgets/image-carousel.php:389
+#: includes/widgets/image-carousel.php:401
 msgid "Arrows"
 msgstr "Βέλη"
 
-#: includes/widgets/image-carousel.php:339
+#: includes/widgets/image-carousel.php:351
 msgid "Slide"
 msgstr "Διαφάνεια"
 
@@ -3973,7 +3999,7 @@ msgstr "Δεν βρέθηκαν Πλευρικές Στήλες"
 msgid "Image Position"
 msgstr "Θέση Εικόνας"
 
-#: includes/widgets/image-carousel.php:570
+#: includes/widgets/image-carousel.php:597
 #: includes/widgets/image-gallery.php:208
 msgid "Image Spacing"
 msgstr "Αποστάσεις Εικόνας"
@@ -3982,22 +4008,22 @@ msgstr "Αποστάσεις Εικόνας"
 msgid "Image Size"
 msgstr "Μέγεθος Εικόνας"
 
-#: includes/widgets/common.php:336 includes/widgets/common.php:348
-#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:410
+#: includes/widgets/common.php:695 includes/widgets/common.php:707
+#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:421
 #: includes/widgets/icon.php:336 modules/shapes/widgets/text-path.php:271
 msgid "Rotate"
 msgstr "Περιστροφή"
 
-#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:284
-#: includes/widgets/icon-box.php:322 includes/widgets/icon.php:229
+#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:283
+#: includes/widgets/icon-box.php:321 includes/widgets/icon.php:229
 #: includes/widgets/icon.php:269 includes/widgets/social-icons.php:212
 #: includes/widgets/social-icons.php:370 includes/widgets/social-icons.php:508
 #: includes/widgets/text-editor.php:293
 msgid "Secondary Color"
 msgstr "Δευτερεύον Χρώμα"
 
-#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:268
-#: includes/widgets/icon-box.php:309 includes/widgets/icon.php:212
+#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:267
+#: includes/widgets/icon-box.php:308 includes/widgets/icon.php:212
 #: includes/widgets/icon.php:255 includes/widgets/social-icons.php:198
 #: includes/widgets/social-icons.php:356 includes/widgets/social-icons.php:493
 #: includes/widgets/text-editor.php:278
@@ -4015,7 +4041,7 @@ msgstr "Τετράγωνο"
 msgid "Circle"
 msgstr "Κύκλος"
 
-#: includes/widgets/common.php:1006 includes/widgets/icon-box.php:123
+#: includes/widgets/common.php:1389 includes/widgets/icon-box.php:123
 #: includes/widgets/icon.php:138 includes/widgets/social-icons.php:257
 msgid "Shape"
 msgstr "Σχήμα"
@@ -4087,7 +4113,7 @@ msgstr "Αριθμός Έναρξης"
 msgid "Counter"
 msgstr "Μετρητής"
 
-#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:257
+#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:269
 #: includes/widgets/video.php:277
 msgid "Autoplay"
 msgstr "Αυτόματη Αναπαραγωγή"
@@ -4098,49 +4124,32 @@ msgstr "Αυτόματη Αναπαραγωγή"
 msgid "Choose Image"
 msgstr "Επιλέξτε Εικόνα"
 
-#: includes/widgets/common.php:1019 includes/widgets/image-box.php:217
-#: includes/widgets/image-carousel.php:518 includes/widgets/image.php:45
+#: includes/widgets/common.php:1403 includes/widgets/image-box.php:217
+#: includes/widgets/image-carousel.php:545 includes/widgets/image.php:45
 #: includes/widgets/image.php:104 includes/widgets/image.php:247
 #: includes/widgets/testimonial.php:269
 msgid "Image"
 msgstr "Εικόνα"
 
-#: includes/elements/column.php:502 includes/elements/section.php:809
-#: includes/widgets/common.php:883
+#: includes/elements/column.php:505 includes/elements/container.php:837
+#: includes/elements/section.php:812 includes/widgets/common.php:1256
 msgid "Border"
 msgstr "Πλαίσιο"
 
-#: core/dynamic-tags/tag.php:102 includes/widgets/button.php:219
+#: core/dynamic-tags/tag.php:102 includes/widgets/traits/button-trait.php:177
 msgid "After"
 msgstr "Μετά"
 
-#: core/dynamic-tags/tag.php:95 includes/widgets/button.php:218
+#: core/dynamic-tags/tag.php:95 includes/widgets/traits/button-trait.php:176
 msgid "Before"
 msgstr "Πριν"
-
-#: core/kits/documents/tabs/theme-style-buttons.php:153
-#: core/kits/documents/tabs/theme-style-buttons.php:228
-#: core/kits/documents/tabs/theme-style-form-fields.php:222
-#: core/kits/documents/tabs/theme-style-images.php:83
-#: core/kits/documents/tabs/theme-style-images.php:154
-#: includes/elements/column.php:527 includes/elements/column.php:564
-#: includes/elements/section.php:833 includes/elements/section.php:869
-#: includes/widgets/button.php:420 includes/widgets/common.php:908
-#: includes/widgets/common.php:945 includes/widgets/divider.php:953
-#: includes/widgets/icon-box.php:439 includes/widgets/icon.php:372
-#: includes/widgets/image-box.php:276 includes/widgets/image-carousel.php:602
-#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
-#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
-#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
-msgid "Border Radius"
-msgstr "Καμπύλη γωνίας πλαισίου"
 
 #: core/kits/documents/tabs/settings-lightbox.php:103
 #: core/kits/documents/tabs/settings-lightbox.php:113
 #: core/kits/documents/tabs/settings-lightbox.php:120
-#: includes/compatibility.php:176 includes/widgets/alert.php:253
-#: includes/widgets/icon-box.php:576 includes/widgets/image-box.php:502
-#: includes/widgets/image-carousel.php:231
+#: includes/compatibility.php:151 includes/widgets/alert.php:253
+#: includes/widgets/icon-box.php:596 includes/widgets/image-box.php:512
+#: includes/widgets/image-carousel.php:234
 msgid "Description"
 msgstr "Περιγραφή"
 
@@ -4165,6 +4174,42 @@ msgstr "Χρώμα Φόντου"
 msgid "Hide"
 msgstr "Απόκρυψη"
 
+#: core/kits/documents/tabs/theme-style-buttons.php:153
+#: core/kits/documents/tabs/theme-style-buttons.php:228
+#: core/kits/documents/tabs/theme-style-form-fields.php:222
+#: core/kits/documents/tabs/theme-style-images.php:83
+#: core/kits/documents/tabs/theme-style-images.php:154
+#: includes/elements/column.php:530 includes/elements/column.php:567
+#: includes/elements/container.php:864 includes/elements/container.php:903
+#: includes/elements/section.php:836 includes/elements/section.php:872
+#: includes/widgets/common.php:1281 includes/widgets/common.php:1318
+#: includes/widgets/divider.php:953 includes/widgets/icon-box.php:459
+#: includes/widgets/icon.php:372 includes/widgets/image-box.php:285
+#: includes/widgets/image-carousel.php:629
+#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
+#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
+#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
+#: includes/widgets/traits/button-trait.php:385
+msgid "Border Radius"
+msgstr "Καμπύλη γωνίας πλαισίου"
+
+#: core/base/document.php:1581
+#: core/kits/documents/tabs/settings-lightbox.php:96
+#: core/kits/documents/tabs/settings-lightbox.php:100
+#: core/kits/documents/tabs/settings-lightbox.php:117
+#: includes/elements/column.php:122 includes/elements/section.php:236
+#: includes/widgets/accordion.php:279 includes/widgets/alert.php:213
+#: includes/widgets/common.php:181 includes/widgets/counter.php:197
+#: includes/widgets/counter.php:265 includes/widgets/heading.php:104
+#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
+#: includes/widgets/icon-box.php:528 includes/widgets/image-box.php:452
+#: includes/widgets/image-carousel.php:232 includes/widgets/progress.php:95
+#: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
+#: includes/widgets/tabs.php:303 includes/widgets/testimonial.php:143
+#: includes/widgets/testimonial.php:367 includes/widgets/toggle.php:306
+msgid "Title"
+msgstr "Τίτλος"
+
 #: includes/widgets/alert.php:144 includes/widgets/audio.php:155
 #: includes/widgets/audio.php:166 includes/widgets/audio.php:177
 #: includes/widgets/audio.php:188 includes/widgets/audio.php:202
@@ -4178,23 +4223,6 @@ msgstr "Απόκρυψη"
 msgid "Show"
 msgstr "Εμφάνιση"
 
-#: core/base/document.php:1545
-#: core/kits/documents/tabs/settings-lightbox.php:96
-#: core/kits/documents/tabs/settings-lightbox.php:100
-#: core/kits/documents/tabs/settings-lightbox.php:117
-#: includes/elements/column.php:122 includes/elements/section.php:236
-#: includes/widgets/accordion.php:279 includes/widgets/alert.php:213
-#: includes/widgets/common.php:184 includes/widgets/counter.php:197
-#: includes/widgets/counter.php:265 includes/widgets/heading.php:104
-#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
-#: includes/widgets/icon-box.php:508 includes/widgets/image-box.php:442
-#: includes/widgets/image-carousel.php:229 includes/widgets/progress.php:95
-#: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
-#: includes/widgets/tabs.php:303 includes/widgets/testimonial.php:143
-#: includes/widgets/testimonial.php:367 includes/widgets/toggle.php:306
-msgid "Title"
-msgstr "Τίτλος"
-
 #: includes/widgets/alert.php:140
 msgid "Dismiss Button"
 msgstr "Κουμπί Απελευθέρωσης"
@@ -4205,13 +4233,13 @@ msgstr "Κουμπί Απελευθέρωσης"
 msgid "Title & Description"
 msgstr "Τίτλος & Περιγραφή"
 
-#: includes/widgets/alert.php:102 includes/widgets/button.php:127
-#: includes/widgets/progress.php:117
+#: includes/widgets/alert.php:102 includes/widgets/progress.php:117
+#: includes/widgets/traits/button-trait.php:78
 msgid "Danger"
 msgstr "Κίνδυνος"
 
-#: includes/widgets/alert.php:101 includes/widgets/button.php:126
-#: includes/widgets/progress.php:116
+#: includes/widgets/alert.php:101 includes/widgets/progress.php:116
+#: includes/widgets/traits/button-trait.php:77
 msgid "Warning"
 msgstr "Προειδοποίηση"
 
@@ -4228,24 +4256,24 @@ msgstr "Ακορντεόν"
 msgid "Sure! I'd love to help"
 msgstr "Σίγουρα! Χαρά μου να βοηθήσω"
 
-#: modules/system-info/module.php:195
+#: modules/system-info/module.php:199
 msgid "You don't have permissions to download this file"
 msgstr "Δεν έχετε δικαίωμα στη μεταφόρτωση αυτού το αρχείου"
 
-#: modules/system-info/module.php:177
+#: modules/system-info/module.php:181
 msgid "Download System Info"
 msgstr "Πληροφορίες Συστήματος Μεταφόρτωσης"
 
-#: modules/system-info/module.php:159
+#: modules/system-info/module.php:163
 msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
 msgstr "Μπορείτε να αντιγράψετε τις ακόλουθες πληροφορίες σαν απλό κείμενο με Ctrl+C / Ctrl+V:"
 
-#: modules/system-info/module.php:157
+#: modules/system-info/module.php:161
 msgid "Copy & Paste Info"
 msgstr "Πληροφορίες Αντιγραφής & Επικόλλησης"
 
 #: core/common/modules/finder/categories/general.php:55
-#: modules/system-info/module.php:129 modules/system-info/module.php:155
+#: modules/system-info/module.php:133 modules/system-info/module.php:159
 msgid "System Info"
 msgstr "Πληροφορίες Συστήματος"
 
@@ -4256,42 +4284,42 @@ msgstr "Όνομα"
 
 #: includes/controls/switcher.php:73 includes/managers/icons.php:476
 #: includes/widgets/audio.php:127 includes/widgets/image-carousel.php:155
-#: includes/widgets/image-carousel.php:213
-#: includes/widgets/image-carousel.php:262
-#: includes/widgets/image-carousel.php:276
-#: includes/widgets/image-carousel.php:294
-#: includes/widgets/image-carousel.php:326
+#: includes/widgets/image-carousel.php:216
+#: includes/widgets/image-carousel.php:274
+#: includes/widgets/image-carousel.php:288
+#: includes/widgets/image-carousel.php:306
+#: includes/widgets/image-carousel.php:338
 #: includes/widgets/image-gallery.php:148 includes/widgets/image.php:225
-#: assets/js/editor.js:11003
 msgid "No"
 msgstr "Όχι"
 
 #: core/common/modules/finder/categories/settings.php:55
-#: core/dynamic-tags/tag.php:88 includes/elements/column.php:718
-#: includes/elements/section.php:1175 includes/managers/controls.php:301
-#: includes/settings/settings.php:541 includes/widgets/common.php:175
-#: assets/js/editor.js:10306 assets/js/editor.js:26120
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:721
+#: includes/elements/section.php:1178 includes/managers/controls.php:301
+#: includes/settings/settings.php:518 assets/js/editor.js:10306
+#: assets/js/editor.js:31148
 msgid "Advanced"
 msgstr "Για Προχωρημένους"
 
 #. Plugin Name of the plugin
-#: core/admin/admin.php:224 core/admin/admin.php:336 core/admin/admin.php:394
-#: core/app/view.php:23 core/documents-manager.php:363
-#: core/upgrade/custom-tasks-manager.php:29 core/upgrade/manager.php:36
-#: includes/editor-templates/editor-wrapper.php:30 includes/plugin.php:872
-#: includes/settings/settings.php:75 includes/settings/settings.php:76
-#: includes/settings/settings.php:615 modules/compatibility-tag/module.php:36
-#: assets/js/app-packages.js:2850 assets/js/app.js:3630
+#: core/admin/admin.php:247 core/admin/admin.php:359 core/admin/admin.php:417
+#: core/admin/menu/main.php:17 core/admin/menu/main.php:18 core/app/view.php:23
+#: core/documents-manager.php:363 core/upgrade/custom-tasks-manager.php:29
+#: core/upgrade/manager.php:36 includes/editor-templates/editor-wrapper.php:30
+#: includes/plugin.php:871 includes/settings/settings.php:76
+#: includes/settings/settings.php:77 includes/settings/settings.php:596
+#: modules/compatibility-tag/module.php:36 assets/js/app-packages.js:2632
+#: assets/js/app.js:3788
 msgid "Elementor"
 msgstr "Elementor"
 
-#: includes/elements/section.php:290 includes/maintenance-mode.php:238
-#: includes/widgets/common.php:134 includes/widgets/common.php:1062
-#: includes/widgets/common.php:1123 includes/widgets/common.php:1247
-#: includes/widgets/image-carousel.php:558
+#: core/kits/manager.php:133 includes/elements/section.php:290
+#: includes/maintenance-mode.php:238 includes/widgets/common.php:134
+#: includes/widgets/common.php:224 includes/widgets/common.php:1446
+#: includes/widgets/common.php:1507 includes/widgets/image-carousel.php:585
 #: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:190
 #: includes/widgets/social-icons.php:348 modules/shapes/module.php:29
-#: assets/js/editor.js:37251
+#: assets/js/editor.js:40602
 msgid "Custom"
 msgstr "Προσαρμογή"
 
@@ -4320,20 +4348,21 @@ msgctxt "Background Control"
 msgid "Background Image"
 msgstr "Εικόνα Φόντου"
 
-#: core/breakpoints/manager.php:322
+#: core/breakpoints/manager.php:323
 #: core/settings/editor-preferences/model.php:134
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4289
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4511
 msgid "Tablet"
 msgstr "Tablet"
 
-#: includes/editor-templates/global.php:21
+#: includes/editor-templates/global.php:24
 msgid "Add New Section"
 msgstr "Προσθήκη Νέου Τμήματος"
 
-#: core/admin/admin.php:174 includes/editor-templates/editor-wrapper.php:50
+#: core/admin/admin.php:197 includes/editor-templates/editor-wrapper.php:50
 #: includes/editor-templates/templates.php:50 modules/gutenberg/module.php:121
-#: assets/js/app-packages.js:10691
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:560
+#: assets/js/app-packages.js:6774
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:243
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:53
 msgid "Loading"
 msgstr "Φόρτωση"
 
@@ -4349,7 +4378,7 @@ msgstr "Εσωτερικό Κείμενο"
 msgid "Percentage"
 msgstr "Ποσοστό"
 
-#: includes/widgets/button.php:230
+#: includes/widgets/traits/button-trait.php:186
 msgid "Icon Spacing"
 msgstr "Αποστάσεις Εικονιδίου"
 
@@ -4384,21 +4413,6 @@ msgstr "Άνοιγμα"
 msgid "Divider"
 msgstr "Διαχωριστής"
 
-#: includes/widgets/accordion.php:140 includes/widgets/alert.php:153
-#: includes/widgets/audio.php:251 includes/widgets/button.php:247
-#: includes/widgets/counter.php:211 includes/widgets/divider.php:501
-#: includes/widgets/divider.php:790 includes/widgets/google-maps.php:189
-#: includes/widgets/heading.php:206 includes/widgets/icon-box.php:108
-#: includes/widgets/icon.php:123 includes/widgets/image-box.php:206
-#: includes/widgets/image-carousel.php:239
-#: includes/widgets/image-gallery.php:172 includes/widgets/image.php:236
-#: includes/widgets/progress.php:167 includes/widgets/social-icons.php:324
-#: includes/widgets/spacer.php:133 includes/widgets/tabs.php:143
-#: includes/widgets/testimonial.php:212 includes/widgets/text-editor.php:263
-#: includes/widgets/toggle.php:144 includes/widgets/video.php:533
-msgid "View"
-msgstr "Επισκόπηση"
-
 #: includes/widgets/accordion.php:112
 msgid "Accordion Content"
 msgstr "Περιεχόμενο Ακορντεόν"
@@ -4410,6 +4424,21 @@ msgstr "Τίτλος Ακορντεόν"
 #: includes/widgets/accordion.php:129
 msgid "Accordion #2"
 msgstr "Ακορντεόν #2"
+
+#: includes/widgets/accordion.php:140 includes/widgets/alert.php:153
+#: includes/widgets/audio.php:251 includes/widgets/counter.php:211
+#: includes/widgets/divider.php:501 includes/widgets/divider.php:790
+#: includes/widgets/google-maps.php:189 includes/widgets/heading.php:206
+#: includes/widgets/icon-box.php:108 includes/widgets/icon.php:123
+#: includes/widgets/image-box.php:206 includes/widgets/image-carousel.php:242
+#: includes/widgets/image-gallery.php:172 includes/widgets/image.php:236
+#: includes/widgets/progress.php:167 includes/widgets/social-icons.php:324
+#: includes/widgets/spacer.php:133 includes/widgets/tabs.php:143
+#: includes/widgets/testimonial.php:212 includes/widgets/text-editor.php:263
+#: includes/widgets/toggle.php:144 includes/widgets/traits/button-trait.php:204
+#: includes/widgets/video.php:533
+msgid "View"
+msgstr "Επισκόπηση"
 
 #: includes/widgets/video.php:592 includes/widgets/video.php:658
 msgid "Play Icon"
@@ -4427,22 +4456,22 @@ msgstr "XXL"
 msgid "XL"
 msgstr "XL"
 
-#: includes/widgets/alert.php:100 includes/widgets/button.php:125
-#: includes/widgets/progress.php:115
+#: includes/widgets/alert.php:100 includes/widgets/progress.php:115
+#: includes/widgets/traits/button-trait.php:76
 msgid "Success"
 msgstr "Επιτυχία"
 
-#: includes/widgets/alert.php:99 includes/widgets/button.php:124
-#: includes/widgets/progress.php:114 assets/js/app-packages.js:11132
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3257
+#: includes/widgets/alert.php:99 includes/widgets/progress.php:114
+#: includes/widgets/traits/button-trait.php:75 assets/js/app-packages.js:7215
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3475
 msgid "Info"
 msgstr "Πληροφορίες"
 
 #: includes/editor-templates/templates.php:113
-#: includes/elements/section.php:964
-#: includes/template-library/sources/local.php:1601
-#: includes/widgets/alert.php:95 includes/widgets/button.php:119
-#: includes/widgets/progress.php:109
+#: includes/elements/container.php:1005 includes/elements/section.php:967
+#: includes/template-library/sources/local.php:1609
+#: includes/widgets/alert.php:95 includes/widgets/progress.php:109
+#: includes/widgets/traits/button-trait.php:70
 msgid "Type"
 msgstr "Τύπος"
 
@@ -4452,26 +4481,26 @@ msgid "Alert"
 msgstr "Άμεση Ειδοποίση"
 
 #: includes/widgets/accordion.php:313 includes/widgets/accordion.php:412
-#: includes/widgets/tabs.php:326 includes/widgets/toggle.php:341
-#: includes/widgets/toggle.php:431
+#: includes/widgets/image-carousel.php:529 includes/widgets/tabs.php:326
+#: includes/widgets/toggle.php:341 includes/widgets/toggle.php:431
 msgid "Active Color"
 msgstr "Χρώμα Ενεργού"
 
-#: includes/elements/column.php:702 includes/elements/section.php:1159
-#: includes/widgets/button.php:180 includes/widgets/heading.php:192
-#: includes/widgets/icon-box.php:480 includes/widgets/image-box.php:414
-#: includes/widgets/image-carousel.php:643
+#: includes/elements/column.php:705 includes/elements/section.php:1162
+#: includes/widgets/heading.php:192 includes/widgets/icon-box.php:500
+#: includes/widgets/image-box.php:424 includes/widgets/image-carousel.php:670
 #: includes/widgets/image-gallery.php:295 includes/widgets/image.php:543
 #: includes/widgets/star-rating.php:186 includes/widgets/tabs.php:183
 #: includes/widgets/tabs.php:213 includes/widgets/text-editor.php:204
+#: includes/widgets/traits/button-trait.php:134
 msgid "Justified"
 msgstr "Ισομερώς Στοιχισμένο"
 
-#: includes/elements/column.php:674 includes/elements/section.php:1131
+#: includes/elements/column.php:677 includes/elements/section.php:1134
 msgid "Link Hover Color"
 msgstr "Χρώμα Αγγίγματος Διασύνδεσης"
 
-#: includes/elements/column.php:662 includes/elements/section.php:1119
+#: includes/elements/column.php:665 includes/elements/section.php:1122
 msgid "Link Color"
 msgstr "Χρώμα Διασύνδεσης"
 
@@ -4511,7 +4540,7 @@ msgstr "Εικονίδιο Λίστας"
 msgid "Accordion #1"
 msgstr "Ακορντεόν #1"
 
-#: includes/managers/elements.php:327
+#: includes/managers/elements.php:334
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -4539,19 +4568,20 @@ msgstr "Χωρίς Κενό"
 msgid "Columns Gap"
 msgstr "Κενό Στήλης"
 
-#: includes/elements/section.php:249
+#: includes/elements/container.php:313 includes/elements/section.php:249
 msgid "Boxed"
 msgstr "Boxed"
 
 #: core/document-types/page-base.php:132
 #: core/kits/documents/tabs/theme-style-buttons.php:244
 #: core/kits/documents/tabs/theme-style-form-fields.php:160
-#: includes/elements/column.php:746 includes/elements/section.php:1202
-#: includes/widgets/accordion.php:355 includes/widgets/accordion.php:496
-#: includes/widgets/button.php:440 includes/widgets/common.php:205
-#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:390
+#: includes/elements/column.php:749 includes/elements/container.php:1167
+#: includes/elements/section.php:1205 includes/widgets/accordion.php:355
+#: includes/widgets/accordion.php:496 includes/widgets/common.php:202
+#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:386
 #: includes/widgets/icon.php:316 includes/widgets/social-icons.php:402
 #: includes/widgets/toggle.php:374 includes/widgets/toggle.php:515
+#: includes/widgets/traits/button-trait.php:407
 msgid "Padding"
 msgstr "Περιθώρια"
 
@@ -4561,9 +4591,9 @@ msgstr "Χάρτης"
 
 #: core/kits/documents/tabs/settings-lightbox.php:101
 #: core/kits/documents/tabs/settings-lightbox.php:118
-#: includes/widgets/image-carousel.php:224
-#: includes/widgets/image-carousel.php:230
-#: includes/widgets/image-carousel.php:616
+#: includes/widgets/image-carousel.php:227
+#: includes/widgets/image-carousel.php:233
+#: includes/widgets/image-carousel.php:643
 #: includes/widgets/image-gallery.php:255 includes/widgets/image.php:159
 #: includes/widgets/image.php:516
 msgid "Caption"
@@ -4584,17 +4614,18 @@ msgstr "Τυχαίο"
 msgid "Add Images"
 msgstr "Προσθέστε εικόνες"
 
-#: includes/widgets/accordion.php:380 includes/widgets/button.php:164
-#: includes/widgets/divider.php:448 includes/widgets/heading.php:176
-#: includes/widgets/icon-box.php:464 includes/widgets/icon-list.php:238
-#: includes/widgets/icon-list.php:449 includes/widgets/icon.php:167
-#: includes/widgets/image-box.php:398 includes/widgets/image-carousel.php:627
+#: includes/widgets/accordion.php:380 includes/widgets/divider.php:448
+#: includes/widgets/heading.php:176 includes/widgets/icon-box.php:484
+#: includes/widgets/icon-list.php:238 includes/widgets/icon-list.php:449
+#: includes/widgets/icon.php:167 includes/widgets/image-box.php:408
+#: includes/widgets/image-carousel.php:654
 #: includes/widgets/image-gallery.php:279 includes/widgets/image.php:134
 #: includes/widgets/image.php:527 includes/widgets/social-icons.php:297
 #: includes/widgets/star-rating.php:170 includes/widgets/tabs.php:167
 #: includes/widgets/tabs.php:197 includes/widgets/tabs.php:368
 #: includes/widgets/testimonial.php:185 includes/widgets/text-editor.php:188
-#: includes/widgets/toggle.php:399 modules/shapes/widgets/text-path.php:156
+#: includes/widgets/toggle.php:399 includes/widgets/traits/button-trait.php:118
+#: modules/shapes/widgets/text-path.php:156
 msgid "Alignment"
 msgstr "Στοίχιση"
 
@@ -4603,15 +4634,16 @@ msgstr "Στοίχιση"
 #: core/kits/documents/tabs/theme-style-typography.php:163
 #: core/kits/documents/tabs/theme-style-typography.php:209
 #: includes/controls/box-shadow.php:104 includes/controls/text-shadow.php:97
-#: includes/elements/column.php:417 includes/elements/section.php:708
-#: includes/elements/section.php:975 includes/widgets/accordion.php:298
+#: includes/elements/column.php:417 includes/elements/container.php:716
+#: includes/elements/container.php:1016 includes/elements/section.php:708
+#: includes/elements/section.php:978 includes/widgets/accordion.php:298
 #: includes/widgets/accordion.php:400 includes/widgets/accordion.php:463
 #: includes/widgets/divider.php:576 includes/widgets/divider.php:711
-#: includes/widgets/icon-box.php:534 includes/widgets/icon-box.php:585
+#: includes/widgets/icon-box.php:554 includes/widgets/icon-box.php:605
 #: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
-#: includes/widgets/image-box.php:468 includes/widgets/image-box.php:511
-#: includes/widgets/image-carousel.php:438
-#: includes/widgets/image-carousel.php:502 includes/widgets/progress.php:186
+#: includes/widgets/image-box.php:478 includes/widgets/image-box.php:521
+#: includes/widgets/image-carousel.php:450
+#: includes/widgets/image-carousel.php:514 includes/widgets/progress.php:186
 #: includes/widgets/progress.php:243 includes/widgets/social-icons.php:185
 #: includes/widgets/social-icons.php:343 includes/widgets/star-rating.php:309
 #: includes/widgets/tabs.php:312 includes/widgets/tabs.php:405
@@ -4622,8 +4654,8 @@ msgstr "Στοίχιση"
 #: modules/shapes/widgets/text-path.php:508
 #: modules/shapes/widgets/text-path.php:528
 #: modules/shapes/widgets/text-path.php:574
-#: modules/shapes/widgets/text-path.php:594 assets/js/editor.js:39756
-#: assets/js/editor.js:39802
+#: modules/shapes/widgets/text-path.php:594 assets/js/editor.js:43118
+#: assets/js/editor.js:43164
 msgid "Color"
 msgstr "Χρώμα"
 
@@ -4635,53 +4667,54 @@ msgstr "Βάρος"
 msgid "Attachment Page"
 msgstr "Σελίδα συννημένων"
 
-#: includes/widgets/button.php:214 includes/widgets/icon-box.php:184
+#: includes/widgets/icon-box.php:184
+#: includes/widgets/traits/button-trait.php:172
 msgid "Icon Position"
 msgstr "Θέση εικόνας"
 
 #: includes/widgets/accordion.php:149 includes/widgets/accordion.php:369
-#: includes/widgets/button.php:203 includes/widgets/divider.php:487
-#: includes/widgets/divider.php:548 includes/widgets/divider.php:779
-#: includes/widgets/icon-box.php:95 includes/widgets/icon-box.php:241
-#: includes/widgets/icon-list.php:134 includes/widgets/icon-list.php:388
-#: includes/widgets/icon.php:44 includes/widgets/icon.php:103
-#: includes/widgets/icon.php:110 includes/widgets/icon.php:195
-#: includes/widgets/social-icons.php:94 includes/widgets/social-icons.php:335
-#: includes/widgets/star-rating.php:123 includes/widgets/toggle.php:153
-#: includes/widgets/toggle.php:388
+#: includes/widgets/divider.php:487 includes/widgets/divider.php:548
+#: includes/widgets/divider.php:779 includes/widgets/icon-box.php:95
+#: includes/widgets/icon-box.php:240 includes/widgets/icon-list.php:134
+#: includes/widgets/icon-list.php:388 includes/widgets/icon.php:44
+#: includes/widgets/icon.php:103 includes/widgets/icon.php:110
+#: includes/widgets/icon.php:195 includes/widgets/social-icons.php:94
+#: includes/widgets/social-icons.php:335 includes/widgets/star-rating.php:123
+#: includes/widgets/toggle.php:153 includes/widgets/toggle.php:388
+#: includes/widgets/traits/button-trait.php:159
 msgid "Icon"
 msgstr "Εικόνα"
 
-#: includes/widgets/button.php:192 includes/widgets/common.php:1057
-#: includes/widgets/divider.php:617 includes/widgets/divider.php:805
-#: includes/widgets/heading.php:139 includes/widgets/icon-box.php:373
-#: includes/widgets/icon-list.php:425 includes/widgets/icon.php:298
-#: includes/widgets/image-carousel.php:418
-#: includes/widgets/image-carousel.php:482
+#: includes/widgets/common.php:1441 includes/widgets/divider.php:617
+#: includes/widgets/divider.php:805 includes/widgets/heading.php:139
+#: includes/widgets/icon-box.php:369 includes/widgets/icon-list.php:425
+#: includes/widgets/icon.php:298 includes/widgets/image-carousel.php:430
+#: includes/widgets/image-carousel.php:494
 #: includes/widgets/social-icons.php:385 includes/widgets/star-rating.php:274
-#: includes/widgets/text-editor.php:316 includes/widgets/video.php:687
+#: includes/widgets/text-editor.php:316
+#: includes/widgets/traits/button-trait.php:147 includes/widgets/video.php:687
 #: modules/shapes/widgets/text-path.php:235
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: includes/widgets/button.php:93 includes/widgets/heading.php:144
+#: includes/widgets/heading.php:144 includes/widgets/traits/button-trait.php:34
 msgid "Small"
 msgstr "Μικρό"
 
-#: includes/widgets/button.php:94 includes/widgets/heading.php:145
+#: includes/widgets/heading.php:145 includes/widgets/traits/button-trait.php:35
 msgid "Medium"
 msgstr "Μεσαίο"
 
-#: includes/widgets/button.php:95 includes/widgets/heading.php:146
+#: includes/widgets/heading.php:146 includes/widgets/traits/button-trait.php:36
 msgid "Large"
 msgstr "Μεγάλο"
 
-#: includes/widgets/button.php:46 includes/widgets/button.php:112
-#: includes/widgets/button.php:279
+#: includes/widgets/button.php:47 includes/widgets/button.php:84
+#: includes/widgets/button.php:95
 msgid "Button"
 msgstr "Κουμπί"
 
-#: core/admin/admin.php:474
+#: core/admin/admin.php:497 core/admin/menu/main.php:41
 msgid "Help"
 msgstr "Βοήθεια"
 
@@ -4689,11 +4722,12 @@ msgstr "Βοήθεια"
 msgid "I am a description. Click the edit button to change this text."
 msgstr "Είμαι μία περιγραφή. Πατήστε το κουμπί επεξεργασίας για να αλλάξετε αυτό το κείμενο."
 
-#: includes/widgets/button.php:154 includes/widgets/icon-box.php:176
+#: includes/elements/container.php:471 includes/widgets/icon-box.php:176
 #: includes/widgets/icon-list.php:152 includes/widgets/icon.php:160
 #: includes/widgets/image-box.php:153 includes/widgets/image-carousel.php:196
 #: includes/widgets/image.php:208 includes/widgets/social-icons.php:178
 #: includes/widgets/testimonial.php:160
+#: includes/widgets/traits/button-trait.php:107
 msgid "https://your-link.com"
 msgstr "https://your-link.com"
 
@@ -4735,7 +4769,7 @@ msgstr "Εναλλαγή Στοιχείων"
 msgid "Toggle"
 msgstr "Εναλλαγή"
 
-#: includes/widgets/image-carousel.php:271
+#: includes/widgets/image-carousel.php:283
 msgid "Pause on Hover"
 msgstr "Παύση στον Αιώρηση"
 
@@ -4777,7 +4811,7 @@ msgid "Icon Hover"
 msgstr "Αιώρηση Εικονιδίου"
 
 #: includes/widgets/accordion.php:245 includes/widgets/divider.php:939
-#: includes/widgets/icon-box.php:425 includes/widgets/icon.php:358
+#: includes/widgets/icon-box.php:445 includes/widgets/icon.php:358
 #: includes/widgets/tabs.php:260 includes/widgets/text-editor.php:377
 #: includes/widgets/toggle.php:249
 msgid "Border Width"
@@ -4805,8 +4839,9 @@ msgstr "Πλαίσιο Εικονιδίου"
 msgid "HTML Code"
 msgstr "Κώδικας HTML"
 
-#: includes/elements/column.php:261 includes/elements/section.php:518
-#: includes/widgets/divider.php:525 includes/widgets/heading.php:156
+#: includes/elements/column.php:261 includes/elements/container.php:457
+#: includes/elements/section.php:518 includes/widgets/divider.php:525
+#: includes/widgets/heading.php:156
 msgid "HTML Tag"
 msgstr "Ετικέτα HTML"
 
@@ -4816,17 +4851,17 @@ msgstr "Χάρτες Google"
 
 #: includes/controls/switcher.php:74 includes/managers/icons.php:477
 #: includes/widgets/audio.php:126 includes/widgets/image-carousel.php:156
-#: includes/widgets/image-carousel.php:212
-#: includes/widgets/image-carousel.php:261
-#: includes/widgets/image-carousel.php:275
-#: includes/widgets/image-carousel.php:293
-#: includes/widgets/image-carousel.php:325
+#: includes/widgets/image-carousel.php:215
+#: includes/widgets/image-carousel.php:273
+#: includes/widgets/image-carousel.php:287
+#: includes/widgets/image-carousel.php:305
+#: includes/widgets/image-carousel.php:337
 #: includes/widgets/image-gallery.php:147 includes/widgets/image.php:224
-#: assets/js/editor.js:11002
+#: assets/js/app.js:11822
 msgid "Yes"
 msgstr "Ναι"
 
-#: core/base/document.php:1537
+#: core/base/document.php:1573
 #: core/common/modules/finder/categories/settings.php:50
 msgid "General Settings"
 msgstr "Γενικές Ρυθμίσεις"
@@ -4848,7 +4883,7 @@ msgstr "Κείμενο Έμφασης"
 msgid "Accent"
 msgstr "Έμφαση"
 
-#: includes/managers/elements.php:274
+#: includes/managers/elements.php:281
 msgid "Basic"
 msgstr "Βασικά"
 
@@ -4857,28 +4892,29 @@ msgstr "Βασικά"
 #: core/kits/documents/tabs/theme-style-buttons.php:174
 #: core/kits/documents/tabs/theme-style-form-fields.php:177
 #: core/kits/documents/tabs/theme-style-typography.php:56
-#: includes/elements/column.php:650 includes/elements/section.php:1107
+#: includes/elements/column.php:653 includes/elements/section.php:1110
 #: includes/widgets/alert.php:221 includes/widgets/alert.php:261
-#: includes/widgets/button.php:315 includes/widgets/button.php:357
 #: includes/widgets/counter.php:230 includes/widgets/counter.php:273
 #: includes/widgets/heading.php:225 includes/widgets/icon-list.php:490
-#: includes/widgets/image-carousel.php:657
+#: includes/widgets/image-carousel.php:684
 #: includes/widgets/image-gallery.php:312 includes/widgets/image.php:557
 #: includes/widgets/progress.php:283 includes/widgets/star-rating.php:213
 #: includes/widgets/testimonial.php:232 includes/widgets/testimonial.php:330
 #: includes/widgets/testimonial.php:375 includes/widgets/text-editor.php:217
+#: includes/widgets/traits/button-trait.php:272
+#: includes/widgets/traits/button-trait.php:317
 msgid "Text Color"
 msgstr "Χρώμα Κειμένου"
 
-#: includes/managers/controls.php:300 includes/settings/settings.php:492
-#: includes/widgets/divider.php:363 includes/widgets/icon-list.php:275
-#: assets/js/editor.js:10303 assets/js/editor.js:26117
+#: includes/managers/controls.php:300 includes/widgets/divider.php:363
+#: includes/widgets/icon-list.php:275 assets/js/editor.js:10303
+#: assets/js/editor.js:31145
 msgid "Style"
 msgstr "Στιλ"
 
 #: core/settings/editor-preferences/model.php:135
-#: includes/base/element-base.php:678 includes/editor-templates/panel.php:242
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4282
+#: includes/base/element-base.php:704 includes/editor-templates/panel.php:242
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4504
 msgid "Desktop"
 msgstr "Σταθερός Υπολογιστής"
 
@@ -4893,7 +4929,7 @@ msgstr "Λειτουργία Ανταποκρινόμενης"
 msgid "Widgets Panel"
 msgstr "Πίνακας Μικροεφαρμογών"
 
-#: includes/controls/groups/typography.php:160
+#: includes/controls/groups/typography.php:165
 msgctxt "Typography Control"
 msgid "Style"
 msgstr "Στιλ"
@@ -4977,8 +5013,9 @@ msgstr "Κορυφή Αριστερά"
 msgid "&#8592; Back to WordPress Editor"
 msgstr "&#8592; Πίσω στον Επεξεργαστή του WordPress"
 
-#: includes/elements/column.php:875 includes/elements/section.php:1312
-#: includes/managers/controls.php:302 includes/widgets/common.php:1564
+#: includes/elements/column.php:878 includes/elements/container.php:1549
+#: includes/elements/section.php:1315 includes/managers/controls.php:302
+#: includes/widgets/common.php:1624
 msgid "Responsive"
 msgstr "Προσαρμοζόμενο στις κινητές συσκευές"
 
@@ -4999,32 +5036,32 @@ msgstr "Πλάτος"
 msgid "Themes"
 msgstr "Θέματα"
 
-#: core/admin/admin.php:155 core/admin/admin.php:163 core/base/document.php:488
+#: core/admin/admin.php:178 core/admin/admin.php:186 core/base/document.php:493
 #: modules/admin-bar/module.php:123 modules/gutenberg/module.php:100
 #: modules/gutenberg/module.php:110
 msgid "Edit with Elementor"
 msgstr "Επεξεργασία με τον Elementor"
 
-#: core/experiments/manager.php:326 core/experiments/manager.php:557
+#: core/experiments/manager.php:339 core/experiments/manager.php:570
 msgid "Active"
 msgstr "Ενεργό"
 
-#: core/breakpoints/manager.php:332
+#: core/breakpoints/manager.php:333
 msgid "Laptop"
 msgstr "Φορητός υπολογιστής"
 
-#: includes/elements/column.php:727 includes/elements/section.php:1183
-#: includes/widgets/common.php:193
-msgid "Margin"
-msgstr "Περιθώριο"
-
-#: includes/controls/groups/typography.php:207
+#: includes/controls/groups/typography.php:212
 msgctxt "Typography Control"
 msgid "Letter Spacing"
 msgstr "Απόσταση χαρακτήρων"
 
 #: includes/widgets/accordion.php:264 includes/widgets/alert.php:183
-#: includes/widgets/button.php:385 includes/widgets/social-icons.php:524
-#: includes/widgets/tabs.php:280 includes/widgets/toggle.php:267
+#: includes/widgets/social-icons.php:524 includes/widgets/tabs.php:280
+#: includes/widgets/toggle.php:267 includes/widgets/traits/button-trait.php:347
 msgid "Border Color"
 msgstr "Χρώμα περιγράμματος"
+
+#: includes/elements/column.php:730 includes/elements/container.php:1155
+#: includes/elements/section.php:1186 includes/widgets/common.php:190
+msgid "Margin"
+msgstr "Αποστάσεις"

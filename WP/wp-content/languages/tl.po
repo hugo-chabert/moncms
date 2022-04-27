@@ -2899,7 +2899,7 @@ msgid "Enter your closest city to find nearby events."
 msgstr "Ilagay ang iyong pinakamalapit na pangyayari."
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:43
-#: wp-admin/about.php:342
+#: wp-admin/about.php:362
 msgid "Image Widget"
 msgstr "Image Widget"
 
@@ -2925,7 +2925,7 @@ msgstr[0] "Image Widget (%d)"
 msgstr[1] "Image Widget (%d)"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:43
-#: wp-admin/about.php:350
+#: wp-admin/about.php:370
 msgid "Audio Widget"
 msgstr "Audio Widget"
 
@@ -3000,7 +3000,7 @@ msgid "Media Widget"
 msgstr "Media Widget"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:43
-#: wp-admin/about.php:346
+#: wp-admin/about.php:366
 msgid "Video Widget"
 msgstr "Video Widget"
 

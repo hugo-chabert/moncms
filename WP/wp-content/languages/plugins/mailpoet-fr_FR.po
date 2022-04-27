@@ -1062,11 +1062,11 @@ msgstr "Votre clé pour envoyer avec MailPoet n’est pas valide !"
 msgid "All sending is currently paused!"
 msgstr "Tous les envois sont actuellement suspendus !"
 
-#: lib/API/JSON/v1/Settings.php:189
+#: lib/API/JSON/v1/Settings.php:193
 msgid "Can’t use this email yet! Please authorize it first."
 msgstr "Vous ne pouvez pas encore utiliser cet e-mail ! Veuillez d’abord l’autoriser."
 
-#: lib/API/JSON/v1/Settings.php:180
+#: lib/API/JSON/v1/Settings.php:184
 msgid "No email address specified."
 msgstr "Aucune adresse de messagerie spécifiée."
 
@@ -1212,37 +1212,37 @@ msgctxt "This is the name of a type for automatic email for ecommerce. Those ema
 msgid "Purchased In This Category"
 msgstr "Achat dans cette catégorie"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:79
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:81
 msgid "We recommend setting up 3 abandoned cart emails. Here’s why."
 msgstr "Nous vous recommandons de configurer 3 e-mails de panier abandonné. Voici pourquoi."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:74
 msgid "week(s) later"
 msgstr "semaine(s) après"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:70
 msgid "day(s) later"
 msgstr "jour(s) après"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:64
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:66
 msgid "hour(s) later"
 msgstr "heure(s) après"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:60
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:62
 msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
 msgid "30 minutes after last page loaded"
 msgstr "30 minutes après le chargement de la dernière page"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
 msgctxt "Description of Abandoned Shopping Cart email"
 msgid "Email sent when a customer abandons his cart."
 msgstr "E-mail envoyé quand un client abandonne son panier."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:52
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:54
 msgid "Send an email to logged-in visitors who have items in their shopping carts but left your website without checking out. Can convert up to 5% of abandoned carts."
 msgstr "Envoyer un e-mail aux visiteurs connectés ayant des articles dans leur panier d’achat mais qui ont quitté votre site sans commander. Peut convertir jusqu’à 5% des paniers abandonnés."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:51
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
 msgctxt "This is the name of a type of automatic email for ecommerce. Those emails are sent automatically when a customer adds product to his shopping cart but never complete the checkout process."
 msgid "Abandoned Shopping Cart"
 msgstr "Panier d’achat abandonné"
@@ -1313,11 +1313,11 @@ msgstr ""
 "\n"
 "L’équipe"
 
-#: lib/Config/Populator.php:374
+#: lib/Config/Populator.php:379
 msgid "Newsletter mailing list"
 msgstr "Liste de diffusion de newsletter"
 
-#: lib/Config/Populator.php:304
+#: lib/Config/Populator.php:309
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "I would like to receive exclusive emails with discounts and product information"
 msgstr "Je voudrais recevoir des e-mails exclusifs avec des réductions et des informations sur le produit"
@@ -1526,7 +1526,7 @@ msgstr "Vous avez bien été inscrit à notre newsletter !"
 msgid "Manage features"
 msgstr "Gérer les fonctionnalités"
 
-#: lib/Config/Populator.php:303
+#: lib/Config/Populator.php:308
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "Yes, I would like to be added to your mailing list"
 msgstr "Oui, j’aimerai que vous m’ajoutiez à votre liste de diffusion."
@@ -1682,11 +1682,11 @@ msgstr "Stats pour l’e-mail %s"
 msgid "Unknown MailChimp error."
 msgstr "Erreur MailChimp inconnue."
 
-#: lib/Models/Segment.php:163 lib/Segments/SegmentsRepository.php:65
+#: lib/Models/Segment.php:164 lib/Segments/SegmentsRepository.php:65
 msgid "This list contains all of your WooCommerce customers."
 msgstr "Cette liste contient tous vos clients WooCommerce."
 
-#: lib/Models/Segment.php:161 lib/Segments/SegmentsRepository.php:63
+#: lib/Models/Segment.php:162 lib/Segments/SegmentsRepository.php:63
 msgid "WooCommerce Customers"
 msgstr "Clients WooCommerce"
 
@@ -1846,7 +1846,7 @@ msgstr "Envoyer automatiquement un e-mail aux clients qui viennent de faire leur
 msgid "First Purchase"
 msgstr "Premier achat"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:57
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:77
 msgid "Must-have"
 msgstr "Indispensable"
@@ -2102,7 +2102,7 @@ msgstr "Démarrer l’importation"
 msgid "Invalid API endpoint method."
 msgstr "Méthode du point de terminaison d’API non valide."
 
-#: lib/Config/Initializer.php:142
+#: lib/Config/Initializer.php:148
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "Connexion à la base de données impossible (la base de données ne peut pas ouvrir un fichier ou un répertoire), la connexion n’est probablement pas configurée correctement. Veuillez lire l’ [link]article de notre base de connaissances[/link] sur les étapes à suivre pour résoudre ceci."
 
@@ -3024,11 +3024,11 @@ msgstr "Veuillez saisir votre adresse e-mail."
 msgid "Confirm your subscription to %1$s"
 msgstr "Confirmation de votre abonnement à %1$s"
 
-#: lib/Models/Segment.php:145
+#: lib/Models/Segment.php:146
 msgid "This list contains all of your WordPress users."
 msgstr "Cette liste contient tous vos utilisateurs WordPress."
 
-#: lib/Models/Segment.php:143
+#: lib/Models/Segment.php:144
 msgid "WordPress Users"
 msgstr "Utilisateurs WordPress"
 
@@ -3093,7 +3093,7 @@ msgstr "Veuillez spécifier un type."
 
 #: lib/API/JSON/v1/DynamicSegments.php:124 lib/API/JSON/v1/ImportExport.php:113
 #: lib/API/JSON/v1/Segments.php:129 lib/Models/CustomField.php:30
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:31
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "Veuillez spécifier un nom."
 
@@ -3599,7 +3599,7 @@ msgstr "Faux logo"
 msgid "Newsletter: Blank 1:2:1 Column"
 msgstr "Newsletter : Vide, Colonne 1:2:1"
 
-#: lib/Config/Populator.php:376
+#: lib/Config/Populator.php:381
 msgid "This list is automatically created when you install MailPoet."
 msgstr "Cette liste a été créée automatiquement lors de l’installation de MailPoet."
 
@@ -3685,7 +3685,7 @@ msgstr "MailPoet Newsletter"
 msgid "This subscriber does not exist."
 msgstr "Cet·te abonné·e n’existe pas."
 
-#: lib/API/JSON/v1/Settings.php:121
+#: lib/API/JSON/v1/Settings.php:125
 msgid "You have not specified any settings to be saved."
 msgstr "Vous n’avez spécifié aucun réglage à enregistrer."
 

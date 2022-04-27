@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-10 16:46:39+0000\n"
+"PO-Revision-Date: 2022-03-06 15:05:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "Public"
 msgstr "Публічно"
 
-#: wp-includes/js/dist/block-library.js:24507
+#: wp-includes/js/dist/block-library.js:24506
 #: wp-admin/includes/class-plugin-installer-skin.php:217
 #: wp-admin/includes/class-theme-installer-skin.php:240
 #: wp-admin/includes/class-wp-debug-data.php:69
@@ -505,7 +505,7 @@ msgctxt "block keyword"
 msgid "link"
 msgstr "посилання"
 
-#: wp-includes/js/dist/block-library.js:29265
+#: wp-includes/js/dist/block-library.js:29264
 #: wp-admin/includes/plugin-install.php:333
 #: wp-admin/includes/theme-install.php:103
 msgid "Keyword"
@@ -681,6 +681,31 @@ msgctxt "Duotone name"
 msgid "Blue and orange"
 msgstr "Синій та помаранчевий"
 
+#: wp-includes/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Форма таблетки"
+
+#: wp-includes/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "опис"
+
+#: wp-includes/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "atom"
+
+#: wp-includes/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "feed"
+
+#: wp-includes/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Заголовок запиту"
+
 #: wp-signup.php:210 wp-admin/includes/class-wp-debug-data.php:102
 #: wp-admin/includes/class-wp-debug-data.php:107
 #: wp-admin/includes/class-wp-debug-data.php:112
@@ -711,7 +736,7 @@ msgid "Recent Comments"
 msgstr "Останні коментарі"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:49
-#: wp-includes/js/dist/block-library.js:29254
+#: wp-includes/js/dist/block-library.js:29253
 msgid "Tags"
 msgstr "Позначки"
 
@@ -865,9 +890,9 @@ msgstr "Показати оцінку посилання"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:228
 #: wp-includes/widgets/class-wp-widget-categories.php:198
-#: wp-includes/js/dist/block-library.js:9053
-#: wp-includes/js/dist/block-library.js:11283
-#: wp-includes/js/dist/block-library.js:25945
+#: wp-includes/js/dist/block-library.js:9052
+#: wp-includes/js/dist/block-library.js:11282
+#: wp-includes/js/dist/block-library.js:25944
 msgid "Show post counts"
 msgstr "Показати переліки записів"
 
@@ -885,7 +910,7 @@ msgid "Automatically add paragraphs"
 msgstr "Автоматично додавати абзаци"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:202
-#: wp-includes/js/dist/block-library.js:11279
+#: wp-includes/js/dist/block-library.js:11278
 msgid "Show hierarchy"
 msgstr "Показати ієрархію"
 
@@ -1230,8 +1255,8 @@ msgstr "Повторіть новий пароль"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:225
 #: wp-includes/widgets/class-wp-widget-categories.php:194
-#: wp-includes/js/dist/block-library.js:9047
-#: wp-includes/js/dist/block-library.js:11275
+#: wp-includes/js/dist/block-library.js:9046
+#: wp-includes/js/dist/block-library.js:11274
 msgid "Display as dropdown"
 msgstr "Відображати як випадаючий список"
 
@@ -1290,7 +1315,7 @@ msgstr "Оберіть категорію посилань:"
 #: wp-includes/js/dist/block-editor.js:34396
 #: wp-includes/js/dist/block-editor.js:34928
 #: wp-includes/js/dist/block-editor.js:34941
-#: wp-includes/js/dist/block-library.js:25375
+#: wp-includes/js/dist/block-library.js:25374
 #: wp-admin/includes/class-custom-background.php:339
 #: wp-admin/includes/class-custom-image-header.php:651
 #: wp-admin/includes/class-wp-theme-install-list-table.php:63
@@ -1905,7 +1930,7 @@ msgid "Custom HTML Widget"
 msgstr "Віджет \"Власний HTML\""
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
-#: wp-includes/js/dist/block-library.js:8584 wp-includes/js/dist/editor.js:6694
+#: wp-includes/js/dist/block-library.js:8583 wp-includes/js/dist/editor.js:6694
 #: wp-admin/includes/media.php:20
 msgid "Gallery"
 msgstr "Галерея"
@@ -2201,7 +2226,7 @@ msgstr "[%1$s] Дія підтверджена: %2$s"
 msgid "Unable to send personal data export confirmation email."
 msgstr "Неможливо надіслати електронний лист підтвердження експорту персональних даних."
 
-#: wp-includes/js/dist/block-library.js:14854
+#: wp-includes/js/dist/block-library.js:14853
 #: wp-includes/blocks/embed/block.json
 msgctxt "block title"
 msgid "Embed"
@@ -2468,7 +2493,7 @@ msgstr "%1$s або %2$s"
 msgid "%s ago"
 msgstr "%s тому"
 
-#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:18287
+#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:18286
 #: wp-includes/js/dist/edit-post.js:14244
 #: wp-includes/js/dist/edit-post.js:16213 wp-admin/includes/meta-boxes.php:702
 #: wp-admin/includes/meta-boxes.php:1510 wp-admin/options-reading.php:164
@@ -3327,7 +3352,7 @@ msgid "Invalid parameter."
 msgstr "Невірний параметр."
 
 #: wp-includes/script-loader.php:1173
-#: wp-includes/js/dist/block-library.js:11217
+#: wp-includes/js/dist/block-library.js:11216
 #: wp-includes/js/dist/editor.js:8655
 msgid "(Untitled)"
 msgstr "(Без назви)"
@@ -4613,7 +4638,7 @@ msgstr "Метод '%s' повинен бути перевизначений."
 msgid "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/"
 msgstr "Flash player плагін був вимкнений або не був встановлений у вашому браузері. Будь ласка, ввімкніть плагін Flash player або завантажте останню версію з https://get.adobe.com/flashplayer/"
 
-#: wp-includes/script-loader.php:965 wp-includes/js/dist/block-library.js:25128
+#: wp-includes/script-loader.php:965 wp-includes/js/dist/block-library.js:25127
 msgid "Chapters"
 msgstr "Розділи"
 
@@ -4673,7 +4698,7 @@ msgstr "Данський"
 msgid "Dutch"
 msgstr "Нідерландський (голландський)"
 
-#: wp-includes/script-loader.php:980 wp-includes/js/dist/block-library.js:25247
+#: wp-includes/script-loader.php:980 wp-includes/js/dist/block-library.js:25246
 #: wp-admin/includes/ms.php:664
 msgid "English"
 msgstr "Англійський"
@@ -5833,7 +5858,7 @@ msgid "The file URL has been copied to your clipboard"
 msgstr "Посилання на файл скопійовано в буфер обміну"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1361
-#: wp-includes/js/dist/block-library.js:4905
+#: wp-includes/js/dist/block-library.js:4904
 #: wp-admin/includes/image-edit.php:54
 msgid "Crop"
 msgstr "Обрізати"
@@ -6198,7 +6223,7 @@ msgctxt "navigation link block description"
 msgid "A link to a category."
 msgstr "Посилання на категорію."
 
-#: wp-includes/post.php:1799 wp-includes/js/dist/block-library.js:18413
+#: wp-includes/post.php:1799 wp-includes/js/dist/block-library.js:18412
 msgid "No posts found."
 msgstr "Записів не знайдено."
 
@@ -6262,7 +6287,7 @@ msgid "Revisions"
 msgstr "Редакції"
 
 #: wp-includes/comment-template.php:2362
-#: wp-includes/js/dist/block-library.js:21050
+#: wp-includes/js/dist/block-library.js:21049
 #: wp-includes/js/dist/components.js:24953
 #: wp-includes/js/dist/edit-post.js:16956
 #: wp-includes/js/dist/reusable-blocks.js:530 wp-admin/edit-form-comment.php:49
@@ -6281,9 +6306,9 @@ msgstr "Ім'я"
 #: wp-includes/media-template.php:1105 wp-includes/media-template.php:1181
 #: wp-includes/media-template.php:1301 wp-includes/media-template.php:1400
 #: wp-includes/script-loader.php:966 wp-includes/js/dist/block-editor.js:14241
-#: wp-includes/js/dist/block-library.js:8278
-#: wp-includes/js/dist/block-library.js:9380
-#: wp-includes/js/dist/block-library.js:25023
+#: wp-includes/js/dist/block-library.js:8277
+#: wp-includes/js/dist/block-library.js:9379
+#: wp-includes/js/dist/block-library.js:25022
 #: wp-includes/js/dist/components.js:30970 wp-admin/edit-tag-form.php:188
 #: wp-admin/edit-tags.php:477 wp-admin/includes/class-wp-debug-data.php:1115
 #: wp-admin/includes/media.php:1136 wp-admin/includes/media.php:1264
@@ -6355,8 +6380,8 @@ msgstr "Збережено."
 #: wp-includes/media-template.php:843 wp-includes/media-template.php:922
 #: wp-includes/media-template.php:1114
 #: wp-includes/widgets/class-wp-widget-media-image.php:72
-#: wp-includes/js/dist/block-library.js:26541
-#: wp-includes/js/dist/block-library.js:26542 wp-admin/includes/media.php:1230
+#: wp-includes/js/dist/block-library.js:26540
+#: wp-includes/js/dist/block-library.js:26541 wp-admin/includes/media.php:1230
 msgid "Size"
 msgstr "Розмір"
 
@@ -6417,7 +6442,7 @@ msgid "Pages"
 msgstr "Сторінки"
 
 #: wp-includes/media.php:4429 wp-includes/js/dist/block-editor.js:35321
-#: wp-includes/js/dist/block-library.js:25598
+#: wp-includes/js/dist/block-library.js:25597
 #: wp-includes/js/dist/editor.js:5081 wp-admin/includes/template.php:1955
 #: wp-admin/nav-menus.php:898 wp-admin/plugin-editor.php:235
 #: wp-admin/theme-editor.php:238
@@ -6720,7 +6745,7 @@ msgid "Log in"
 msgstr "Увійти"
 
 #: wp-includes/general-template.php:380
-#: wp-includes/js/dist/block-library.js:18658
+#: wp-includes/js/dist/block-library.js:18657
 msgid "Log out"
 msgstr "Вийти"
 
@@ -6811,8 +6836,8 @@ msgstr "Вперед »"
 #: wp-includes/media-template.php:1314 wp-includes/media-template.php:1413
 #: wp-includes/widgets/class-wp-widget-media-audio.php:77
 #: wp-includes/widgets/class-wp-widget-media-video.php:80
-#: wp-includes/js/dist/block-library.js:9359
-#: wp-includes/js/dist/block-library.js:25075
+#: wp-includes/js/dist/block-library.js:9358
+#: wp-includes/js/dist/block-library.js:25074
 msgid "Loop"
 msgstr "Цикл"
 
@@ -7024,7 +7049,7 @@ msgstr "Захищено: %s"
 msgid "Private: %s"
 msgstr "Особисте: %s"
 
-#: wp-includes/post-template.php:417 wp-includes/js/dist/block-library.js:31263
+#: wp-includes/post-template.php:417 wp-includes/js/dist/block-library.js:31262
 msgid "There is no excerpt because this is a protected post."
 msgstr "Уривка немає, тому що запис захищений."
 
@@ -7498,8 +7523,8 @@ msgstr "Умовні теґи запитів не працюють до здій
 #: wp-includes/media-template.php:1296 wp-includes/media-template.php:1395
 #: wp-includes/widgets/class-wp-widget-media-audio.php:72
 #: wp-includes/widgets/class-wp-widget-media-video.php:74
-#: wp-includes/js/dist/block-library.js:9363
-#: wp-includes/js/dist/block-library.js:25091
+#: wp-includes/js/dist/block-library.js:9362
+#: wp-includes/js/dist/block-library.js:25090
 msgid "Preload"
 msgstr "Попереднє завантаження"
 
@@ -7662,7 +7687,7 @@ msgid ","
 msgstr ","
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:140
-#: wp-includes/js/dist/block-library.js:8100 wp-includes/js/dist/editor.js:6473
+#: wp-includes/js/dist/block-library.js:8099 wp-includes/js/dist/editor.js:6473
 msgid "Remove image"
 msgstr "Видалити зображення"
 
@@ -7769,14 +7794,14 @@ msgstr "Посилання до"
 #: wp-includes/media-template.php:826 wp-includes/media-template.php:891
 #: wp-includes/media-template.php:1170
 #: wp-includes/js/dist/block-editor.js:35612
-#: wp-includes/js/dist/block-library.js:8272 wp-admin/includes/media.php:2627
+#: wp-includes/js/dist/block-library.js:8271 wp-admin/includes/media.php:2627
 msgid "Attachment Page"
 msgstr "Сторінка прикріпленого файлу"
 
 #: wp-includes/media-template.php:819 wp-includes/media-template.php:894
 #: wp-includes/media-template.php:1167
 #: wp-includes/js/dist/block-editor.js:35604
-#: wp-includes/js/dist/block-library.js:8275
+#: wp-includes/js/dist/block-library.js:8274
 msgid "Media File"
 msgstr "Медіафайл"
 
@@ -8205,8 +8230,8 @@ msgstr "Впорядкувати"
 
 #: wp-includes/media-template.php:1226 wp-includes/media.php:4432
 #: wp-includes/js/dist/block-editor.js:34284
-#: wp-includes/js/dist/block-library.js:13765
-#: wp-includes/js/dist/block-library.js:25598
+#: wp-includes/js/dist/block-library.js:13764
+#: wp-includes/js/dist/block-library.js:25597
 msgid "Replace"
 msgstr "Замінити"
 
@@ -8227,16 +8252,16 @@ msgid "Show Images"
 msgstr "Показати зображення"
 
 #: wp-includes/media-template.php:1300 wp-includes/media-template.php:1399
-#: wp-includes/js/dist/block-library.js:9377
-#: wp-includes/js/dist/block-library.js:25020
-#: wp-includes/js/dist/block-library.js:25131
+#: wp-includes/js/dist/block-library.js:9376
+#: wp-includes/js/dist/block-library.js:25019
+#: wp-includes/js/dist/block-library.js:25130
 #: wp-admin/includes/meta-boxes.php:1462
 msgid "Metadata"
 msgstr "Метадані"
 
 #: wp-includes/media-template.php:1309 wp-includes/media-template.php:1408
-#: wp-includes/js/dist/block-library.js:9354
-#: wp-includes/js/dist/block-library.js:25070
+#: wp-includes/js/dist/block-library.js:9353
+#: wp-includes/js/dist/block-library.js:25069
 msgid "Autoplay"
 msgstr "Автозапуск"
 
@@ -8384,7 +8409,7 @@ msgid "Edit Original"
 msgstr "Редагувати першоджерело"
 
 #: wp-includes/media-template.php:1090
-#: wp-includes/js/dist/block-library.js:21623
+#: wp-includes/js/dist/block-library.js:21622
 msgid "Display Settings"
 msgstr "Налаштування відображення"
 
@@ -10284,7 +10309,7 @@ msgstr "Запис оновлено."
 msgid "Page updated."
 msgstr "Сторінка оновлена."
 
-#: wp-includes/media.php:4502 wp-includes/js/dist/block-library.js:8095
+#: wp-includes/media.php:4502 wp-includes/js/dist/block-library.js:8094
 msgid "Replace image"
 msgstr "Замінити зображення"
 
@@ -10295,8 +10320,8 @@ msgstr "Замінити зображення"
 msgid "Copied!"
 msgstr "Скопійовано!"
 
-#: wp-includes/media.php:4504 wp-includes/js/dist/block-library.js:5376
-#: wp-includes/js/dist/block-library.js:5377
+#: wp-includes/media.php:4504 wp-includes/js/dist/block-library.js:5375
+#: wp-includes/js/dist/block-library.js:5376
 msgid "Edit image"
 msgstr "Редагувати зображення"
 
@@ -10661,18 +10686,18 @@ msgstr "Росташування в меню навігації повинні �
 
 #: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:29961
 #: wp-includes/js/dist/block-editor.js:29990
-#: wp-includes/js/dist/block-library.js:18420
-#: wp-includes/js/dist/block-library.js:21180
-#: wp-includes/js/dist/block-library.js:28780
+#: wp-includes/js/dist/block-library.js:18419
+#: wp-includes/js/dist/block-library.js:21179
+#: wp-includes/js/dist/block-library.js:28779
 #: wp-includes/js/dist/edit-post.js:15644
 #: wp-admin/includes/class-wp-media-list-table.php:44
 msgid "List view"
 msgstr "У вигляді списку"
 
 #: wp-includes/media-template.php:316 wp-includes/js/dist/block-editor.js:31515
-#: wp-includes/js/dist/block-library.js:18427
-#: wp-includes/js/dist/block-library.js:21187
-#: wp-includes/js/dist/block-library.js:28787
+#: wp-includes/js/dist/block-library.js:18426
+#: wp-includes/js/dist/block-library.js:21186
+#: wp-includes/js/dist/block-library.js:28786
 #: wp-admin/includes/class-wp-media-list-table.php:45
 msgid "Grid view"
 msgstr "У вигляді сітки"
@@ -10739,7 +10764,7 @@ msgstr "Попередній і наступний місяці"
 msgid "In reply to %s."
 msgstr "У відповідь на %s."
 
-#: wp-includes/media.php:4528 wp-includes/js/dist/block-library.js:25588
+#: wp-includes/media.php:4528 wp-includes/js/dist/block-library.js:25587
 msgid "Select poster image"
 msgstr "Виберіть зображення постера"
 
@@ -11451,7 +11476,7 @@ msgstr "Автор"
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
 #: wp-includes/js/dist/block-editor.js:33235
 #: wp-includes/js/dist/block-editor.js:34659
-#: wp-includes/js/dist/block-library.js:15763 wp-admin/comment.php:181
+#: wp-includes/js/dist/block-library.js:15762 wp-admin/comment.php:181
 #: wp-admin/edit-form-comment.php:59
 #: wp-admin/includes/class-walker-nav-menu-edit.php:191
 #: wp-admin/includes/class-wp-links-list-table.php:134
@@ -11467,9 +11492,9 @@ msgstr "URL"
 #: wp-includes/js/dist/block-editor.js:33876
 #: wp-includes/js/dist/block-editor.js:34512
 #: wp-includes/js/dist/block-editor.js:35318
-#: wp-includes/js/dist/block-library.js:20013
-#: wp-includes/js/dist/block-library.js:20015
-#: wp-includes/js/dist/block-library.js:25180
+#: wp-includes/js/dist/block-library.js:20012
+#: wp-includes/js/dist/block-library.js:20014
+#: wp-includes/js/dist/block-library.js:25179
 #: wp-includes/js/dist/edit-post.js:16913 wp-admin/comment.php:236
 #: wp-admin/edit-form-comment.php:139
 #: wp-admin/includes/class-walker-nav-menu-edit.php:180
@@ -11506,8 +11531,8 @@ msgstr "Скасувати"
 #: wp-includes/class-wp-editor.php:1386 wp-includes/media.php:4469
 #: wp-includes/js/dist/block-editor.js:34552
 #: wp-includes/js/dist/block-editor.js:34666
-#: wp-includes/js/dist/block-library.js:4577
-#: wp-includes/js/dist/block-library.js:27864
+#: wp-includes/js/dist/block-library.js:4576
+#: wp-includes/js/dist/block-library.js:27863
 #: wp-includes/js/dist/format-library.js:606
 #: wp-admin/includes/class-wp-list-table.php:509
 #: wp-admin/includes/class-wp-screen.php:1095
@@ -11545,9 +11570,9 @@ msgstr "Зберегти"
 #: wp-includes/theme-compat/sidebar.php:129
 #: wp-includes/widgets/class-wp-widget-categories.php:31
 #: wp-includes/widgets/class-wp-widget-categories.php:48
-#: wp-includes/js/dist/block-library.js:11254
-#: wp-includes/js/dist/block-library.js:11288
-#: wp-includes/js/dist/block-library.js:29249
+#: wp-includes/js/dist/block-library.js:11253
+#: wp-includes/js/dist/block-library.js:11287
+#: wp-includes/js/dist/block-library.js:29248
 #: wp-includes/js/dist/components.js:39244 wp-admin/edit-link-form.php:31
 #: wp-admin/includes/class-wp-links-list-table.php:135
 #: wp-admin/includes/upgrade.php:412
@@ -11599,7 +11624,7 @@ msgstr "Анонім"
 #: wp-includes/js/dist/block-editor.js:26053
 #: wp-includes/js/dist/block-editor.js:26597
 #: wp-includes/js/dist/block-editor.js:35757
-#: wp-includes/js/dist/block-library.js:16493 wp-admin/customize.php:215
+#: wp-includes/js/dist/block-library.js:16492 wp-admin/customize.php:215
 #: wp-admin/includes/class-custom-background.php:264
 #: wp-admin/includes/class-custom-image-header.php:537
 #: wp-admin/includes/class-wp-posts-list-table.php:1473
@@ -11622,8 +11647,8 @@ msgstr "Плагіни"
 #: wp-includes/media.php:4430 wp-includes/script-loader.php:1162
 #: wp-includes/js/dist/block-editor.js:34872
 #: wp-includes/js/dist/block-editor.js:34875
-#: wp-includes/js/dist/block-library.js:4579
-#: wp-includes/js/dist/block-library.js:19922
+#: wp-includes/js/dist/block-library.js:4578
+#: wp-includes/js/dist/block-library.js:19921
 #: wp-includes/js/dist/components.js:24996
 #: wp-includes/js/dist/edit-post.js:16971 wp-includes/js/dist/editor.js:8914
 #: wp-includes/js/dist/reusable-blocks.js:542 wp-admin/comment.php:245
@@ -11680,7 +11705,7 @@ msgid "Thumbnail"
 msgstr "Мініатюра"
 
 #: wp-includes/class-wp-editor.php:1390
-#: wp-includes/js/dist/block-library.js:13765 wp-admin/includes/media.php:645
+#: wp-includes/js/dist/block-library.js:13764 wp-admin/includes/media.php:645
 msgid "Add Media"
 msgstr "Додати медіа"
 
@@ -11782,8 +11807,8 @@ msgstr "Відхилити"
 #: wp-includes/media.php:4428 wp-includes/media.php:4472
 #: wp-includes/js/dist/block-editor.js:23428
 #: wp-includes/js/dist/block-editor.js:23534
+#: wp-includes/js/dist/block-library.js:21725
 #: wp-includes/js/dist/block-library.js:21726
-#: wp-includes/js/dist/block-library.js:21727
 #: wp-admin/includes/class-wp-media-list-table.php:303
 #: wp-admin/includes/class-wp-theme-install-list-table.php:59
 #: wp-admin/includes/nav-menu.php:522 wp-admin/includes/nav-menu.php:585
@@ -11806,8 +11831,8 @@ msgstr "Без категорії"
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1858
 #: wp-includes/script-loader.php:850 wp-includes/script-loader.php:1163
 #: wp-includes/script-loader.php:1783 wp-includes/js/dist/block-editor.js:35425
-#: wp-includes/js/dist/block-library.js:19908
-#: wp-includes/js/dist/block-library.js:25269
+#: wp-includes/js/dist/block-library.js:19907
+#: wp-includes/js/dist/block-library.js:25268
 #: wp-includes/js/dist/components.js:30743
 #: wp-includes/js/dist/customize-widgets.js:850
 #: wp-includes/js/dist/edit-post.js:13681
@@ -11825,7 +11850,7 @@ msgstr "Закрити"
 #: wp-includes/blocks/latest-posts.php:103 wp-includes/blocks/rss.php:31
 #: wp-includes/media.php:4023 wp-includes/script-loader.php:1118
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:114
-#: wp-includes/js/dist/block-library.js:18479
+#: wp-includes/js/dist/block-library.js:18478
 #: wp-includes/js/dist/core-data.js:4939 wp-includes/js/dist/edit-post.js:16837
 #: wp-includes/js/dist/editor.js:8785 wp-admin/includes/ajax-actions.php:2185
 #: wp-admin/includes/media.php:3331 wp-admin/includes/revision.php:59
@@ -11897,8 +11922,8 @@ msgstr "Світлий"
 #: wp-includes/class-wp-editor.php:1325 wp-includes/media-template.php:1150
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/js/dist/block-editor.js:32190
-#: wp-includes/js/dist/block-library.js:12629
-#: wp-includes/js/dist/block-library.js:21625
+#: wp-includes/js/dist/block-library.js:12628
+#: wp-includes/js/dist/block-library.js:21624
 #: wp-includes/js/dist/format-library.js:600 wp-admin/options-media.php:61
 msgid "Width"
 msgstr "Ширина"
@@ -11942,8 +11967,8 @@ msgid "My Sites"
 msgstr "Мої сайти"
 
 #. translators: accessibility text for the settings landmark region.
-#: wp-includes/admin-bar.php:564 wp-includes/js/dist/block-library.js:28108
-#: wp-includes/js/dist/block-library.js:29204
+#: wp-includes/admin-bar.php:564 wp-includes/js/dist/block-library.js:28107
+#: wp-includes/js/dist/block-library.js:29203
 #: wp-includes/js/dist/edit-post.js:2931 wp-includes/js/dist/edit-post.js:17226
 #: wp-includes/js/dist/edit-widgets.js:2254
 #: wp-includes/js/dist/edit-widgets.js:4642 wp-admin/includes/ms.php:1071
@@ -11959,7 +11984,7 @@ msgid "Site Title"
 msgstr "Назва сайту"
 
 #: wp-includes/class-wp-xmlrpc-server.php:598
-#: wp-includes/js/dist/block-library.js:31113 wp-admin/options-general.php:306
+#: wp-includes/js/dist/block-library.js:31112 wp-admin/options-general.php:306
 #: wp-admin/options-general.php:308
 msgid "Date Format"
 msgstr "Формат дати"
@@ -12020,7 +12045,7 @@ msgstr "Наступна сторінка &raquo;"
 #: wp-includes/script-loader.php:811 wp-includes/script-loader.php:1119
 #: wp-includes/js/dist/block-directory.js:1349
 #: wp-includes/js/dist/block-editor.js:22917
-#: wp-includes/js/dist/block-library.js:29984
+#: wp-includes/js/dist/block-library.js:29983
 #: wp-includes/js/dist/components.js:38516 wp-admin/includes/nav-menu.php:600
 #: wp-admin/includes/nav-menu.php:895 wp-admin/js/nav-menu.js:1456
 msgid "No results found."
@@ -12303,27 +12328,27 @@ msgid "Insert/edit link"
 msgstr "Вставити/редагувати посилання"
 
 #: wp-includes/class-wp-editor.php:1311
-#: wp-includes/js/dist/block-library.js:24055
+#: wp-includes/js/dist/block-library.js:24054
 msgid "Insert row before"
 msgstr "Додати рядок перед цим"
 
 #: wp-includes/class-wp-editor.php:1312
-#: wp-includes/js/dist/block-library.js:24060
+#: wp-includes/js/dist/block-library.js:24059
 msgid "Insert row after"
 msgstr "Вставити рядок після"
 
 #: wp-includes/class-wp-editor.php:1317
-#: wp-includes/js/dist/block-library.js:24065
+#: wp-includes/js/dist/block-library.js:24064
 msgid "Delete row"
 msgstr "Видалити рядок"
 
 #: wp-includes/class-wp-editor.php:1313
-#: wp-includes/js/dist/block-library.js:24070
+#: wp-includes/js/dist/block-library.js:24069
 msgid "Insert column before"
 msgstr "Додати колонку перед цією"
 
 #: wp-includes/class-wp-editor.php:1314
-#: wp-includes/js/dist/block-library.js:24075
+#: wp-includes/js/dist/block-library.js:24074
 msgid "Insert column after"
 msgstr "Вставити колонку після"
 
@@ -12389,7 +12414,7 @@ msgid "Language"
 msgstr "Мова"
 
 #: wp-includes/class-wp-editor.php:1143
-#: wp-includes/js/dist/block-library.js:28571
+#: wp-includes/js/dist/block-library.js:28570
 msgid "Paragraph"
 msgstr "Параграф"
 
@@ -12422,7 +12447,7 @@ msgid "Blockquote"
 msgstr "Цитата"
 
 #: wp-includes/class-wp-editor.php:1158 wp-includes/script-loader.php:673
-#: wp-includes/js/dist/block-library.js:11365
+#: wp-includes/js/dist/block-library.js:11364
 msgid "Code"
 msgstr "Код"
 
@@ -12487,7 +12512,7 @@ msgid "Border"
 msgstr "Межа"
 
 #: wp-includes/class-wp-editor.php:1222
-#: wp-includes/js/dist/block-library.js:13799
+#: wp-includes/js/dist/block-library.js:13798
 msgid "Dimensions"
 msgstr "Розміри"
 
@@ -12965,7 +12990,7 @@ msgid "Pingback:"
 msgstr "Сповіщення:"
 
 #: wp-includes/class-wp-editor.php:1256
-#: wp-includes/js/dist/block-library.js:10509
+#: wp-includes/js/dist/block-library.js:10508
 #: wp-includes/js/dist/editor.js:6700
 #: wp-includes/js/dist/format-library.js:1020
 msgid "Link"
@@ -13270,7 +13295,7 @@ msgstr "Сторінка записів"
 #: wp-includes/customize/class-wp-customize-media-control.php:259
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:158
 #: wp-includes/media-template.php:574 wp-includes/media.php:4433
-#: wp-includes/js/dist/block-library.js:25607
+#: wp-includes/js/dist/block-library.js:25606
 #: wp-includes/js/dist/edit-post.js:3549
 #: wp-admin/includes/class-walker-nav-menu-edit.php:282
 #: wp-admin/includes/class-wp-users-list-table.php:269
@@ -13424,7 +13449,7 @@ msgstr "Збереження зображення не вдалося."
 #: wp-includes/block-editor.php:165 wp-includes/media-template.php:856
 #: wp-includes/media-template.php:936 wp-includes/media-template.php:1127
 #: wp-includes/media.php:4065 wp-includes/js/dist/block-editor.js:7487
-#: wp-includes/js/dist/block-library.js:26453
+#: wp-includes/js/dist/block-library.js:26452
 #: wp-includes/js/dist/components.js:30979
 #: wp-admin/includes/class-custom-background.php:606
 #: wp-admin/includes/media.php:1181
@@ -13432,12 +13457,12 @@ msgid "Large"
 msgstr "Великий"
 
 #: wp-includes/class-wp-editor.php:1304 wp-includes/media-template.php:903
-#: wp-includes/js/dist/block-library.js:8608
-#: wp-includes/js/dist/block-library.js:11983
-#: wp-includes/js/dist/block-library.js:18390
-#: wp-includes/js/dist/block-library.js:21228
-#: wp-includes/js/dist/block-library.js:24598
-#: wp-includes/js/dist/block-library.js:29219
+#: wp-includes/js/dist/block-library.js:8607
+#: wp-includes/js/dist/block-library.js:11982
+#: wp-includes/js/dist/block-library.js:18389
+#: wp-includes/js/dist/block-library.js:21227
+#: wp-includes/js/dist/block-library.js:24597
+#: wp-includes/js/dist/block-library.js:29218
 #: wp-admin/includes/class-wp-screen.php:1158
 msgid "Columns"
 msgstr "Колонки"
@@ -13746,7 +13771,7 @@ msgid "Nonbreaking space"
 msgstr "Нерозривний пробіл"
 
 #: wp-includes/class-wp-editor.php:1243
-#: wp-includes/js/dist/block-library.js:19725
+#: wp-includes/js/dist/block-library.js:19724
 msgid "Page break"
 msgstr "Розрив сторінки"
 
@@ -13803,7 +13828,7 @@ msgid "Row group"
 msgstr "Група рядків"
 
 #: wp-includes/class-wp-editor.php:1318
-#: wp-includes/js/dist/block-library.js:24080
+#: wp-includes/js/dist/block-library.js:24079
 msgid "Delete column"
 msgstr "Видалити стовпець"
 
@@ -13816,7 +13841,7 @@ msgstr "Колір фону"
 #: wp-includes/class-wp-editor.php:1350
 #: wp-includes/js/dist/block-editor.js:15174
 #: wp-includes/js/dist/block-editor.js:18099
-#: wp-includes/js/dist/block-library.js:20685
+#: wp-includes/js/dist/block-library.js:20684
 #: wp-includes/js/dist/format-library.js:1358
 msgid "Text color"
 msgstr "Колір тексту"
@@ -14179,11 +14204,11 @@ msgstr "Формат"
 #: wp-includes/js/dist/block-editor.js:14846
 #: wp-includes/js/dist/block-editor.js:18106
 #: wp-includes/js/dist/block-editor.js:18116
-#: wp-includes/js/dist/block-library.js:13817
-#: wp-includes/js/dist/block-library.js:20677
-#: wp-includes/js/dist/block-library.js:22335
-#: wp-includes/js/dist/block-library.js:22339
-#: wp-includes/js/dist/block-library.js:26569
+#: wp-includes/js/dist/block-library.js:13816
+#: wp-includes/js/dist/block-library.js:20676
+#: wp-includes/js/dist/block-library.js:22334
+#: wp-includes/js/dist/block-library.js:22338
+#: wp-includes/js/dist/block-library.js:26568
 msgid "Color"
 msgstr "Колір"
 
@@ -16271,7 +16296,7 @@ msgstr "Вставити обробник"
 #. translators: byline. %s: current author.
 #. translators: %s: the author.
 #: wp-includes/blocks/latest-posts.php:115 wp-includes/blocks/rss.php:60
-#: wp-includes/js/dist/block-library.js:18483
+#: wp-includes/js/dist/block-library.js:18482
 msgid "by %s"
 msgstr "Автор: %s"
 
@@ -16344,7 +16369,7 @@ msgstr "Параметр %1$s повинен бути масивом. Для п�
 
 #: wp-includes/blocks/latest-posts.php:139
 #: wp-includes/blocks/latest-posts.php:154
-#: wp-includes/js/dist/block-library.js:30866
+#: wp-includes/js/dist/block-library.js:30865
 msgid "This content is password protected."
 msgstr "Цей вміст захищено паролем."
 

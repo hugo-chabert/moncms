@@ -56,11 +56,11 @@ msgstr "与 MailPoet 一起发送的密钥无效。"
 msgid "Purchase a key"
 msgstr "购买钥匙"
 
-#: lib/API/JSON/v1/Settings.php:180
+#: lib/API/JSON/v1/Settings.php:184
 msgid "No email address specified."
 msgstr "未指定电子邮件地址。"
 
-#: lib/API/JSON/v1/Settings.php:189
+#: lib/API/JSON/v1/Settings.php:193
 msgid "Can’t use this email yet! Please authorize it first."
 msgstr "暂时无法使用此电子邮件！请先授权。"
 
@@ -190,23 +190,23 @@ msgstr "在这一类别购买"
 msgid "Please contact our technical support for assistance."
 msgstr "请与我们的技术支持联系以寻求帮助。"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:52
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:54
 msgid "Send an email to logged-in visitors who have items in their shopping carts but left your website without checking out. Can convert up to 5% of abandoned carts."
 msgstr "发送电子邮件给在购物车里有产品而没结帐的登录的访客。可以转换多达5% 的放弃购物车。"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:64
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:66
 msgid "hour(s) later"
 msgstr "小时后"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:70
 msgid "day(s) later"
 msgstr "天以后"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:74
 msgid "week(s) later"
 msgstr "星期以后"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:79
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:81
 msgid "We recommend setting up 3 abandoned cart emails. Here’s why."
 msgstr "我们建议设置3个废弃的购物车电子邮件。 这就是为什么。"
 
@@ -230,17 +230,17 @@ msgstr "WooCommerce 是必需的"
 msgid "WooCommerce %s event is misconfigured."
 msgstr "WooCommerce %s 事件配置错误。"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:51
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
 msgctxt "This is the name of a type of automatic email for ecommerce. Those emails are sent automatically when a customer adds product to his shopping cart but never complete the checkout process."
 msgid "Abandoned Shopping Cart"
 msgstr "放弃购物车"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
 msgctxt "Description of Abandoned Shopping Cart email"
 msgid "Email sent when a customer abandons his cart."
 msgstr "客户放弃购物车时发送的电子邮件。"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:60
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:62
 msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
 msgid "30 minutes after last page loaded"
 msgstr "最后一页加载后30分钟"
@@ -261,7 +261,7 @@ msgstr "请填写验证码。"
 msgid "The characters you entered did not match the CAPTCHA image. Please try again with this new image."
 msgstr "您输入的字符与CAPTCHA图像不匹配。请使用此新图片重试。"
 
-#: lib/Config/Populator.php:374
+#: lib/Config/Populator.php:379
 msgid "Newsletter mailing list"
 msgstr "通讯邮件列表"
 
@@ -319,7 +319,7 @@ msgstr ""
 "\n"
 "团队"
 
-#: lib/Config/Populator.php:304
+#: lib/Config/Populator.php:309
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "I would like to receive exclusive emails with discounts and product information"
 msgstr "我希望收到包含折扣和产品信息的独家电子邮件"
@@ -480,7 +480,7 @@ msgstr "您已成功订阅我们的时事通讯！"
 msgid "Manage features"
 msgstr "管理功能"
 
-#: lib/Config/Populator.php:303
+#: lib/Config/Populator.php:308
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "Yes, I would like to be added to your mailing list"
 msgstr "是的，我想加入您的邮件列表"
@@ -622,11 +622,11 @@ msgstr "软件"
 msgid "WordPress Theme"
 msgstr "WordPress主题"
 
-#: lib/Models/Segment.php:161 lib/Segments/SegmentsRepository.php:63
+#: lib/Models/Segment.php:162 lib/Segments/SegmentsRepository.php:63
 msgid "WooCommerce Customers"
 msgstr "WooCommerce客户"
 
-#: lib/Models/Segment.php:163 lib/Segments/SegmentsRepository.php:65
+#: lib/Models/Segment.php:164 lib/Segments/SegmentsRepository.php:65
 msgid "This list contains all of your WooCommerce customers."
 msgstr "此列表包含您的所有WooCommerce客户。"
 
@@ -779,7 +779,7 @@ msgstr "请注意，它不适用于在localhost。"
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:57
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:77
 msgid "Must-have"
 msgstr "必要的"
@@ -1042,7 +1042,7 @@ msgstr "用户已停止导入"
 msgid "Invalid API endpoint method."
 msgstr "无效的 API 端点方法。"
 
-#: lib/Config/Initializer.php:142
+#: lib/Config/Initializer.php:148
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "无法连接到数据库（数据库无法打开文件或文件夹），连接可能没有正确配置。请阅读我们的[link]知识文库文章[/link]以了解步骤如何解决此事。"
 
@@ -1461,7 +1461,7 @@ msgstr "此列表中没有订户!"
 msgid "This newsletter has not been sent yet."
 msgstr "此时事通讯尚未发送。"
 
-#: lib/API/JSON/v1/Settings.php:121
+#: lib/API/JSON/v1/Settings.php:125
 msgid "You have not specified any settings to be saved."
 msgstr "您尚未指定要保存的任何设置。"
 
@@ -1539,7 +1539,7 @@ msgstr "设置"
 msgid "In any WordPress role"
 msgstr "在任何 WordPress 角色"
 
-#: lib/Config/Populator.php:376
+#: lib/Config/Populator.php:381
 msgid "This list is automatically created when you install MailPoet."
 msgstr "此订阅组在安装 MailPoet 时自动创建。"
 
@@ -1889,7 +1889,7 @@ msgstr "不受支持的亚马逊 SES 地区"
 
 #: lib/API/JSON/v1/DynamicSegments.php:124 lib/API/JSON/v1/ImportExport.php:113
 #: lib/API/JSON/v1/Segments.php:129 lib/Models/CustomField.php:30
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:31
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "請指定名称。"
 
@@ -1952,11 +1952,11 @@ msgstr "未启用"
 msgid "Please specify a newsletter type."
 msgstr "请指定时事通讯类型。"
 
-#: lib/Models/Segment.php:143
+#: lib/Models/Segment.php:144
 msgid "WordPress Users"
 msgstr "WordPress 用户"
 
-#: lib/Models/Segment.php:145
+#: lib/Models/Segment.php:146
 msgid "This list contains all of your WordPress users."
 msgstr "此订阅组包含您的 WordPress 用户。"
 

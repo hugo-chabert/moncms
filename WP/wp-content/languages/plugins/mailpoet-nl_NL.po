@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-17 08:47:27+0000\n"
+"PO-Revision-Date: 2022-03-16 13:33:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,67 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release)\n"
 
-#: lib/Segments/SegmentDependencyValidator.php:123
+#: lib/Automation/Integrations/MailPoet/Triggers/SegmentSubscribedTrigger.php:41
+msgid "Subscribed to segment"
+msgstr "Geabonneerd op segment"
+
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:83
+msgid "Subscriber was not loaded."
+msgstr "Abonnee is niet geladen."
+
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:45
+msgid "Subscriber status"
+msgstr "Status van abonnee"
+
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:35
+msgid "Subscriber email"
+msgstr "E-mailadres abonnee"
+
+#: lib/Automation/Integrations/MailPoet/Subjects/SegmentSubject.php:66
+msgid "Segment was not loaded."
+msgstr "Segment is niet geladen."
+
+#: lib/Automation/Integrations/MailPoet/Subjects/SegmentSubject.php:35
+msgid "Segment name"
+msgstr "Naam van het segment"
+
+#: lib/Automation/Integrations/Core/Actions/WaitAction.php:30
+msgid "Wait"
+msgstr "Wachten"
+
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:202
+msgid "You have sent more emails this month than your MailPoet plan includes (%s), and sending has been temporarily paused. To continue sending with MailPoet Sending Service please [link]upgrade your plan[/link], or wait until sending is automatically resumed on <b>%s</b>."
+msgstr "Je hebt deze maand meer e-mails verstuurd dan je MailPoet abonnement (%s) omvat, en het verzenden is tijdelijk onderbroken. Om verder te kunnen verzenden met MailPoet verzend dienst kun je [link]je abonnement upgraden[/link], of wachten tot het verzenden automatisch wordt hervat op <b>%s</b>."
+
+#: lib/Config/Menu.php:335 lib/Config/Menu.php:336
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: lib/Automation/Engine/Exceptions.php:52
+msgid "No JSON body passed."
+msgstr "Geen JSON body doorgegeven."
+
+#: lib/Automation/Engine/Exceptions.php:46
+msgid "Method not allowed."
+msgstr "Methode niet toegestaan."
+
+#: lib/Twig/Functions.php:277
+msgid "Average"
+msgstr "Gemiddeld"
+
+#: lib/Twig/Functions.php:275
+msgid "Good"
+msgstr "Goed"
+
+#: lib/Twig/Functions.php:273
+msgid "Excellent"
+msgstr "Uitstekend"
+
+#: lib/Segments/SegmentDependencyValidator.php:132
 msgid "Your current MailPoet plan does not support advanced segments. Please [link]upgrade to a MailPoet Premium plan[/link] to reactivate this segment."
 msgstr "Je huidige MailPoet pakket ondersteunt geen geavanceerde segmenten. [link]Upgrade naar een MailPoet Premium abonnement[/link] om dit segment opnieuw te activeren."
 
-#: lib/API/MP/v1/Subscribers.php:86
+#: lib/API/MP/v1/Subscribers.php:97
 msgid "A subscriber is required."
 msgstr "Een abonnee is vereist."
 
@@ -116,23 +172,23 @@ msgstr "Bespaar flink op MailPoet - 40% korting deze Black Friday"
 msgid "There was a problem with your sending method. Please check if your sending method is properly configured."
 msgstr "Er was een probleem met je verzendmethode. Controleer of je verzendmethode goed ingesteld is."
 
-#: lib/Subscription/Pages.php:422
+#: lib/Subscription/Pages.php:440
 msgid "We appreciate your continued interest in our updates. Expect to hear from us again soon!"
 msgstr "We waarderen je voortdurende interesse in onze updates. Verwacht snel weer van ons te horen!"
 
-#: lib/Subscription/Pages.php:366
+#: lib/Subscription/Pages.php:384
 msgid "Thank you for letting us know!"
 msgstr "Bedankt dat je het ons laat weten!"
 
-#: lib/API/JSON/v1/Settings.php:306
+#: lib/API/JSON/v1/Settings.php:258
 msgid "Unable to deactivate re-engagement emails: "
 msgstr "Kan e-mails met opnieuw aanmelden niet deactiveren: "
 
-#: lib/API/JSON/v1/SendingQueue.php:177
+#: lib/API/JSON/v1/SendingQueue.php:190
 msgid "All emails must include an \"Unsubscribe\" link. Add a footer widget to your email to continue."
 msgstr "Alle e-mails moeten een link 'Afmelden' bevatten. Voeg een footer widget toe om je e-mail door te laten gaan."
 
-#: lib/API/JSON/v1/SendingQueue.php:169 lib/API/JSON/v1/SendingQueue.php:180
+#: lib/API/JSON/v1/SendingQueue.php:182 lib/API/JSON/v1/SendingQueue.php:193
 msgid "Poet, please add prose to your masterpiece before you send it to your followers."
 msgstr "Dichter, voeg proza toe aan het meesterwerk voordat je het naar je volgers stuurt."
 
@@ -152,19 +208,19 @@ msgstr "Autoriseer dit e-mailadres"
 msgid "Addresses in names are not permitted, please add your name instead."
 msgstr "Adressen in namen zijn niet toegestaan; voeg in plaats daarvan je naam toe."
 
-#: lib/Config/Shortcodes.php:95
+#: lib/Config/Shortcodes.php:126
 msgid "Please note that mailpoet_archive_subject no longer runs and that the list of parameters of the new filter is different."
 msgstr "Merk op dat mailpoet_archive_subject niet langer gebruikt wordt en dat de lijst met parameters van het nieuwe filter verschillend is."
 
-#: lib/Config/Shortcodes.php:85
+#: lib/Config/Shortcodes.php:116
 msgid "Please note that mailpoet_archive_date no longer runs and that the list of parameters of the new filter is different."
 msgstr "Merk op dat mailpoet_archive_date niet langer gebruikt wordt en dat de lijst met parameters van het nieuwe filter verschillend is."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:132
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:174
 msgid "MailPoet Sending Service has been temporarily suspended for your site due to [link1]degraded email deliverability[/link1]. Please [link2]contact our support team[/link2] to resolve the issue."
 msgstr "MailPoet verzendservice is tijdelijk geschorst voor je site wegens [link1]verslechterde e-mail bezorgbaarheid[/link1]. Neem contact op met ons [link2]ondersteuningsteam[/link2] om het probleem op te lossen."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:108
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:150
 msgid "You have reached the subscriber limit of your plan. Please [link1]upgrade your plan[/link1], or [link2]contact our support team[/link2] if you have any questions."
 msgstr "Je hebt de abonnee beperking van je abonnement bereikt. Upgrade [link1]je abonnement[/link1], of [link2]neem contact op met ons ondersteuningsteam[/link2] als je vragen hebt."
 
@@ -189,7 +245,7 @@ msgstr "Gebruikers-agent"
 msgid "MailPoet Email Opens"
 msgstr "MailPoet e-mail opent"
 
-#: lib/Config/Activator.php:45
+#: lib/Config/Activator.php:50
 msgid "MailPoet version update is in progress, please refresh the page in a minute."
 msgstr "MailPoet versie update is aan de gang, ververs de pagina over een minuutje."
 
@@ -232,7 +288,7 @@ msgstr "Het dupliceren van het formulier is mislukt."
 msgid "Activate the %s plugin to see the number of subscribers and enable the editing of this segment."
 msgstr "Activeer de %s plugin om het aantal abonnees te zien en het bewerken van dit segment mogelijk te maken."
 
-#: lib/Models/Segment.php:272 lib/Segments/SegmentsSimpleListRepository.php:62
+#: lib/Models/Segment.php:273 lib/Segments/SegmentsSimpleListRepository.php:62
 msgid "Subscribers without a list"
 msgstr "Abonnees zonder lijst"
 
@@ -291,19 +347,11 @@ msgstr "Daemon wordt niet correct ingesteld."
 msgid "Another record already exists. Please specify a different \"name\"."
 msgstr "Er bestaat al een ander record. Geef een andere \"naam\" op."
 
-#: lib/Util/Notices/DeprecatedShortcodeNotice.php:55
-msgid "[link]See the documentation for necessary changes[/link]"
-msgstr "[link]Bekijk de documentatie voor noodzakelijke wijzigingen[/link]"
-
-#: lib/Util/Notices/DeprecatedShortcodeNotice.php:54
-msgid "MailPoet recently changed how custom email shortcodes work, you may need to update your custom shortcodes."
-msgstr "MailPoet heeft onlangs de manier veranderd waarop aangepaste shortcodes voor e-mail werken, het kan zijn dat je je aangepaste shortcodes moet updaten."
-
 #: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:76
 msgid "Search products"
 msgstr "Zoek producten"
 
-#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:54
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:55
 msgctxt "Search input for product category (ecommerce)"
 msgid "Search category"
 msgstr "Zoek categorie"
@@ -696,7 +744,7 @@ msgstr "<strong>ABONNEER</strong> EN <strong><span style=\"color:#e04f8e\" class
 #: lib/Form/Templates/Templates/Template12Widget.php:30
 msgctxt "Text in a web form. Keep HTML tags!"
 msgid "DEAL<span style=\"color:#e04f8e\" class=\"has-inline-color\">WEEK</span>"
-msgstr "DEAL<span style=\"color:#e04f8e\" class=\"has-inline-color\">WEEK</span>"
+msgstr "DEAL <span style=\"color:#e04f8e\" class=\"has-inline-color\">WEEK</span>"
 
 #: lib/Form/Templates/Templates/Template12BelowPages.php:17
 #: lib/Form/Templates/Templates/Template12FixedBar.php:17
@@ -737,7 +785,7 @@ msgstr "KOM OP DE LIJST"
 #: lib/Form/Templates/Templates/Template11Widget.php:94
 msgctxt "Text in a web form. Keep HTML tags!"
 msgid "Be the first to know when our album is released on <strong>iTunes</strong> and <strong><span style=\"color:#01d386\" class=\"has-inline-color\">Spotify</span></strong>"
-msgstr "Weet als eerste wanneer ons album wordt uitgebracht op <strong>iTunes</strong>en <strong><span style=\"color:#01d386\" class=\"has-inline-color\">Spotify</span></strong>"
+msgstr "Weet als eerste wanneer ons album wordt uitgebracht op <strong>iTunes</strong> en <strong><span style=\"color:#01d386\" class=\"has-inline-color\">Spotify</span></strong>"
 
 #: lib/Form/Templates/Templates/Template11BelowPages.php:98
 #: lib/Form/Templates/Templates/Template11FixedBar.php:87
@@ -766,7 +814,7 @@ msgctxt "Form template name"
 msgid "Join the Club"
 msgstr "Kom bij de club"
 
-#: lib/Config/Menu.php:204 lib/Config/Menu.php:205
+#: lib/Config/Menu.php:211 lib/Config/Menu.php:212
 msgid "Select Form Template"
 msgstr "Selecteer formulier template"
 
@@ -1298,31 +1346,31 @@ msgstr "Voeg hier je postadres toe!"
 msgid "View this in your browser."
 msgstr "Bekijk dit in je browser."
 
-#: lib/Config/Menu.php:354 lib/Config/Menu.php:355
+#: lib/Config/Menu.php:361 lib/Config/Menu.php:362
 msgid "WooCommerce Setup"
 msgstr "WooCommerce instellen"
 
-#: lib/Subscription/Pages.php:372
+#: lib/Subscription/Pages.php:390
 msgid "Confirm you want to unsubscribe"
 msgstr "Bevestig dat je wilt uitschrijven"
 
-#: lib/API/JSON/v1/Services.php:243
+#: lib/API/JSON/v1/Services.php:252
 msgid "Sending of congratulatory email failed."
 msgstr "Het verzenden van de felicitatie-mail is mislukt."
 
-#: lib/API/JSON/v1/Services.php:235
+#: lib/API/JSON/v1/Services.php:244
 msgid "Sender email address '%s' is not authorized."
 msgstr "Afzender e-mail adres '%s' is niet geautoriseerd."
 
-#: lib/API/JSON/v1/Services.php:232
+#: lib/API/JSON/v1/Services.php:241
 msgid "Sender email address is not set."
 msgstr "E-mailadres van afzender is niet ingesteld."
 
-#: lib/API/JSON/v1/Services.php:227
+#: lib/API/JSON/v1/Services.php:236
 msgid "No FROM email addresses are authorized."
 msgstr "Er zijn geen VAN e-mail adressen geautoriseerd."
 
-#: lib/API/JSON/v1/Services.php:222
+#: lib/API/JSON/v1/Services.php:231
 msgid "MailPoet Sending Service is not active."
 msgstr "MailPoet verzend service is niet actief."
 
@@ -1339,23 +1387,23 @@ msgctxt "Subject of an email confirming that MailPoet Sending Service works"
 msgid "Sending with MailPoet works!"
 msgstr "Verzenden met MailPoet werkt!"
 
-#: lib/Config/ServicesChecker.php:51
+#: lib/Config/ServicesChecker.php:55
 msgid "Purchase a key"
 msgstr "Koop een sleutel"
 
-#: lib/Config/ServicesChecker.php:46
+#: lib/Config/ServicesChecker.php:50
 msgid "Your key to send with MailPoet is invalid."
 msgstr "Je sleutel om met MailPoet te kunnen verzenden is ongeldig."
 
-#: lib/Config/ServicesChecker.php:45
+#: lib/Config/ServicesChecker.php:49
 msgid "All sending is currently paused!"
 msgstr "Al het verzenden is momenteel onderbroken!"
 
-#: lib/API/JSON/v1/Settings.php:189
+#: lib/API/JSON/v1/Settings.php:193
 msgid "Can’t use this email yet! Please authorize it first."
 msgstr "Kan deze e-mail nog niet gebruiken! Geef het eerst toestemming."
 
-#: lib/API/JSON/v1/Settings.php:180
+#: lib/API/JSON/v1/Settings.php:184
 msgid "No email address specified."
 msgstr "Geen e-mailadres opgegeven."
 
@@ -1403,8 +1451,8 @@ msgstr "Fout bij het installeren van MailPoet Premium plugin."
 msgid "Premium key is not valid."
 msgstr "Premium sleutel is niet geldig."
 
-#: lib/API/JSON/v1/Newsletters.php:174 lib/API/JSON/v1/SendingQueue.php:62
-#: lib/API/JSON/v1/SendingQueue.php:213
+#: lib/API/JSON/v1/Newsletters.php:174 lib/API/JSON/v1/SendingQueue.php:69
+#: lib/API/JSON/v1/SendingQueue.php:226
 msgid "Subscribers limit reached."
 msgstr "Aantal abonnees bereikt."
 
@@ -1516,50 +1564,50 @@ msgstr "E-mail verzonden wanneer een klant producten koopt: %s"
 msgid "Email sent when a customer buys product: %s"
 msgstr "E-mail verzonden wanneer een klant product koopt: %s"
 
-#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:50
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:51
 msgid "Email sent when a customer buys a product in categories: %s"
 msgstr "E-mail verzonden wanneer een klant een product koopt in categorieën: %s"
 
-#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:49
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:50
 msgid "Email sent when a customer buys a product in category: %s"
 msgstr "E-mail verzonden wanneer een klant een product in categorie koopt: %s"
 
-#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:47
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:48
 msgctxt "This is the name of a type for automatic email for ecommerce. Those emails are sent automatically every time a customer buys for the first time a product in a given category"
 msgid "Purchased In This Category"
 msgstr "Gekocht in deze categorie"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:79
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:81
 msgid "We recommend setting up 3 abandoned cart emails. Here’s why."
 msgstr "We raden je aan 3 verlaten winkelwagen e-mails in te stellen. Dit is waarom."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:74
 msgid "week(s) later"
 msgstr "we(e)k(en) later"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:70
 msgid "day(s) later"
 msgstr "dag(en) later"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:64
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:66
 msgid "hour(s) later"
 msgstr "u(u)r(en) later"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:60
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:62
 msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
 msgid "30 minutes after last page loaded"
 msgstr "30 minuten na laatste pagina geladen"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
 msgctxt "Description of Abandoned Shopping Cart email"
 msgid "Email sent when a customer abandons his cart."
 msgstr "E-mail verzonden wanneer een klant zijn winkelwagen verlaat."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:52
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:54
 msgid "Send an email to logged-in visitors who have items in their shopping carts but left your website without checking out. Can convert up to 5% of abandoned carts."
 msgstr "Stuur een e-mail naar ingelogde bezoekers die artikelen in hun winkelwagens hebben staan maar die je site hebben verlaten zonder af te rekenen. Dit kan tot 5% van je verlaten winkelwagens converteren."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:51
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
 msgctxt "This is the name of a type of automatic email for ecommerce. Those emails are sent automatically when a customer adds product to his shopping cart but never complete the checkout process."
 msgid "Abandoned Shopping Cart"
 msgstr "Verlaten winkelwagen"
@@ -1596,7 +1644,7 @@ msgstr "HTTP-aanvraagmethode niet toegestaan."
 msgid "This is an empty email without any content and it cannot be sent. Please update [link]the email[/link]."
 msgstr "Dit is een lege e-mail zonder inhoud en kan niet worden verzonden. Werk [link]de e-mail[/link] bij."
 
-#: lib/Subscribers/SubscriberSubscribeController.php:183
+#: lib/Subscribers/SubscriberSubscribeController.php:217
 msgid "Please fill in the CAPTCHA."
 msgstr "Vul de CAPTCHA in."
 
@@ -1630,11 +1678,11 @@ msgstr ""
 "\n"
 "Het team"
 
-#: lib/Config/Populator.php:374
+#: lib/Config/Populator.php:379
 msgid "Newsletter mailing list"
 msgstr "Nieuwsbrief mailinglijst"
 
-#: lib/Config/Populator.php:304
+#: lib/Config/Populator.php:309
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "I would like to receive exclusive emails with discounts and product information"
 msgstr "Ik wil graag exclusieve e-mails ontvangen met nieuws en productinformatie"
@@ -1685,29 +1733,17 @@ msgstr "... een 2-kolommen vormgeving."
 msgid "This template has..."
 msgstr "Dit sjabloon heeft..."
 
-#: lib/Subscribers/SubscriberSubscribeController.php:215
+#: lib/Subscribers/SubscriberSubscribeController.php:249
 msgid "The characters entered do not match with the previous CAPTCHA."
 msgstr "De ingevoerde tekens komen niet overeen met de vorige CAPTCHA."
 
-#: lib/Subscribers/SubscriberSubscribeController.php:211
+#: lib/Subscribers/SubscriberSubscribeController.php:245
 msgid "Please regenerate the CAPTCHA."
 msgstr "Genereer de CAPTCHA opnieuw."
 
 #: lib/Cron/Workers/StatsNotifications/AutomatedEmails.php:112
 msgid "Your monthly stats are in!"
 msgstr "Je maandelijkse statistieken zijn binnen!"
-
-#: lib/Twig/Functions.php:292 lib/Twig/Functions.php:302
-msgid "BAD"
-msgstr "SLECHT"
-
-#: lib/Twig/Functions.php:290 lib/Twig/Functions.php:300
-msgid "GOOD"
-msgstr "GOED"
-
-#: lib/Twig/Functions.php:288 lib/Twig/Functions.php:298
-msgid "EXCELLENT"
-msgstr "UITSTEKEND"
 
 #: lib/Subscription/CaptchaRenderer.php:74
 msgid "Subscribe"
@@ -1738,7 +1774,7 @@ msgstr "%d uren"
 msgid "Something went wrong with your subscription. Please contact the website owner."
 msgstr "Er is iets misgegaan met je abonnement. Neem contact op met de eigenaar van de site."
 
-#: lib/Cron/Workers/StatsNotifications/Worker.php:182
+#: lib/Cron/Workers/StatsNotifications/Worker.php:187
 msgid "Manage subscription link"
 msgstr "Beheer de inschrijflink"
 
@@ -1758,17 +1794,17 @@ msgstr "Mislukte verzendtaak niet gevonden!"
 msgid "This email has not been sent yet."
 msgstr "Deze e-mail is nog niet verzonden."
 
-#: lib/Models/ScheduledTaskSubscriber.php:128
+#: lib/Models/ScheduledTaskSubscriber.php:129
 msgctxt "status when the sending of a newsletter has not been processed"
 msgid "Unprocessed"
 msgstr "Niet verwerkt"
 
-#: lib/Models/ScheduledTaskSubscriber.php:123
+#: lib/Models/ScheduledTaskSubscriber.php:124
 msgctxt "status when the sending of a newsletter has failed"
 msgid "Failed"
 msgstr "Mislukt"
 
-#: lib/Models/ScheduledTaskSubscriber.php:118
+#: lib/Models/ScheduledTaskSubscriber.php:119
 msgctxt "status when a newsletter has been sent"
 msgid "Sent"
 msgstr "Verzonden"
@@ -1848,7 +1884,7 @@ msgstr "<b>Het verzenden van al je e-mails is onderbroken</b> omdat je e-mailadr
 msgid "Manage features"
 msgstr "Beheer functies"
 
-#: lib/Config/Populator.php:303
+#: lib/Config/Populator.php:308
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "Yes, I would like to be added to your mailing list"
 msgstr "Ja, ik wil graag worden toegevoegd aan je mailinglijst"
@@ -1857,7 +1893,8 @@ msgstr "Ja, ik wil graag worden toegevoegd aan je mailinglijst"
 msgid "Failed to add list"
 msgstr "Kan lijst niet toevoegen"
 
-#: lib/Subscribers/SubscriberListingRepository.php:215
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:53
+#: lib/Subscribers/SubscriberListingRepository.php:220
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:213
 msgid "Inactive"
 msgstr "Inactief"
@@ -1942,7 +1979,7 @@ msgstr "U hebt geen gebruikersvlaggen opgegeven die moeten worden opgeslagen."
 msgid "Resume sending"
 msgstr "Verzenden hervatten"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:100
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:142
 msgid "Unknown address"
 msgstr "Onbekend adres"
 
@@ -1990,10 +2027,10 @@ msgstr "WordPress thema"
 msgid "Farmers Market"
 msgstr "Boerenmarkt"
 
-#: lib/Cron/Workers/StatsNotifications/Worker.php:148
+#: lib/Cron/Workers/StatsNotifications/Worker.php:150
 msgctxt "newsletter open rate, click rate and unsubscribe rate"
-msgid "%1$s%% opens, %2$s%% clicks, %3$s%% unsubscribes in a nutshell."
-msgstr "%1$s%% geopend, %2$s%% aantal klikken, %3$s%% uitschrijvingen in een notedop."
+msgid "%1$s%% clicks, %2$s%% opens, %3$s%% unsubscribes in a nutshell."
+msgstr "%1$s%% geopend, %2$s%% keer geopend, %3$s%% uitgeschreven in een notendop."
 
 #: lib/Cron/Workers/StatsNotifications/Worker.php:130
 msgctxt "title of an automatic email containing statistics (newsletter open rate, click rate, etc)"
@@ -2004,11 +2041,11 @@ msgstr "Statistieken voor e-mail: %s"
 msgid "Unknown MailChimp error."
 msgstr "Onbekende MailChimp fout."
 
-#: lib/Models/Segment.php:163 lib/Segments/SegmentsRepository.php:65
+#: lib/Models/Segment.php:164 lib/Segments/SegmentsRepository.php:65
 msgid "This list contains all of your WooCommerce customers."
 msgstr "Deze lijst bevat al je WooCommerce klanten."
 
-#: lib/Models/Segment.php:161 lib/Segments/SegmentsRepository.php:63
+#: lib/Models/Segment.php:162 lib/Segments/SegmentsRepository.php:63
 msgid "WooCommerce Customers"
 msgstr "WooCommerce klanten"
 
@@ -2040,7 +2077,7 @@ msgstr "Geen onderwerp"
 msgid "New subscriber to %s"
 msgstr "Nieuwe abonnee op %s"
 
-#: lib/Mailer/MailerError.php:103
+#: lib/Mailer/MailerError.php:105
 msgid "Unprocessed subscriber:"
 msgstr "Niet verwerkte abonnee:"
 
@@ -2052,7 +2089,7 @@ msgstr "Proficiat! Je gaat goed vooruit. Rond je upgrade af dankzij deze [link]c
 msgid "URL"
 msgstr "URL"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:85
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:127
 msgid "Invalid MSS response format."
 msgstr "Ongeldig MSS reactie format."
 
@@ -2132,19 +2169,19 @@ msgstr "Goed doel"
 msgid "Avocado"
 msgstr "Avocado"
 
-#: lib/Config/Menu.php:341 lib/Config/Menu.php:342
+#: lib/Config/Menu.php:348 lib/Config/Menu.php:349
 msgid "Welcome Wizard"
 msgstr "Welkomstwizard"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:46
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:80
 msgid "Error while sending."
 msgstr "Fout bij het versturen."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:59
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:93
 msgid "Email service is temporarily not available, please try again in a few minutes."
 msgstr "E-maildienst is tijdelijk niet beschikbaar. Probeer het over een paar minuten opnieuw."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:42
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:76
 msgid "JSON input is not an array"
 msgstr "JSON invoer is geen array"
 
@@ -2156,7 +2193,7 @@ msgstr "Onthoud dat het op localhost niet werkt."
 msgid "Purchased This Product"
 msgstr "Dit product gekocht"
 
-#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:48
+#: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:49
 msgid "Let MailPoet send an email to customers who purchase a product for the first time in a specific category."
 msgstr "Laat MailPoet een e-mail versturen naar klanten die een product kopen voor de eerste keer in een specifieke categorie."
 
@@ -2168,7 +2205,7 @@ msgstr "Laat MailPoet een e-mail versturen naar klanten die hun eerste aankoop h
 msgid "First Purchase"
 msgstr "Eerste aankoop"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:57
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:77
 msgid "Must-have"
 msgstr "Hebbedingetje"
@@ -2177,7 +2214,7 @@ msgstr "Hebbedingetje"
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: lib/Subscribers/SubscriberSubscribeController.php:189
+#: lib/Subscribers/SubscriberSubscribeController.php:223
 msgid "Please check the CAPTCHA."
 msgstr "Controleer de CAPTCHA."
 
@@ -2337,16 +2374,16 @@ msgctxt "Subscription status"
 msgid "List status"
 msgstr "Lijst status"
 
-#: lib/Subscribers/SubscriberSubscribeController.php:201
-#: lib/Subscribers/SubscriberSubscribeController.php:205
+#: lib/Subscribers/SubscriberSubscribeController.php:235
+#: lib/Subscribers/SubscriberSubscribeController.php:239
 msgid "Error while validating the CAPTCHA."
 msgstr "Fout bij het valideren van de CAPTCHA."
 
-#: lib/Subscription/Pages.php:445
+#: lib/Subscription/Pages.php:463
 msgid "Link to subscription management page is only available to mailing lists subscribers."
 msgstr "Link naar pagina met abonnementsbeheer is alleen beschikbaar voor abonnees van verzendlijsten."
 
-#: lib/Subscription/Pages.php:396
+#: lib/Subscription/Pages.php:414
 msgid "Subscription management form is only available to mailing lists subscribers."
 msgstr "Formulier voor abonnementsbeheer is alleen beschikbaar voor abonnees van verzendlijsten."
 
@@ -2354,13 +2391,13 @@ msgstr "Formulier voor abonnementsbeheer is alleen beschikbaar voor abonnees van
 msgid "MailPoet plugin requires WordPress version 4.6 or newer. Please read our [link]instructions[/link] on how to resolve this issue."
 msgstr "MailPoet-plugin vereist WordPress-versie 4.6 of nieuwer. Lees onze [link]instructies[/link] over hoe je dit probleem moet oplossen."
 
-#: lib/API/MP/v1/API.php:107 lib/API/MP/v1/Subscribers.php:127
+#: lib/API/MP/v1/API.php:107 lib/API/MP/v1/Subscribers.php:138
 msgid "List with ID %s does not exist."
 msgid_plural "Lists with IDs %s do not exist."
 msgstr[0] "Lijst met de ID %s bestaat niet."
 msgstr[1] "Lijsten met de ID's %s bestaan niet."
 
-#: lib/API/MP/v1/API.php:75 lib/API/MP/v1/Subscribers.php:82
+#: lib/API/MP/v1/API.php:75 lib/API/MP/v1/Subscribers.php:93
 msgid "At least one segment ID is required."
 msgstr "Er is ten minste één segment ID vereist."
 
@@ -2424,7 +2461,7 @@ msgstr "Start importeren"
 msgid "Invalid API endpoint method."
 msgstr "Ongeldige API-eindpuntmethode."
 
-#: lib/Config/Initializer.php:142
+#: lib/Config/Initializer.php:172
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "Kon niet verbinden met de database (de database kon een bestand of map niet openen), de verbinding is waarschijnlijk niet juist geconfigureerd. Lees ons [link]Kennisbank-artikel[/link] met stappen over hoe dit op te lossen is."
 
@@ -2432,7 +2469,7 @@ msgstr "Kon niet verbinden met de database (de database kon een bestand of map n
 msgid "Please leave this field empty"
 msgstr "Laat dit veld leeg"
 
-#: lib/Config/ServicesChecker.php:95
+#: lib/Config/ServicesChecker.php:99
 msgid "[link1]Register[/link1] your copy of the MailPoet Premium plugin to receive access to automatic upgrades and support. Need a license key? [link2]Purchase one now.[/link2]"
 msgstr "[link1]Registreer[/link1] je kopie van de MailPoet Premium-plugin om toegang te krijgen tot automatische upgrades en ondersteuning. Licentiesleutel nodig? [link2]Koop er nu één.[/link2]"
 
@@ -2440,7 +2477,7 @@ msgstr "[link1]Registreer[/link1] je kopie van de MailPoet Premium-plugin om toe
 msgid "Your MailPoet Sending Service key is already used on another site"
 msgstr "De MailPoet verstuur service sleutel is op een andere site in gebruik"
 
-#: lib/Subscribers/SubscriberSubscribeController.php:85
+#: lib/Subscribers/SubscriberSubscribeController.php:92
 msgid "Please leave the first field empty."
 msgstr "Laat het eerste veld leeg."
 
@@ -2464,16 +2501,16 @@ msgstr "Er was een fout bij het verwerken van je nieuwsbrief tijdens het verzend
 msgid "Settings imported"
 msgstr "Instellingen geïmporteerd"
 
-#: lib/API/JSON/v1/Services.php:260
+#: lib/API/JSON/v1/Services.php:269
 msgctxt "Error code (inside parentheses)"
 msgid "code: %s"
 msgstr "code: %s"
 
-#: lib/API/JSON/v1/Services.php:257
+#: lib/API/JSON/v1/Services.php:266
 msgid "Contact your hosting support to check the connection between your host and https://bridge.mailpoet.com"
 msgstr "Neem contact op met de ondersteuning van je host om de verbinding tussen je host en https://bridge.mailpoet.com te controleren"
 
-#: lib/API/JSON/v1/Services.php:254
+#: lib/API/JSON/v1/Services.php:263
 msgid "Service unavailable"
 msgstr "Dienst niet beschikbaar"
 
@@ -2525,7 +2562,7 @@ msgstr "Religie"
 msgid "App Welcome"
 msgstr "App welkom"
 
-#: lib/Config/Menu.php:314 lib/Config/Menu.php:315
+#: lib/Config/Menu.php:321 lib/Config/Menu.php:322
 msgid "Help"
 msgstr "Hulp"
 
@@ -2553,7 +2590,7 @@ msgstr "MailPoet-plugin kan niet draaien op een webserver met Internet Informati
 msgid "We noticed that you're using an unsupported environment. While MailPoet might work within a MultiSite environment, we don’t support it."
 msgstr "We hebben gemerkt dat je een niet-ondersteunde omgeving gebruikt. Hoewel MailPoet kan werken in een multisite-omgeving, ondersteunen we dit niet."
 
-#: lib/Config/Menu.php:367
+#: lib/Config/Menu.php:374
 msgid "Migration"
 msgstr "Migratie"
 
@@ -2611,10 +2648,6 @@ msgstr "MailPoet-gegevens gewist"
 msgid "No valid subscribers were found."
 msgstr "Geen geldige abonnees gevonden."
 
-#: lib/Config/Menu.php:328 lib/Config/Menu.php:329
-msgid "Premium"
-msgstr "Premium"
-
 #: lib/API/JSON/v1/Services.php:174
 msgid "Your Premium key expires on %s"
 msgstr "Je Premium sleutel verloopt op %s"
@@ -2643,7 +2676,7 @@ msgstr "Het e-mailadres van de abonnee is verplicht."
 msgid "Invalid API version."
 msgstr "Ongeldige API-versie."
 
-#: lib/Config/ServicesChecker.php:119
+#: lib/Config/ServicesChecker.php:123
 msgid "Your License Key for MailPoet is expiring! Don't forget to [link]renew your license[/link] by %s to keep enjoying automatic updates and Premium support."
 msgstr "Je licentiesleutel voor MailPoet is bijna verlopen! Vergeet niet [link]je licentie te vernieuwen[/link] vóór %s om van automatische updates en premium-ondersteuning te blijven genieten."
 
@@ -2679,15 +2712,15 @@ msgstr "Ongeldig API-verzoek."
 msgid "Missing or invalid import data."
 msgstr "Ontbrekende of ongeldige importgegevens."
 
-#: lib/Mailer/MailerError.php:105
+#: lib/Mailer/MailerError.php:107
 msgid "Unprocessed subscribers:"
 msgstr "Niet verwerkte abonnees:"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:29
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:63
 msgid "MailPoet API key is invalid!"
 msgstr "MailPoet API-sleutel is ongeldig!"
 
-#: lib/Config/ServicesChecker.php:64
+#: lib/Config/ServicesChecker.php:68
 msgid "Your newsletters are awesome! Don't forget to [link]upgrade your MailPoet email plan[/link] by %s to keep sending them to your subscribers."
 msgstr "Je nieuwsbrieven zijn geweldig! Vergeet niet om [link]je MailPoet e-mailplan te upgraden[/link] door %s om ze naar je abonnees te blijven verzenden."
 
@@ -2699,7 +2732,7 @@ msgstr "Geef een sleutel op."
 msgid "The export file could not be saved on the server."
 msgstr "Het exportbestand kon niet op de server worden opgeslagen."
 
-#: lib/Subscribers/SubscriberSubscribeController.php:244
+#: lib/Subscribers/SubscriberSubscribeController.php:278
 msgid "Please specify a valid form ID."
 msgstr "Specificeer een geldig formulier-ID."
 
@@ -2723,11 +2756,11 @@ msgstr "Een MailPoet afhankelijkheid (%s) lijkt niet juist geladen te zijn, dus 
 msgid "%s has returned an unknown error."
 msgstr "%s gaf een onbekende fout terug."
 
-#: lib/Mailer/MailerLog.php:60
+#: lib/Mailer/MailerLog.php:101
 msgid "Sending is waiting to be retried."
 msgstr "Verzending wacht op opnieuw proberen."
 
-#: lib/Mailer/MailerLog.php:56
+#: lib/Mailer/MailerLog.php:97
 msgid "Sending has been paused."
 msgstr "Verzending is gepauzeerd."
 
@@ -2736,7 +2769,8 @@ msgstr "Verzending is gepauzeerd."
 msgid "The email could not be sent: %s"
 msgstr "De e-mail kon niet worden verzonden: %s"
 
-#: lib/Subscribers/SubscriberListingRepository.php:220
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:54
+#: lib/Subscribers/SubscriberListingRepository.php:225
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:201
 msgid "Bounced"
 msgstr "Bounced"
@@ -2749,7 +2783,7 @@ msgstr "MailPoet kan niet starten, omdat core-bestanden ontbreken. Herinstalleer
 msgid "MailPoet requires write permissions inside the /wp-content/uploads folder. Please read our [link]instructions[/link] on how to resolve this issue."
 msgstr "MailPoet vereist schrijfrechten in de map/wp-content/uploads. Lees onze [link]instructies[/link] over hoe je dit probleem op te lossen."
 
-#: lib/Subscribers/SubscriberSubscribeController.php:121
+#: lib/Subscribers/SubscriberSubscribeController.php:128
 msgid "You need to wait %s before subscribing again."
 msgstr "Je moet wachten %s voordat je jezelf opnieuw kan abonneren."
 
@@ -2758,7 +2792,7 @@ msgid "Failed to render template \"%s\". Please ensure the template cache folder
 msgstr "Mislukt om template \"%s\" te maken. Zorg ervoor dat de cachemap van het template \"%s\" bestaat en schrijfrechten heeft. Beëindigd met fout: \"%s\""
 
 #: lib/Form/Block/BlockRendererHelper.php:58
-#: lib/Subscribers/SubscriberSubscribeController.php:233
+#: lib/Subscribers/SubscriberSubscribeController.php:267
 msgid "Please select a list."
 msgstr "Selecteer een lijst."
 
@@ -2783,19 +2817,19 @@ msgstr "http://www.mailpoet.com"
 msgid "MailPoet Error:"
 msgstr "MailPoet fout:"
 
-#: lib/Twig/Functions.php:182
+#: lib/Twig/Functions.php:177
 msgid "every %1$d hours"
 msgstr "elke %1$d uur"
 
-#: lib/Twig/Functions.php:181
+#: lib/Twig/Functions.php:176
 msgid "every hour"
 msgstr "elk uur"
 
-#: lib/Twig/Functions.php:180
+#: lib/Twig/Functions.php:175
 msgid "every %1$d minutes"
 msgstr "elke %1$d minuten"
 
-#: lib/Twig/Functions.php:179
+#: lib/Twig/Functions.php:174
 msgid "every minute"
 msgstr "elke minuut"
 
@@ -2803,13 +2837,13 @@ msgstr "elke minuut"
 msgid "Yes, please add me to your mailing list."
 msgstr "Ja, voeg mij aan je mailinglijst toe."
 
-#: lib/Subscription/Pages.php:412
+#: lib/Subscription/Pages.php:430
 msgid "Accidentally unsubscribed?"
 msgstr "Per ongeluk uitgeschreven?"
 
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:111
-msgid "Need to change your email address? Unsubscribe here, then simply sign up again."
-msgstr "Moet je je e-mailadres wijzigen? Schijf je hier uit, meld je daarna eenvoudig opnieuw aan."
+msgid "Need to change your email address? Unsubscribe using the form below, then simply sign up again."
+msgstr "Moet je je e-mailadres wijzigen? Schijf je hier uit met onderstaand formulier, meld je daarna eenvoudig opnieuw aan."
 
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:126
 msgid "[link]Log in to your account[/link] to update your email."
@@ -2827,11 +2861,11 @@ msgstr "Opslaan"
 msgid "Your lists"
 msgstr "Je lijsten"
 
-#: lib/Subscription/Pages.php:378
+#: lib/Subscription/Pages.php:396
 msgid "Yup, we've added you to our email list. You'll hear from us shortly."
 msgstr "Jep, we hebben je aan onze e-maillijst toegevoegd. Je hoort binnenkort van ons."
 
-#: lib/Subscription/Pages.php:360
+#: lib/Subscription/Pages.php:378
 msgid "You are now unsubscribed."
 msgstr "Je bent nu uitgeschreven."
 
@@ -2961,23 +2995,23 @@ msgstr "Je bent nu uitgeschreven."
 #: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
 #: lib/Config/PopulatorData/Templates/WorldCup.php:727
 #: lib/Config/PopulatorData/Templates/YogaStudio.php:701
-#: lib/Subscription/Pages.php:354 lib/Subscription/Pages.php:451
+#: lib/Subscription/Pages.php:372 lib/Subscription/Pages.php:469
 msgid "Manage your subscription"
 msgstr "Beheer je abonnement"
 
-#: lib/Subscription/Pages.php:341
+#: lib/Subscription/Pages.php:359
 msgid "You are now subscribed!"
 msgstr "Je bent nu geabonneerd!"
 
-#: lib/Subscription/Pages.php:332 lib/Subscription/Pages.php:344
+#: lib/Subscription/Pages.php:350 lib/Subscription/Pages.php:362
 msgid "You have subscribed to: %s"
 msgstr "Je hebt je geabonneerd op: %s"
 
-#: lib/Subscription/Pages.php:272
+#: lib/Subscription/Pages.php:290
 msgid "Your email address doesn't appear in our lists anymore. Sign up again or contact us if this appears to be a mistake."
 msgstr "Je e-mailadres komt niet meer in onze lijsten voor. Meld je opnieuw aan of neem contact met ons op als dit een vergissing lijkt te zijn."
 
-#: lib/Subscription/Pages.php:244
+#: lib/Subscription/Pages.php:262
 msgid "Hmmm... we don't have a record of you."
 msgstr "Hmmm... we hebben geen gegevens van je."
 
@@ -3066,7 +3100,7 @@ msgid "Export requires a ZIP extension to be installed on the host."
 msgstr "Exporteren vereist een ZIP-extensie die geïnstalleerd is op de host."
 
 #: lib/Settings/Pages.php:18 lib/Settings/Pages.php:19
-#: lib/Settings/Pages.php:43 lib/Subscription/Pages.php:237
+#: lib/Settings/Pages.php:43 lib/Subscription/Pages.php:255
 msgid "MailPoet Page"
 msgstr "MailPoet pagina"
 
@@ -3078,7 +3112,7 @@ msgstr "Ongeldige router endpoint actie"
 msgid "Invalid router endpoint"
 msgstr "Ongeldig router endpoint"
 
-#: lib/Cron/Workers/StatsNotifications/Worker.php:183
+#: lib/Cron/Workers/StatsNotifications/Worker.php:188
 #: lib/Newsletter/Shortcodes/ShortcodesHelper.php:109
 msgid "View in browser link"
 msgstr "Link in browser bekijken"
@@ -3087,7 +3121,7 @@ msgstr "Link in browser bekijken"
 msgid "Edit subscription page link"
 msgstr "Abonnement bewerken pagina link"
 
-#: lib/Cron/Workers/StatsNotifications/Worker.php:181
+#: lib/Cron/Workers/StatsNotifications/Worker.php:186
 #: lib/Newsletter/Shortcodes/ShortcodesHelper.php:93
 msgid "Unsubscribe link"
 msgstr "Uitschrijflink"
@@ -3315,22 +3349,25 @@ msgstr "Uitschrijven"
 msgid "Click here to view media."
 msgstr "Klik hier om media te bekijken."
 
-#: lib/Subscribers/SubscriberListingRepository.php:210
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:52
+#: lib/Subscribers/SubscriberListingRepository.php:215
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:193
 msgid "Unsubscribed"
 msgstr "Uitgeschreven"
 
-#: lib/Subscribers/SubscriberListingRepository.php:205
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:51
+#: lib/Subscribers/SubscriberListingRepository.php:210
 msgid "Unconfirmed"
 msgstr "Onbevestigd"
 
-#: lib/Subscribers/SubscriberListingRepository.php:200
+#: lib/Automation/Integrations/MailPoet/Subjects/SubscriberSubject.php:50
+#: lib/Subscribers/SubscriberListingRepository.php:205
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:185
 msgid "Subscribed"
 msgstr "Geabonneerd"
 
 #: lib/Models/Subscriber.php:174
-#: lib/Subscribers/SubscriberListingRepository.php:239
+#: lib/Subscribers/SubscriberListingRepository.php:244
 msgid "Subscribers without a list (%s)"
 msgstr "Abonnees zonder een lijst (%s)"
 
@@ -3346,11 +3383,11 @@ msgstr "Vul je e-mailadres in"
 msgid "Confirm your subscription to %1$s"
 msgstr "Bevestig je abonnement op %1$s"
 
-#: lib/Models/Segment.php:145
+#: lib/Models/Segment.php:146
 msgid "This list contains all of your WordPress users."
 msgstr "Deze lijst bevat al je WordPress gebruikers."
 
-#: lib/Models/Segment.php:143
+#: lib/Models/Segment.php:144
 msgid "WordPress Users"
 msgstr "WordPress-gebruikers"
 
@@ -3386,7 +3423,7 @@ msgstr "Concept"
 
 #: lib/Models/Subscriber.php:166
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:66
-#: lib/Subscribers/SubscriberListingRepository.php:255
+#: lib/Subscribers/SubscriberListingRepository.php:260
 msgid "All Lists"
 msgstr "Alle lijsten"
 
@@ -3397,15 +3434,15 @@ msgstr "Een ander record bestaat al. Specificeer een ander \"%1$s\"."
 #: lib/Form/Listing/FormListingRepository.php:39
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:178
 #: lib/Segments/SegmentListingRepository.php:102
-#: lib/Subscribers/SubscriberListingRepository.php:225
+#: lib/Subscribers/SubscriberListingRepository.php:230
 msgid "Trash"
 msgstr "Prullenbak"
 
 #: lib/Form/Listing/FormListingRepository.php:34
-#: lib/Models/ScheduledTaskSubscriber.php:113
+#: lib/Models/ScheduledTaskSubscriber.php:114
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:110
 #: lib/Segments/SegmentListingRepository.php:97
-#: lib/Subscribers/SubscriberListingRepository.php:195
+#: lib/Subscribers/SubscriberListingRepository.php:200
 msgid "All"
 msgstr "Alle"
 
@@ -3415,7 +3452,7 @@ msgstr "Specificeer een type."
 
 #: lib/API/JSON/v1/DynamicSegments.php:124 lib/API/JSON/v1/ImportExport.php:113
 #: lib/API/JSON/v1/Segments.php:129 lib/Models/CustomField.php:30
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:31
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "Specificeer een naam."
 
@@ -3423,7 +3460,7 @@ msgstr "Specificeer een naam."
 msgid "Unsupported Amazon SES region"
 msgstr "Niet-ondersteunde Amazon SES-regio"
 
-#: lib/Mailer/MailerLog.php:68
+#: lib/Mailer/MailerLog.php:109
 msgid "Sending frequency limit has been reached."
 msgstr "Limiet verzendingsfrequentie is bereikt."
 
@@ -3573,11 +3610,11 @@ msgstr "Maximale uitvoertijd is bereikt."
 msgid "Site URL is unreachable."
 msgstr "Site URL is niet bereikbaar."
 
-#: lib/Config/Shortcodes.php:194
+#: lib/Config/Shortcodes.php:247
 msgid "Preview in a new tab"
 msgstr "Voorvertoning in een nieuw tabblad"
 
-#: lib/Config/Shortcodes.php:152
+#: lib/Config/Shortcodes.php:183
 msgid "Oops! There are no newsletters to display."
 msgstr "Oeps. Er zijn geen nieuwsbrieven om te tonen."
 
@@ -3929,77 +3966,77 @@ msgstr "Neplogo"
 msgid "Newsletter: Blank 1:2:1 Column"
 msgstr "Nieuwsbrief: leeg 1:2:1 kolommen"
 
-#: lib/Config/Populator.php:376
+#: lib/Config/Populator.php:381
 msgid "This list is automatically created when you install MailPoet."
 msgstr "Deze lijst is automatisch aangemaakt bij het installeren van MailPoet."
 
 #. Author of the plugin
-#: lib/Config/Capabilities.php:83 lib/Config/Menu.php:474
+#: lib/Config/Capabilities.php:83 lib/Config/Menu.php:497
 #: lib/Config/PrivacyPolicy.php:15
 msgid "MailPoet"
 msgstr "MailPoet"
 
-#: lib/AdminPages/Pages/Newsletters.php:128
+#: lib/AdminPages/Pages/Newsletters.php:131
 msgid "In any WordPress role"
 msgstr "In elke WordPress rol"
 
-#: lib/Config/Menu.php:147
+#: lib/Config/Menu.php:154
 msgid "Newsletter Editor"
 msgstr "Nieuwsbrief editor"
 
-#: lib/Config/Menu.php:146 lib/Newsletter/Shortcodes/ShortcodesHelper.php:45
+#: lib/Config/Menu.php:153 lib/Newsletter/Shortcodes/ShortcodesHelper.php:45
 msgid "Newsletter"
 msgstr "Nieuwsbrief"
 
-#: lib/Config/Menu.php:184 lib/Config/Menu.php:185
+#: lib/Config/Menu.php:191 lib/Config/Menu.php:192
 msgid "Form Editor"
 msgstr "Formulier editor"
 
-#: lib/Config/Menu.php:263 lib/Config/Menu.php:264
+#: lib/Config/Menu.php:270 lib/Config/Menu.php:271
 msgid "Export"
 msgstr "Exporteren"
 
-#: lib/Config/Menu.php:250 lib/Config/Menu.php:251
+#: lib/Config/Menu.php:257 lib/Config/Menu.php:258
 msgid "Import"
 msgstr "Importeren"
 
-#: lib/Config/Menu.php:301 lib/Config/Menu.php:302
+#: lib/Config/Menu.php:308 lib/Config/Menu.php:309
 msgid "Settings"
 msgstr "Instellingen"
 
-#: lib/Config/Menu.php:289
+#: lib/Config/Menu.php:296
 msgctxt "segments per page (screen options)"
 msgid "Number of segments per page"
 msgstr "Aantal segmenten per pagina"
 
-#: lib/Config/Menu.php:276 lib/Config/Menu.php:277
+#: lib/Config/Menu.php:283 lib/Config/Menu.php:284
 msgid "Lists"
 msgstr "Lijsten"
 
-#: lib/Config/Menu.php:238
+#: lib/Config/Menu.php:245
 msgctxt "subscribers per page (screen options)"
 msgid "Number of subscribers per page"
 msgstr "Aantal abonnees per pagina"
 
-#: lib/Config/Menu.php:225 lib/Config/Menu.php:226
+#: lib/Config/Menu.php:232 lib/Config/Menu.php:233
 msgid "Subscribers"
 msgstr "Abonnees"
 
-#: lib/Config/Menu.php:172
+#: lib/Config/Menu.php:179
 msgctxt "forms per page (screen options)"
 msgid "Number of forms per page"
 msgstr "Aantal formulieren per pagina"
 
-#: lib/Config/Menu.php:159 lib/Config/Menu.php:160
+#: lib/Config/Menu.php:166 lib/Config/Menu.php:167
 msgid "Forms"
 msgstr "Formulieren"
 
-#: lib/Config/Menu.php:134
+#: lib/Config/Menu.php:141
 msgctxt "newsletters per page (screen options)"
 msgid "Number of newsletters per page"
 msgstr "Aantal nieuwsbrieven per pagina"
 
-#: lib/Config/Menu.php:121 lib/Config/Menu.php:122
+#: lib/Config/Menu.php:128 lib/Config/Menu.php:129
 msgid "Emails"
 msgstr "E-mails"
 
@@ -4011,30 +4048,30 @@ msgstr "MailPoet nieuwsbrief"
 #: lib/API/JSON/v1/Subscribers.php:184 lib/API/JSON/v1/Subscribers.php:196
 #: lib/API/JSON/v1/Subscribers.php:220 lib/API/JSON/v1/SubscriberStats.php:42
 #: lib/API/MP/v1/API.php:81 lib/API/MP/v1/API.php:231
-#: lib/API/MP/v1/Subscribers.php:98 lib/API/MP/v1/Subscribers.php:207
+#: lib/API/MP/v1/Subscribers.php:109 lib/API/MP/v1/Subscribers.php:231
 msgid "This subscriber does not exist."
 msgstr "Deze abonnee bestaat niet."
 
-#: lib/API/JSON/v1/Settings.php:121
+#: lib/API/JSON/v1/Settings.php:125
 msgid "You have not specified any settings to be saved."
 msgstr "Je hebt geen instellingen gespecificeerd om op te slaan."
 
-#: lib/API/JSON/v1/SendingQueue.php:197 lib/API/JSON/v1/SendingQueue.php:227
+#: lib/API/JSON/v1/SendingQueue.php:210 lib/API/JSON/v1/SendingQueue.php:240
 msgid "This newsletter has not been sent yet."
 msgstr "Deze nieuwsbrief is nog niet verzonden."
 
-#: lib/API/JSON/v1/SendingQueue.php:138
+#: lib/API/JSON/v1/SendingQueue.php:151
 msgid "There are no subscribers in that list!"
 msgstr "Er zijn geen abonnees in die lijst!"
 
-#: lib/API/JSON/v1/SendingQueue.php:110
+#: lib/API/JSON/v1/SendingQueue.php:117
 msgid "This newsletter is already being sent."
 msgstr "Deze nieuwsbrief wordt al verzonden."
 
 #: lib/API/JSON/v1/Segments.php:103 lib/API/JSON/v1/Segments.php:165
 #: lib/API/JSON/v1/Segments.php:175 lib/API/JSON/v1/Segments.php:237
 #: lib/API/JSON/v1/Segments.php:259 lib/API/MP/v1/API.php:87
-#: lib/API/MP/v1/Subscribers.php:104
+#: lib/API/MP/v1/Subscribers.php:115
 msgid "This list does not exist."
 msgid_plural "These lists do not exist."
 msgstr[0] "Deze lijst bestaat niet."
@@ -4052,8 +4089,8 @@ msgstr "Nieuwsbriefgegevens ontbreken."
 msgid "You need to specify a status."
 msgstr "Je moet een status specificeren."
 
-#: lib/API/JSON/v1/SendingQueue.php:75 lib/API/JSON/v1/SendingQueue.php:81
-#: lib/API/JSON/v1/SendingQueue.php:205 lib/API/JSON/v1/SendingQueue.php:235
+#: lib/API/JSON/v1/SendingQueue.php:82 lib/API/JSON/v1/SendingQueue.php:88
+#: lib/API/JSON/v1/SendingQueue.php:218 lib/API/JSON/v1/SendingQueue.php:248
 msgid "This newsletter does not exist."
 msgstr "Deze nieuwsbrief bestaat niet."
 
@@ -4108,7 +4145,7 @@ msgid "Invalid request parameters"
 msgstr "Ongeldige verzoekparameters"
 
 #: lib/API/JSON/Endpoint.php:33 lib/API/JSON/ErrorHandler.php:20
-#: lib/API/JSON/ErrorResponse.php:30
+#: lib/API/JSON/ErrorResponse.php:30 lib/Automation/Engine/API/API.php:73
 msgid "An unknown error occurred."
 msgstr "Een onbekende fout deed zich voor."
 

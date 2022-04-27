@@ -7,12 +7,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: tr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
 
-#: includes/managers/elements.php:298
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3502
+#: includes/managers/elements.php:305
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3724
 msgid "Favorites"
 msgstr "Sık kullanılanlar"
 
@@ -20,64 +20,64 @@ msgstr "Sık kullanılanlar"
 msgid "Default Device View "
 msgstr "Varsayılan cihaz görünümü "
 
-#: includes/settings/settings.php:530
+#: includes/settings/settings.php:507
 msgid "API Key"
 msgstr "API Anahtarı"
 
-#: includes/widgets/common.php:519 includes/widgets/common.php:542
-#: includes/widgets/common.php:1075
+#: includes/widgets/common.php:878 includes/widgets/common.php:901
+#: includes/widgets/common.php:1459
 msgid "Scale"
 msgstr "Ölçek"
 
-#: includes/widgets/common.php:1060
+#: includes/widgets/common.php:1444
 msgid "Fit"
 msgstr "Sığdır"
 
-#: includes/widgets/common.php:1215
+#: includes/widgets/common.php:1599
 msgid "Round"
 msgstr "Yuvarlak"
 
-#: includes/widgets/common.php:1119
+#: includes/widgets/common.php:1503
 msgid "Top Right"
 msgstr "Sağ Üst"
 
-#: includes/widgets/common.php:1118
+#: includes/widgets/common.php:1502
 msgid "Top Left"
 msgstr "Sol Üst"
 
-#: includes/widgets/common.php:1117
+#: includes/widgets/common.php:1501
 msgid "Top Center"
 msgstr "Üst Orta"
 
-#: includes/widgets/common.php:1116
+#: includes/widgets/common.php:1500
 msgid "Center Right"
 msgstr "Sağ Orta"
 
-#: includes/widgets/common.php:1122
+#: includes/widgets/common.php:1506
 msgid "Bottom Right"
 msgstr "Sağ Alt"
 
-#: includes/widgets/common.php:1121
+#: includes/widgets/common.php:1505
 msgid "Bottom Left"
 msgstr "Sol Alt"
 
-#: includes/widgets/common.php:1120
+#: includes/widgets/common.php:1504
 msgid "Bottom Center"
 msgstr "Alt Orta"
 
-#: includes/widgets/common.php:1115
+#: includes/widgets/common.php:1499
 msgid "Center Left"
 msgstr "Sol Orta"
 
-#: includes/widgets/common.php:1114
+#: includes/widgets/common.php:1498
 msgid "Center Center"
 msgstr "Orta Orta"
 
-#: includes/widgets/common.php:1172
+#: includes/widgets/common.php:1556
 msgid "Y Position"
 msgstr "Y Konumu"
 
-#: includes/widgets/common.php:1136
+#: includes/widgets/common.php:1520
 msgid "X Position"
 msgstr "X Konumu"
 
@@ -89,19 +89,19 @@ msgstr "Altıgen"
 msgid "Triangle"
 msgstr "Üçgen"
 
-#: includes/widgets/common.php:1208 includes/widgets/common.php:1212
+#: includes/widgets/common.php:1592 includes/widgets/common.php:1596
 msgid "Repeat"
 msgstr "Tekrarlama"
 
-#: includes/widgets/common.php:989 includes/widgets/common.php:997
+#: includes/widgets/common.php:1370 includes/widgets/common.php:1378
 msgid "Mask"
 msgstr "Maske"
 
-#: includes/settings/settings.php:592
+#: includes/settings/settings.php:569
 msgid "Optional"
 msgstr "İsteğe bağlı"
 
-#: core/breakpoints/manager.php:337
+#: core/breakpoints/manager.php:338
 msgid "Widescreen"
 msgstr "Geniş ekran"
 
@@ -109,7 +109,7 @@ msgstr "Geniş ekran"
 msgid "Using popups on your site?"
 msgstr "Sitenizde açılır pencereleri mi kullanıyorsunuz?"
 
-#: includes/settings/settings.php:583
+#: includes/settings/settings.php:560
 msgid "Google Fonts Load"
 msgstr "Google Yazı Tipi Yükle"
 
@@ -117,15 +117,15 @@ msgstr "Google Yazı Tipi Yükle"
 msgid "Use Elementor Pro and enjoy unlimited integrations, visual design, templates and more."
 msgstr "Elementor Pro kullanarak, limitsiz entegrasyon, görsel tasarım, şablon ve daha fazlasını zevk alarak tasarlayın."
 
-#: includes/widgets/common.php:1214
+#: includes/widgets/common.php:1598
 msgid "Repeat-Y"
 msgstr "Y-Ekseninde Tekrarla"
 
-#: includes/widgets/common.php:1213
+#: includes/widgets/common.php:1597
 msgid "Repeat-X"
 msgstr "X- Ekseninde Tekrarla"
 
-#: includes/widgets/common.php:1211
+#: includes/widgets/common.php:1595
 msgid "No-Repeat"
 msgstr "Tekrarlama Yok"
 
@@ -133,7 +133,7 @@ msgstr "Tekrarlama Yok"
 msgid "Sketch"
 msgstr "Karalama"
 
-#: core/app/modules/import-export/module.php:252
+#: core/app/modules/import-export/module.php:316
 msgid "Start Import"
 msgstr "İçe Aktarımı Başlat"
 
@@ -141,29 +141,29 @@ msgstr "İçe Aktarımı Başlat"
 msgid "Love using Elementor?"
 msgstr "Elementor'u kullanmayı seviyor musunuz?"
 
-#: core/app/modules/import-export/module.php:226
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3302
+#: core/app/modules/import-export/module.php:290 assets/js/app.js:10420
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3524
 msgid "Learn more"
 msgstr "Daha fazla bilgi"
 
 #. translators: %s: Max file size.
-#: core/utils/import-export/wp-import.php:1142
+#: core/utils/import-export/wp-import.php:1159
 msgid "Remote file is too large, limit is %s"
 msgstr "Uzak dosya fazla büyük, limit %s"
 
-#: core/utils/import-export/wp-import.php:1190
+#: core/utils/import-export/wp-import.php:1207
 msgid "The uploaded file could not be moved"
 msgstr "Yüklenen dosya taşınamadı"
 
-#: core/utils/import-export/wp-import.php:1045
+#: core/utils/import-export/wp-import.php:1062
 msgid "Invalid file type"
 msgstr "Geçersiz dosya türü"
 
-#: core/utils/import-export/wp-import.php:1086
+#: core/utils/import-export/wp-import.php:1103
 msgid "Could not create temporary file."
 msgstr "Geçici dosya oluşturulamadı."
 
-#: core/utils/import-export/wp-import.php:1120
+#: core/utils/import-export/wp-import.php:1137
 msgid "Remote server did not respond"
 msgstr "Uzak sunucu yanıt vermedi"
 
@@ -203,38 +203,38 @@ msgstr "Bu bir WXR dosyası, eksik / geçersiz WXR sürüm numarası gibi görü
 msgid "There was an error when reading this WXR file"
 msgstr "Bu WXR dosyasını okurken bir hata oluştu"
 
-#: core/utils/import-export/wp-import.php:1174
+#: core/utils/import-export/wp-import.php:1191
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Üzgünüm, güvenlik nedenleriyle bu dosya tipine izin verilmiyor."
 
-#: core/utils/import-export/wp-import.php:1134
+#: core/utils/import-export/wp-import.php:1151
 msgid "Downloaded file has incorrect size"
 msgstr "İndirilen dosya geçersiz boyuta sahip"
 
-#: core/utils/import-export/wp-import.php:1128
+#: core/utils/import-export/wp-import.php:1145
 msgid "Zero size file downloaded"
 msgstr "Sıfır boyutlu dosya indirildi"
 
 #. translators: 1: HTTP error message, 2: HTTP error code.
-#: core/utils/import-export/wp-import.php:1111
+#: core/utils/import-export/wp-import.php:1128
 msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
 msgstr "Uzak sunucu beklenmeyen şu yanıtı döndürdü: %1$s (%2$s)"
 
 #. translators: 1: WordPress error message, 2: WordPress error code.
-#: core/utils/import-export/wp-import.php:1102
+#: core/utils/import-export/wp-import.php:1119
 msgid "Request failed due to an error: %1$s (%2$s)"
 msgstr "İstek bir hata nedeniyle başarısız oldu: %1$s (%2$s)"
 
-#: core/utils/import-export/wp-import.php:1028
+#: core/utils/import-export/wp-import.php:1045
 msgid "Fetching attachments is not enabled"
 msgstr "Ekleri getirmek etkin değil"
 
 #. translators: %s: Menu slug.
-#: core/utils/import-export/wp-import.php:958
+#: core/utils/import-export/wp-import.php:972
 msgid "Menu item skipped due to invalid menu slug: %s"
 msgstr "Geçersiz menü slug nedeniyle menü öğesi atlandı: %s"
 
-#: core/utils/import-export/wp-import.php:950
+#: core/utils/import-export/wp-import.php:959
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Menü slug eksik olması nedeniyle atlanan menü öğesi"
 
@@ -294,14 +294,14 @@ msgstr "SVG"
 #. translators: 1: Term taxonomy, 2: Term name.
 #. translators: 1: Post type singular label, 2: Post title.
 #. translators: 1: Taxonomy name, 2: Term name.
-#: core/utils/import-export/wp-import.php:566
-#: core/utils/import-export/wp-import.php:753
-#: core/utils/import-export/wp-import.php:800
+#: core/utils/import-export/wp-import.php:573
+#: core/utils/import-export/wp-import.php:760
+#: core/utils/import-export/wp-import.php:807
 msgid "Failed to import %1$s %2$s"
 msgstr "%1$s %2$s içe aktarımı başarısız"
 
 #. translators: 1: Post title, 2: Post type.
-#: core/utils/import-export/wp-import.php:664
+#: core/utils/import-export/wp-import.php:671
 msgid "Failed to import %1$s: Invalid post type %2$s"
 msgstr "%1$s içe aktarılamadı: Geçersiz yazı türü %2$s"
 
@@ -313,92 +313,92 @@ msgstr "Yalnızca YouTube videoları için çalışır."
 msgid "Privacy mode"
 msgstr "Gizlilik modu"
 
-#: core/admin/notices/elementor-dev-notice.php:77
+#: core/admin/notices/elementor-dev-notice.php:81
 msgid "Elementor Developer Edition"
 msgstr "Elementor Geliştirici Sürümü"
 
-#: core/admin/admin.php:488
+#: core/admin/admin.php:511
 msgid "Find an Expert"
 msgstr "Bir Uzman Bulun"
 
-#: core/experiments/manager.php:555
+#: core/experiments/manager.php:568
 msgid "Inactive by default"
 msgstr "Varsayılan olarak etkin değil"
 
-#: core/experiments/manager.php:554
+#: core/experiments/manager.php:567
 msgid "Active by default"
 msgstr "Varsayılan olarak etkin"
 
 #: core/common/modules/finder/categories/settings.php:60
-#: core/experiments/manager.php:413
+#: core/experiments/manager.php:426
 msgid "Experiments"
 msgstr "Deneyler"
 
-#: core/experiments/manager.php:398
+#: core/experiments/manager.php:411
 msgid "No available experiments"
 msgstr "Kullanılabilir deney yok"
 
-#: core/experiments/manager.php:343
+#: core/experiments/manager.php:356
 msgid "Stable"
 msgstr "Kararlı"
 
-#: core/experiments/manager.php:341
+#: core/experiments/manager.php:354
 msgid "Beta"
 msgstr "Beta"
 
-#: core/experiments/manager.php:340
+#: core/experiments/manager.php:353
 msgid "Alpha"
 msgstr "Alfa"
 
-#: core/experiments/manager.php:339
+#: core/experiments/manager.php:352
 msgid "Development"
 msgstr "Geliştirme"
 
-#: core/experiments/manager.php:269
+#: core/experiments/manager.php:264
 msgid "An array of accessibility enhancements in Elementor pages."
 msgstr "Elementor sayfalarında bir dizi erişilebilirlik iyileştirmesi."
 
-#: core/experiments/manager.php:342
+#: core/experiments/manager.php:355
 msgid "Release Candidate"
 msgstr "Sürüm adayı"
 
-#: core/experiments/manager.php:504
+#: core/experiments/manager.php:517
 msgid "Status: %s"
 msgstr "Durum:%s"
 
-#: core/admin/notices/elementor-dev-notice.php:78
+#: core/admin/notices/elementor-dev-notice.php:82
 msgid "Get a sneak peek at our in progress development versions, and help us improve Elementor to perfection. Developer Edition releases contain experimental functionality for testing purposes."
 msgstr "Devam eden geliştirme sürümlerimize bir göz atın ve Elementor'u mükemmelliğe ulaştırmamıza yardımcı olun. Developer Edition sürümleri, test amaçlı deneysel işlevler içerir."
 
-#: core/admin/notices/elementor-dev-notice.php:83
+#: core/admin/notices/elementor-dev-notice.php:87
 msgid "Install & Activate"
 msgstr "Kur & Etkinleştir"
 
-#: core/experiments/manager.php:268
+#: core/experiments/manager.php:263
 msgid "Accessibility Improvements"
 msgstr "Erişilebilirlik iyileştirmeleri"
 
-#: core/experiments/manager.php:401
+#: core/experiments/manager.php:414
 msgid "The current version of Elementor doesn't have any experimental features . if you're feeling curious make sure to come back in future versions."
 msgstr "Mevcut Elementor sürümü herhangi bir deneysel özelliğe sahip değildir. Bu konuyla ilgileniyorsanız, gelecek sürümlerde geri gelmeyi unutmayın."
 
-#: core/experiments/manager.php:234
+#: core/experiments/manager.php:229
 msgid "Please Note! The \"Improved Asset Loading\" mode reduces the amount of code that is loaded on the page by default. When activated, parts of the infrastructure code will be loaded dynamically, only when needed. Keep in mind that activating this experiment may cause conflicts with incompatible plugins."
 msgstr "Lütfen aklınızda bulundurun! \"gelişmiş varlık yükleme\" modu, varsayılan olarak sayfaya yüklenen kod miktarını azaltır. Etkinleştirildiğinde, altyapı kodunun bazı kısımları yalnızca ihtiyaç duyulduğunda dinamik olarak yüklenecektir. Bu denemeyi etkinleştirmenin, uyumsuz eklentilerle çakışmalara neden olabileceğini unutmayın."
 
-#: core/experiments/manager.php:463
+#: core/experiments/manager.php:476
 msgid "To use an experiment on your site, simply click on the dropdown next to it and switch to Active. You can always deactivate them at any time."
 msgstr "Sitenizde bir denemeyi kullanmak için, yanındaki açılır menüyü tıklamanız ve etkin seçeneğine geçmeniz yeterlidir. Bunları istediğiniz zaman etkisizleştirebilirsiniz."
 
-#: core/experiments/manager.php:270
+#: core/experiments/manager.php:265
 msgid "These enhancements may include some markup changes to existing elementor widgets"
 msgstr "Bu geliştirmeler, mevcut Elementor bileşenlerinde bazı işaretleme değişikliklerini içerebilir."
 
-#: core/experiments/manager.php:233
+#: core/experiments/manager.php:228
 msgid "Improved Asset Loading"
 msgstr "İyileştirilmiş varlık yükleme"
 
-#: core/experiments/manager.php:221
+#: core/experiments/manager.php:216
 msgid "Developers, Please Note! This experiment includes some markup changes. If you've used custom code in Elementor, you might have experienced a snippet of code not running. Turning this experiment off allows you to keep prior Elementor markup output settings, and have that lovely code running again."
 msgstr "Geliştiriciler, lütfen dikkat! Bu deney, bazı işaretleme değişikliklerini içerir. Elementor'da özel kod kullandıysanız, çalışmayan bir kod pasajıyla karşılaşmış olabilirsiniz. Bu denemeyi kapatmak, önceki Elementor biçimlendirme çıktı ayarlarını korumanıza ve o güzel kodu tekrar çalıştırmanıza olanak tanır."
 
@@ -416,51 +416,51 @@ msgid "Tested up to %s version"
 msgstr "%s sürümüne kadar test edildi"
 
 #: modules/landing-pages/documents/landing-page.php:54
-#: modules/landing-pages/module.php:44 modules/landing-pages/module.php:149
-#: modules/landing-pages/module.php:261 modules/landing-pages/module.php:273
-#: assets/js/app-packages.js:9686 assets/js/app.js:9796
-#: assets/js/editor.js:44196
+#: modules/landing-pages/module.php:45 modules/landing-pages/module.php:150
+#: modules/landing-pages/module.php:169 modules/landing-pages/module.php:283
+#: modules/landing-pages/module.php:295 assets/js/app.js:13311
+#: assets/js/editor.js:47572
 msgid "Landing Pages"
 msgstr "Açılış Sayfaları"
 
-#: modules/landing-pages/module.php:45
+#: modules/landing-pages/module.php:46
 msgid "Adds a new Elementor content type that allows creating beautiful landing pages instantly in a streamlined workflow."
 msgstr "Kolaylaştırılmış bir iş akışında anında güzel açılış sayfaları oluşturmaya olanak tanıyan yeni bir Elementor içerik türü ekler."
 
 #: modules/landing-pages/documents/landing-page.php:46
-#: modules/landing-pages/module.php:196 modules/landing-pages/module.php:262
+#: modules/landing-pages/module.php:218 modules/landing-pages/module.php:284
 msgid "Landing Page"
 msgstr "Açılış sayfası"
 
-#: modules/landing-pages/module.php:264
+#: modules/landing-pages/module.php:286
 msgid "Add New Landing Page"
 msgstr "Yeni Açılış Sayfası Ekle"
 
-#: modules/landing-pages/module.php:265
+#: modules/landing-pages/module.php:287
 msgid "Edit Landing Page"
 msgstr "Açılış Sayfasını Düzenle"
 
-#: modules/landing-pages/module.php:266
+#: modules/landing-pages/module.php:288
 msgid "New Landing Page"
 msgstr "Yeni Açılış Sayfası"
 
-#: modules/landing-pages/module.php:267
+#: modules/landing-pages/module.php:289
 msgid "All Landing Pages"
 msgstr "Tüm Açılış Sayfaları"
 
-#: modules/landing-pages/module.php:268
+#: modules/landing-pages/module.php:290
 msgid "View Landing Page"
 msgstr "Açılış Sayfasını Görüntüle"
 
-#: modules/landing-pages/module.php:269
+#: modules/landing-pages/module.php:291
 msgid "Search Landing Pages"
 msgstr "Açılış Sayfalarında Ara"
 
-#: modules/landing-pages/module.php:270
+#: modules/landing-pages/module.php:292
 msgid "No landing pages found"
 msgstr "Açılış sayfası bulunamadı"
 
-#: modules/landing-pages/module.php:271
+#: modules/landing-pages/module.php:293
 msgid "No landing pages found in trash"
 msgstr "Çöp kutusunda açılış sayfası bulunamadı"
 
@@ -477,7 +477,7 @@ msgstr "Bilinmeyen"
 msgid "Compatibility Alert"
 msgstr "Uyumluluk uyarısı"
 
-#: modules/landing-pages/module.php:196
+#: modules/landing-pages/module.php:218
 msgid "Build Effective Landing Pages for your business' marketing campaigns."
 msgstr "İşletmenizin pazarlama kampanyaları için etkili açılış sayfaları oluşturun."
 
@@ -510,7 +510,7 @@ msgstr "Svg seçin"
 msgid "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!"
 msgstr "Elementor Web Sitesi Oluşturucu her şeye sahiptir: sürükle ve bırak sayfa oluşturucu, mükemmel piksel tasarımı, mobil duyarlı düzenleme ve daha fazlası. Şimdi başla!"
 
-#: core/upgrade/elementor-3-re-migrate-globals.php:56 assets/js/admin.js:5473
+#: core/upgrade/elementor-3-re-migrate-globals.php:56 assets/js/admin.js:5588
 msgid "Migrate to v3.0"
 msgstr "V3.0'a geçiş yapın"
 
@@ -523,16 +523,16 @@ msgid "Warning: This will reset your current Global Fonts and Colors, and will m
 msgstr "Uyarı: Bu, geçerli genel yazı tiplerinizi ve renklerinizi sıfırlar ve önceki ayarlarınızı v2.x sürümlerinden geçirir."
 
 #: core/kits/documents/tabs/global-colors.php:24
-#: core/kits/documents/tabs/global-colors.php:43 assets/js/app-packages.js:9694
-#: assets/js/app.js:9804 assets/js/editor.js:39181
+#: core/kits/documents/tabs/global-colors.php:43 assets/js/app.js:13319
+#: assets/js/editor.js:42532
 msgid "Global Colors"
 msgstr "Global Renkler"
 
-#: core/kits/documents/tabs/settings-layout.php:297
+#: core/kits/documents/tabs/settings-layout.php:307
 msgid "Breakpoint"
 msgstr "Kesme noktası"
 
-#: core/kits/documents/tabs/settings-layout.php:143
+#: core/kits/documents/tabs/settings-layout.php:153
 msgid "Theme"
 msgstr "Tema"
 
@@ -540,17 +540,18 @@ msgstr "Tema"
 msgid "Suggested image dimensions: 350 × 100 pixels."
 msgstr "Önerilen görsel boyutları: 350 × 100 piksel."
 
-#: includes/widgets/common.php:1061 includes/widgets/image.php:363
+#: includes/widgets/common.php:1445 includes/widgets/image.php:363
 msgid "Fill"
 msgstr "Doldur"
 
-#: core/kits/manager.php:366 assets/js/app-packages.js:9692
-#: assets/js/app.js:9802 assets/js/editor.js:39128 assets/js/editor.js:39132
-#: assets/js/editor.js:39142
+#: core/kits/manager.php:392 assets/js/app.js:13317 assets/js/app.js:13884
+#: assets/js/editor.js:42479 assets/js/editor.js:42483
+#: assets/js/editor.js:42493
 msgid "Site Settings"
 msgstr "Site ayarları"
 
 #: core/kits/documents/tabs/settings-site-identity.php:65
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1209
 msgid "Site Name"
 msgstr "Site adı"
 
@@ -558,17 +559,13 @@ msgstr "Site adı"
 msgid "Download"
 msgstr "İndir"
 
-#: includes/widgets/icon-list.php:159
+#: includes/elements/container.php:492 includes/widgets/icon-list.php:159
 msgid "Items"
 msgstr "Öğeler"
 
 #: includes/widgets/image.php:356
 msgid "Object Fit"
 msgstr "Nesne Sığdır"
-
-#: includes/settings/settings.php:497
-msgid "Looking for the Style settings?"
-msgstr "Stil ayarlarını mı arıyorsunuz?"
 
 #: core/upgrade/upgrades.php:830
 msgid "Saved Color"
@@ -578,7 +575,7 @@ msgstr "Kaydedilen Renk"
 msgid "Panel Width"
 msgstr "Panel Genişliği"
 
-#: core/settings/editor-preferences/model.php:38 assets/js/editor.js:27098
+#: core/settings/editor-preferences/model.php:38 assets/js/editor.js:32153
 msgid "User Preferences"
 msgstr "Kullanıcı Tercihleri"
 
@@ -590,16 +587,15 @@ msgstr "Açıklama seçin"
 msgid "Site Identity"
 msgstr "Site Kimliği"
 
-#: core/kits/documents/tabs/settings-layout.php:154
+#: core/kits/documents/tabs/settings-layout.php:164
 msgid "Breakpoints"
 msgstr "Kesme noktaları"
 
-#: core/kits/documents/tabs/settings-layout.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
+#: core/kits/documents/tabs/settings-layout.php:47 assets/js/app.js:13319
 msgid "Layout Settings"
 msgstr "Düzen Ayarları"
 
-#: core/admin/admin.php:642
+#: core/admin/admin.php:665
 msgid "Heads up, Please backup before upgrade!"
 msgstr "Dikkat, yükseltmeden önce lütfen yedekleyin!"
 
@@ -621,6 +617,7 @@ msgid "Site Description"
 msgstr "Site Açıklaması"
 
 #: core/kits/documents/tabs/settings-site-identity.php:87
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1213
 msgid "Site Logo"
 msgstr "Site Logosu"
 
@@ -636,7 +633,7 @@ msgstr "İsim seçin"
 msgid "Site Favicon"
 msgstr "Site Simgesi"
 
-#: core/experiments/manager.php:220
+#: core/experiments/manager.php:215
 msgid "Optimized DOM Output"
 msgstr "Optimize edilmiş DOM çıkışı"
 
@@ -644,7 +641,7 @@ msgstr "Optimize edilmiş DOM çıkışı"
 msgid "Rows Gap"
 msgstr "Satır boşluğu"
 
-#: core/kits/documents/tabs/settings-layout.php:140
+#: core/kits/documents/tabs/settings-layout.php:150
 msgid "Default Page Layout"
 msgstr "Varsayılan sayfa yerleşimi"
 
@@ -652,7 +649,7 @@ msgstr "Varsayılan sayfa yerleşimi"
 msgid "Not working? You can set a different selector for the title in Site Settings > Layout"
 msgstr "Çalışmıyor mu? Site Ayarları > Düzen 'de başlık için farklı bir seçici ayarlayabilirsiniz"
 
-#: core/kits/documents/tabs/global-typography.php:175
+#: core/kits/documents/tabs/global-typography.php:192
 msgid "Fallback Font Family"
 msgstr "Geri dönüş yazı tipi ailesi "
 
@@ -672,16 +669,17 @@ msgstr "Hata"
 msgid "Reset Data"
 msgstr "Veriyi sıfırla"
 
-#: includes/settings/settings.php:277
+#: includes/settings/settings.php:278
 msgid "Get introduced to Elementor by watching our \"Getting Started\" video series. It will guide you through the steps needed to create your website. Then click to create your first page."
 msgstr "\"Başlarken\" video serimizi izleyerek Elementor ile tanışın. Web sitenizi oluşturmak için gereken adımlarda size rehberlik edecektir. Ardından ilk sayfanızı oluşturmak için tıklayın."
 
-#: includes/settings/settings.php:571 assets/js/common.js:2572
-#: assets/js/editor.js:28977
+#: includes/settings/settings.php:548 assets/js/admin.js:867
+#: assets/js/admin.js:874 assets/js/common.js:2572 assets/js/common.js:2579
+#: assets/js/editor.js:34359 assets/js/editor.js:34366
 msgid "Enable Unfiltered File Uploads"
 msgstr "Filtrelenmemiş Dosya Yüklemelerini Etkinleştir"
 
-#: includes/settings/settings.php:289
+#: includes/settings/settings.php:290
 msgid "Watch the Full Guide"
 msgstr "Tam kılavuza bakın"
 
@@ -755,7 +753,7 @@ msgstr "Alt"
 msgid "With Elementor Pro’s WooCommerce Builder, you’ll be able to design your store without coding!"
 msgstr "WooCommerce mi kullanıyorsunuz? Elementor Pro’nun WooCommerce Builder ile mağazanızı kodlamadan tasarlayabilirsiniz!"
 
-#: core/kits/manager.php:124 core/kits/manager.php:142
+#: core/kits/manager.php:150 core/kits/manager.php:168
 msgid "Default Kit"
 msgstr "Varsayılan Kit"
 
@@ -780,11 +778,11 @@ msgstr "Düzinelerce Elementor'un yerel dinamik etiketini birleştirerek daha fa
 msgid "See it in action"
 msgstr "Eylemde görün"
 
-#: includes/managers/controls.php:1094
+#: includes/managers/controls.php:1093
 msgid "Meet Our Attributes"
 msgstr "Niteliklerimizle Tanışın"
 
-#: includes/managers/controls.php:1096
+#: includes/managers/controls.php:1095
 msgid "Attributes lets you add custom HTML attributes to any element."
 msgstr "Öznitelikler, herhangi bir öğeye özel HTML öznitelikleri eklemenizi sağlar."
 
@@ -796,7 +794,7 @@ msgstr "Görseli indir"
 msgid "Custom Attributes"
 msgstr "Özel nitelikler"
 
-#: includes/managers/controls.php:1084
+#: includes/managers/controls.php:1083
 msgid "Attributes"
 msgstr "Nitelikler"
 
@@ -833,7 +831,7 @@ msgid "Already connected."
 msgstr "Zaten bağlı."
 
 #: includes/controls/groups/background.php:716
-#: includes/widgets/social-icons.php:276
+#: includes/elements/container.php:430 includes/widgets/social-icons.php:276
 msgid "Auto"
 msgstr "Otomatik"
 
@@ -844,10 +842,6 @@ msgstr "Arkaplan Boyutu"
 #: core/settings/editor-preferences/model.php:51
 msgid "Preferences"
 msgstr "Tercihler"
-
-#: includes/widgets/common.php:1232
-msgid "Positioning"
-msgstr "Konumlandırma"
 
 #. translators: %s: Video provider
 #: includes/embed.php:175
@@ -900,7 +894,7 @@ msgstr "Doldur"
 msgid "UI Theme"
 msgstr "UI Teması"
 
-#: includes/widgets/image-carousel.php:289
+#: includes/widgets/image-carousel.php:301
 msgid "Pause on Interaction"
 msgstr "Etkileşimde duraklat"
 
@@ -908,15 +902,15 @@ msgstr "Etkileşimde duraklat"
 msgid "Usage Data Sharing"
 msgstr "Veri kullanımı paylaşımı"
 
-#: includes/settings/settings.php:155 includes/settings/settings.php:156
+#: includes/settings/settings.php:156 includes/settings/settings.php:157
 msgid "Custom Icons"
 msgstr "Özel Simgeler"
 
-#: includes/settings/settings.php:335
+#: includes/settings/settings.php:336
 msgid "Don't rely solely on the FontAwesome icons everyone else is using! Differentiate your website and your style with custom icons you can upload from your favorite icons source."
 msgstr "Yalnızca herkesin kullandığı FontAwesome simgelerine güvenmeyin! Favori simge kaynağınızdan yükleyebileceğiniz özel simgelerle web sitenizi ve tarzınızı farklılaştırın."
 
-#: includes/settings/settings.php:334
+#: includes/settings/settings.php:335
 msgid "Add Your Custom Icons"
 msgstr "Özel simgelerinizi ekleyin"
 
@@ -947,15 +941,17 @@ msgstr "Görseller"
 msgid "Clear Log"
 msgstr "Kayıtları Temizle"
 
-#: includes/frontend.php:1307 includes/widgets/image-carousel.php:795
-#: assets/js/app-packages.js:8330 assets/js/app-packages.js:9065
-#: assets/js/app.js:8440 assets/js/app.js:9175
+#: includes/frontend.php:1307 includes/widgets/image-carousel.php:832
+#: assets/js/app.js:9819 assets/js/app.js:11647 assets/js/app.js:12601
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1860
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1914
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2224
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2525
 msgid "Next"
 msgstr "Sonraki"
 
-#: includes/frontend.php:1306 includes/widgets/image-carousel.php:791
-#: assets/js/app-packages.js:8402 assets/js/app-packages.js:9059
-#: assets/js/app.js:8512 assets/js/app.js:9169
+#: includes/frontend.php:1306 includes/widgets/image-carousel.php:828
+#: assets/js/app.js:10849 assets/js/app.js:11636 assets/js/app.js:12595
 msgid "Previous"
 msgstr "Önceki"
 
@@ -1060,11 +1056,11 @@ msgstr "Temel Galeri"
 msgid "This cover image will replace the background video in case that the video could not be loaded."
 msgstr "Bu kapak resmi, videonun yüklenememesi durumunda arka plan videosunun yerini alacaktır."
 
-#: includes/settings/tools.php:139
+#: includes/settings/tools.php:150
 msgid "Error occurred, The version selected is invalid. Try selecting different version."
 msgstr "Hata oluştu, Seçilen sürüm geçersiz. Farklı bir sürüm seçmeyi deneyin."
 
-#: includes/settings/tools.php:337 includes/settings/tools.php:339
+#: includes/settings/tools.php:356 includes/settings/tools.php:358
 msgid "Reinstall"
 msgstr "Yeniden yükleyin"
 
@@ -1086,15 +1082,15 @@ msgstr "Öğe Ekle"
 msgid "YouTube/Vimeo link, or link to video file (mp4 is recommended)."
 msgstr "YouTube / Vimeo bağlantısı veya video dosyasına bağlantı (mp4 önerilir)."
 
-#: includes/controls/groups/background.php:754
+#: includes/controls/groups/background.php:765
 msgid "Ken Burns Effect"
 msgstr "Ken Burns Etkisi"
 
-#: includes/controls/groups/background.php:770
+#: includes/controls/groups/background.php:781
 msgid "Out"
 msgstr "Dışarı"
 
-#: includes/controls/groups/background.php:769
+#: includes/controls/groups/background.php:780
 msgid "In"
 msgstr "Yakınlaştır"
 
@@ -1121,12 +1117,12 @@ msgstr "Şeritler"
 msgid "File Path: %s"
 msgstr "dosya yolu: %s"
 
-#: includes/controls/icons.php:89 includes/controls/icons.php:114
-#: includes/controls/icons.php:116
+#: includes/controls/icons.php:89 includes/controls/icons.php:110
+#: includes/controls/icons.php:194
 msgid "Upload SVG"
 msgstr "SVG Yükle"
 
-#: includes/template-library/sources/local.php:548
+#: includes/template-library/sources/local.php:556
 msgid "Template not exist."
 msgstr "Şablon mevcut değil."
 
@@ -1163,8 +1159,8 @@ msgstr "Bir beta test kullanıcısı olarak, Elementor'un test sürümünü ve i
 msgid "Need Help"
 msgstr "Yardıma mı ihtiyacınız var?"
 
-#: includes/elements/column.php:883 includes/elements/section.php:1345
-#: includes/widgets/common.php:1572
+#: includes/elements/column.php:886 includes/elements/container.php:1565
+#: includes/elements/section.php:1348 includes/widgets/common.php:1632
 msgid "Responsive visibility will take effect only on preview or live page, and not while editing in Elementor."
 msgstr "Duyarlı görünürlük, Elementor'da düzenleme sırasında değil, yalnızca önizleme veya canlı sayfada etkili olacaktır."
 
@@ -1209,11 +1205,11 @@ msgstr "Bu işlem geri alınamaz ve önceki sürümlere geri döndürülerek ger
 msgid "Hurray! The upgrade process to Font Awesome 5 was completed successfully."
 msgstr "Yaşasın! Font Awesome 5'e yükseltme işlemi başarıyla tamamlandı."
 
-#: includes/settings/settings.php:579
+#: includes/settings/settings.php:556
 msgid "Elementor will try to sanitize the unfiltered files, removing potential malicious code and scripts."
 msgstr "Elementor, filtrelenmemiş dosyaları temizlemeye, olası kötü amaçlı kodları ve komut dosyalarını kaldırmaya çalışacaktır."
 
-#: includes/settings/settings.php:579
+#: includes/settings/settings.php:556
 msgid "We recommend you only enable this feature if you understand the security risks involved."
 msgstr "Bu özelliği yalnızca ilgili güvenlik risklerini anlıyorsanız etkinleştirmenizi öneririz."
 
@@ -1221,7 +1217,7 @@ msgstr "Bu özelliği yalnızca ilgili güvenlik risklerini anlıyorsanız etkin
 msgid "Choose Video"
 msgstr "Video Seç"
 
-#: includes/base/widget-base.php:984
+#: includes/base/widget-base.php:1009
 msgid "Deprecated"
 msgstr "Kullanım dışı"
 
@@ -1245,28 +1241,29 @@ msgstr "Sitenizin .htaccess dosyası eksik görünüyor."
 msgid "Some of your theme files are missing."
 msgstr "Bazı tema dosyalarınız eksik."
 
-#: includes/controls/icons.php:88 includes/controls/icons.php:121
-#: includes/controls/icons.php:125 assets/js/editor.js:9555
+#: includes/controls/icons.php:88 includes/controls/icons.php:114
+#: includes/controls/icons.php:198 assets/js/editor.js:9555
 msgid "Icon Library"
 msgstr "Simge kütüphanesi"
 
-#: includes/settings/settings.php:579
+#: includes/settings/settings.php:556
 msgid "Please note! Allowing uploads of any files (SVG & JSON included) is a potential security risk."
 msgstr "Lütfen dikkat! Herhangi bir dosyanın yüklenmesine izin vermek (SVG ve JSON dahil) potansiyel bir güvenlik riskidir."
 
-#: includes/elements/section.php:477
+#: includes/elements/container.php:429 includes/elements/section.php:477
 msgid "Hidden"
 msgstr "Gizli"
 
-#: includes/widgets/common.php:1346
+#: includes/elements/container.php:1216 includes/widgets/common.php:351
 msgid "Fixed"
 msgstr "Sabit"
 
-#: includes/widgets/common.php:1345
+#: includes/elements/container.php:1215 includes/widgets/common.php:350
 msgid "Absolute"
 msgstr "Kesin"
 
-#: core/experiments/manager.php:270 includes/widgets/common.php:1327
+#: core/experiments/manager.php:265 includes/elements/container.php:1196
+#: includes/widgets/common.php:332
 msgid "Please note!"
 msgstr "Lütfen aklınızda bulundurun!"
 
@@ -1275,23 +1272,23 @@ msgid "Super Admin"
 msgstr "Süper yönetici"
 
 #: includes/elements/column.php:183 includes/elements/section.php:444
-#: includes/widgets/common.php:1292 includes/widgets/image-carousel.php:526
+#: includes/widgets/common.php:306 includes/widgets/image-carousel.php:553
 msgid "Vertical Align"
 msgstr "Dikey hizalama"
 
-#: includes/elements/section.php:472
+#: includes/elements/container.php:423 includes/elements/section.php:472
 msgid "Overflow"
 msgstr "Taşma"
 
-#: includes/widgets/common.php:1327
+#: includes/elements/container.php:1196 includes/widgets/common.php:332
 msgid "Custom positioning is not considered best practice for responsive web design and should not be used too frequently."
 msgstr "Özel konumlandırma, duyarlı web tasarımı için en iyi uygulama olarak kabul edilmez ve çok sık kullanılmamalıdır."
 
-#: includes/widgets/common.php:1359
+#: includes/elements/container.php:1235 includes/widgets/common.php:365
 msgid "Horizontal Orientation"
 msgstr "Yatay Yönlendirme"
 
-#: includes/widgets/common.php:1462
+#: includes/elements/container.php:1338 includes/widgets/common.php:468
 msgid "Vertical Orientation"
 msgstr "Dikey Yönlendirme"
 
@@ -1309,27 +1306,25 @@ msgstr "Eşit boşluklu"
 msgid "Space Around"
 msgstr "Çevresi boşluklu"
 
-#: includes/widgets/common.php:453 includes/widgets/common.php:1384
-#: includes/widgets/common.php:1423 includes/widgets/common.php:1486
-#: includes/widgets/common.php:1524
+#: includes/elements/container.php:1260 includes/elements/container.php:1299
+#: includes/elements/container.php:1362 includes/elements/container.php:1400
+#: includes/widgets/common.php:390 includes/widgets/common.php:429
+#: includes/widgets/common.php:492 includes/widgets/common.php:530
+#: includes/widgets/common.php:812
 msgid "Offset"
 msgstr "Kaydırma"
 
-#: includes/widgets/common.php:1262
-msgid "Custom Width"
-msgstr "Özel genişlik"
-
-#: includes/elements/column.php:822 includes/elements/section.php:1258
-#: includes/widgets/common.php:260
+#: includes/elements/column.php:825 includes/elements/container.php:1489
+#: includes/elements/section.php:1261 includes/widgets/common.php:617
 msgid "Motion Effects"
 msgstr "Hareket efekti"
 
-#: includes/settings/settings.php:208
+#: includes/settings/settings.php:209
 msgid "Get Help"
 msgstr "Yardım al"
 
 #. translators: %s: Accepted chars.
-#: includes/widgets/menu-anchor.php:107
+#: includes/widgets/menu-anchor.php:110
 msgid "Note: The ID link ONLY accepts these chars: %s"
 msgstr "Not: Kimlik bağlantısı YALNIZCA şu karakterleri kabul eder:%s"
 
@@ -1358,11 +1353,11 @@ msgstr "Konum"
 msgid "Note: This widget only affects themes that use `%s` in archive pages."
 msgstr "Not: Bu bileşen arşiv sayfalarında '%s' kullanan temalarda işe yarar."
 
-#: core/app/app.php:39 core/app/app.php:40
+#: core/app/app.php:40 core/app/app.php:41
 #: core/app/modules/site-editor/module.php:31
 #: core/common/modules/finder/categories/general.php:72
-#: includes/template-library/sources/local.php:1631
-#: assets/js/app-packages.js:11423 assets/js/editor.js:39153
+#: includes/template-library/sources/local.php:1639
+#: assets/js/app-packages.js:7506 assets/js/editor.js:42504
 msgid "Theme Builder"
 msgstr "Tema Yapıcı"
 
@@ -1374,22 +1369,24 @@ msgstr "Güvenli Modu Aktifleştir"
 msgid "Can't Edit?"
 msgstr "Düzenleyemiyor musunuz?"
 
-#: includes/template-library/sources/local.php:1335
+#: includes/template-library/sources/local.php:1343
 msgctxt "Template Library"
 msgid "Filter by category"
 msgstr "Kategoriye göre filtrele"
 
-#: includes/template-library/sources/local.php:312
+#: includes/template-library/sources/local.php:320
 msgctxt "Template Library"
 msgid "All Categories"
 msgstr "Tüm Kategoriler"
 
-#: includes/template-library/sources/local.php:310
+#: includes/template-library/sources/local.php:318
 msgctxt "Template Library"
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: includes/template-library/sources/local.php:231
+#: core/admin/menu/main.php:34 core/admin/menu/main.php:35
+#: includes/template-library/sources/local.php:221
+#: includes/template-library/sources/local.php:239
 msgctxt "Template Library"
 msgid "Templates"
 msgstr "Şablonlar"
@@ -1449,10 +1446,9 @@ msgctxt "Background Control"
 msgid "X Position"
 msgstr "X konumu"
 
-#: includes/settings/settings.php:182
-#: includes/template-library/sources/local.php:1632
-#: assets/js/app-packages.js:9677 assets/js/app.js:9787
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1928
+#: includes/settings/settings.php:183
+#: includes/template-library/sources/local.php:1640 assets/js/app.js:13302
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2147
 msgid "Popups"
 msgstr "Açılır pencereler"
 
@@ -1468,11 +1464,11 @@ msgstr "%s Site veritabanınızın en son sürüme güncellenmesi gerekiyor."
 msgid "The database update process is now complete. Thank you for updating to the latest version!"
 msgstr "%s Veritabanı güncelleme işlemi tamamlandı. En son sürüme güncellediğiniz için teşekkür ederiz!"
 
-#: includes/settings/settings.php:356
+#: includes/settings/settings.php:357
 msgid "Get Popup Builder"
 msgstr "Popup Builder'ı edinin"
 
-#: includes/settings/settings.php:357
+#: includes/settings/settings.php:358
 msgid "Popup Builder lets you take advantage of all the amazing features in Elementor, so you can build beautiful & highly converting popups. Go pro and start designing your popups today."
 msgstr "Popup Builder, Elementor'daki tüm harika özelliklerden yararlanmanızı sağlar, böylece güzel ve yüksek oranda dönüşüm sağlayan pop-up'lar oluşturabilirsiniz. Profesyonel olun ve pop-up'larınızı bugün tasarlamaya başlayın."
 
@@ -1493,7 +1489,7 @@ msgstr "Her %d dakikada"
 msgid "Choose File"
 msgstr "Dosya Seç"
 
-#: includes/template-library/sources/local.php:311
+#: includes/template-library/sources/local.php:319
 msgctxt "Template Library"
 msgid "Category"
 msgstr "Kategorisi"
@@ -1514,7 +1510,7 @@ msgstr "Güvenli mod"
 msgid "Not Supported"
 msgstr "Desteklenmiyor"
 
-#: core/common/modules/finder/categories/site.php:76
+#: core/common/modules/finder/categories/site.php:76 assets/js/app.js:13892
 msgid "Plugins"
 msgstr "Eklentiler"
 
@@ -1543,7 +1539,7 @@ msgid "Menus"
 msgstr "Menüler"
 
 #: core/common/modules/finder/categories/create.php:27
-#: assets/js/editor.js:37431
+#: assets/js/editor.js:40782
 msgid "Create"
 msgstr "Oluştur"
 
@@ -1565,7 +1561,7 @@ msgstr "Klavye kısayolları"
 msgid "Connected Successfully."
 msgstr "Başarıyla Bağlandı."
 
-#: core/base/document.php:1562
+#: core/base/document.php:1597
 msgid "Future"
 msgstr "Gelecek"
 
@@ -1578,7 +1574,7 @@ msgid "Show / Hide Panel"
 msgstr "Paneli Göster/Gizle"
 
 #: includes/editor-templates/hotkeys.php:92 assets/js/admin-top-bar.js:477
-#: assets/js/common.js:12461 assets/js/editor.js:27110
+#: assets/js/common.js:5506 assets/js/editor.js:32165
 msgid "Finder"
 msgstr "Bulucu"
 
@@ -1655,8 +1651,13 @@ msgid "Empty"
 msgstr "Boş"
 
 #: includes/editor-templates/library-layout.php:13
-#: includes/settings/settings.php:270 includes/settings/settings.php:271
-#: assets/js/app-packages.js:4170 assets/js/app.js:4950
+#: includes/settings/settings.php:271 includes/settings/settings.php:272
+#: assets/js/app-packages.js:3787 assets/js/app.js:5273
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1485
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1756
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2020
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2214
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2563
 msgid "Skip"
 msgstr "Atla"
 
@@ -1669,11 +1670,12 @@ msgstr "Renk"
 msgid "Debug Bar"
 msgstr "Hata Ayıklama Çubuğu"
 
-#: includes/settings/settings.php:251
+#: includes/settings/settings.php:252
 msgid "Create Your First Page"
 msgstr "İlk Sayfanızı Oluşturun"
 
-#: includes/settings/settings.php:199 includes/settings/settings.php:267
+#: includes/settings/settings.php:200 includes/settings/settings.php:268
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:961
 msgid "Getting Started"
 msgstr "Başla"
 
@@ -1689,11 +1691,11 @@ msgstr "Bildirimi Gizle"
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
 msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
 
-#: includes/settings/settings.php:254
+#: includes/settings/settings.php:255
 msgid "Create Your First Post"
 msgstr "İlk Gönderinizi Oluşturun"
 
-#: includes/widgets/inner-section.php:35 assets/js/editor.js:18780
+#: includes/widgets/inner-section.php:35 assets/js/editor.js:23150
 msgid "Inner Section"
 msgstr "İç Bölüm"
 
@@ -1719,7 +1721,7 @@ msgstr "Kolay Gezinme Burada!"
 msgid "Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move around any section, column, or widget."
 msgstr "Sayfanızı içerikle doldurduğunuzda, bu pencere size tüm sayfa öğelerinin genel görünümünü verecektir. Bu şekilde, herhangi bir bölüm, sütun veya widget arasında kolayca hareket edebilirsiniz."
 
-#: includes/settings/settings.php:276
+#: includes/settings/settings.php:277
 msgid "Welcome to Elementor"
 msgstr "Elementor'a hoş geldiniz"
 
@@ -1743,8 +1745,8 @@ msgstr "Öğe düzenleme düğmesinin üzerine geldiğinizde düzenleme tutamaç
 #: includes/editor-templates/hotkeys.php:126
 #: includes/editor-templates/navigator.php:12
 #: includes/editor-templates/panel.php:69
-#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:15531
-#: assets/js/editor.js:21364
+#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:15576
+#: assets/js/editor.js:25810
 msgid "Navigator"
 msgstr "Kılavuz"
 
@@ -1781,8 +1783,8 @@ msgstr "URL"
 msgid "Source"
 msgstr "Kaynak"
 
-#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:14784
-#: assets/js/editor.js:20617
+#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:14778
+#: assets/js/editor.js:25012
 msgid "Copy"
 msgstr "Kopyala"
 
@@ -1799,17 +1801,17 @@ msgstr "Bitiş zamanı"
 msgid "Dailymotion"
 msgstr "Dailymotion"
 
-#: includes/managers/elements.php:289
+#: includes/managers/elements.php:296
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: includes/managers/elements.php:278
+#: includes/managers/elements.php:285
 msgid "Pro"
 msgstr "Pro"
 
 #: core/app/modules/site-editor/module.php:32
-#: core/common/modules/finder/categories/site.php:26 core/kits/manager.php:367
-#: includes/managers/elements.php:285
+#: core/common/modules/finder/categories/site.php:26 core/kits/manager.php:393
+#: includes/managers/elements.php:292
 msgid "Site"
 msgstr "Site"
 
@@ -1839,12 +1841,12 @@ msgstr "Elementor Hata Ayıklayıcısı"
 msgid "Wait! Don't deactivate Elementor. You have to activate both Elementor and Elementor Pro in order for the plugin to work."
 msgstr "Bekle! Elementor'ı devre dışı bırakmayın. Eklentinin çalışması için hem Elementor hem de Elementor Pro'yu etkinleştirmeniz gerekir."
 
-#: includes/editor-templates/global.php:27
+#: includes/editor-templates/global.php:34
 msgid "Drag widget here"
 msgstr "Widget'ı buraya sürükleyin"
 
-#: includes/elements/column.php:406 includes/elements/section.php:697
-#: includes/widgets/heading.php:266
+#: includes/elements/column.php:406 includes/elements/container.php:705
+#: includes/elements/section.php:697 includes/widgets/heading.php:266
 msgid "Blend Mode"
 msgstr "Karışım Modu"
 
@@ -1852,7 +1854,7 @@ msgstr "Karışım Modu"
 msgid "Artwork"
 msgstr "Yapıt"
 
-#: includes/widgets/button.php:256
+#: includes/widgets/traits/button-trait.php:214
 msgid "Button ID"
 msgstr "Düğme Kimliği"
 
@@ -1878,7 +1880,7 @@ msgstr "Buğula"
 msgid "Start Time"
 msgstr "Başlangıç Zamanı"
 
-#: core/admin/admin.php:151 assets/js/admin.js:5285 assets/js/gutenberg.js:796
+#: core/admin/admin.php:174 assets/js/admin.js:5400 assets/js/gutenberg.js:796
 msgid "Back to WordPress Editor"
 msgstr "WordPress düzenleyicisine geri dön"
 
@@ -1888,14 +1890,14 @@ msgid "Elementor %s"
 msgstr "Elementor %s"
 
 #. translators: %s: Template type label.
-#: core/base/document.php:171
+#: core/base/document.php:173
 #: core/common/modules/finder/categories/create.php:86
-#: includes/template-library/sources/local.php:1309
+#: includes/template-library/sources/local.php:1317
 msgid "Add New %s"
 msgstr "%s Yeni ekle"
 
 #. translators: %d: Number of rows.
-#: includes/utils.php:195
+#: includes/utils.php:197
 msgid "%d row affected."
 msgid_plural "%d rows affected."
 msgstr[0] "%d satır etkilendi."
@@ -1908,17 +1910,18 @@ msgstr "Elementor Tam Genişlik"
 
 #: core/kits/documents/tabs/theme-style-images.php:95
 #: core/kits/documents/tabs/theme-style-images.php:166
-#: includes/elements/column.php:375 includes/elements/column.php:446
-#: includes/elements/section.php:651 includes/elements/section.php:752
-#: includes/widgets/image-box.php:312 includes/widgets/image-box.php:366
+#: includes/elements/column.php:375 includes/elements/column.php:449
+#: includes/elements/container.php:659 includes/elements/container.php:771
+#: includes/elements/section.php:651 includes/elements/section.php:755
+#: includes/widgets/image-box.php:322 includes/widgets/image-box.php:376
 #: includes/widgets/image.php:393 includes/widgets/image.php:427
 msgid "Opacity"
 msgstr "Saydamlık"
 
-#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:580
-#: includes/plugin.php:593 assets/js/app-packages.js:9303 assets/js/app.js:9413
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:960
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3653
+#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:579
+#: includes/plugin.php:592 assets/js/app.js:14217
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1166
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3875
 msgid "Something went wrong."
 msgstr "Bir şeyler yanlış gitti."
 
@@ -1931,15 +1934,15 @@ msgstr "Elementor Canvas"
 msgid "Max Width"
 msgstr "Maksimum genişlik"
 
-#: includes/widgets/common.php:1111 includes/widgets/common.php:1340
-#: includes/widgets/divider.php:736 includes/widgets/divider.php:876
-#: includes/widgets/image-carousel.php:401
-#: includes/widgets/image-carousel.php:465 includes/widgets/tabs.php:152
+#: includes/elements/container.php:1210 includes/widgets/common.php:345
+#: includes/widgets/common.php:1495 includes/widgets/divider.php:736
+#: includes/widgets/divider.php:876 includes/widgets/image-carousel.php:413
+#: includes/widgets/image-carousel.php:477 includes/widgets/tabs.php:152
 msgid "Position"
 msgstr "Pozisyon"
 
 #. translators: 1: Elementor, 2: Link to plugin review
-#: core/admin/admin.php:335
+#: core/admin/admin.php:358
 msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
 msgstr "%1$s hoşunuza gitti mi? Lütfen bize bir%2$s puanı verin. Gerçekten desteğinize minnettarız!"
 
@@ -1967,23 +1970,23 @@ msgstr "Temanızdan Varsayılan Sayfa Şablonu"
 msgid "This template includes the header, full-width content and footer"
 msgstr "Bu şablon üstbilgi, tam genişlikte içerik ve altbilgi içerir"
 
-#: includes/template-library/sources/local.php:1175
+#: includes/template-library/sources/local.php:1183
 msgid "All"
 msgstr "Hepsi"
 
 #: core/document-types/page.php:41 modules/library/documents/page.php:61
-#: assets/js/editor.js:10812
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1916
+#: assets/js/editor.js:10814
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2135
 msgid "Pages"
 msgstr "Sayfalar"
 
 #. translators: %s: Document title.
-#: core/base/document.php:1026 core/settings/page/model.php:126
+#: core/base/document.php:1040 core/settings/page/model.php:126
 #: includes/editor-templates/panel.php:67
 msgid "%s Settings"
 msgstr "%s Ayarları"
 
-#: includes/template-library/sources/local.php:219
+#: includes/template-library/sources/local.php:223
 msgctxt "Template Library"
 msgid "My Templates"
 msgstr "Şablonlarım"
@@ -1996,16 +1999,16 @@ msgstr "Gövde stili"
 msgid "Search Templates:"
 msgstr "Şablon ara:"
 
-#: core/role-manager/role-manager.php:169
+#: core/role-manager/role-manager.php:170
 msgid "Want to give access only to content?"
 msgstr "Sadece içeriğe erişim vermek ister misiniz?"
 
-#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:591
+#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:568
 msgid "Fallback"
 msgstr "Yedek"
 
 #: core/common/modules/finder/categories/general.php:61
-#: core/role-manager/role-manager.php:31
+#: core/role-manager/role-manager.php:32
 msgid "Role Manager"
 msgstr "Rol yöneticisi"
 
@@ -2013,15 +2016,15 @@ msgstr "Rol yöneticisi"
 msgid "Create Template"
 msgstr "Şablon oluştur"
 
-#: core/role-manager/role-manager.php:134
+#: core/role-manager/role-manager.php:135
 msgid "No access to editor"
 msgstr "Editöre erişim yok"
 
-#: includes/frontend.php:1305 includes/widgets/video.php:951
+#: includes/frontend.php:1305 includes/widgets/video.php:827
 msgid "Play Video"
 msgstr "Videoyu oynat"
 
-#: core/role-manager/role-manager.php:127
+#: core/role-manager/role-manager.php:128
 msgid "Role Excluded"
 msgstr "Hariç tutulan rol"
 
@@ -2049,15 +2052,16 @@ msgstr "Şablon Türünü Seç"
 msgid "More actions"
 msgstr "Daha fazla eylem"
 
-#: includes/editor-templates/global.php:48
+#: includes/editor-templates/global.php:69
 msgid "This tag has no settings."
 msgstr "Bu etiketin ayarları yok."
 
-#: core/base/document.php:163
+#: core/base/document.php:165
 msgid "Document"
 msgstr "Belge"
 
-#: includes/settings/settings.php:146 includes/settings/settings.php:147
+#: core/kits/documents/tabs/global-typography.php:177
+#: includes/settings/settings.php:147 includes/settings/settings.php:148
 msgid "Custom Fonts"
 msgstr "Özel yazı tipleri"
 
@@ -2069,7 +2073,7 @@ msgstr "Ayırıcı"
 msgid "Action not found."
 msgstr "Eylem bulunamadı."
 
-#: includes/template-library/manager.php:544
+#: includes/template-library/manager.php:565
 msgid "Post not found."
 msgstr "Yazı bulunamadı."
 
@@ -2078,16 +2082,16 @@ msgctxt "Border Control"
 msgid "Groove"
 msgstr "Çizgi"
 
-#: includes/settings/settings.php:312
+#: includes/settings/settings.php:313
 msgid "Add Your Custom Fonts"
 msgstr "Özel Yazı Tiplerinizi Ekleyin"
 
 #. translators: %s: Template type label.
-#: includes/template-library/sources/local.php:1302
+#: includes/template-library/sources/local.php:1310
 msgid "Create Your First %s"
 msgstr "İlk %s oluşturun."
 
-#: core/role-manager/role-manager.php:91
+#: core/role-manager/role-manager.php:92
 msgid "Manage What Your Users Can Edit In Elementor"
 msgstr "Kullanıcılarınızın Elementor'da Düzenleyebileceklerini Yönetin"
 
@@ -2095,20 +2099,20 @@ msgstr "Kullanıcılarınızın Elementor'da Düzenleyebileceklerini Yönetin"
 msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
 msgstr "Sitenizin farklı parçalarını oluşturmak için şablonları kullanın ve gerektiğinde bunları tek tıklamayla yeniden kullanın."
 
-#: includes/settings/settings.php:313
+#: includes/settings/settings.php:314
 msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
 msgstr "Özel Yazı Tipleri, kendi kendine barındırılan yazı tiplerinizi eklemenize ve bunları benzersiz bir marka dili oluşturmak için Elementor projelerinizde kullanmanıza olanak tanır."
 
-#: includes/widgets/common.php:1246 includes/widgets/icon-list.php:104
+#: includes/widgets/common.php:223 includes/widgets/icon-list.php:104
 #: includes/widgets/icon-list.php:196
 msgid "Inline"
 msgstr "Çizgide"
 
-#: includes/template-library/sources/local.php:1269
+#: includes/template-library/sources/local.php:1277
 msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
 msgstr "Şablonlar ekleyin ve bunları web sitenizde yeniden kullanın. Optimize edilmiş bir iş akışı için bunları başka bir projeye kolayca dışa aktarın ve içe aktarın."
 
-#: modules/landing-pages/module.php:263 assets/js/app-packages.js:6395
+#: modules/landing-pages/module.php:285 assets/js/app-packages.js:5919
 msgid "Add New"
 msgstr "Yeni"
 
@@ -2120,7 +2124,7 @@ msgstr "Jetonun Süresi Doldu."
 msgid "Set how many slides are scrolled per swipe."
 msgstr "Kaydırma başına kaç slayt olacağını ayarlayın."
 
-#: core/admin/admin.php:386
+#: core/admin/admin.php:409
 msgid "Create New Post"
 msgstr "Yeni yazı oluştur"
 
@@ -2158,24 +2162,25 @@ msgid "Active Icon"
 msgstr "Aktif ikon"
 
 #: includes/editor-templates/templates.php:70
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3636
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3858
 msgid "Popular"
 msgstr "Popüler"
 
 #: includes/editor-templates/templates.php:66
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3633
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3855
 msgid "New"
 msgstr "Yeni"
 
-#: core/kits/views/panel.php:38 includes/controls/icons.php:82
+#: core/kits/views/panel.php:44 includes/controls/icons.php:82
 #: includes/controls/media.php:214 includes/controls/media.php:260
 #: includes/editor-templates/repeater.php:27
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:782
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:986
 msgid "Remove"
 msgstr "Kaldır"
 
-#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:16237
-#: assets/js/editor.js:22685
+#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:16733
+#: assets/js/editor-document.js:17004 assets/js/editor.js:27438
+#: assets/js/editor.js:27709
 msgid "Save as Template"
 msgstr "Şablon olarak kaydet"
 
@@ -2214,7 +2219,7 @@ msgid "Current Version"
 msgstr "Şu anki versiyon"
 
 #. translators: 1: Editing date, 2: Author display name.
-#: core/base/document.php:1275
+#: core/base/document.php:1311
 msgid "Last edited on %1$s by %2$s"
 msgstr "Son düzenleme %1$s - %2$s tarafından"
 
@@ -2230,13 +2235,13 @@ msgstr "Görmezden gel"
 msgid "Published"
 msgstr "Yayımlandı"
 
-#: core/common/modules/finder/template.php:19 assets/js/editor.js:11925
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1609
+#: core/common/modules/finder/template.php:19 assets/js/editor.js:11946
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1828
 msgid "No Results Found"
 msgstr "Sonuç bulunamadı"
 
-#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3853
-#: assets/js/app.js:4633
+#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3444
+#: assets/js/app.js:4930
 msgid "Select File"
 msgstr "Dosya seç"
 
@@ -2245,6 +2250,8 @@ msgid "Import Template to Your Library"
 msgstr "Şablonu kitaplığınıza aktarın"
 
 #: includes/editor-templates/templates.php:245
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2399
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2784
 msgid "or"
 msgstr "veya"
 
@@ -2280,7 +2287,7 @@ msgstr "Sürükle ve bırak"
 msgid "Hide Panel"
 msgstr "Paneli gizle"
 
-#: includes/editor-templates/panel.php:95 assets/js/editor.js:18376
+#: includes/editor-templates/panel.php:95 assets/js/editor.js:22738
 msgid "Publish"
 msgstr "Yayımla"
 
@@ -2292,34 +2299,34 @@ msgstr "Ara"
 msgid "My Favorites"
 msgstr "Favorilerim"
 
-#: includes/controls/groups/typography.php:177
+#: includes/controls/groups/typography.php:182
 msgctxt "Typography Control"
 msgid "Underline"
 msgstr "Alt çizgi"
 
-#: core/admin/admin.php:470
+#: core/admin/admin.php:493
 msgid "Blog"
 msgstr "Blog"
 
-#: core/admin/admin.php:383
+#: core/admin/admin.php:406
 msgid "Create New Page"
 msgstr "Yeni sayfa oluştur"
 
-#: core/admin/admin.php:421
+#: core/admin/admin.php:444
 msgctxt "Dashboard Overview Widget Recently Date"
 msgid "M jS"
 msgstr "M jS"
 
 #. translators: 1: Saving date, 2: Author display name.
-#: core/base/document.php:1272
+#: core/base/document.php:1308
 msgid "Draft saved on %1$s by %2$s"
 msgstr "Taslak %1$s tarihinde %2$s tarafından kaydedildi"
 
-#: core/admin/admin.php:451
+#: core/admin/admin.php:474
 msgid "(opens in a new window)"
 msgstr "(yeni bir pencerede açılır)"
 
-#: includes/controls/groups/typography.php:172
+#: includes/controls/groups/typography.php:177
 msgctxt "Typography Control"
 msgid "Decoration"
 msgstr "Süsleme"
@@ -2328,21 +2335,21 @@ msgstr "Süsleme"
 msgid "Search Widget:"
 msgstr "Bileşen Ara:"
 
-#: core/base/document.php:1267
+#: core/base/document.php:1303
 msgctxt "revision date format"
 msgid "M j, H:i"
 msgstr "j M, H:i"
 
-#: core/admin/admin.php:414
+#: core/admin/admin.php:437
 msgid "Recently Edited"
 msgstr "Yakın Zamanda Düzenlendi"
 
-#: core/admin/admin.php:432
+#: core/admin/admin.php:455
 msgid "News & Updates"
 msgstr "Haberler ve Güncellemeler"
 
 #. translators: %s: Document title.
-#: core/base/document.php:146
+#: core/base/document.php:148
 msgid "Hurray! Your %s is live."
 msgstr "Yaşasın! %s cihazınız yayında."
 
@@ -2354,12 +2361,12 @@ msgstr "Bağlantısız değerler"
 msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
 msgstr "Gizlilik modunu açtığınızda, YouTube, videoyu oynatmadıkları sürece web sitenizdeki ziyaretçiler hakkındaki bilgileri saklamaz."
 
-#: includes/controls/groups/typography.php:178
+#: includes/controls/groups/typography.php:183
 msgctxt "Typography Control"
 msgid "Overline"
 msgstr "Üst çizgi"
 
-#: includes/controls/groups/typography.php:179
+#: includes/controls/groups/typography.php:184
 msgctxt "Typography Control"
 msgid "Line Through"
 msgstr "Hat boyunca"
@@ -2368,7 +2375,7 @@ msgstr "Hat boyunca"
 msgid "Update Elementor Now"
 msgstr "Elementor'u şimdi güncelle"
 
-#: core/admin/admin.php:355
+#: core/admin/admin.php:378
 msgid "Elementor Overview"
 msgstr "Elementor'a genel bakış"
 
@@ -2383,37 +2390,38 @@ msgstr "Tarafından oluşturuldu"
 
 #: includes/editor-templates/templates.php:234
 #: includes/editor-templates/templates.php:250
-#: includes/editor-templates/templates.php:263 includes/widgets/button.php:141
-#: includes/widgets/button.php:142
+#: includes/editor-templates/templates.php:263
+#: includes/widgets/traits/button-trait.php:58
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2796
 msgid "Click here"
 msgstr "Buraya tıkla"
 
 #: includes/editor-templates/hotkeys.php:67
-#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:14769
-#: assets/js/editor.js:20602 assets/js/editor.js:42668
+#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:14763
+#: assets/js/editor.js:24997 assets/js/editor.js:46044
 msgid "Duplicate"
 msgstr "Çoğalt"
 
-#: includes/template-library/sources/local.php:464
-#: includes/template-library/sources/local.php:542
-#: includes/template-library/sources/local.php:684
+#: includes/template-library/sources/local.php:472
+#: includes/template-library/sources/local.php:550
+#: includes/template-library/sources/local.php:692
 #: modules/history/revisions-manager.php:264
 msgid "Access denied."
 msgstr "Erişim engellendi."
 
-#: includes/settings/settings.php:476
+#: includes/settings/settings.php:477
 msgid "Disable Default Fonts"
 msgstr "Varsayılan yazı tiplerini devre dışı bırak"
 
 #: includes/elements/column.php:218 includes/widgets/accordion.php:388
-#: includes/widgets/common.php:1304 includes/widgets/image-carousel.php:538
+#: includes/widgets/common.php:318 includes/widgets/image-carousel.php:565
 #: includes/widgets/tabs.php:179 includes/widgets/tabs.php:209
 #: includes/widgets/toggle.php:407
 msgid "End"
 msgstr "Son"
 
 #: includes/elements/column.php:216 includes/widgets/accordion.php:384
-#: includes/widgets/common.php:1296 includes/widgets/image-carousel.php:530
+#: includes/widgets/common.php:310 includes/widgets/image-carousel.php:557
 #: includes/widgets/tabs.php:171 includes/widgets/tabs.php:201
 #: includes/widgets/toggle.php:403
 msgid "Start"
@@ -2442,7 +2450,7 @@ msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm
 
 #: includes/editor-templates/hotkeys.php:117
 #: includes/editor-templates/panel.php:73
-#: includes/editor-templates/panel.php:75 assets/js/editor.js:43042
+#: includes/editor-templates/panel.php:75 assets/js/editor.js:46418
 msgid "History"
 msgstr "Geçmiş"
 
@@ -2456,13 +2464,13 @@ msgstr "Daha eski sürümler için sürümler sekmesine geç"
 
 #: modules/history/views/history-panel-template.php:10
 #: modules/history/views/revisions-panel-template.php:26
-#: assets/js/editor.js:42357
+#: assets/js/editor.js:45733
 msgid "Revisions"
 msgstr "Sürümler"
 
 #: includes/editor-templates/hotkeys.php:14
 #: includes/editor-templates/templates.php:124
-#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:42354
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:45730
 msgid "Actions"
 msgstr "Eylemler"
 
@@ -2471,7 +2479,7 @@ msgid "Once you start working, you'll be able to redo / undo any action you make
 msgstr "Çalışmaya başladığınızda editörde yaptığınız herhangi bir eylemi yeniden oluşturabilir / geri alabilirsiniz."
 
 #: core/kits/documents/tabs/settings-lightbox.php:152
-#: includes/widgets/video.php:764
+#: includes/widgets/video.php:765
 msgid "UI Hover Color"
 msgstr "UI Vurgulu Renk"
 
@@ -2493,7 +2501,7 @@ msgstr "Sessiz"
 msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
 msgstr "Tüm görselleri lightbox popup penceresi ile aç. Lightbox otomatik olarak görsellerinizde çalışacaktır."
 
-#: includes/template-library/sources/local.php:908
+#: includes/template-library/sources/local.php:916
 msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
 msgstr "Bir Elementor şablon JSON dosyası veya Elementor şablonlarından oluşan bir .zip arşivi seçin ve bunları kitaplığınızda bulunan şablonlar listesine ekleyin."
 
@@ -2507,24 +2515,25 @@ msgctxt "Text Shadow Control"
 msgid "Text Shadow"
 msgstr "Metin gölgesi"
 
-#: includes/settings/settings.php:516
+#: includes/settings/settings.php:493
 msgid "Integrations"
 msgstr "Entegrasyonlar"
 
-#: includes/elements/column.php:758 includes/elements/section.php:1214
-#: includes/widgets/common.php:217
+#: includes/elements/column.php:761 includes/elements/container.php:1438
+#: includes/elements/section.php:1217 includes/widgets/common.php:568
 msgid "Z-Index"
 msgstr "Z-Index"
 
 #: core/kits/documents/tabs/theme-style-form-fields.php:139
 #: core/kits/documents/tabs/theme-style-images.php:203
 #: includes/controls/groups/background.php:700 includes/elements/column.php:321
-#: includes/elements/column.php:477 includes/elements/column.php:584
-#: includes/elements/section.php:600 includes/elements/section.php:783
-#: includes/elements/section.php:889 includes/widgets/common.php:858
-#: includes/widgets/common.php:965 includes/widgets/google-maps.php:240
-#: includes/widgets/image-box.php:330 includes/widgets/image.php:453
-#: modules/shapes/widgets/text-path.php:454
+#: includes/elements/column.php:480 includes/elements/column.php:587
+#: includes/elements/container.php:591 includes/elements/container.php:802
+#: includes/elements/container.php:923 includes/elements/section.php:600
+#: includes/elements/section.php:786 includes/elements/section.php:892
+#: includes/widgets/common.php:1224 includes/widgets/common.php:1338
+#: includes/widgets/google-maps.php:240 includes/widgets/image-box.php:340
+#: includes/widgets/image.php:453 modules/shapes/widgets/text-path.php:454
 #: modules/shapes/widgets/text-path.php:628
 msgid "Transition Duration"
 msgstr "Geçiş süresi"
@@ -2537,8 +2546,8 @@ msgstr "Nofollow ekle"
 msgid "Open in new window"
 msgstr "Yeni pencerede aç"
 
-#: includes/elements/column.php:857 includes/elements/section.php:1293
-#: includes/widgets/common.php:295
+#: includes/elements/column.php:860 includes/elements/container.php:1524
+#: includes/elements/section.php:1296 includes/widgets/common.php:652
 msgid "Animation Delay"
 msgstr "Animasyon gecikmesi"
 
@@ -2552,16 +2561,16 @@ msgid "Position"
 msgstr "Pozisyon"
 
 #. translators: %s: Elementor version.
-#: includes/settings/tools.php:324
+#: includes/settings/tools.php:343
 msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
 msgstr "Elementor %s sürümü ile ilgili bir sorun mu yaşıyorsunuz? Sorun ortaya çıkmadan önceki sürüme geri dönün."
 
-#: includes/settings/tools.php:369
+#: includes/settings/tools.php:388
 msgid "Please Note: We do not recommend updating to a beta version on production sites."
 msgstr "Lütfen Dikkat: Yayımlanmış sitelerde beta sürümüne güncellemenizi önermiyoruz."
 
-#: includes/rollback.php:165 includes/settings/tools.php:156
-#: includes/settings/tools.php:320 assets/js/admin.js:5457
+#: includes/rollback.php:165 includes/settings/tools.php:167
+#: includes/settings/tools.php:339 assets/js/admin.js:5572
 msgid "Rollback to Previous Version"
 msgstr "Önceki sürüme geri dön"
 
@@ -2570,31 +2579,31 @@ msgstr "Önceki sürüme geri dön"
 msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
 msgstr "Elementor, en az %s WordPress sürümünü gerektirir. Daha önceki bir sürümü kullandığınız için eklenti şu anda çalışmıyor."
 
-#: includes/settings/settings.php:559
+#: includes/settings/settings.php:536
 msgid "Switch Editor Loader Method"
 msgstr "Düzenleyici Yükleyici Yöntemini Değiştir"
 
-#: includes/settings/tools.php:333
+#: includes/settings/tools.php:352
 msgid "Rollback Version"
 msgstr "Geri Alma Sürümü"
 
-#: includes/settings/tools.php:341
+#: includes/settings/tools.php:360
 msgid "Warning: Please backup your database before making the rollback."
 msgstr "Uyarı: Geri alma işlemini yapmadan önce lütfen veritabanınızı yedekleyin."
 
-#: includes/settings/tools.php:347
+#: includes/settings/tools.php:366
 msgid "Become a Beta Tester"
 msgstr "Beta Test Kullanıcısı Olun"
 
-#: includes/settings/tools.php:361
+#: includes/settings/tools.php:380
 msgid "Beta Tester"
 msgstr "Beta Test Kullanıcısı"
 
-#: core/kits/documents/tabs/settings-layout.php:95
+#: core/kits/documents/tabs/settings-layout.php:104
 msgid "Sets the default space between widgets (Default: 20)"
 msgstr "Widget'lar arasındaki varsayılan boşluğu ayarlar (Varsayılan: 20)"
 
-#: includes/settings/tools.php:350
+#: includes/settings/tools.php:369
 msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or Elementor Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
 msgstr "Elementor veya Elementor Pro'nun yeni bir beta sürümü kullanılabilir olduğunda bildirim almak için Beta Test Cihazı'nı açın. Beta sürümü otomatik olarak yüklenmez. Her zaman görmezden gelme seçeneğin vardır."
 
@@ -2603,53 +2612,54 @@ msgctxt "Box Shadow Control"
 msgid "Outline"
 msgstr "Çevresi çizgili"
 
-#: core/kits/documents/tabs/settings-layout.php:83
+#: core/kits/documents/tabs/settings-layout.php:85
 #: includes/elements/column.php:234
 msgid "Widgets Space"
 msgstr "Bileşenler alanı"
 
-#: core/common/modules/finder/categories/tools.php:71
-#: includes/settings/tools.php:317
+#: core/common/modules/finder/categories/tools.php:77
+#: includes/settings/tools.php:336
 msgid "Version Control"
 msgstr "Sürüm kontrolü"
 
-#: includes/settings/settings.php:555
+#: includes/settings/settings.php:532
 msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
 msgstr "Oluşturulan tüm stil sayfaları için harici CSS dosyaları kullanın. Daha iyi performans için bu ayarı seçin (önerilir)."
 
-#: includes/settings/settings.php:555
+#: includes/settings/settings.php:532
 msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
 msgstr "Sayfanın başına yerleştirilmiş dahili CSS'yi kullanın. Sunucu yapılandırması çakışmalarını gidermek ve geliştirme ortamlarını yönetmek için."
 
-#: includes/settings/settings.php:552
+#: includes/settings/settings.php:529
 msgid "External File"
 msgstr "Harici dosya"
 
-#: includes/settings/settings.php:546
+#: includes/settings/settings.php:523
 msgid "CSS Print Method"
 msgstr "CSS Yazdırma Yöntemi"
 
-#: includes/settings/settings.php:553
+#: includes/settings/settings.php:530
 msgid "Internal Embedding"
 msgstr "Dahili Gömme"
 
-#: core/base/document.php:1568
+#: core/base/document.php:1603
 msgid "Status"
 msgstr "Durum"
 
-#: includes/settings/settings.php:567
+#: includes/settings/settings.php:544
 msgid "For troubleshooting server configuration conflicts."
 msgstr "Sunucu yapılandırması çakışmalarını gidermek için."
 
-#: core/debug/inspector.php:55 includes/settings/settings.php:565
-#: includes/settings/settings.php:577 includes/settings/tools.php:367
-#: modules/safe-mode/module.php:48 assets/js/app-packages.js:4166
-#: assets/js/app.js:4946 assets/js/common.js:2572 assets/js/editor.js:28977
+#: core/debug/inspector.php:55 includes/settings/settings.php:542
+#: includes/settings/settings.php:554 includes/settings/tools.php:386
+#: modules/safe-mode/module.php:48 assets/js/admin.js:867
+#: assets/js/app-packages.js:3783 assets/js/app.js:5269
+#: assets/js/common.js:2572 assets/js/editor.js:34359
 msgid "Enable"
 msgstr "Etkinleştir"
 
-#: core/debug/inspector.php:54 includes/settings/settings.php:564
-#: includes/settings/settings.php:576 includes/settings/tools.php:366
+#: core/debug/inspector.php:54 includes/settings/settings.php:541
+#: includes/settings/settings.php:553 includes/settings/tools.php:385
 #: modules/safe-mode/module.php:47
 msgid "Disable"
 msgstr "Devre dışı bırak"
@@ -2663,7 +2673,7 @@ msgid "Choose Template"
 msgstr "Şablon seç"
 
 #: includes/maintenance-mode.php:292 includes/maintenance-mode.php:369
-#: assets/js/app-packages.js:8927 assets/js/app.js:9037
+#: assets/js/app.js:12463
 msgid "Edit Template"
 msgstr "Şablonu düzenle"
 
@@ -2687,13 +2697,13 @@ msgstr "Bakım modu"
 msgid "Coming Soon"
 msgstr "Çok yakında"
 
-#: includes/widgets/common.php:1216 includes/widgets/spacer.php:108
+#: includes/widgets/common.php:1600 includes/widgets/spacer.php:108
 #: includes/widgets/text-editor.php:338
 msgid "Space"
 msgstr "Boşluk"
 
 #: core/common/modules/finder/categories/edit.php:118
-#: assets/js/editor-document.js:3370 assets/js/editor-document.js:5332
+#: assets/js/editor-document.js:5268 assets/js/editor.js:18039
 msgid "Template"
 msgstr "Şablon"
 
@@ -2702,7 +2712,7 @@ msgstr "Şablon"
 msgid "Select"
 msgstr "Seç"
 
-#: core/kits/documents/tabs/settings-layout.php:105
+#: core/kits/documents/tabs/settings-layout.php:115
 msgid "Page Title Selector"
 msgstr "Sayfa başlığı seçici"
 
@@ -2720,7 +2730,7 @@ msgid "Choose Mode"
 msgstr "Modu Seçin"
 
 #: core/kits/documents/kit.php:168 includes/maintenance-mode.php:215
-#: assets/js/editor.js:42667
+#: assets/js/editor.js:46043
 msgid "Disabled"
 msgstr "Devre dışı"
 
@@ -2740,12 +2750,12 @@ msgstr "Çok Yakında HTTP 200 kodunu döndürür, bu da sitenin dizine eklenmey
 msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
 msgstr "Bakım modunu etkinleştirmek için, bakım modu sayfası için bir şablon ayarlamanız gerekir."
 
-#: includes/editor-templates/hotkeys.php:51 assets/js/editor-document.js:14808
-#: assets/js/editor.js:20641
+#: includes/editor-templates/hotkeys.php:51 assets/js/editor-document.js:14802
+#: assets/js/editor.js:25036
 msgid "Paste Style"
 msgstr "Stili Yapıştır"
 
-#: core/kits/documents/tabs/settings-layout.php:109
+#: core/kits/documents/tabs/settings-layout.php:119
 msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
 msgstr "Elementor, sayfa başlığını gizlemenize izin verir. Bu, \"h1.entry-title\" seçicisi olan temalar için çalışır. Temanızın seçicisi farklıysa, lütfen yukarıya girin."
 
@@ -2757,7 +2767,7 @@ msgstr "İlk harfi büyük"
 msgid "Hide Title"
 msgstr "Başlığı gizle"
 
-#: includes/elements/section.php:1064
+#: includes/elements/container.php:1105 includes/elements/section.php:1067
 msgid "Bring to Front"
 msgstr "Öne getirmek"
 
@@ -2836,16 +2846,16 @@ msgstr "Dalgalar Fırçası"
 msgid "Space Between"
 msgstr "Arasındaki boşluk"
 
-#: includes/elements/section.php:933
+#: includes/elements/container.php:974 includes/elements/section.php:936
 msgid "Shape Divider"
 msgstr "Şekil Bölücü"
 
-#: includes/elements/section.php:1051
+#: includes/elements/container.php:1092 includes/elements/section.php:1054
 msgid "Invert"
 msgstr "Ters çevir"
 
 #: core/kits/documents/tabs/settings-lightbox.php:18
-#: includes/widgets/image-carousel.php:207
+#: includes/widgets/image-carousel.php:210
 #: includes/widgets/image-gallery.php:142 includes/widgets/image.php:219
 #: includes/widgets/video.php:605 includes/widgets/video.php:729
 msgid "Lightbox"
@@ -2876,12 +2886,12 @@ msgctxt "Shapes"
 msgid "Triangle Asymmetrical"
 msgstr "Asimetrik üçgen"
 
-#: includes/elements/section.php:1037
+#: includes/elements/container.php:1078 includes/elements/section.php:1040
 msgid "Flip"
 msgstr "Çevir"
 
-#: includes/elements/column.php:770 includes/elements/section.php:1226
-#: includes/widgets/common.php:229
+#: includes/elements/column.php:773 includes/elements/container.php:1450
+#: includes/elements/section.php:1229 includes/widgets/common.php:579
 msgid "CSS ID"
 msgstr "CSS ID"
 
@@ -2889,23 +2899,26 @@ msgstr "CSS ID"
 msgid "Navigation Width"
 msgstr "Gezinme Genişliği"
 
-#: includes/elements/column.php:776 includes/elements/section.php:1232
-#: includes/widgets/button.php:262 includes/widgets/common.php:235
+#: includes/elements/column.php:779 includes/elements/container.php:1456
+#: includes/elements/section.php:1235 includes/widgets/common.php:585
+#: includes/widgets/traits/button-trait.php:220
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Pound anahtarı OLMADAN özel kimliğinizi ekleyin. ör. benim-kimliğim"
 
 #: core/kits/documents/tabs/theme-style-buttons.php:167
 #: core/kits/documents/tabs/theme-style-images.php:134
 #: core/kits/documents/tabs/theme-style-typography.php:156
-#: includes/elements/column.php:306 includes/elements/column.php:431
-#: includes/elements/column.php:549 includes/elements/section.php:585
-#: includes/elements/section.php:737 includes/elements/section.php:854
-#: includes/widgets/button.php:350 includes/widgets/common.php:329
-#: includes/widgets/common.php:843 includes/widgets/common.php:930
-#: includes/widgets/google-maps.php:225 includes/widgets/icon-box.php:302
+#: includes/elements/column.php:306 includes/elements/column.php:434
+#: includes/elements/column.php:552 includes/elements/container.php:576
+#: includes/elements/container.php:748 includes/elements/container.php:888
+#: includes/elements/section.php:585 includes/elements/section.php:740
+#: includes/elements/section.php:857 includes/widgets/common.php:688
+#: includes/widgets/common.php:1209 includes/widgets/common.php:1303
+#: includes/widgets/google-maps.php:225 includes/widgets/icon-box.php:301
 #: includes/widgets/icon-list.php:412 includes/widgets/icon-list.php:505
-#: includes/widgets/icon.php:248 includes/widgets/image-box.php:351
-#: includes/widgets/image.php:420 modules/shapes/widgets/text-path.php:427
+#: includes/widgets/icon.php:248 includes/widgets/image-box.php:361
+#: includes/widgets/image.php:420 includes/widgets/traits/button-trait.php:309
+#: modules/shapes/widgets/text-path.php:427
 #: modules/shapes/widgets/text-path.php:567
 msgid "Hover"
 msgstr "Bağlantı vurgusu"
@@ -2946,27 +2959,27 @@ msgctxt "Background Control"
 msgid "Type"
 msgstr "Tür"
 
-#: core/admin/admin.php:304
+#: core/admin/admin.php:327
 msgid "View Elementor Documentation"
 msgstr "Elementor dökümantasyonunu görüntüle"
 
-#: core/admin/admin.php:304
+#: core/admin/admin.php:327
 msgid "Docs & FAQs"
 msgstr "Belgeler ve SSS"
 
-#: core/admin/admin.php:305
+#: core/admin/admin.php:328
 msgid "View Elementor Video Tutorials"
 msgstr "Elementor Video Eğitimlerini Görüntüleyin"
 
-#: core/admin/admin.php:305
+#: core/admin/admin.php:328
 msgid "Video Tutorials"
 msgstr "Video Eğitimleri"
 
-#: includes/settings/settings.php:472
+#: includes/settings/settings.php:473
 msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
 msgstr "Bu kutuyu işaretlemek, Elementor'un Varsayılan Renklerini devre dışı bırakır ve Elementor'ın renkleri temanızdan devralmasını sağlar."
 
-#: includes/settings/settings.php:480
+#: includes/settings/settings.php:481
 msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
 msgstr "Bu kutuyu işaretlemek, Elementor'un Varsayılan Yazı Tiplerini devre dışı bırakır ve Elementor'ın yazı tiplerini temanızdan devralmasını sağlar."
 
@@ -2983,17 +2996,10 @@ msgid "No Revisions Saved Yet"
 msgstr "Henüz bir sürüm kaydedilmedi"
 
 #: core/common/modules/finder/categories/tools.php:56
-#: includes/settings/tools.php:288 includes/settings/tools.php:299
-#: includes/settings/tools.php:307
+#: includes/settings/tools.php:307 includes/settings/tools.php:318
+#: includes/settings/tools.php:326
 msgid "Replace URL"
 msgstr "URL'yi değiştir"
-
-#. translators: 1: Minimum recommended_memory, 2: WordPress wp-config memory
-#. documentation.
-#: modules/system-info/reporters/wordpress.php:89
-msgctxt "System Info"
-msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
-msgstr "Belleği en az %1$s olarak ayarlamanızı öneririz. <a href=\"%2$s\">PHP'ye ayrılan belleği nasıl arttırabileceğiniz hakkında daha fazla bilgi</a> için okuyun."
 
 #. translators: 1: Human readable time difference, 2: Date.
 #: modules/history/revisions-manager.php:179
@@ -3021,24 +3027,24 @@ msgstr "Düzeltme geçmişi, çalışmanızın önceki sürümlerini kaydetmeniz
 msgid "By"
 msgstr "Yazar"
 
-#: includes/utils.php:167
+#: includes/utils.php:169
 msgid "The `from` and `to` URL's must be different"
 msgstr "\"Kimden\" ve \"Kime\" URL'leri farklı olmalıdır"
 
-#: includes/utils.php:172
+#: includes/utils.php:174
 msgid "The `from` and `to` URL's must be valid URL's"
 msgstr "\"Kimden\" ve \"Kime\" URL'leri geçerli URL'ler olmalıdır"
 
 #. translators: %s: WordPress backups documentation.
-#: includes/settings/tools.php:294
+#: includes/settings/tools.php:313
 msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
 msgstr "<strong>Önemli:</strong> URL&#39;yi Değiştir&#39;i kullanmadan önce <a target=\"_blank\" href=\"%s\">veritabanınızı</a> kesinlikle yedeklemeniz önerilir."
 
-#: includes/settings/tools.php:304
+#: includes/settings/tools.php:323
 msgid "Update Site Address (URL)"
 msgstr "Site Adresini (URL) Güncelleme"
 
-#: includes/settings/tools.php:308
+#: includes/settings/tools.php:327
 msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
 msgstr "Tüm Elementor verilerini güncellemek için WordPress kurulumunuz için eski ve yeni URL'lerinizi girin (Etki alanı aktarımlarıyla ilgili veya 'HTTPS'ye geçin)."
 
@@ -3055,19 +3061,19 @@ msgid "Default"
 msgstr "Varsayılan"
 
 #: core/kits/documents/tabs/settings-custom-css.php:17
-#: includes/managers/controls.php:973
+#: includes/managers/controls.php:972
 msgid "Custom CSS"
 msgstr "Özel CSS"
 
-#: includes/widgets/common.php:372 includes/widgets/common.php:534
-#: includes/widgets/common.php:1000 includes/widgets/icon-list.php:263
+#: includes/widgets/common.php:731 includes/widgets/common.php:893
+#: includes/widgets/common.php:1381 includes/widgets/icon-list.php:263
 #: includes/widgets/text-editor.php:122 includes/widgets/video.php:608
 #: modules/shapes/widgets/text-path.php:204
 msgid "Off"
 msgstr "Kapalı"
 
-#: includes/widgets/common.php:371 includes/widgets/common.php:533
-#: includes/widgets/common.php:999 includes/widgets/icon-list.php:264
+#: includes/widgets/common.php:730 includes/widgets/common.php:892
+#: includes/widgets/common.php:1380 includes/widgets/icon-list.php:264
 #: includes/widgets/text-editor.php:123 includes/widgets/video.php:609
 #: modules/shapes/widgets/text-path.php:203
 msgid "On"
@@ -3085,46 +3091,46 @@ msgstr "Elementor Pro ile daha fazlasını edinin"
 msgid "Meet Our Global Widget"
 msgstr "Global Widget'ımızla Tanışın"
 
-#: includes/managers/controls.php:979
+#: includes/managers/controls.php:978
 msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
 msgstr "Özel CSS, herhangi bir widget'a CSS kodu eklemenize ve doğrudan düzenleyicide canlı olarak görüntülendiğini görmenize olanak tanır."
 
-#: core/admin/admin.php:279 core/admin/admin.php:481
-#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:170
+#: core/admin/admin.php:302 core/admin/admin.php:504
+#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:171
 #: includes/editor-templates/panel-elements.php:23
 #: includes/editor-templates/panel-elements.php:63
-#: includes/managers/controls.php:1059 includes/settings/settings.php:176
-#: includes/settings/settings.php:315 includes/settings/settings.php:337
-#: includes/settings/settings.php:359 includes/settings/settings.php:380
-#: includes/settings/settings.php:648 assets/js/app-packages.js:3638
-#: assets/js/app-packages.js:11055 assets/js/app-packages.js:11345
-#: assets/js/app-packages.js:11380 assets/js/app.js:4418
-#: assets/js/editor.js:9022
+#: includes/managers/controls.php:1058 includes/settings/settings.php:177
+#: includes/settings/settings.php:316 includes/settings/settings.php:338
+#: includes/settings/settings.php:360 includes/settings/settings.php:381
+#: includes/settings/settings.php:631 assets/js/app-packages.js:7138
+#: assets/js/app-packages.js:7428 assets/js/app-packages.js:7463
+#: assets/js/app.js:4678 assets/js/editor.js:9022
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:934
 msgid "Go Pro"
 msgstr "Pro edinin"
 
 #: includes/editor-templates/panel-elements.php:11
-#: assets/js/editor-document.js:6924 assets/js/editor.js:26284
+#: assets/js/editor-document.js:6849 assets/js/editor.js:31346
 msgid "Global"
 msgstr "Genel"
 
-#: includes/managers/controls.php:991
+#: includes/managers/controls.php:990
 msgid "Meet Our Custom CSS"
 msgstr "Özel CSS’mizle tanışın"
 
-#: includes/widgets/button.php:92
+#: includes/widgets/traits/button-trait.php:33
 msgid "Extra Small"
 msgstr "Çok küçük"
 
-#: includes/base/widget-base.php:283 includes/base/widget-base.php:292
+#: includes/base/widget-base.php:296 includes/base/widget-base.php:305
 msgid "Skin"
 msgstr "Cilt"
 
-#: includes/widgets/button.php:96
+#: includes/widgets/traits/button-trait.php:37
 msgid "Extra Large"
 msgstr "Çok büyük"
 
-#: includes/settings/settings.php:486
+#: includes/settings/settings.php:487
 msgid "Improve Elementor"
 msgstr "Elementor’u iyileştir"
 
@@ -3156,17 +3162,17 @@ msgstr "Streç Bölüm"
 msgid "Stretch the section to the full width of the page using JS."
 msgstr "JS kullanarak bölümü sayfanın tüm genişliğine uzatın."
 
-#: core/kits/documents/tabs/settings-layout.php:121
+#: core/kits/documents/tabs/settings-layout.php:131
 msgid "Stretched Section Fit To"
 msgstr "Gerilmiş Bölüm Sığdır"
 
-#: core/kits/documents/tabs/settings-layout.php:124
+#: core/kits/documents/tabs/settings-layout.php:134
 msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
 msgstr "Uzatılmış bölümlerin sığacağı ana öğe seçiciyi girin (ör. #Birincil / .wrapper / ana vb.). Sayfa genişliğine sığdırmak için boş bırakın."
 
-#: core/breakpoints/manager.php:312
+#: core/breakpoints/manager.php:313
 #: core/settings/editor-preferences/model.php:133
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4298
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4520
 msgid "Mobile"
 msgstr "Mobil"
 
@@ -3175,7 +3181,7 @@ msgstr "Mobil"
 msgid "Learn more."
 msgstr "Daha fazla bilgi edinin."
 
-#: includes/elements/section.php:1324
+#: includes/elements/section.php:1327
 msgid "Reverse Columns"
 msgstr "Ters sütunlar"
 
@@ -3187,29 +3193,31 @@ msgstr "Değerleri birbirine bağlayın"
 msgid "Shortcode"
 msgstr "Kısa kod"
 
-#: includes/template-library/sources/local.php:269
+#: includes/template-library/sources/local.php:277
 msgctxt "Template Library"
 msgid "Type"
 msgstr "Tür"
 
-#: includes/template-library/sources/local.php:220
+#: includes/template-library/sources/local.php:228
 msgctxt "Template Library"
 msgid "Template"
 msgstr "Şablon"
 
 #: core/common/modules/finder/categories/tools.php:28
 #: core/common/modules/finder/categories/tools.php:50
-#: includes/settings/tools.php:38 includes/settings/tools.php:39
-#: includes/settings/tools.php:402
+#: includes/settings/tools.php:28 includes/settings/tools.php:29
+#: includes/settings/tools.php:49 includes/settings/tools.php:50
+#: includes/settings/tools.php:421
 msgid "Tools"
 msgstr "Araçlar"
 
 #: core/document-types/page.php:37 modules/library/documents/page.php:57
-#: assets/js/editor.js:11106
+#: assets/js/editor.js:11108
 msgid "Page"
 msgstr "Sayfa"
 
-#: includes/editor-templates/global.php:30
+#: includes/editor-templates/global.php:37
+#: includes/editor-templates/global.php:52
 msgid "Select your Structure"
 msgstr "Yapınızı seçin"
 
@@ -3218,21 +3226,19 @@ msgstr "Yapınızı seçin"
 #: includes/editor-templates/library-layout.php:16
 #: includes/editor-templates/responsive-bar.php:65
 #: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1308
-#: assets/js/app-packages.js:3119 assets/js/app-packages.js:5681
-#: assets/js/app-packages.js:6299 assets/js/app-packages.js:9308
-#: assets/js/app.js:3899 assets/js/app.js:6168 assets/js/app.js:6634
-#: assets/js/app.js:9418 assets/js/editor.js:39464
+#: assets/js/app-packages.js:2910 assets/js/app-packages.js:5205
+#: assets/js/app-packages.js:5823 assets/js/app.js:4066 assets/js/app.js:6579
+#: assets/js/app.js:7045 assets/js/app.js:9488 assets/js/app.js:10488
+#: assets/js/app.js:14277 assets/js/editor.js:42815
 msgid "Close"
 msgstr "Kapat"
 
-#: core/common/modules/connect/apps/library.php:15 assets/js/editor.js:11491
+#: core/common/modules/connect/apps/library.php:15 assets/js/editor.js:11494
 msgid "Library"
 msgstr "Kütüphane"
 
 #: includes/editor-templates/templates.php:190
-#: includes/template-library/sources/local.php:1093
-#: assets/js/app-packages.js:7776 assets/js/app-packages.js:10187
-#: assets/js/app.js:7886 assets/js/app.js:10297
+#: includes/template-library/sources/local.php:1101 assets/js/app.js:14351
 msgid "Export"
 msgstr "Dışa aktar"
 
@@ -3240,49 +3246,49 @@ msgstr "Dışa aktar"
 msgid "Remote"
 msgstr "Uzaktan"
 
-#: includes/template-library/sources/local.php:915
+#: includes/template-library/sources/local.php:923
 msgid "Import Now"
 msgstr "Şimdi içe aktar"
 
-#: includes/template-library/sources/local.php:906
+#: includes/template-library/sources/local.php:914
 msgid "Import Templates"
 msgstr "Şablonları içe aktar"
 
-#: includes/template-library/sources/local.php:878
+#: includes/template-library/sources/local.php:886
 msgid "Export Template"
 msgstr "Şablonu dışa aktar"
 
-#: includes/template-library/sources/local.php:229
+#: includes/template-library/sources/local.php:237
 msgctxt "Template Library"
 msgid "No Templates found in Trash"
 msgstr "Çöp kutusunda şablon bulunamadı"
 
-#: includes/template-library/sources/local.php:228
+#: includes/template-library/sources/local.php:236
 msgctxt "Template Library"
 msgid "No Templates found"
 msgstr "Şablon bulunamadı"
 
-#: includes/template-library/sources/local.php:227
+#: includes/template-library/sources/local.php:235
 msgctxt "Template Library"
 msgid "Search Template"
 msgstr "Şablon ara"
 
-#: includes/template-library/sources/local.php:225
+#: includes/template-library/sources/local.php:233
 msgctxt "Template Library"
 msgid "All Templates"
 msgstr "Tüm şablonlar"
 
-#: includes/template-library/sources/local.php:224
+#: includes/template-library/sources/local.php:232
 msgctxt "Template Library"
 msgid "New Template"
 msgstr "Yeni şablon"
 
-#: includes/template-library/sources/local.php:223
+#: includes/template-library/sources/local.php:231
 msgctxt "Template Library"
 msgid "Edit Template"
 msgstr "Şablonu düzenle"
 
-#: includes/utils.php:185 assets/js/editor.js:11271
+#: includes/utils.php:187 assets/js/editor.js:11274
 msgid "An error occurred"
 msgstr "Bir hata oluştu"
 
@@ -3295,12 +3301,12 @@ msgstr "Ekle"
 msgid "Local"
 msgstr "Yerel"
 
-#: includes/template-library/sources/local.php:222
+#: includes/template-library/sources/local.php:230
 msgctxt "Template Library"
 msgid "Add New Template"
 msgstr "Yeni şablon ekle"
 
-#: includes/template-library/sources/local.php:221
+#: includes/template-library/sources/local.php:229
 msgctxt "Template Library"
 msgid "Add New"
 msgstr "Yeni"
@@ -3309,25 +3315,25 @@ msgstr "Yeni"
 msgid "Template Library"
 msgstr "Şablon kütüphanesi"
 
-#: includes/template-library/sources/local.php:468
+#: includes/template-library/sources/local.php:476
 msgid "(no title)"
 msgstr "(başlık yok)"
 
-#: includes/template-library/sources/local.php:226
+#: includes/template-library/sources/local.php:234
 msgctxt "Template Library"
 msgid "View Template"
 msgstr "Şablon görüntüle"
 
 #: includes/editor-templates/templates.php:37
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1218
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1437
 msgid "Back to Library"
 msgstr "Kitaplığa geri dön"
 
-#: includes/editor-templates/global.php:24
+#: includes/editor-templates/global.php:31
 msgid "Add Template"
 msgstr "Şablon ekle"
 
-#: includes/settings/tools.php:280
+#: includes/settings/tools.php:299
 msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
 msgstr "Elementor Kitaplığı günlük olarak otomatik güncellenir. Senkronizasyon düğmesine tıklayarak da elle güncelleyebilirsiniz."
 
@@ -3335,15 +3341,14 @@ msgstr "Elementor Kitaplığı günlük olarak otomatik güncellenir. Senkroniza
 msgid "Stay tuned! More awesome templates coming real soon."
 msgstr "Bizi izlemeye devam edin! Çok yakında daha harika şablonlar geliyor."
 
-#: includes/template-library/sources/local.php:377
-#: includes/template-library/sources/local.php:1630
-#: assets/js/app-packages.js:9676 assets/js/app.js:9786
+#: includes/template-library/sources/local.php:385
+#: includes/template-library/sources/local.php:1638 assets/js/app.js:13301
 msgid "Saved Templates"
 msgstr "Kayıtlı şablonlar"
 
 #: includes/editor-templates/templates.php:14
-#: includes/editor-templates/templates.php:15 includes/settings/tools.php:276
-#: includes/settings/tools.php:279
+#: includes/editor-templates/templates.php:15 includes/settings/tools.php:295
+#: includes/settings/tools.php:298
 msgid "Sync Library"
 msgstr "Kütüphane senkronizasyonu"
 
@@ -3360,40 +3365,35 @@ msgstr "Temanızın kaynak kodunu değiştirmek istiyorsanız, <a href=\"%s\">ch
 #: core/admin/admin-notices.php:329 core/admin/admin-notices.php:370
 #: core/admin/admin-notices.php:412 core/admin/admin-notices.php:454
 #: core/admin/admin-notices.php:496
-#: core/app/modules/import-export/module.php:245
-#: core/app/modules/import-export/module.php:257
-#: core/experiments/manager.php:223 core/experiments/manager.php:236
-#: core/experiments/manager.php:249 core/experiments/manager.php:262
-#: core/experiments/manager.php:272 core/experiments/manager.php:300
-#: includes/controls/url.php:76 includes/settings/settings.php:375
-#: includes/settings/settings.php:508 modules/safe-mode/module.php:392
-#: modules/safe-mode/module.php:401
+#: core/app/modules/import-export/module.php:309
+#: core/app/modules/import-export/module.php:321
+#: core/experiments/manager.php:218 core/experiments/manager.php:231
+#: core/experiments/manager.php:244 core/experiments/manager.php:257
+#: core/experiments/manager.php:267 core/experiments/manager.php:295
+#: includes/controls/url.php:76 includes/settings/settings.php:376
+#: modules/safe-mode/module.php:392 modules/safe-mode/module.php:401
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:104
-#: assets/js/app-packages.js:4035 assets/js/app-packages.js:7998
-#: assets/js/app-packages.js:8416 assets/js/app-packages.js:8522
-#: assets/js/app-packages.js:9077 assets/js/app-packages.js:9306
-#: assets/js/app-packages.js:9358 assets/js/app-packages.js:9399
-#: assets/js/app-packages.js:11143 assets/js/app-packages.js:11279
-#: assets/js/app.js:4815 assets/js/app.js:8108 assets/js/app.js:8526
-#: assets/js/app.js:8632 assets/js/app.js:9187 assets/js/app.js:9416
-#: assets/js/app.js:9468 assets/js/app.js:9509 assets/js/editor.js:15890
-#: assets/js/editor.js:19322 assets/js/editor.js:19354
-#: assets/js/editor.js:29579
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:980
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3656
+#: assets/js/app-packages.js:3651 assets/js/app-packages.js:7226
+#: assets/js/app-packages.js:7362 assets/js/app.js:5137 assets/js/app.js:9828
+#: assets/js/app.js:11109 assets/js/app.js:12618 assets/js/app.js:12984
+#: assets/js/app.js:13024 assets/js/app.js:14276 assets/js/editor.js:14952
+#: assets/js/editor.js:23692 assets/js/editor.js:23724
+#: assets/js/editor.js:35001
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1186
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3878
 msgid "Learn More"
 msgstr "Daha Fazlasını Öğrenin"
 
 #: core/kits/documents/tabs/global-typography.php:28
-#: core/kits/documents/tabs/global-typography.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
-#: assets/js/editor.js:39191
+#: core/kits/documents/tabs/global-typography.php:47 assets/js/app.js:13319
+#: assets/js/editor.js:42542
 msgid "Global Fonts"
 msgstr "Genel yazı tipleri"
 
-#: includes/widgets/button.php:399 includes/widgets/icon-box.php:338
-#: includes/widgets/icon.php:286 includes/widgets/image-box.php:288
-#: includes/widgets/image.php:470 includes/widgets/social-icons.php:539
+#: includes/widgets/icon-box.php:337 includes/widgets/icon.php:286
+#: includes/widgets/image-box.php:298 includes/widgets/image.php:470
+#: includes/widgets/social-icons.php:539
+#: includes/widgets/traits/button-trait.php:362
 #: modules/shapes/widgets/text-path.php:446
 msgid "Hover Animation"
 msgstr "Fareyle Üzerine Gelme Animasyonu"
@@ -3403,13 +3403,13 @@ msgctxt "Background Control"
 msgid "Contain"
 msgstr "Doldur"
 
-#: includes/elements/column.php:843 includes/elements/section.php:1279
-#: includes/widgets/common.php:281
+#: includes/elements/column.php:846 includes/elements/container.php:1510
+#: includes/elements/section.php:1282 includes/widgets/common.php:638
 msgid "Slow"
 msgstr "Yavaş"
 
-#: includes/elements/column.php:845 includes/elements/section.php:1281
-#: includes/widgets/common.php:283
+#: includes/elements/column.php:848 includes/elements/container.php:1512
+#: includes/elements/section.php:1284 includes/widgets/common.php:640
 msgid "Fast"
 msgstr "Hızlı"
 
@@ -3423,8 +3423,9 @@ msgstr "Yatay"
 msgid "Vertical"
 msgstr "Dikey"
 
-#: includes/elements/column.php:830 includes/elements/section.php:1266
-#: includes/widgets/common.php:268 includes/widgets/video.php:814
+#: includes/elements/column.php:833 includes/elements/container.php:1497
+#: includes/elements/section.php:1269 includes/widgets/common.php:625
+#: includes/widgets/video.php:816
 msgid "Entrance Animation"
 msgstr "Giriş Animasyonu"
 
@@ -3455,7 +3456,7 @@ msgstr "Varsayılan yazı tipleri"
 msgid "Color Palettes"
 msgstr "Renk paletleri"
 
-#: includes/settings/settings.php:468
+#: includes/settings/settings.php:469
 msgid "Disable Default Colors"
 msgstr "Varsayılan renkleri etkisizleştir"
 
@@ -3527,7 +3528,8 @@ msgstr "Elementor Page Builder&#39;ın yeni bir sürümü mevcut. <a href=\"%1$s
 msgid "View Elementor version %s details"
 msgstr "Elementor sürüm%s ayrıntılarını görüntüleyin"
 
-#: includes/elements/column.php:347 includes/elements/section.php:626
+#: includes/elements/column.php:347 includes/elements/container.php:623
+#: includes/elements/section.php:626
 msgid "Background Overlay"
 msgstr "Arka Plan Kaplaması"
 
@@ -3579,10 +3581,10 @@ msgstr "Paylaş düğmesi"
 msgid "Quick Feedback"
 msgstr "Hızlı geri bildirim"
 
-#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:14796
-#: assets/js/editor-document.js:15865 assets/js/editor-document.js:17382
-#: assets/js/editor.js:20629 assets/js/editor.js:22313
-#: assets/js/editor.js:31612 assets/js/editor.js:32574
+#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:14790
+#: assets/js/editor-document.js:16279 assets/js/editor-document.js:18490
+#: assets/js/editor.js:25024 assets/js/editor.js:26984
+#: assets/js/editor.js:37106 assets/js/editor.js:38152
 msgid "Paste"
 msgstr "Yapıştır"
 
@@ -3591,17 +3593,18 @@ msgid "Wider"
 msgstr "Daha geniş"
 
 #: core/common/modules/finder/categories/general.php:29
-#: core/role-manager/role-manager.php:59 includes/managers/elements.php:281
-#: includes/settings/settings.php:447 includes/settings/tools.php:263
+#: core/role-manager/role-manager.php:60 includes/managers/elements.php:288
+#: includes/settings/settings.php:448 includes/settings/tools.php:282
 msgid "General"
 msgstr "Genel"
 
 #: core/kits/documents/tabs/settings-background.php:18
-#: includes/elements/column.php:273 includes/elements/section.php:553
-#: includes/widgets/accordion.php:287 includes/widgets/accordion.php:452
-#: includes/widgets/button.php:328 includes/widgets/button.php:370
-#: includes/widgets/common.php:816 includes/widgets/toggle.php:314
-#: includes/widgets/toggle.php:471
+#: includes/elements/column.php:273 includes/elements/container.php:538
+#: includes/elements/section.php:553 includes/widgets/accordion.php:287
+#: includes/widgets/accordion.php:452 includes/widgets/common.php:1182
+#: includes/widgets/toggle.php:314 includes/widgets/toggle.php:471
+#: includes/widgets/traits/button-trait.php:286
+#: includes/widgets/traits/button-trait.php:331
 msgid "Background"
 msgstr "Arka Plan"
 
@@ -3610,9 +3613,9 @@ msgid "Custom URL"
 msgstr "Özel Bağlantı"
 
 #: includes/widgets/accordion.php:424 includes/widgets/divider.php:760
-#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:350
-#: includes/widgets/icon-box.php:517 includes/widgets/image-box.php:225
-#: includes/widgets/image-box.php:451 includes/widgets/image-carousel.php:554
+#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:349
+#: includes/widgets/icon-box.php:537 includes/widgets/image-box.php:225
+#: includes/widgets/image-box.php:461 includes/widgets/image-carousel.php:581
 #: includes/widgets/image-gallery.php:191 includes/widgets/image.php:602
 #: includes/widgets/social-icons.php:428 includes/widgets/star-rating.php:291
 #: includes/widgets/toggle.php:443
@@ -3623,7 +3626,7 @@ msgstr "Aralık"
 msgid "Arrows and Dots"
 msgstr "Oklar ve noktalar"
 
-#: includes/widgets/image-carousel.php:352
+#: includes/widgets/image-carousel.php:364
 msgid "Animation Speed"
 msgstr "Animasyon Hızı"
 
@@ -3631,8 +3634,8 @@ msgstr "Animasyon Hızı"
 msgid "You can crop the original image size to any custom size. You can also set a single value for height or width in order to keep the original size ratio."
 msgstr "Orijinal görüntü boyutunu herhangi bir özel boyuta kırpabilirsiniz. Orijinal boyut oranını korumak için yükseklik veya genişlik için tek bir değer de ayarlayabilirsiniz."
 
-#: includes/controls/groups/background.php:765
-#: includes/widgets/image-carousel.php:363
+#: includes/controls/groups/background.php:776
+#: includes/widgets/image-carousel.php:375
 msgid "Direction"
 msgstr "Yön"
 
@@ -3640,8 +3643,9 @@ msgstr "Yön"
 msgid "Left Border Width"
 msgstr "Sol Kenarlık Genişliği"
 
-#: includes/elements/column.php:839 includes/elements/section.php:1275
-#: includes/widgets/common.php:277 includes/widgets/counter.php:159
+#: includes/elements/column.php:842 includes/elements/container.php:1506
+#: includes/elements/section.php:1278 includes/widgets/common.php:634
+#: includes/widgets/counter.php:159
 msgid "Animation Duration"
 msgstr "Animasyon süresi"
 
@@ -3650,13 +3654,13 @@ msgstr "Animasyon süresi"
 msgid "Image Carousel"
 msgstr "Resim Döngüsü"
 
-#: includes/widgets/image-carousel.php:405
-#: includes/widgets/image-carousel.php:470
+#: includes/widgets/image-carousel.php:417
+#: includes/widgets/image-carousel.php:482
 msgid "Inside"
 msgstr "İçeride"
 
-#: includes/widgets/image-carousel.php:406
-#: includes/widgets/image-carousel.php:469
+#: includes/widgets/image-carousel.php:418
+#: includes/widgets/image-carousel.php:481
 msgid "Outside"
 msgstr "Dışarıda"
 
@@ -3668,7 +3672,7 @@ msgstr "Giriş Yazısı"
 msgid "Image Stretch"
 msgstr "Görsel Uzatma"
 
-#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:250
+#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:253
 msgid "Additional Options"
 msgstr "Ek Seçenekler"
 
@@ -3739,7 +3743,7 @@ msgstr "Giriş başlığı"
 msgid "Intro Portrait"
 msgstr "Giriş portresi"
 
-#: includes/widgets/image-carousel.php:335
+#: includes/widgets/image-carousel.php:347
 msgid "Effect"
 msgstr "Efekt"
 
@@ -3748,25 +3752,24 @@ msgctxt "Image Size Control"
 msgid "Full"
 msgstr "Tam"
 
-#: includes/widgets/image-carousel.php:340
+#: includes/widgets/image-carousel.php:352
 msgid "Fade"
 msgstr "Soluklaş"
 
 #: includes/widgets/image-carousel.php:170
-#: includes/widgets/image-carousel.php:453
 msgid "Dots"
 msgstr "Noktalar"
 
-#: includes/widgets/icon-box.php:493 includes/widgets/image-box.php:427
+#: includes/widgets/icon-box.php:513 includes/widgets/image-box.php:437
 msgid "Vertical Alignment"
 msgstr "Dikey Hizalama"
 
 #: includes/controls/groups/background.php:661
-#: includes/widgets/image-carousel.php:321
+#: includes/widgets/image-carousel.php:333
 msgid "Infinite Loop"
 msgstr "Sonsuz Döngü"
 
-#: includes/controls/groups/typography.php:180
+#: includes/controls/groups/typography.php:185
 msgctxt "Typography Control"
 msgid "None"
 msgstr "Yok"
@@ -3780,76 +3783,77 @@ msgstr "Görsel Boyutu"
 msgid "This is the heading"
 msgstr "Bu başlık"
 
-#: includes/elements/column.php:792 includes/elements/section.php:1248
-#: includes/widgets/common.php:250
+#: includes/elements/column.php:795 includes/elements/container.php:1472
+#: includes/elements/section.php:1251 includes/widgets/common.php:600
 msgid "Add your custom class WITHOUT the dot. e.g: my-class"
 msgstr "Nokta OLMADAN özel sınıfınızı ekleyin. örneğin: sınıfım"
 
-#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:219
+#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:218
 #: includes/widgets/image-box.php:186 includes/widgets/toggle.php:211
 msgid "Title HTML Tag"
 msgstr "Başlık HTML etiketi"
 
-#: includes/managers/elements.php:322
+#: includes/managers/elements.php:329
 msgid "Pojo Themes"
 msgstr "Pojo Temaları"
 
-#: core/kits/documents/tabs/global-typography.php:178
+#: core/kits/documents/tabs/global-typography.php:195
 msgid "The list of fonts used if the chosen font is not available."
 msgstr "Seçilen yazı tipi mevcut değilse kullanılan yazı tiplerinin listesi."
 
-#: includes/widgets/wordpress.php:230
+#: includes/widgets/wordpress.php:234
 msgid "Form"
 msgstr "Form"
 
 #: includes/editor-templates/panel-elements.php:10
-#: assets/js/editor-document.js:5930 assets/js/editor-document.js:8113
-#: assets/js/editor-document.js:8644 assets/js/editor.js:26281
+#: assets/js/editor-document.js:5857 assets/js/editor-document.js:8038
+#: assets/js/editor-document.js:8569 assets/js/editor.js:18628
+#: assets/js/editor.js:31343
 msgid "Elements"
 msgstr "Elemanlar"
 
-#: modules/system-info/reporters/server.php:121
+#: modules/system-info/reporters/server.php:122
 msgctxt "System Info"
 msgid "We recommend to use php 5.4 or higher"
 msgstr "PhP 5.4 veya üzerini kullanmanızı öneririz"
 
-#: core/admin/admin.php:275
+#: core/admin/admin.php:298 core/admin/menu/main.php:75
 #: core/common/modules/finder/categories/settings.php:28
 #: core/dynamic-tags/base-tag.php:171 includes/editor-templates/panel.php:65
 #: includes/editor-templates/responsive-bar.php:61
-#: includes/managers/controls.php:304 includes/settings/settings.php:413
-#: assets/js/editor.js:10300 assets/js/editor.js:27094
-#: assets/js/editor.js:39615
+#: includes/managers/controls.php:304 includes/settings/settings.php:414
+#: includes/settings/settings.php:593 assets/js/editor.js:10300
+#: assets/js/editor.js:32149 assets/js/editor.js:42965
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: includes/controls/groups/typography.php:153
+#: includes/controls/groups/typography.php:158
 msgctxt "Typography Control"
 msgid "Lowercase"
 msgstr "Küçük harf"
 
-#: includes/controls/groups/typography.php:152
+#: includes/controls/groups/typography.php:157
 msgctxt "Typography Control"
 msgid "Uppercase"
 msgstr "Büyük harf"
 
-#: includes/controls/groups/typography.php:166
+#: includes/controls/groups/typography.php:171
 msgctxt "Typography Control"
 msgid "Italic"
 msgstr "İtalik"
 
-#: includes/controls/groups/typography.php:167
+#: includes/controls/groups/typography.php:172
 msgctxt "Typography Control"
 msgid "Oblique"
 msgstr "Eğik"
 
-#: includes/controls/groups/typography.php:155
-#: includes/controls/groups/typography.php:165
+#: includes/controls/groups/typography.php:160
+#: includes/controls/groups/typography.php:170
 msgctxt "Typography Control"
 msgid "Normal"
 msgstr "Normal"
 
-#: includes/controls/groups/typography.php:154
+#: includes/controls/groups/typography.php:159
 msgctxt "Typography Control"
 msgid "Capitalize"
 msgstr "İlk harf büyük"
@@ -3877,28 +3881,28 @@ msgid "Tabs"
 msgstr "Sekmeler"
 
 #: includes/widgets/image-carousel.php:169
-#: includes/widgets/image-carousel.php:389
+#: includes/widgets/image-carousel.php:401
 msgid "Arrows"
 msgstr "Oklar"
 
-#: includes/widgets/alert.php:99 includes/widgets/button.php:124
-#: includes/widgets/progress.php:114 assets/js/app-packages.js:11132
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3257
+#: includes/widgets/alert.php:99 includes/widgets/progress.php:114
+#: includes/widgets/traits/button-trait.php:75 assets/js/app-packages.js:7215
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3475
 msgid "Info"
 msgstr "Bilgi"
 
-#: includes/widgets/alert.php:100 includes/widgets/button.php:125
-#: includes/widgets/progress.php:115
+#: includes/widgets/alert.php:100 includes/widgets/progress.php:115
+#: includes/widgets/traits/button-trait.php:76
 msgid "Success"
 msgstr "Başarı"
 
-#: includes/widgets/alert.php:101 includes/widgets/button.php:126
-#: includes/widgets/progress.php:116
+#: includes/widgets/alert.php:101 includes/widgets/progress.php:116
+#: includes/widgets/traits/button-trait.php:77
 msgid "Warning"
 msgstr "Uyarı"
 
-#: includes/widgets/alert.php:102 includes/widgets/button.php:127
-#: includes/widgets/progress.php:117
+#: includes/widgets/alert.php:102 includes/widgets/progress.php:117
+#: includes/widgets/traits/button-trait.php:78
 msgid "Danger"
 msgstr "Tehlike"
 
@@ -3928,17 +3932,17 @@ msgstr "Göster"
 msgid "Hide"
 msgstr "Gizle"
 
-#: core/base/document.php:1545
+#: core/base/document.php:1581
 #: core/kits/documents/tabs/settings-lightbox.php:96
 #: core/kits/documents/tabs/settings-lightbox.php:100
 #: core/kits/documents/tabs/settings-lightbox.php:117
 #: includes/elements/column.php:122 includes/elements/section.php:236
 #: includes/widgets/accordion.php:279 includes/widgets/alert.php:213
-#: includes/widgets/common.php:184 includes/widgets/counter.php:197
+#: includes/widgets/common.php:181 includes/widgets/counter.php:197
 #: includes/widgets/counter.php:265 includes/widgets/heading.php:104
 #: includes/widgets/heading.php:111 includes/widgets/heading.php:217
-#: includes/widgets/icon-box.php:508 includes/widgets/image-box.php:442
-#: includes/widgets/image-carousel.php:229 includes/widgets/progress.php:95
+#: includes/widgets/icon-box.php:528 includes/widgets/image-box.php:452
+#: includes/widgets/image-carousel.php:232 includes/widgets/progress.php:95
 #: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
 #: includes/widgets/tabs.php:303 includes/widgets/testimonial.php:143
 #: includes/widgets/testimonial.php:367 includes/widgets/toggle.php:306
@@ -3948,9 +3952,9 @@ msgstr "Başlık"
 #: core/kits/documents/tabs/settings-lightbox.php:103
 #: core/kits/documents/tabs/settings-lightbox.php:113
 #: core/kits/documents/tabs/settings-lightbox.php:120
-#: includes/compatibility.php:176 includes/widgets/alert.php:253
-#: includes/widgets/icon-box.php:576 includes/widgets/image-box.php:502
-#: includes/widgets/image-carousel.php:231
+#: includes/compatibility.php:151 includes/widgets/alert.php:253
+#: includes/widgets/icon-box.php:596 includes/widgets/image-box.php:512
+#: includes/widgets/image-carousel.php:234
 msgid "Description"
 msgstr "Açıklama"
 
@@ -3992,77 +3996,81 @@ msgctxt "Background Control"
 msgid "Cover"
 msgstr "Kapak"
 
-#: includes/elements/section.php:290 includes/maintenance-mode.php:238
-#: includes/widgets/common.php:134 includes/widgets/common.php:1062
-#: includes/widgets/common.php:1123 includes/widgets/common.php:1247
-#: includes/widgets/image-carousel.php:558
+#: core/kits/manager.php:133 includes/elements/section.php:290
+#: includes/maintenance-mode.php:238 includes/widgets/common.php:134
+#: includes/widgets/common.php:224 includes/widgets/common.php:1446
+#: includes/widgets/common.php:1507 includes/widgets/image-carousel.php:585
 #: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:190
 #: includes/widgets/social-icons.php:348 modules/shapes/module.php:29
-#: assets/js/editor.js:37251
+#: assets/js/editor.js:40602
 msgid "Custom"
 msgstr "Özel"
 
-#: core/experiments/manager.php:325
+#: core/experiments/manager.php:338
 #: core/settings/editor-preferences/model.php:132
-#: includes/base/widget-base.php:268 includes/controls/animation.php:152
+#: includes/base/widget-base.php:281 includes/controls/animation.php:152
 #: includes/controls/font.php:66 includes/controls/groups/background.php:715
 #: includes/controls/groups/background.php:734
-#: includes/controls/groups/typography.php:132
-#: includes/controls/groups/typography.php:151
-#: includes/controls/groups/typography.php:164
-#: includes/controls/groups/typography.php:176
+#: includes/controls/groups/typography.php:145
+#: includes/controls/groups/typography.php:156
+#: includes/controls/groups/typography.php:169
+#: includes/controls/groups/typography.php:181
 #: includes/editor-templates/panel.php:213 includes/elements/column.php:187
 #: includes/elements/column.php:215 includes/elements/column.php:255
-#: includes/elements/section.php:284 includes/elements/section.php:335
-#: includes/elements/section.php:384 includes/elements/section.php:448
-#: includes/elements/section.php:476 includes/elements/section.php:512
-#: includes/settings/settings.php:588 includes/widgets/button.php:123
-#: includes/widgets/common.php:1244 includes/widgets/common.php:1344
+#: includes/elements/container.php:428 includes/elements/container.php:451
+#: includes/elements/container.php:1214 includes/elements/section.php:284
+#: includes/elements/section.php:335 includes/elements/section.php:384
+#: includes/elements/section.php:448 includes/elements/section.php:476
+#: includes/elements/section.php:512 includes/settings/settings.php:565
+#: includes/widgets/common.php:221 includes/widgets/common.php:349
 #: includes/widgets/divider.php:793 includes/widgets/heading.php:143
 #: includes/widgets/icon-box.php:111 includes/widgets/icon-list.php:100
 #: includes/widgets/icon.php:126 includes/widgets/image-carousel.php:122
 #: includes/widgets/image-carousel.php:139
-#: includes/widgets/image-carousel.php:211
-#: includes/widgets/image-carousel.php:557
+#: includes/widgets/image-carousel.php:214
+#: includes/widgets/image-carousel.php:584
 #: includes/widgets/image-gallery.php:146
 #: includes/widgets/image-gallery.php:162
 #: includes/widgets/image-gallery.php:194 includes/widgets/image.php:223
 #: includes/widgets/image.php:362 includes/widgets/progress.php:113
 #: includes/widgets/text-editor.php:131 includes/widgets/text-editor.php:266
+#: includes/widgets/traits/button-trait.php:74
 #: modules/page-templates/module.php:296
-#: modules/shapes/widgets/text-path.php:187 assets/js/editor.js:37242
-#: assets/js/editor.js:37254
+#: modules/shapes/widgets/text-path.php:187 assets/js/editor.js:40593
+#: assets/js/editor.js:40605
 msgid "Default"
 msgstr "Varsayılan"
 
-#: includes/controls/dimensions.php:89 includes/elements/column.php:698
-#: includes/elements/section.php:1155 includes/widgets/button.php:176
-#: includes/widgets/common.php:772 includes/widgets/common.php:1353
-#: includes/widgets/common.php:1354 includes/widgets/divider.php:460
+#: includes/controls/dimensions.php:89 includes/elements/column.php:701
+#: includes/elements/container.php:1227 includes/elements/section.php:1158
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1131 includes/widgets/divider.php:460
 #: includes/widgets/divider.php:748 includes/widgets/divider.php:888
 #: includes/widgets/heading.php:188 includes/widgets/icon-box.php:197
-#: includes/widgets/icon-box.php:476 includes/widgets/icon-list.php:250
+#: includes/widgets/icon-box.php:496 includes/widgets/icon-list.php:250
 #: includes/widgets/icon-list.php:461 includes/widgets/icon.php:179
-#: includes/widgets/image-box.php:174 includes/widgets/image-box.php:410
-#: includes/widgets/image-carousel.php:368
-#: includes/widgets/image-carousel.php:639
+#: includes/widgets/image-box.php:174 includes/widgets/image-box.php:420
+#: includes/widgets/image-carousel.php:380
+#: includes/widgets/image-carousel.php:666
 #: includes/widgets/image-gallery.php:291 includes/widgets/image.php:146
 #: includes/widgets/image.php:539 includes/widgets/social-icons.php:309
 #: includes/widgets/star-rating.php:182 includes/widgets/tabs.php:380
 #: includes/widgets/testimonial.php:198 includes/widgets/text-editor.php:200
+#: includes/widgets/traits/button-trait.php:130
 #: modules/shapes/widgets/text-path.php:169
 msgid "Right"
 msgstr "Sağ"
 
 #: core/kits/documents/tabs/theme-style-typography.php:116
-#: includes/widgets/audio.php:103 includes/widgets/button.php:149
+#: includes/elements/container.php:466 includes/widgets/audio.php:103
 #: includes/widgets/heading.php:124 includes/widgets/icon-box.php:171
 #: includes/widgets/icon-list.php:147 includes/widgets/icon.php:155
 #: includes/widgets/image-box.php:148 includes/widgets/image-carousel.php:180
 #: includes/widgets/image-carousel.php:194
 #: includes/widgets/image-gallery.php:128 includes/widgets/image.php:189
 #: includes/widgets/image.php:203 includes/widgets/social-icons.php:170
-#: includes/widgets/testimonial.php:155 includes/widgets/video.php:126
+#: includes/widgets/testimonial.php:155
+#: includes/widgets/traits/button-trait.php:102 includes/widgets/video.php:126
 #: includes/widgets/video.php:148 includes/widgets/video.php:169
 #: modules/shapes/widgets/text-path.php:142
 msgid "Link"
@@ -4071,27 +4079,29 @@ msgstr "Bağlantı"
 #: core/kits/views/trash-kit-confirmation.php:30
 #: includes/editor-templates/hotkeys.php:60
 #: includes/editor-templates/templates.php:185
-#: assets/js/editor-document.js:14850 assets/js/editor.js:11259
-#: assets/js/editor.js:15592 assets/js/editor.js:19015
-#: assets/js/editor.js:20683 assets/js/editor.js:39814
+#: assets/js/editor-document.js:14844 assets/js/editor.js:11262
+#: assets/js/editor.js:14654 assets/js/editor.js:23385
+#: assets/js/editor.js:25078 assets/js/editor.js:43176
 msgid "Delete"
 msgstr "Sil"
 
 #. Plugin Name of the plugin
-#: core/admin/admin.php:224 core/admin/admin.php:336 core/admin/admin.php:394
-#: core/app/view.php:23 core/documents-manager.php:363
-#: core/upgrade/custom-tasks-manager.php:29 core/upgrade/manager.php:36
-#: includes/editor-templates/editor-wrapper.php:30 includes/plugin.php:872
-#: includes/settings/settings.php:75 includes/settings/settings.php:76
-#: includes/settings/settings.php:615 modules/compatibility-tag/module.php:36
-#: assets/js/app-packages.js:2850 assets/js/app.js:3630
+#: core/admin/admin.php:247 core/admin/admin.php:359 core/admin/admin.php:417
+#: core/admin/menu/main.php:17 core/admin/menu/main.php:18 core/app/view.php:23
+#: core/documents-manager.php:363 core/upgrade/custom-tasks-manager.php:29
+#: core/upgrade/manager.php:36 includes/editor-templates/editor-wrapper.php:30
+#: includes/plugin.php:871 includes/settings/settings.php:76
+#: includes/settings/settings.php:77 includes/settings/settings.php:596
+#: modules/compatibility-tag/module.php:36 assets/js/app-packages.js:2632
+#: assets/js/app.js:3788
 msgid "Elementor"
 msgstr "Elementor"
 
-#: core/admin/admin.php:174 includes/editor-templates/editor-wrapper.php:50
+#: core/admin/admin.php:197 includes/editor-templates/editor-wrapper.php:50
 #: includes/editor-templates/templates.php:50 modules/gutenberg/module.php:121
-#: assets/js/app-packages.js:10691
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:560
+#: assets/js/app-packages.js:6774
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:243
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:53
 msgid "Loading"
 msgstr "Yükleniyor"
 
@@ -4138,7 +4148,7 @@ msgctxt "Border Control"
 msgid "Width"
 msgstr "Genişlik"
 
-#: includes/controls/groups/typography.php:140
+#: includes/controls/groups/typography.php:132
 msgctxt "Typography Control"
 msgid "Weight"
 msgstr "Kalınlık"
@@ -4146,11 +4156,12 @@ msgstr "Kalınlık"
 #: core/kits/documents/tabs/settings-lightbox.php:99
 #: core/kits/documents/tabs/settings-lightbox.php:116
 #: includes/controls/animation.php:153 includes/controls/groups/border.php:63
-#: includes/controls/hover-animation.php:125 includes/controls/icons.php:108
-#: includes/controls/icons.php:110 includes/elements/section.php:941
-#: includes/widgets/divider.php:479 includes/widgets/image-carousel.php:171
+#: includes/controls/hover-animation.php:125 includes/controls/icons.php:106
+#: includes/controls/icons.php:190 includes/elements/container.php:982
+#: includes/elements/section.php:944 includes/widgets/divider.php:479
+#: includes/widgets/image-carousel.php:171
 #: includes/widgets/image-carousel.php:184
-#: includes/widgets/image-carousel.php:228
+#: includes/widgets/image-carousel.php:231
 #: includes/widgets/image-gallery.php:134 includes/widgets/image.php:162
 #: includes/widgets/image.php:193
 msgid "None"
@@ -4160,22 +4171,26 @@ msgstr "Yok"
 #: core/kits/documents/tabs/theme-style-form-fields.php:119
 #: core/kits/documents/tabs/theme-style-images.php:63
 #: core/kits/documents/tabs/theme-style-typography.php:126
-#: includes/elements/column.php:283 includes/elements/column.php:360
-#: includes/elements/column.php:409 includes/elements/column.php:512
-#: includes/elements/column.php:844 includes/elements/section.php:563
+#: includes/controls/groups/typography.php:146 includes/elements/column.php:283
+#: includes/elements/column.php:360 includes/elements/column.php:409
+#: includes/elements/column.php:515 includes/elements/column.php:847
+#: includes/elements/container.php:551 includes/elements/container.php:636
+#: includes/elements/container.php:708 includes/elements/container.php:850
+#: includes/elements/container.php:1511 includes/elements/section.php:563
 #: includes/elements/section.php:636 includes/elements/section.php:700
-#: includes/elements/section.php:819 includes/elements/section.php:1280
-#: includes/widgets/button.php:308 includes/widgets/common.php:282
-#: includes/widgets/common.php:329 includes/widgets/common.php:826
-#: includes/widgets/common.php:893 includes/widgets/google-maps.php:209
-#: includes/widgets/heading.php:269 includes/widgets/icon-box.php:261
-#: includes/widgets/icon.php:205 includes/widgets/image-box.php:297
-#: includes/widgets/image.php:386 modules/shapes/widgets/text-path.php:403
+#: includes/elements/section.php:822 includes/elements/section.php:1283
+#: includes/widgets/common.php:639 includes/widgets/common.php:688
+#: includes/widgets/common.php:1192 includes/widgets/common.php:1266
+#: includes/widgets/google-maps.php:209 includes/widgets/heading.php:269
+#: includes/widgets/icon-box.php:260 includes/widgets/icon.php:205
+#: includes/widgets/image-box.php:307 includes/widgets/image.php:386
+#: includes/widgets/traits/button-trait.php:264
+#: modules/shapes/widgets/text-path.php:403
 #: modules/shapes/widgets/text-path.php:501
 msgid "Normal"
 msgstr "Normal"
 
-#: includes/controls/groups/typography.php:147
+#: includes/controls/groups/typography.php:152
 msgctxt "Typography Control"
 msgid "Transform"
 msgstr "Dönüştür"
@@ -4188,19 +4203,20 @@ msgstr "Dönüştür"
 msgid "Save"
 msgstr "Kaydet"
 
-#: core/admin/admin.php:474
+#: core/admin/admin.php:497 core/admin/menu/main.php:41
 msgid "Help"
 msgstr "Yardım"
 
-#: core/breakpoints/manager.php:322
+#: core/breakpoints/manager.php:323
 #: core/settings/editor-preferences/model.php:134
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4289
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4511
 msgid "Tablet"
 msgstr "Tablet"
 
 #: core/schemes/base-ui.php:119 includes/controls/image-dimensions.php:102
 #: includes/editor-templates/panel.php:151
 #: modules/history/views/revisions-panel-template.php:18
+#: assets/js/editor.js:11004
 msgid "Apply"
 msgstr "Uygula"
 
@@ -4217,21 +4233,21 @@ msgid "Structure"
 msgstr "Yapı"
 
 #: core/common/modules/finder/categories/settings.php:55
-#: core/dynamic-tags/tag.php:88 includes/elements/column.php:718
-#: includes/elements/section.php:1175 includes/managers/controls.php:301
-#: includes/settings/settings.php:541 includes/widgets/common.php:175
-#: assets/js/editor.js:10306 assets/js/editor.js:26120
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:721
+#: includes/elements/section.php:1178 includes/managers/controls.php:301
+#: includes/settings/settings.php:518 assets/js/editor.js:10306
+#: assets/js/editor.js:31148
 msgid "Advanced"
 msgstr "Gelişmiş"
 
 #: includes/managers/controls.php:299 includes/widgets/accordion.php:110
 #: includes/widgets/accordion.php:444 includes/widgets/alert.php:125
-#: includes/widgets/icon-box.php:456 includes/widgets/image-box.php:132
-#: includes/widgets/image-box.php:390 includes/widgets/tabs.php:112
+#: includes/widgets/icon-box.php:476 includes/widgets/image-box.php:132
+#: includes/widgets/image-box.php:400 includes/widgets/tabs.php:112
 #: includes/widgets/tabs.php:396 includes/widgets/testimonial.php:95
 #: includes/widgets/testimonial.php:224 includes/widgets/toggle.php:111
-#: includes/widgets/toggle.php:463 assets/js/app-packages.js:9684
-#: assets/js/app.js:9794 assets/js/editor.js:26114
+#: includes/widgets/toggle.php:463 assets/js/app.js:13309
+#: assets/js/app.js:13888 assets/js/editor.js:31142
 msgid "Content"
 msgstr "İçerik"
 
@@ -4249,9 +4265,9 @@ msgstr "Sütunlar"
 #: core/kits/documents/tabs/theme-style-typography.php:145
 #: core/kits/documents/tabs/theme-style-typography.php:175
 #: core/kits/documents/tabs/theme-style-typography.php:221
-#: core/schemes/typography.php:64 includes/elements/column.php:628
-#: includes/elements/section.php:1086 assets/js/editor-modules.js:2605
-#: assets/js/editor.js:32225
+#: core/schemes/typography.php:64 includes/elements/column.php:631
+#: includes/elements/section.php:1089 assets/js/editor-modules.js:2605
+#: assets/js/editor.js:37803
 msgid "Typography"
 msgstr "Tipografi"
 
@@ -4267,8 +4283,10 @@ msgstr "Dar"
 msgid "No Gap"
 msgstr "Boşluksuz"
 
-#: includes/controls/image-dimensions.php:95 includes/elements/section.php:259
-#: includes/elements/section.php:989 includes/widgets/common.php:1240
+#: includes/controls/image-dimensions.php:95
+#: includes/elements/container.php:328 includes/elements/container.php:1030
+#: includes/elements/section.php:259 includes/elements/section.php:992
+#: includes/widgets/common.php:217 includes/widgets/common.php:239
 #: includes/widgets/divider.php:421 includes/widgets/icon-list.php:321
 #: includes/widgets/image-box.php:248 includes/widgets/image.php:255
 #: modules/shapes/widgets/text-path.php:540
@@ -4278,9 +4296,10 @@ msgstr "Genişlik"
 
 #: core/kits/documents/tabs/global-colors.php:88
 #: core/kits/documents/tabs/global-typography.php:137 core/schemes/color.php:97
-#: includes/widgets/button.php:136 includes/widgets/divider.php:483
-#: includes/widgets/divider.php:510 includes/widgets/divider.php:700
-#: includes/widgets/icon-list.php:120 includes/widgets/icon-list.php:482
+#: includes/widgets/divider.php:483 includes/widgets/divider.php:510
+#: includes/widgets/divider.php:700 includes/widgets/icon-list.php:120
+#: includes/widgets/icon-list.php:482
+#: includes/widgets/traits/button-trait.php:59
 #: modules/shapes/widgets/text-path.php:94
 #: modules/shapes/widgets/text-path.php:302
 msgid "Text"
@@ -4296,11 +4315,11 @@ msgstr "Birincil"
 msgid "Secondary"
 msgstr "İkincil"
 
-#: includes/managers/elements.php:327
+#: includes/managers/elements.php:334
 msgid "WordPress"
 msgstr "WordPress"
 
-#: includes/elements/section.php:1336
+#: includes/elements/container.php:1557 includes/elements/section.php:1339
 msgid "Visibility"
 msgstr "Görünürlük"
 
@@ -4308,15 +4327,17 @@ msgstr "Görünürlük"
 msgid "Elementor.com"
 msgstr "Elementor.com"
 
-#: includes/elements/column.php:875 includes/elements/section.php:1312
-#: includes/managers/controls.php:302 includes/widgets/common.php:1564
+#: includes/elements/column.php:878 includes/elements/container.php:1549
+#: includes/elements/section.php:1315 includes/managers/controls.php:302
+#: includes/widgets/common.php:1624
 msgid "Responsive"
 msgstr "Duyarlı"
 
 #: core/kits/documents/tabs/settings-layout.php:24
-#: includes/elements/column.php:113 includes/elements/section.php:227
-#: includes/managers/controls.php:303 includes/widgets/icon-list.php:95
-#: assets/js/editor.js:26123
+#: includes/elements/column.php:113 includes/elements/container.php:1147
+#: includes/elements/section.php:227 includes/managers/controls.php:303
+#: includes/widgets/common.php:172 includes/widgets/icon-list.php:95
+#: assets/js/editor.js:31151
 msgid "Layout"
 msgstr "Yerleşim"
 
@@ -4332,25 +4353,24 @@ msgstr "Renk"
 
 #: includes/controls/switcher.php:74 includes/managers/icons.php:477
 #: includes/widgets/audio.php:126 includes/widgets/image-carousel.php:156
-#: includes/widgets/image-carousel.php:212
-#: includes/widgets/image-carousel.php:261
-#: includes/widgets/image-carousel.php:275
-#: includes/widgets/image-carousel.php:293
-#: includes/widgets/image-carousel.php:325
+#: includes/widgets/image-carousel.php:215
+#: includes/widgets/image-carousel.php:273
+#: includes/widgets/image-carousel.php:287
+#: includes/widgets/image-carousel.php:305
+#: includes/widgets/image-carousel.php:337
 #: includes/widgets/image-gallery.php:147 includes/widgets/image.php:224
-#: assets/js/editor.js:11002
+#: assets/js/app.js:11822
 msgid "Yes"
 msgstr "Evet"
 
 #: includes/controls/switcher.php:73 includes/managers/icons.php:476
 #: includes/widgets/audio.php:127 includes/widgets/image-carousel.php:155
-#: includes/widgets/image-carousel.php:213
-#: includes/widgets/image-carousel.php:262
-#: includes/widgets/image-carousel.php:276
-#: includes/widgets/image-carousel.php:294
-#: includes/widgets/image-carousel.php:326
+#: includes/widgets/image-carousel.php:216
+#: includes/widgets/image-carousel.php:274
+#: includes/widgets/image-carousel.php:288
+#: includes/widgets/image-carousel.php:306
+#: includes/widgets/image-carousel.php:338
 #: includes/widgets/image-gallery.php:148 includes/widgets/image.php:225
-#: assets/js/editor.js:11003
 msgid "No"
 msgstr "Hayır"
 
@@ -4376,12 +4396,12 @@ msgid "Map"
 msgstr "Harita"
 
 #: includes/widgets/image-carousel.php:164
-#: includes/widgets/image-carousel.php:378
+#: includes/widgets/image-carousel.php:390
 msgid "Navigation"
 msgstr "Navigasyon"
 
 #: core/common/modules/finder/categories/general.php:55
-#: modules/system-info/module.php:129 modules/system-info/module.php:155
+#: modules/system-info/module.php:133 modules/system-info/module.php:159
 msgid "System Info"
 msgstr "Sistem bilgisi"
 
@@ -4394,19 +4414,19 @@ msgid "Dismiss Button"
 msgstr "Kapatma düğmesi"
 
 #: includes/editor-templates/templates.php:113
-#: includes/elements/section.php:964
-#: includes/template-library/sources/local.php:1601
-#: includes/widgets/alert.php:95 includes/widgets/button.php:119
-#: includes/widgets/progress.php:109
+#: includes/elements/container.php:1005 includes/elements/section.php:967
+#: includes/template-library/sources/local.php:1609
+#: includes/widgets/alert.php:95 includes/widgets/progress.php:109
+#: includes/widgets/traits/button-trait.php:70
 msgid "Type"
 msgstr "Tür"
 
-#: includes/elements/column.php:785 includes/elements/section.php:1241
-#: includes/widgets/common.php:244
+#: includes/elements/column.php:788 includes/elements/container.php:1465
+#: includes/elements/section.php:1244 includes/widgets/common.php:594
 msgid "CSS Classes"
 msgstr "CSS sınıfları"
 
-#: includes/elements/column.php:686 includes/elements/section.php:1143
+#: includes/elements/column.php:689 includes/elements/section.php:1146
 msgid "Text Align"
 msgstr "Metin hizalama"
 
@@ -4415,22 +4435,23 @@ msgstr "Metin hizalama"
 #: core/kits/documents/tabs/theme-style-buttons.php:174
 #: core/kits/documents/tabs/theme-style-form-fields.php:177
 #: core/kits/documents/tabs/theme-style-typography.php:56
-#: includes/elements/column.php:650 includes/elements/section.php:1107
+#: includes/elements/column.php:653 includes/elements/section.php:1110
 #: includes/widgets/alert.php:221 includes/widgets/alert.php:261
-#: includes/widgets/button.php:315 includes/widgets/button.php:357
 #: includes/widgets/counter.php:230 includes/widgets/counter.php:273
 #: includes/widgets/heading.php:225 includes/widgets/icon-list.php:490
-#: includes/widgets/image-carousel.php:657
+#: includes/widgets/image-carousel.php:684
 #: includes/widgets/image-gallery.php:312 includes/widgets/image.php:557
 #: includes/widgets/progress.php:283 includes/widgets/star-rating.php:213
 #: includes/widgets/testimonial.php:232 includes/widgets/testimonial.php:330
 #: includes/widgets/testimonial.php:375 includes/widgets/text-editor.php:217
+#: includes/widgets/traits/button-trait.php:272
+#: includes/widgets/traits/button-trait.php:317
 msgid "Text Color"
 msgstr "Metin rengi"
 
 #: includes/elements/column.php:189 includes/elements/section.php:427
-#: includes/elements/section.php:450 includes/widgets/icon-box.php:497
-#: includes/widgets/image-box.php:431
+#: includes/elements/section.php:450 includes/widgets/icon-box.php:517
+#: includes/widgets/image-box.php:441
 msgid "Middle"
 msgstr "Orta"
 
@@ -4442,19 +4463,20 @@ msgstr "Minimum yükseklik"
 msgid "Fit To Screen"
 msgstr "Ekrana sığdır"
 
-#: includes/controls/image-dimensions.php:100 includes/elements/section.php:331
-#: includes/elements/section.php:380 includes/elements/section.php:1018
+#: includes/controls/image-dimensions.php:100
+#: includes/elements/container.php:1059 includes/elements/section.php:331
+#: includes/elements/section.php:380 includes/elements/section.php:1021
 #: includes/widgets/google-maps.php:167 includes/widgets/icon-list.php:339
 #: includes/widgets/image.php:325 includes/widgets/progress.php:211
 msgid "Height"
 msgstr "Yükseklik"
 
-#: includes/elements/section.php:250 includes/widgets/common.php:1245
-#: includes/widgets/icon-list.php:195
+#: includes/elements/container.php:314 includes/elements/section.php:250
+#: includes/widgets/common.php:222 includes/widgets/icon-list.php:195
 msgid "Full Width"
 msgstr "Tam genişlik"
 
-#: core/role-manager/role-manager.php:64
+#: core/role-manager/role-manager.php:65
 msgid "Exclude Roles"
 msgstr "Rolleri hariç tut"
 
@@ -4463,7 +4485,7 @@ msgid "Color Palette"
 msgstr "Renk paleti"
 
 #: includes/elements/section.php:78 modules/library/documents/section.php:43
-#: assets/js/editor.js:11107
+#: assets/js/container-converter.js:942 assets/js/editor.js:11109
 msgid "Section"
 msgstr "Bölüm"
 
@@ -4490,17 +4512,17 @@ msgid "Dashed"
 msgstr "Kesik"
 
 #: includes/widgets/accordion.php:140 includes/widgets/alert.php:153
-#: includes/widgets/audio.php:251 includes/widgets/button.php:247
-#: includes/widgets/counter.php:211 includes/widgets/divider.php:501
-#: includes/widgets/divider.php:790 includes/widgets/google-maps.php:189
-#: includes/widgets/heading.php:206 includes/widgets/icon-box.php:108
-#: includes/widgets/icon.php:123 includes/widgets/image-box.php:206
-#: includes/widgets/image-carousel.php:239
+#: includes/widgets/audio.php:251 includes/widgets/counter.php:211
+#: includes/widgets/divider.php:501 includes/widgets/divider.php:790
+#: includes/widgets/google-maps.php:189 includes/widgets/heading.php:206
+#: includes/widgets/icon-box.php:108 includes/widgets/icon.php:123
+#: includes/widgets/image-box.php:206 includes/widgets/image-carousel.php:242
 #: includes/widgets/image-gallery.php:172 includes/widgets/image.php:236
 #: includes/widgets/progress.php:167 includes/widgets/social-icons.php:324
 #: includes/widgets/spacer.php:133 includes/widgets/tabs.php:143
 #: includes/widgets/testimonial.php:212 includes/widgets/text-editor.php:263
-#: includes/widgets/toggle.php:144 includes/widgets/video.php:533
+#: includes/widgets/toggle.php:144 includes/widgets/traits/button-trait.php:204
+#: includes/widgets/video.php:533
 msgid "View"
 msgstr "Görüntüle"
 
@@ -4513,7 +4535,7 @@ msgstr "Metin düzeltici"
 msgid "Tab Title"
 msgstr "Sekme Başlığı"
 
-#: includes/widgets/image-carousel.php:339
+#: includes/widgets/image-carousel.php:351
 msgid "Slide"
 msgstr "Slayt"
 
@@ -4548,7 +4570,7 @@ msgstr "Kare"
 msgid "Circle"
 msgstr "Daire"
 
-#: includes/widgets/common.php:1006 includes/widgets/icon-box.php:123
+#: includes/widgets/common.php:1389 includes/widgets/icon-box.php:123
 #: includes/widgets/icon.php:138 includes/widgets/social-icons.php:257
 msgid "Shape"
 msgstr "Şekil"
@@ -4562,11 +4584,12 @@ msgstr "Çerçeveli"
 msgid "Text Indent"
 msgstr "Metin Girintisi"
 
-#: includes/widgets/button.php:154 includes/widgets/icon-box.php:176
+#: includes/elements/container.php:471 includes/widgets/icon-box.php:176
 #: includes/widgets/icon-list.php:152 includes/widgets/icon.php:160
 #: includes/widgets/image-box.php:153 includes/widgets/image-carousel.php:196
 #: includes/widgets/image.php:208 includes/widgets/social-icons.php:178
 #: includes/widgets/testimonial.php:160
+#: includes/widgets/traits/button-trait.php:107
 msgid "https://your-link.com"
 msgstr "https://your-link.com"
 
@@ -4589,44 +4612,41 @@ msgstr "Bölücü"
 msgid "Counter"
 msgstr "Sayaç"
 
-#: core/dynamic-tags/tag.php:102 includes/widgets/button.php:219
+#: core/dynamic-tags/tag.php:102 includes/widgets/traits/button-trait.php:177
 msgid "After"
 msgstr "Sonra"
 
-#: core/dynamic-tags/tag.php:95 includes/widgets/button.php:218
+#: core/dynamic-tags/tag.php:95 includes/widgets/traits/button-trait.php:176
 msgid "Before"
 msgstr "Önce"
 
-#: includes/widgets/button.php:192 includes/widgets/common.php:1057
-#: includes/widgets/divider.php:617 includes/widgets/divider.php:805
-#: includes/widgets/heading.php:139 includes/widgets/icon-box.php:373
-#: includes/widgets/icon-list.php:425 includes/widgets/icon.php:298
-#: includes/widgets/image-carousel.php:418
-#: includes/widgets/image-carousel.php:482
+#: includes/widgets/common.php:1441 includes/widgets/divider.php:617
+#: includes/widgets/divider.php:805 includes/widgets/heading.php:139
+#: includes/widgets/icon-box.php:369 includes/widgets/icon-list.php:425
+#: includes/widgets/icon.php:298 includes/widgets/image-carousel.php:430
+#: includes/widgets/image-carousel.php:494
 #: includes/widgets/social-icons.php:385 includes/widgets/star-rating.php:274
-#: includes/widgets/text-editor.php:316 includes/widgets/video.php:687
+#: includes/widgets/text-editor.php:316
+#: includes/widgets/traits/button-trait.php:147 includes/widgets/video.php:687
 #: modules/shapes/widgets/text-path.php:235
 msgid "Size"
 msgstr "Boyut"
-
-#: includes/widgets/heading.php:148
-msgid "XXL"
-msgstr "XXL"
 
 #: core/kits/documents/tabs/theme-style-form-fields.php:78
 #: core/kits/documents/tabs/theme-style-typography.php:133
 #: core/kits/documents/tabs/theme-style-typography.php:163
 #: core/kits/documents/tabs/theme-style-typography.php:209
 #: includes/controls/box-shadow.php:104 includes/controls/text-shadow.php:97
-#: includes/elements/column.php:417 includes/elements/section.php:708
-#: includes/elements/section.php:975 includes/widgets/accordion.php:298
+#: includes/elements/column.php:417 includes/elements/container.php:716
+#: includes/elements/container.php:1016 includes/elements/section.php:708
+#: includes/elements/section.php:978 includes/widgets/accordion.php:298
 #: includes/widgets/accordion.php:400 includes/widgets/accordion.php:463
 #: includes/widgets/divider.php:576 includes/widgets/divider.php:711
-#: includes/widgets/icon-box.php:534 includes/widgets/icon-box.php:585
+#: includes/widgets/icon-box.php:554 includes/widgets/icon-box.php:605
 #: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
-#: includes/widgets/image-box.php:468 includes/widgets/image-box.php:511
-#: includes/widgets/image-carousel.php:438
-#: includes/widgets/image-carousel.php:502 includes/widgets/progress.php:186
+#: includes/widgets/image-box.php:478 includes/widgets/image-box.php:521
+#: includes/widgets/image-carousel.php:450
+#: includes/widgets/image-carousel.php:514 includes/widgets/progress.php:186
 #: includes/widgets/progress.php:243 includes/widgets/social-icons.php:185
 #: includes/widgets/social-icons.php:343 includes/widgets/star-rating.php:309
 #: includes/widgets/tabs.php:312 includes/widgets/tabs.php:405
@@ -4637,20 +4657,24 @@ msgstr "XXL"
 #: modules/shapes/widgets/text-path.php:508
 #: modules/shapes/widgets/text-path.php:528
 #: modules/shapes/widgets/text-path.php:574
-#: modules/shapes/widgets/text-path.php:594 assets/js/editor.js:39756
-#: assets/js/editor.js:39802
+#: modules/shapes/widgets/text-path.php:594 assets/js/editor.js:43118
+#: assets/js/editor.js:43164
 msgid "Color"
 msgstr "Renk"
+
+#: includes/widgets/heading.php:148
+msgid "XXL"
+msgstr "XXL"
 
 #: includes/widgets/heading.php:147
 msgid "XL"
 msgstr "XL"
 
-#: includes/widgets/button.php:94 includes/widgets/heading.php:145
+#: includes/widgets/heading.php:145 includes/widgets/traits/button-trait.php:35
 msgid "Medium"
 msgstr "Orta"
 
-#: includes/widgets/button.php:93 includes/widgets/heading.php:144
+#: includes/widgets/heading.php:144 includes/widgets/traits/button-trait.php:34
 msgid "Small"
 msgstr "Küçük"
 
@@ -4663,12 +4687,12 @@ msgstr "Düzenle"
 msgid "Themes"
 msgstr "Temalar"
 
-#: includes/elements/column.php:727 includes/elements/section.php:1183
-#: includes/widgets/common.php:193
+#: includes/elements/column.php:730 includes/elements/container.php:1155
+#: includes/elements/section.php:1186 includes/widgets/common.php:190
 msgid "Margin"
 msgstr "Kenar"
 
-#: includes/elements/column.php:637 includes/elements/section.php:1094
+#: includes/elements/column.php:640 includes/elements/section.php:1097
 msgid "Heading Color"
 msgstr "Başlık Rengi"
 
@@ -4687,7 +4711,7 @@ msgctxt "Background Control"
 msgid "Width"
 msgstr "Genişlik"
 
-#: includes/editor-templates/templates.php:172 assets/js/editor.js:25476
+#: includes/editor-templates/templates.php:172 assets/js/editor.js:30502
 msgid "Preview"
 msgstr "Ön izleme"
 
@@ -4719,7 +4743,7 @@ msgstr "Geçiş #1"
 msgid "Toggle Items"
 msgstr "Geçiş Öğeleri"
 
-#: includes/widgets/image-carousel.php:306
+#: includes/widgets/image-carousel.php:318
 msgid "Autoplay Speed"
 msgstr "Otomatik oynatma hızı"
 
@@ -4747,8 +4771,8 @@ msgstr "Menu Anchor"
 msgid "Icon Hover"
 msgstr "İkon Vurgusu"
 
-#: includes/widgets/common.php:336 includes/widgets/common.php:348
-#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:410
+#: includes/widgets/common.php:695 includes/widgets/common.php:707
+#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:421
 #: includes/widgets/icon.php:336 modules/shapes/widgets/text-path.php:271
 msgid "Rotate"
 msgstr "Döndür"
@@ -4802,7 +4826,7 @@ msgstr "Cool Numarası"
 msgid "Plus"
 msgstr "Artı"
 
-#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:257
+#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:269
 #: includes/widgets/video.php:277
 msgid "Autoplay"
 msgstr "Otomatik oynat"
@@ -4811,41 +4835,43 @@ msgstr "Otomatik oynat"
 msgid "Slides to Scroll"
 msgstr "Diğer slide için Kaydır"
 
-#: includes/widgets/common.php:1019 includes/widgets/image-box.php:217
-#: includes/widgets/image-carousel.php:518 includes/widgets/image.php:45
+#: includes/widgets/common.php:1403 includes/widgets/image-box.php:217
+#: includes/widgets/image-carousel.php:545 includes/widgets/image.php:45
 #: includes/widgets/image.php:104 includes/widgets/image.php:247
 #: includes/widgets/testimonial.php:269
 msgid "Image"
 msgstr "Görsel"
 
-#: includes/widgets/button.php:214 includes/widgets/icon-box.php:184
+#: includes/widgets/icon-box.php:184
+#: includes/widgets/traits/button-trait.php:172
 msgid "Icon Position"
 msgstr "Simge Konumu"
 
 #: includes/widgets/accordion.php:149 includes/widgets/accordion.php:369
-#: includes/widgets/button.php:203 includes/widgets/divider.php:487
-#: includes/widgets/divider.php:548 includes/widgets/divider.php:779
-#: includes/widgets/icon-box.php:95 includes/widgets/icon-box.php:241
-#: includes/widgets/icon-list.php:134 includes/widgets/icon-list.php:388
-#: includes/widgets/icon.php:44 includes/widgets/icon.php:103
-#: includes/widgets/icon.php:110 includes/widgets/icon.php:195
-#: includes/widgets/social-icons.php:94 includes/widgets/social-icons.php:335
-#: includes/widgets/star-rating.php:123 includes/widgets/toggle.php:153
-#: includes/widgets/toggle.php:388
+#: includes/widgets/divider.php:487 includes/widgets/divider.php:548
+#: includes/widgets/divider.php:779 includes/widgets/icon-box.php:95
+#: includes/widgets/icon-box.php:240 includes/widgets/icon-list.php:134
+#: includes/widgets/icon-list.php:388 includes/widgets/icon.php:44
+#: includes/widgets/icon.php:103 includes/widgets/icon.php:110
+#: includes/widgets/icon.php:195 includes/widgets/social-icons.php:94
+#: includes/widgets/social-icons.php:335 includes/widgets/star-rating.php:123
+#: includes/widgets/toggle.php:153 includes/widgets/toggle.php:388
+#: includes/widgets/traits/button-trait.php:159
 msgid "Icon"
 msgstr "Simge"
 
-#: includes/widgets/accordion.php:380 includes/widgets/button.php:164
-#: includes/widgets/divider.php:448 includes/widgets/heading.php:176
-#: includes/widgets/icon-box.php:464 includes/widgets/icon-list.php:238
-#: includes/widgets/icon-list.php:449 includes/widgets/icon.php:167
-#: includes/widgets/image-box.php:398 includes/widgets/image-carousel.php:627
+#: includes/widgets/accordion.php:380 includes/widgets/divider.php:448
+#: includes/widgets/heading.php:176 includes/widgets/icon-box.php:484
+#: includes/widgets/icon-list.php:238 includes/widgets/icon-list.php:449
+#: includes/widgets/icon.php:167 includes/widgets/image-box.php:408
+#: includes/widgets/image-carousel.php:654
 #: includes/widgets/image-gallery.php:279 includes/widgets/image.php:134
 #: includes/widgets/image.php:527 includes/widgets/social-icons.php:297
 #: includes/widgets/star-rating.php:170 includes/widgets/tabs.php:167
 #: includes/widgets/tabs.php:197 includes/widgets/tabs.php:368
 #: includes/widgets/testimonial.php:185 includes/widgets/text-editor.php:188
-#: includes/widgets/toggle.php:399 modules/shapes/widgets/text-path.php:156
+#: includes/widgets/toggle.php:399 includes/widgets/traits/button-trait.php:118
+#: modules/shapes/widgets/text-path.php:156
 msgid "Alignment"
 msgstr "Hizalama"
 
@@ -4881,12 +4907,13 @@ msgstr "Accent"
 #: core/document-types/page-base.php:132
 #: core/kits/documents/tabs/theme-style-buttons.php:244
 #: core/kits/documents/tabs/theme-style-form-fields.php:160
-#: includes/elements/column.php:746 includes/elements/section.php:1202
-#: includes/widgets/accordion.php:355 includes/widgets/accordion.php:496
-#: includes/widgets/button.php:440 includes/widgets/common.php:205
-#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:390
+#: includes/elements/column.php:749 includes/elements/container.php:1167
+#: includes/elements/section.php:1205 includes/widgets/accordion.php:355
+#: includes/widgets/accordion.php:496 includes/widgets/common.php:202
+#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:386
 #: includes/widgets/icon.php:316 includes/widgets/social-icons.php:402
 #: includes/widgets/toggle.php:374 includes/widgets/toggle.php:515
+#: includes/widgets/traits/button-trait.php:407
 msgid "Padding"
 msgstr "Dolgu"
 
@@ -4895,11 +4922,11 @@ msgstr "Dolgu"
 msgid "Solid"
 msgstr "Katı"
 
-#: core/experiments/manager.php:327 core/experiments/manager.php:558
+#: core/experiments/manager.php:340 core/experiments/manager.php:571
 msgid "Inactive"
 msgstr "Etkin değil"
 
-#: core/experiments/manager.php:326 core/experiments/manager.php:557
+#: core/experiments/manager.php:339 core/experiments/manager.php:570
 msgid "Active"
 msgstr "Etkin"
 
@@ -4907,13 +4934,13 @@ msgstr "Etkin"
 msgid "Sure! I'd love to help"
 msgstr "Elbette! Yardım etmeyi çok isterim"
 
-#: core/admin/admin.php:155 core/admin/admin.php:163 core/base/document.php:488
+#: core/admin/admin.php:178 core/admin/admin.php:186 core/base/document.php:493
 #: modules/admin-bar/module.php:123 modules/gutenberg/module.php:100
 #: modules/gutenberg/module.php:110
 msgid "Edit with Elementor"
 msgstr "Elementor ile düzenleyin"
 
-#: core/base/document.php:1537
+#: core/base/document.php:1573
 #: core/common/modules/finder/categories/settings.php:50
 msgid "General Settings"
 msgstr "Genel Ayarlar"
@@ -4923,45 +4950,49 @@ msgid "More Palettes"
 msgstr "Daha Fazla Palet"
 
 #: includes/controls/dimensions.php:88 includes/elements/column.php:188
+#: includes/elements/container.php:990 includes/elements/container.php:1344
 #: includes/elements/section.php:426 includes/elements/section.php:449
-#: includes/elements/section.php:949 includes/widgets/common.php:792
-#: includes/widgets/common.php:1468 includes/widgets/icon-box.php:193
-#: includes/widgets/icon-box.php:496 includes/widgets/image-box.php:170
-#: includes/widgets/image-box.php:430 includes/widgets/testimonial.php:172
-#: includes/widgets/video.php:800
+#: includes/elements/section.php:952 includes/widgets/common.php:474
+#: includes/widgets/common.php:1151 includes/widgets/icon-box.php:193
+#: includes/widgets/icon-box.php:516 includes/widgets/image-box.php:170
+#: includes/widgets/image-box.php:440 includes/widgets/testimonial.php:172
+#: includes/widgets/video.php:802
 msgid "Top"
 msgstr "Üst"
 
 #: includes/controls/dimensions.php:90 includes/elements/column.php:190
+#: includes/elements/container.php:991 includes/elements/container.php:1348
 #: includes/elements/section.php:428 includes/elements/section.php:451
-#: includes/elements/section.php:950 includes/widgets/common.php:800
-#: includes/widgets/common.php:1472 includes/widgets/icon-box.php:498
-#: includes/widgets/image-box.php:432
+#: includes/elements/section.php:953 includes/widgets/common.php:478
+#: includes/widgets/common.php:1159 includes/widgets/icon-box.php:518
+#: includes/widgets/image-box.php:442
 msgid "Bottom"
 msgstr "Alt"
 
-#: includes/editor-templates/global.php:21
+#: includes/editor-templates/global.php:24
 msgid "Add New Section"
 msgstr "Yeni Bölüm Ekle"
 
 #: core/settings/editor-preferences/model.php:135
-#: includes/base/element-base.php:678 includes/editor-templates/panel.php:242
-#: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:4282
+#: includes/base/element-base.php:704 includes/editor-templates/panel.php:242
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4504
 msgid "Desktop"
 msgstr "Masaüstü Bilgisayar"
 
-#: includes/elements/column.php:261 includes/elements/section.php:518
-#: includes/widgets/divider.php:525 includes/widgets/heading.php:156
+#: includes/elements/column.php:261 includes/elements/container.php:457
+#: includes/elements/section.php:518 includes/widgets/divider.php:525
+#: includes/widgets/heading.php:156
 msgid "HTML Tag"
 msgstr "HTML Etiketi"
 
-#: includes/elements/column.php:502 includes/elements/section.php:809
-#: includes/widgets/common.php:883
+#: includes/elements/column.php:505 includes/elements/container.php:837
+#: includes/elements/section.php:812 includes/widgets/common.php:1256
 msgid "Border"
 msgstr "Kenarlık"
 
 #: core/kits/documents/tabs/settings-layout.php:55
-#: includes/elements/section.php:245 includes/widgets/video.php:776
+#: includes/elements/container.php:309 includes/elements/section.php:245
+#: includes/widgets/video.php:778
 msgid "Content Width"
 msgstr "İçerik Genişliği"
 
@@ -4969,13 +5000,13 @@ msgstr "İçerik Genişliği"
 msgid "Columns Gap"
 msgstr "Sütunlar Boşluğu"
 
-#: includes/managers/elements.php:274
+#: includes/managers/elements.php:281
 msgid "Basic"
 msgstr "Temel"
 
 #: includes/widgets/accordion.php:313 includes/widgets/accordion.php:412
-#: includes/widgets/tabs.php:326 includes/widgets/toggle.php:341
-#: includes/widgets/toggle.php:431
+#: includes/widgets/image-carousel.php:529 includes/widgets/tabs.php:326
+#: includes/widgets/toggle.php:341 includes/widgets/toggle.php:431
 msgid "Active Color"
 msgstr "Aktif Renk"
 
@@ -4985,11 +5016,11 @@ msgstr "Aktif Renk"
 msgid "Enter your title"
 msgstr "Başlığınızı girin"
 
-#: includes/widgets/button.php:95 includes/widgets/heading.php:146
+#: includes/widgets/heading.php:146 includes/widgets/traits/button-trait.php:36
 msgid "Large"
 msgstr "Büyük"
 
-#: includes/widgets/button.php:230
+#: includes/widgets/traits/button-trait.php:186
 msgid "Icon Spacing"
 msgstr "Simge Aralığı"
 
@@ -5045,15 +5076,15 @@ msgstr "Kenar çubuğu bulunamadı"
 msgid "Play Icon"
 msgstr "Oynatma Simgesi"
 
-#: includes/widgets/video.php:795
+#: includes/widgets/video.php:797
 msgid "Content Position"
 msgstr "İçerik Konumu"
 
-#: modules/system-info/module.php:177
+#: modules/system-info/module.php:181
 msgid "Download System Info"
 msgstr "Sistem Bilgisini İndir"
 
-#: modules/system-info/module.php:195
+#: modules/system-info/module.php:199
 msgid "You don't have permissions to download this file"
 msgstr "Bu dosyayı indirme izniniz yok"
 
@@ -5074,7 +5105,7 @@ msgctxt "Background Control"
 msgid "Video Link"
 msgstr "Video bağlantısı"
 
-#: includes/controls/groups/typography.php:326
+#: includes/controls/groups/typography.php:331
 msgctxt "Typography Control"
 msgid "Typography"
 msgstr "Tipografi"
@@ -5089,21 +5120,22 @@ msgstr "Ek"
 msgid "Elementor requires PHP version %s+, plugin is currently NOT RUNNING."
 msgstr "Elementor PHP %s + sürümü gerektirir, eklenti şu anda ÇALIŞMIYOR."
 
-#: includes/controls/dimensions.php:91 includes/elements/column.php:690
-#: includes/elements/section.php:1147 includes/widgets/button.php:168
-#: includes/widgets/common.php:764 includes/widgets/common.php:1353
-#: includes/widgets/common.php:1354 includes/widgets/divider.php:452
+#: includes/controls/dimensions.php:91 includes/elements/column.php:693
+#: includes/elements/container.php:1226 includes/elements/section.php:1150
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1123 includes/widgets/divider.php:452
 #: includes/widgets/divider.php:740 includes/widgets/divider.php:880
 #: includes/widgets/heading.php:180 includes/widgets/icon-box.php:189
-#: includes/widgets/icon-box.php:468 includes/widgets/icon-list.php:242
+#: includes/widgets/icon-box.php:488 includes/widgets/icon-list.php:242
 #: includes/widgets/icon-list.php:453 includes/widgets/icon.php:171
-#: includes/widgets/image-box.php:166 includes/widgets/image-box.php:402
-#: includes/widgets/image-carousel.php:367
-#: includes/widgets/image-carousel.php:631
+#: includes/widgets/image-box.php:166 includes/widgets/image-box.php:412
+#: includes/widgets/image-carousel.php:379
+#: includes/widgets/image-carousel.php:658
 #: includes/widgets/image-gallery.php:283 includes/widgets/image.php:138
 #: includes/widgets/image.php:531 includes/widgets/social-icons.php:301
 #: includes/widgets/star-rating.php:174 includes/widgets/tabs.php:372
 #: includes/widgets/testimonial.php:190 includes/widgets/text-editor.php:192
+#: includes/widgets/traits/button-trait.php:122
 #: modules/shapes/widgets/text-path.php:161
 msgid "Left"
 msgstr "Sola yasla"
@@ -5113,36 +5145,36 @@ msgctxt "Background Control"
 msgid "Background Image"
 msgstr "Arka plan görseli"
 
-#: includes/controls/groups/typography.php:207
+#: includes/controls/groups/typography.php:212
 msgctxt "Typography Control"
 msgid "Letter Spacing"
 msgstr "Harf Aralığı"
 
-#: includes/controls/groups/typography.php:185
+#: includes/controls/groups/typography.php:190
 msgctxt "Typography Control"
 msgid "Line-Height"
 msgstr "Satır Yüksekliği"
 
-#: includes/controls/groups/typography.php:160
+#: includes/controls/groups/typography.php:165
 msgctxt "Typography Control"
 msgid "Style"
 msgstr "Biçem"
 
-#: includes/managers/controls.php:300 includes/settings/settings.php:492
-#: includes/widgets/divider.php:363 includes/widgets/icon-list.php:275
-#: assets/js/editor.js:10303 assets/js/editor.js:26117
+#: includes/managers/controls.php:300 includes/widgets/divider.php:363
+#: includes/widgets/icon-list.php:275 assets/js/editor.js:10303
+#: assets/js/editor.js:31145
 msgid "Style"
 msgstr "Biçem"
 
-#: includes/elements/section.php:249
+#: includes/elements/container.php:313 includes/elements/section.php:249
 msgid "Boxed"
 msgstr "Sınırlandırılmış"
 
-#: includes/elements/column.php:674 includes/elements/section.php:1131
+#: includes/elements/column.php:677 includes/elements/section.php:1134
 msgid "Link Hover Color"
 msgstr "Bağlantı Gezinme Rengi"
 
-#: includes/elements/column.php:662 includes/elements/section.php:1119
+#: includes/elements/column.php:665 includes/elements/section.php:1122
 msgid "Link Color"
 msgstr "Bağlantı Rengi"
 
@@ -5164,7 +5196,7 @@ msgctxt "Border Control"
 msgid "Border Type"
 msgstr "Kenarlık Türü"
 
-#: core/breakpoints/manager.php:332
+#: core/breakpoints/manager.php:333
 msgid "Laptop"
 msgstr "Dizüstü bilgisayar"
 
@@ -5213,22 +5245,22 @@ msgctxt "Background Control"
 msgid "Position"
 msgstr "Konum"
 
-#: includes/elements/column.php:217 includes/elements/column.php:694
-#: includes/elements/section.php:1151 includes/widgets/button.php:172
-#: includes/widgets/common.php:768 includes/widgets/common.php:796
-#: includes/widgets/common.php:1300 includes/widgets/divider.php:456
-#: includes/widgets/divider.php:744 includes/widgets/divider.php:884
-#: includes/widgets/heading.php:184 includes/widgets/icon-box.php:472
-#: includes/widgets/icon-list.php:246 includes/widgets/icon-list.php:457
-#: includes/widgets/icon.php:175 includes/widgets/image-box.php:406
-#: includes/widgets/image-carousel.php:534
-#: includes/widgets/image-carousel.php:635
+#: includes/elements/column.php:217 includes/elements/column.php:697
+#: includes/elements/section.php:1154 includes/widgets/common.php:314
+#: includes/widgets/common.php:1127 includes/widgets/common.php:1155
+#: includes/widgets/divider.php:456 includes/widgets/divider.php:744
+#: includes/widgets/divider.php:884 includes/widgets/heading.php:184
+#: includes/widgets/icon-box.php:492 includes/widgets/icon-list.php:246
+#: includes/widgets/icon-list.php:457 includes/widgets/icon.php:175
+#: includes/widgets/image-box.php:416 includes/widgets/image-carousel.php:561
+#: includes/widgets/image-carousel.php:662
 #: includes/widgets/image-gallery.php:287 includes/widgets/image.php:142
 #: includes/widgets/image.php:535 includes/widgets/social-icons.php:305
 #: includes/widgets/star-rating.php:178 includes/widgets/tabs.php:175
 #: includes/widgets/tabs.php:205 includes/widgets/tabs.php:376
 #: includes/widgets/testimonial.php:194 includes/widgets/text-editor.php:196
-#: includes/widgets/video.php:799 modules/shapes/widgets/text-path.php:165
+#: includes/widgets/traits/button-trait.php:126 includes/widgets/video.php:801
+#: modules/shapes/widgets/text-path.php:165
 msgid "Center"
 msgstr "Orta"
 
@@ -5242,8 +5274,8 @@ msgid "Accordion Items"
 msgstr "Akordiyon Öğeleri"
 
 #: includes/widgets/accordion.php:264 includes/widgets/alert.php:183
-#: includes/widgets/button.php:385 includes/widgets/social-icons.php:524
-#: includes/widgets/tabs.php:280 includes/widgets/toggle.php:267
+#: includes/widgets/social-icons.php:524 includes/widgets/tabs.php:280
+#: includes/widgets/toggle.php:267 includes/widgets/traits/button-trait.php:347
 msgid "Border Color"
 msgstr "Kenarlık Rengi"
 
@@ -5255,8 +5287,8 @@ msgstr "Kenarlık Rengi"
 msgid "Background Color"
 msgstr "Arka Plan Rengi"
 
-#: includes/widgets/button.php:46 includes/widgets/button.php:112
-#: includes/widgets/button.php:279
+#: includes/widgets/button.php:47 includes/widgets/button.php:84
+#: includes/widgets/button.php:95
 msgid "Button"
 msgstr "Düğme"
 
@@ -5266,13 +5298,13 @@ msgstr "Düğme"
 msgid "Title & Description"
 msgstr "Başlık & Açıklama"
 
-#: includes/elements/column.php:702 includes/elements/section.php:1159
-#: includes/widgets/button.php:180 includes/widgets/heading.php:192
-#: includes/widgets/icon-box.php:480 includes/widgets/image-box.php:414
-#: includes/widgets/image-carousel.php:643
+#: includes/elements/column.php:705 includes/elements/section.php:1162
+#: includes/widgets/heading.php:192 includes/widgets/icon-box.php:500
+#: includes/widgets/image-box.php:424 includes/widgets/image-carousel.php:670
 #: includes/widgets/image-gallery.php:295 includes/widgets/image.php:543
 #: includes/widgets/star-rating.php:186 includes/widgets/tabs.php:183
 #: includes/widgets/tabs.php:213 includes/widgets/text-editor.php:204
+#: includes/widgets/traits/button-trait.php:134
 msgid "Justified"
 msgstr "İki Yana Yaslı"
 
@@ -5280,7 +5312,7 @@ msgstr "İki Yana Yaslı"
 msgid "Stretch"
 msgstr "Uzat"
 
-#: includes/settings/settings.php:459
+#: includes/settings/settings.php:460
 msgid "Post Types"
 msgstr "Yazı Türleri"
 
@@ -5320,16 +5352,16 @@ msgstr "Ayırıcı"
 msgid "Images"
 msgstr "Görseller"
 
-#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:268
-#: includes/widgets/icon-box.php:309 includes/widgets/icon.php:212
+#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:267
+#: includes/widgets/icon-box.php:308 includes/widgets/icon.php:212
 #: includes/widgets/icon.php:255 includes/widgets/social-icons.php:198
 #: includes/widgets/social-icons.php:356 includes/widgets/social-icons.php:493
 #: includes/widgets/text-editor.php:278
 msgid "Primary Color"
 msgstr "Birincil Renk"
 
-#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:284
-#: includes/widgets/icon-box.php:322 includes/widgets/icon.php:229
+#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:283
+#: includes/widgets/icon-box.php:321 includes/widgets/icon.php:229
 #: includes/widgets/icon.php:269 includes/widgets/social-icons.php:212
 #: includes/widgets/social-icons.php:370 includes/widgets/social-icons.php:508
 #: includes/widgets/text-editor.php:293
@@ -5358,7 +5390,7 @@ msgid "Image Position"
 msgstr "Görsel konumu"
 
 #: includes/widgets/accordion.php:245 includes/widgets/divider.php:939
-#: includes/widgets/icon-box.php:425 includes/widgets/icon.php:358
+#: includes/widgets/icon-box.php:445 includes/widgets/icon.php:358
 #: includes/widgets/tabs.php:260 includes/widgets/text-editor.php:377
 #: includes/widgets/toggle.php:249
 msgid "Border Width"
@@ -5366,9 +5398,9 @@ msgstr "Kenarlık genişliği"
 
 #: core/kits/documents/tabs/settings-lightbox.php:101
 #: core/kits/documents/tabs/settings-lightbox.php:118
-#: includes/widgets/image-carousel.php:224
-#: includes/widgets/image-carousel.php:230
-#: includes/widgets/image-carousel.php:616
+#: includes/widgets/image-carousel.php:227
+#: includes/widgets/image-carousel.php:233
+#: includes/widgets/image-carousel.php:643
 #: includes/widgets/image-gallery.php:255 includes/widgets/image.php:159
 #: includes/widgets/image.php:516
 msgid "Caption"
@@ -5386,6 +5418,25 @@ msgstr "Görsel seç"
 msgid "Discard"
 msgstr "Gözardı et"
 
+#: core/kits/documents/tabs/theme-style-buttons.php:153
+#: core/kits/documents/tabs/theme-style-buttons.php:228
+#: core/kits/documents/tabs/theme-style-form-fields.php:222
+#: core/kits/documents/tabs/theme-style-images.php:83
+#: core/kits/documents/tabs/theme-style-images.php:154
+#: includes/elements/column.php:530 includes/elements/column.php:567
+#: includes/elements/container.php:864 includes/elements/container.php:903
+#: includes/elements/section.php:836 includes/elements/section.php:872
+#: includes/widgets/common.php:1281 includes/widgets/common.php:1318
+#: includes/widgets/divider.php:953 includes/widgets/icon-box.php:459
+#: includes/widgets/icon.php:372 includes/widgets/image-box.php:285
+#: includes/widgets/image-carousel.php:629
+#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
+#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
+#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
+#: includes/widgets/traits/button-trait.php:385
+msgid "Border Radius"
+msgstr "Kenar yuvarlaklığı"
+
 #: modules/gutenberg/module.php:97
 msgid "&#8592; Back to WordPress Editor"
 msgstr "&#8592; WordPress editöre geri dön"
@@ -5400,26 +5451,10 @@ msgstr "Simge seç"
 msgid "Responsive Mode"
 msgstr "Duyarlı mod"
 
-#: includes/elements/section.php:337 includes/elements/section.php:386
+#: includes/elements/container.php:397 includes/elements/section.php:337
+#: includes/elements/section.php:386
 msgid "Min Height"
 msgstr "Minimum Yükseklik"
-
-#: core/kits/documents/tabs/theme-style-buttons.php:153
-#: core/kits/documents/tabs/theme-style-buttons.php:228
-#: core/kits/documents/tabs/theme-style-form-fields.php:222
-#: core/kits/documents/tabs/theme-style-images.php:83
-#: core/kits/documents/tabs/theme-style-images.php:154
-#: includes/elements/column.php:527 includes/elements/column.php:564
-#: includes/elements/section.php:833 includes/elements/section.php:869
-#: includes/widgets/button.php:420 includes/widgets/common.php:908
-#: includes/widgets/common.php:945 includes/widgets/divider.php:953
-#: includes/widgets/icon-box.php:439 includes/widgets/icon.php:372
-#: includes/widgets/image-box.php:276 includes/widgets/image-carousel.php:602
-#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
-#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
-#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
-msgid "Border Radius"
-msgstr "Kenar yuvarlaklığı"
 
 #: includes/elements/section.php:421
 msgid "Column Position"
@@ -5430,7 +5465,7 @@ msgstr "Sütun konumu"
 msgid "Alert"
 msgstr "Bildirim"
 
-#: modules/system-info/module.php:159
+#: modules/system-info/module.php:163
 msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
 msgstr "Aşağıdaki bilgileri Ctrl+C / Ctrl+V tuşlarıyla basit metin olarak kopyalayabilirsiniz:"
 
@@ -5447,7 +5482,7 @@ msgstr "İkincil başlık"
 msgid "Primary Headline"
 msgstr "Birincil başlık"
 
-#: modules/system-info/module.php:157
+#: modules/system-info/module.php:161
 msgid "Copy & Paste Info"
 msgstr "Kopyala ve yapıştır bilgisi"
 
@@ -5459,7 +5494,7 @@ msgstr "Görsel boyutu"
 msgid "Image Box"
 msgstr "Görsel kutusu"
 
-#: includes/widgets/image-carousel.php:570
+#: includes/widgets/image-carousel.php:597
 #: includes/widgets/image-gallery.php:208
 msgid "Image Spacing"
 msgstr "Görsel aralığı"
@@ -5480,7 +5515,7 @@ msgstr "Önerilen videolar"
 msgid "Player Controls"
 msgstr "Oyuncu kontrolleri"
 
-#: includes/widgets/image-carousel.php:271
+#: includes/widgets/image-carousel.php:283
 msgid "Pause on Hover"
 msgstr "Üzerine gelip duraklat"
 

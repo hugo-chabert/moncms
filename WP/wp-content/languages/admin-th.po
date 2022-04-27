@@ -11570,7 +11570,7 @@ msgstr "ดูถังขยะ"
 msgid "This comment is already marked as spam."
 msgstr "ความเห็นนี้บันทึกเป็นแสปมแล้ว"
 
-#: wp-admin/about.php:332 wp-admin/includes/network.php:148
+#: wp-admin/about.php:352 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "ไปที่หน้าหลัก"
 
@@ -12228,11 +12228,11 @@ msgstr "ไม่พบปลั๊กอินที่ใช้งานได
 msgid "Core Developer"
 msgstr "ผู้พัฒนาหลัก"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:349
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "ไปที่แผงควบคุม &rarr; อัปเดต"
 
-#: wp-admin/about.php:332
+#: wp-admin/about.php:352
 msgid "Go to Dashboard &rarr; Home"
 msgstr "ไปที่แผงควบคุม &rarr; หน้าแรก"
 
@@ -12338,25 +12338,25 @@ msgstr "การเพิ่มป้ายกำกับ"
 msgid "What&#8217;s New"
 msgstr "มีอะไรใหม่"
 
-#: wp-admin/about.php:343
+#: wp-admin/about.php:363
 msgid "Maintenance Release"
 msgstr "การบำรุงรักษาที่ออกมา"
 
-#: wp-admin/about.php:346
+#: wp-admin/about.php:366
 msgid "Security Release"
 msgstr "รุ่นปรับปรุงมาตรการความปลอดภัย"
 
-#: wp-admin/about.php:349
+#: wp-admin/about.php:369
 msgid "Maintenance and Security Release"
 msgstr "รุ่นปรับปรุงแก้ไขข้อผิดพลาดและมาตรการความปลอดภัย"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:50 wp-admin/about.php:355
+#: wp-admin/about.php:50 wp-admin/about.php:70 wp-admin/about.php:375
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>รุ่น %s</strong> มีบางจุดเกี่ยวกับมาตรการความปลอดภัย"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:358
+#: wp-admin/about.php:378
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>รุ่น %1$s</strong> อ้างถึงความผิดพลาด %2$s"
@@ -12364,14 +12364,14 @@ msgstr[0] "<strong>รุ่น %1$s</strong> อ้างถึงความ�
 #. translators: 1: WordPress version number, 2: plural number of bugs.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:70 wp-admin/about.php:95 wp-admin/about.php:364
+#: wp-admin/about.php:90 wp-admin/about.php:115 wp-admin/about.php:384
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>รุ่น %1$s</strong> ปรับปรุงมาตรการความปลอดภัยและแก้ไขข้อผิดพลาด %2$s จุด"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:370
+#: wp-admin/about.php:390
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>รุ่น %1$s</strong> อ้างถึงความปลอดภัยบางอย่างและแก้ไขความผิดพลาด %2$s"
@@ -12379,8 +12379,8 @@ msgstr[0] "<strong>รุ่น %1$s</strong> อ้างถึงความ�
 #. translators: %s: HelpHub URL.
 #. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:57 wp-admin/about.php:82 wp-admin/about.php:107
-#: wp-admin/about.php:376
+#: wp-admin/about.php:57 wp-admin/about.php:77 wp-admin/about.php:102
+#: wp-admin/about.php:127 wp-admin/about.php:396
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "ข้อมูลเพิ่มเติม ดูได้ที่<a href=\"%s\">บันทึกประจำรุ่น</a>"
 
@@ -13351,20 +13351,20 @@ msgstr "ธีมนี้ไม่มีไฟล์ %s"
 msgid "The language pack is missing either the %1$s or %2$s files."
 msgstr "ชุดภาษาไม่มีไฟล์ %1$s หรือ %2$s"
 
-#: wp-admin/about.php:344
+#: wp-admin/about.php:364
 msgid "Maintenance Releases"
 msgstr "รุ่นเพื่อปรับปรุง"
 
-#: wp-admin/about.php:347
+#: wp-admin/about.php:367
 msgid "Security Releases"
 msgstr "รุ่นเพื่อความปลอดภัย"
 
-#: wp-admin/about.php:45 wp-admin/about.php:350
+#: wp-admin/about.php:45 wp-admin/about.php:370
 msgid "Maintenance and Security Releases"
 msgstr "รุ่นปรับปรุงแก้ไขข้อผิดพลาดและมาตรการความปลอดภัย"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:353
+#: wp-admin/about.php:373
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>รุ่น %s</strong> มีหนึ่งจุดเกี่ยวกับมาตรการความปลอดภัย"
 
@@ -13921,9 +13921,9 @@ msgstr "การลบหมวดหมู่จะไม่ได้ทำก
 
 #. translators: %s: WordPress version.
 #. translators: %s: WordPress version
-#: wp-admin/about.php:60 wp-admin/about.php:85 wp-admin/about.php:110
-#: wp-admin/includes/update.php:302 wp-admin/install.php:238
-#: wp-admin/update-core.php:92 wp-admin/upgrade.php:80
+#: wp-admin/about.php:60 wp-admin/about.php:80 wp-admin/about.php:105
+#: wp-admin/about.php:130 wp-admin/includes/update.php:302
+#: wp-admin/install.php:238 wp-admin/update-core.php:92 wp-admin/upgrade.php:80
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -14531,7 +14531,7 @@ msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
 msgstr "เปิดใช้งาน &#8220;%s&#8221;"
 
-#: wp-admin/about.php:311
+#: wp-admin/about.php:331
 msgid "Check the Field Guide for more!"
 msgstr "ตรวจสอบคู่มือฟิลด์ข้อมูลเพิ่มเติม!"
 
@@ -14672,7 +14672,7 @@ msgstr "ไปที่ตัวนำเข้า"
 msgid "Go to Plugin Installer"
 msgstr "ไปที่การติดตั้งปลั๊กอิน"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:349
 msgid "Go to Updates"
 msgstr "ไปที่ อัปเดต"
 
@@ -14683,7 +14683,7 @@ msgid "Your new password for %s is:"
 msgstr "รหัสผ่านใหม่สำหรับ %s คือ:"
 
 #. translators: %s: WordPress 5.8 Field Guide link.
-#: wp-admin/about.php:316
+#: wp-admin/about.php:336
 msgid "Check out the latest version of the WordPress Field Guide. It highlights developer notes for each change you may want to be aware of. <a href=\"%s\">WordPress 5.8 Field Guide.</a>"
 msgstr "ตรวจสอบคู่มือฟิลด์เก็บข้อมูล WordPress รุ่นล่าสุด โดยเฉพาะอย่างยิ่งให้ดูที่บันทึกนักพัฒนาสำหรับแต่ละการเปลี่ยนแปลงที่คุณจะต้องระมัดระวัง <a href=\"%s\">คู่มือฟิลด์เก็บข้อมูล WordPress 5.8</a>"
 
@@ -14860,76 +14860,76 @@ msgstr "อัปโหลดแล้ว"
 msgid "The next stop on the road to full site editing"
 msgstr "ป้ายถัดไปบนเส้นทางการแก้ไขเว็บอย่างเบ็ดเสร็จ"
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:143
 msgid "Three Essential Powerhouses"
 msgstr "สามมหาอำนาจหลัก"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:153
 msgid "Manage Widgets with Blocks"
 msgstr "จัดการวิดเจ็ตด้วยบล็อก"
 
 #. translators: %s: Widgets dev note link.
-#: wp-admin/about.php:139
+#: wp-admin/about.php:159
 msgid "After months of hard work, the power of blocks has come to both the Block Widgets Editor and the Customizer. Now you can add blocks both in widget areas across your site and with live preview through the Customizer. This opens up new possibilities to create content: from no-code mini layouts to the vast library of core and third-party blocks. For our developers, you can find more details in the <a href=\"%s\">Widgets dev note</a>."
 msgstr "จากการโหมงานหนักมาตลอดหลายเดือนที่ผ่านมา พลังอำนาจของบล็อกก็เข้ามาที่ตัวแก้ไขวิดเจ็ตแบบบล็อกและตัวปรับแบบกำหนดเอง ตอนนี้คุณสามารถที่จะเพิ่มบล็อกไปยังพื้นที่วิดเจ็ตทั้งหมดบนเว็บของคุณ และเพิ่มไปยังตัวอย่างสดผ่านตัวปรับแบบกำหนดเอง ซึ่งมันจะเพิ่มศักยภาพในการสร้างเนื้อหาใหม่ๆ: ตั้งแต่เค้าโครงแบบย่อที่ไม่ต้องเขียนโค้ดไปจนถึงแก่นหลักของไลบรารี่ที่เยอะแยะมากมาย รวมไปถึงบล็อกจากบุคคลภายนอก สำหรับนักพัฒนา คุณสามารถที่จะหารายละเอียดเพิ่มเติมได้ใน<a href=\"%s\">บันทึกการพัฒนาวิดเจ็ต</a>"
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:170
 msgid "Display Posts with New Blocks and Patterns"
 msgstr "แสดงเรื่องด้วยบล็อกและแม่แบบใหม่"
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:187
 msgid "Edit the Templates Around Posts"
 msgstr "แก้ไขเทมเพลตใกล้ๆ กับเรื่อง"
 
-#: wp-admin/about.php:171
+#: wp-admin/about.php:191
 msgid "You can use the familiar block editor to edit templates that hold your content—simply activate a block theme or a theme that has opted in for this feature. Switch from editing your posts to editing your pages and back again, all while using a familiar block editor. There are more than 20 new blocks available within compatible themes. Read more about this feature and how to experiment with it in the release notes."
 msgstr "คุณสามารถใช้งานตัวแก้ไขบล็อกที่คุ้นเคยในการจัดการเทมเพลตที่ใส่เนื้อหาของคุณ โดยการเปิดใช้งานบล็อกธีมหรือธีมที่มีคุณสมบัติพิเศษนี้อยู่ ปรับเปลี่ยนจากการแก้ไขเรื่องของคุณไปยังการแก้ไขหน้าของคุณ แล้วย้อนกลับมาอีกได้ในขณะที่ยังคงใช้งานตัวแก้ไขบล็อกที่คุ้นเคย มีบล็อกใหม่ๆ 20 กว่าบล็อก ที่สามารถเรียกใช้งานได้จากธีมที่เข้ากันได้ อ่านต่อเกี่ยวกับคุณสมบัติพิเศษนี้และจะทดลองใช้งานมันได้อย่างไรในบันทึกประจำรุ่น"
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:201
 msgid "Three Workflow Helpers"
 msgstr "สามผู้ช่วยการทำขั้นตอนการทำงาน"
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:211
 msgid "Overview of the Page Structure"
 msgstr "ภาพโดยรวมของเค้าโครงหน้า"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:224
 msgid "Suggested Patterns for Blocks"
 msgstr "แม่แบบที่แนะนำสำหรับบล็อก"
 
-#: wp-admin/about.php:223
+#: wp-admin/about.php:243
 msgid "Style and Colorize Images"
 msgstr "ตกแต่งและเติมสีรูปภาพ"
 
-#: wp-admin/about.php:237
+#: wp-admin/about.php:257
 msgid "For Developers to Explore"
 msgstr "สำหรับนักพัฒนาเพื่อที่จะค้นคว้าเพิ่มเติม"
 
-#: wp-admin/about.php:195
+#: wp-admin/about.php:215
 msgid "Sometimes you need a simple landing page, but sometimes you need something a little more robust. As blocks increase, patterns emerge, and content creation gets easier, new solutions are needed to make complex content easy to navigate. List View is the best way to jump between layers of content and nested blocks. Since the List View gives you an overview of all the blocks in your content, you can now navigate quickly to the precise block you need. Ready to focus completely on your content? Toggle it on or off to suit your workflow."
 msgstr "ในบางทีคุณต้องการแค่หน้าเว็บไซต์เฉพาะแบบเรียบๆ แต่ในบางทีก็ต้องการอะไรที่มันดูจริงจังขึ้นมาหน่อย ด้วยการใช้งานบล็อกที่เพิ่มขึ้น กอปรกับการกำเนิดขึ้นมาของแม่แบบ และความง่ายของการสร้างเนื้อหา เราจึงต้องมองหาวิถีทางแก้ปัญหาใหม่ๆ เพื่อทำให้เนื้อหาที่ซับซ้อนสามารถที่จะกรุยทางได้โดยง่าย"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:228
 msgid "Starting in this release the Pattern Transformations tool will suggest block patterns based on the block you are using. Right now, you can give it a try in the Query Block and Social Icon Block. As more patterns are added, you will be able to get inspiration for how to style your site without ever leaving the editor!"
 msgstr "เริ่มต้นที่รุ่นนี้ เครื่องมือสำหรับการเปลี่ยนแปลงแม่แบบจะแนะนำแม่แบบของบล็อกที่ขึ้นอยู่กับประเภทของบล็อกที่คุณใช้งานอยู่ ณ ขณะนี้ คุณสามารถที่จะทดลองใช้งานบล็อกสืบค้นและบล็อกไอคอนสำหรับสื่อสังคมออนไลน์ได้แล้ว และด้วยแม่แบบที่จะเพิ่มเติมต่อมา คุณสามารถที่จะสรรค์สร้างผลงานบนเว็บของคุณโดยที่ไม่จำเป็นจะต้องออกจากตัวแก้ไขเลย!"
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:247
 msgid "Colorize your image and cover blocks with duotone filters! Duotone can add a pop of color to your designs and style your images (or videos in the cover block) to integrate well with your themes. You can think of the duotone effect as a black and white filter, but instead of the shadows being black and the highlights being white, you pick your own colors for the shadows and highlights. There’s more to learn about how it works in the documentation."
 msgstr "เติมสีรูปภาพของคุณและบล็อกปกด้วยฟิลเต้อร์การสลับสองสี! การสลับสองสีสามารถที่จะเพิ่มอัตลักษณ์สีไปยังการออกแบบของคุณและตกแต่งรูปภาพ (หรือวิดีโอในบล็อกปก) เพื่อเชื่อมต่อกับธีมของคุณได้เป็นอย่างดี คุณสามารถที่จะนึกไปถึงผลลัพธ์ของการสลับสองสีของฟิลเตอร์สีดำและขาว แต่แทนที่จะให้เงาเป็นสีดำและแสงเป็นสีขาว คุณสามารถกำหนดสีที่จะเป็นทั้งแสงและเงาได้ด้วยตัวคุณเอง คุณสามารถที่จะเรียนรู้เพิ่มเติมว่ามันทำงานอย่างไรได้ในเอกสารประกอบ"
 
-#: wp-admin/about.php:250
+#: wp-admin/about.php:270
 msgid "Theme.json"
 msgstr "Theme.json"
 
-#: wp-admin/about.php:267
+#: wp-admin/about.php:287
 msgid "Dropping support for Internet Explorer 11"
 msgstr "งดการสนับสนุนเพื่อใช้งานอินเตอร์เน็ตเอ็กซพลอเร่อร์รุ่น 11"
 
-#: wp-admin/about.php:281
+#: wp-admin/about.php:301
 msgid "Adding support for WebP"
 msgstr "เพิ่มการสนับสนุน WebP"
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:311
 msgid "Adding Additional Block Supports"
 msgstr "เพิ่มการสนับสนุนบล็อกเพิ่มเติม"
 
@@ -14946,22 +14946,22 @@ msgid "WordPress is free and open source software, built by a distributed commun
 msgstr "WordPress เป็นซอฟต์แวร์ที่ไม่มีค่าใช้จ่ายและเปิดเผยรหัสต้นฉบับ ที่สร้างขึ้นมาโดยชุมชนหลากหลายซึ่งส่วนใหญ่เป็นอาสาสมัครนักพัฒนาจากทั่วทุกมุมโลก"
 
 #. translators: %s: Theme.json dev note link.
-#: wp-admin/about.php:256
+#: wp-admin/about.php:276
 msgid "Introducing the Global Styles and Global Settings APIs: control the editor settings, available customization tools, and style blocks using a theme.json file in the active theme. This configuration file enables or disables features and sets default styles for both a website and blocks. If you build themes, you can experiment with this early iteration of a useful new feature. For more about what is currently available and how it works, <a href=\"%s\">check out this dev note</a>."
 msgstr "แนะนำการใช้งานสไตล์หลักและ API สำหรับการตั้งค่าหลัก: ควบคุมการตั้งค่าตัวแก้ไข เครื่องมือการปรับแต่งที่มีอยู่ และการตกแต่งบล็อกไฟล์ theme.json ในธีมที่เปิดใช้งาน ไฟล์การตั้งค่านี้สามารถเปิดหรือปิดคุณสมบัติพิเศษ และกำหนดค่าเริ่มต้นของสไตล์ของทั้งเว็บไซต์และบล็อก ข้อมูลเพิ่มเติมเกี่ยวกับสิ่งที่มีอยู่แล้ว ณ ตอนนี้และการใช้งาน <a href=\"%s\">ดูได้ที่บันทึกการพัฒนาโปรแกรมนี้</a>."
 
 #. translators: %s: Link to Browse Happy.
-#: wp-admin/about.php:273
+#: wp-admin/about.php:293
 msgid "Support for Internet Explorer 11 has been dropped as of this release. This means you may have issues managing your site that will not be fixed in the future. If you are currently using IE11, it is strongly recommended that you <a href=\"%s\">switch to a more modern browser</a>."
 msgstr "งดการสนับสนุนอินเตอร์เน็ตเอ็กซ์พลอเร่อร์รุ่น 11 ในรุ่นนี้ ซึ่งหมายถึงว่าคุณอาจจะเจอปัญหาในการจัดการกับเว็บของคุณซึ่งจะไม่ถูกแก้ไขอีกต่อไปในอนาคต หากคุณยังใช้งาน IE11 อยู่ เราขอแนะนำอย่างยิ่งให้คุณ <a href=\"%s\">เปลี่ยนไปใช้งานเบราว์เซอร์ที่ทันสมัยกว่านี้</a>"
 
-#: wp-admin/about.php:285
+#: wp-admin/about.php:305
 msgid "WebP is a modern image format that provides improved lossless and lossy compression for images on the web. WebP images are around 30% smaller on average than their JPEG or PNG equivalents, resulting in sites that are faster and use less bandwidth."
 msgstr "WebP คือรูปแบบของรูปภาพสมัยใหม่ซึ่งมีการเพิ่มคุณภาพ และลดขนาดของรูปภาพบนเว็บโดยการบีบอัด รูปภาพ WebP จะมีขนาดที่เล็กกว่า JPEG หรือ PNG ราวๆ 30% ซึ่งจะทำให้เว็บของคุณเร็วยิ่งขึ้นในขณะที่ปริมาณการรับส่งข้อมูลลดลง"
 
 #. translators: %1$s: Link to 5.6's block dev notes. %2$s: Link to 5.7's block
 #. dev notes. %3$s: Link to 5.8's block dev notes.
-#: wp-admin/about.php:297
+#: wp-admin/about.php:317
 msgid "Expanding on previously implemented block supports in WordPress <a href=\"%1$s\">5.6</a> and <a href=\"%2$s\">5.7</a>, WordPress 5.8 introduces several new block support flags and new options to customize your registered blocks. More information is available in the <a href=\"%3$s\">block supports dev note</a>."
 msgstr "เสริมการสนับสนุนบล็อกที่ถูกนำมาใช้งานแล้วก่อนหน้านี้ใน WordPress <a href=\"%1$s\">5.6</a> และ <a href=\"%2$s\">5.7</a> WordPress 5.8 แนะนำการสนับสนุนบล็อกใหม่มากมาย และตัวเลือกใหม่เพื่อกำหนดค่าบล็อกที่ลงทะเบียนไว้ ข้อมูลเพิ่มเติมอยู่ใน <a href=\"%3$s\">บันทึกนักพัฒนาเรื่องการสนับสนุนบล็อก</a>"
 
@@ -14983,6 +14983,6 @@ msgstr "อยากเห็นชื่อของคุณแสดงอย
 msgid "WordPress comes with some awesome, worldview-changing rights courtesy of its <a href=\"%s\">license</a>, the GPL."
 msgstr "WordPress มาพร้อมกับสิทธิ์ในการเปลี่ยนแปลงแก้ไขโค้ดได้ และสามารถทำได้โดยไม่มีค่าใช้จ่าย ตามที่ระบุใน <a href=\"%s\">ใบอนุญาต</a> ของ GPL"
 
-#: wp-admin/about.php:153
+#: wp-admin/about.php:173
 msgid "The Query Loop Block makes it possible to display posts based on specified parameters; like a PHP loop without the code. Easily display posts from a specific category, to do things like create a portfolio or a page full of your favorite recipes. Think of it as a more complex and powerful Latest Posts Block! Plus, pattern suggestions make it easier than ever to create a list of posts with the design you want."
 msgstr "บล็อกคิวรี่ลูปทำให้สามารถแสดงเรื่องที่ระบุพารามิเตอร์เฉพาะได้คล้ายกับลูปของ PHP โดยไม่ต้องเขียนโค้ด แสดงเรื่องจากหมวดหมู่ได้อย่างง่าย จะทำสิ่งที่คล้ายกับแฟ้มสะสมผลงาน หรือหน้าเต็มสำหรับแสดงสูตรอาหารที่ชื่นชอบ ก็สามารถทำได้ หรือจะทำสิ่งที่ซับซ้อนกว่านั้นเช่นแสดงบล็อกของเรื่องล่าสุดก็ทำได้ มากไปกว่านั้น การแนะนำแพตเทิร์นทำให้ง่ายขึ้นกว่าเดิมในการสร้างลิสต์ของเรื่องในแบบที่คุณต้องการ"

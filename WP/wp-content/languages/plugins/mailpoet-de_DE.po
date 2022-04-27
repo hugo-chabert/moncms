@@ -127,7 +127,7 @@ msgstr "Bedenke, dass es nicht auf localhost funktioniert."
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:57
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:77
 msgid "Must-have"
 msgstr "Must-have"
@@ -391,7 +391,7 @@ msgstr "Import durch Benutzer angehalten"
 msgid "Invalid API endpoint method."
 msgstr "Ungültige API-Endpunkt-Methode."
 
-#: lib/Config/Initializer.php:142
+#: lib/Config/Initializer.php:148
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "Keine Verbindung zur Datenbank (Die Datenbank kann keine Datei oder Ordner öffnen), die Verbindung ist wahrscheinlich nicht korrekt konfiguriert. Bitte lies unseren [link] Knowledge Base Beitrag [/link] für die Schritte zur Lösung."
 
@@ -801,7 +801,7 @@ msgstr "In dieser Liste befinden sich keine Abonnenten!"
 msgid "This newsletter has not been sent yet."
 msgstr "Dieser Newsletter wurde noch nicht gesendet."
 
-#: lib/API/JSON/v1/Settings.php:121
+#: lib/API/JSON/v1/Settings.php:125
 msgid "You have not specified any settings to be saved."
 msgstr "Du hast keine Einstellungen angegeben, die gespeichert werden sollen."
 
@@ -879,7 +879,7 @@ msgstr "Einstellungen"
 msgid "In any WordPress role"
 msgstr "Mit jeder WordPress-Rolle"
 
-#: lib/Config/Populator.php:376
+#: lib/Config/Populator.php:381
 msgid "This list is automatically created when you install MailPoet."
 msgstr "Diese Liste wird bei der Installation von MailPoet automatisch erstellt."
 
@@ -1378,7 +1378,7 @@ msgstr "Nicht unterstützte Amazon SES Region"
 
 #: lib/API/JSON/v1/DynamicSegments.php:124 lib/API/JSON/v1/ImportExport.php:113
 #: lib/API/JSON/v1/Segments.php:129 lib/Models/CustomField.php:30
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:31
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "Bitte gib einen Namen an."
 
@@ -1441,11 +1441,11 @@ msgstr "Nicht aktiv"
 msgid "Please specify a newsletter type."
 msgstr "Bitte gib einen Newsletter-Typ an."
 
-#: lib/Models/Segment.php:143
+#: lib/Models/Segment.php:144
 msgid "WordPress Users"
 msgstr "WordPress-Benutzer"
 
-#: lib/Models/Segment.php:145
+#: lib/Models/Segment.php:146
 msgid "This list contains all of your WordPress users."
 msgstr "Diese Liste beinhaltet all deine WordPress-Benutzer."
 

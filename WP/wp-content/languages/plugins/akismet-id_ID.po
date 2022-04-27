@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-03 02:58:38+0000\n"
+"PO-Revision-Date: 2022-02-07 05:09:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,6 +26,12 @@ msgstr "Upgrade Level Langganan Anda"
 msgid "Learn more about usage limits."
 msgstr "Pelajari selengkapnya tentang batasan penggunaan."
 
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:225
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "Sejak %1$s, akun Anda melakukan %2$s panggilan API, sementara batas paket Anda sebesar %3$s."
+
 #: views/notice.php:255
 msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
 msgstr "Penggunaan Akismet Anda telah melebihi batas paket Anda selama tiga bulan berturut-turut. Kami telah membatasi akun Anda untuk sisa bulan setelahnya. Upgrade paket Anda supaya Akismet dapat kembali memblokir spam."
@@ -33,6 +39,10 @@ msgstr "Penggunaan Akismet Anda telah melebihi batas paket Anda selama tiga bula
 #: views/notice.php:246
 msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
 msgstr "Penggunaan Akismet Anda mendekati batas paket Anda selama tiga bulan berturut-turut. Kami akan membatasi akun Anda setelah mencapai batas. Upgrade paket Anda supaya Akismet dapat terus memblokir spam."
+
+#: views/notice.php:238
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "Penggunaan Akismet Anda telah melebihi batas paket selama dua bulan berturut-turut. Bulan depan, kami akan membatasi akun Anda setelah Anda mencapai batas. Harap pertimbangkan untuk meningkatkan paket Anda."
 
 #: views/notice.php:212
 msgid "Your account has been restricted"

@@ -2,268 +2,329 @@
 # This file is distributed under the same license as the Plugins - WooCommerce Payments - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-31 21:30:52+0000\n"
+"PO-Revision-Date: 2022-03-18 09:11:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0-rc.2\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - WooCommerce Payments - Stable (latest release)\n"
 
-#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:128
+#: includes/class-wc-payments.php:952
+#, gp-priority: normal
+msgid "Contact information"
+msgstr "Información de contacto"
+
+#: includes/class-wc-payments.php:958
+#, gp-priority: normal
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:143
+#, gp-priority: normal
 msgid "SKU"
 msgstr "SKU"
 
 #: includes/class-wc-payments-status.php:76
+#, gp-priority: normal
 msgid "Version"
 msgstr "Versión"
 
 #: includes/class-wc-payments-status.php:83
+#, gp-priority: normal
 msgid "No"
 msgstr "No"
 
 #: includes/class-wc-payments-status.php:83
+#, gp-priority: normal
 msgid "Yes"
 msgstr "Sí"
 
-#: includes/class-wc-payment-gateway-wcpay.php:1012
-msgid "Credit / Debit Card"
-msgstr "Tarjeta de Crédito / Débito"
-
 #: includes/multi-currency/SettingsOnboardCta.php:60
+#, gp-priority: normal
 msgid "Get started"
 msgstr "Iniciar"
 
 #: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:118
+#, gp-priority: normal
 msgid "Enable this email notification"
 msgstr "Activar este aviso por correo electrónico"
 
 #: includes/class-wc-payments-utils.php:226
+#, gp-priority: normal
 msgid "Switzerland"
 msgstr "Suiza"
 
 #: includes/class-wc-payments-utils.php:238
+#, gp-priority: normal
 msgid "Singapore"
 msgstr "Singapur"
 
 #: includes/class-wc-payments-utils.php:237
+#, gp-priority: normal
 msgid "Portugal"
 msgstr "Portugal"
 
 #: includes/class-wc-payments-utils.php:236
+#, gp-priority: normal
 msgid "Poland"
 msgstr "Polonia"
 
 #: includes/class-wc-payments-utils.php:234
+#, gp-priority: normal
 msgid "Netherlands"
 msgstr "Países Bajos"
 
 #: includes/class-wc-payments-utils.php:231
+#, gp-priority: normal
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
 #: includes/class-wc-payments-utils.php:224
+#, gp-priority: normal
 msgid "Belgium"
 msgstr "Bélgica"
 
 #: includes/class-wc-payments-utils.php:222
+#, gp-priority: normal
 msgid "Austria"
 msgstr "Austria"
 
 #: includes/multi-currency/AdminNotices.php:70
+#, gp-priority: normal
 msgid "Action failed. Please refresh the page and retry."
 msgstr "Error en la acción. Por favor, recarga la página y vuelve a intentarlo."
 
 #: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:14
 #: dist/index.js:2
+#, gp-priority: normal
 msgid "Are you sure?"
 msgstr "¿Estás seguro?"
 
-#: includes/payment-methods/class-upe-payment-gateway.php:487
+#: includes/payment-methods/class-upe-payment-gateway.php:516
+#, gp-priority: normal
 msgid "Payment method successfully added."
 msgstr "Método de pago añadido correctamente."
 
 #: includes/class-wc-payments-utils.php:232
+#, gp-priority: normal
 msgid "Ireland"
 msgstr "Irlanda"
 
 #: includes/multi-currency/CurrencySwitcherWidget.php:56
+#, gp-priority: normal
 msgid "Title"
 msgstr "Título"
 
 #: includes/class-wc-payments-utils.php:239
+#, gp-priority: normal
 msgid "United States (US)"
 msgstr "Estados Unidos (EEUU)"
 
 #: includes/class-wc-payments-utils.php:230
+#, gp-priority: normal
 msgid "United Kingdom (UK)"
 msgstr "Reino Unido (UK)"
 
 #: includes/class-wc-payments-utils.php:228
+#, gp-priority: normal
 msgid "Spain"
 msgstr "España"
 
 #: includes/class-wc-payments-utils.php:235
+#, gp-priority: normal
 msgid "New Zealand"
 msgstr "Nueva Zelanda"
 
 #: includes/class-wc-payments-utils.php:233
+#, gp-priority: normal
 msgid "Italy"
 msgstr "Italia"
 
 #: includes/class-wc-payments-utils.php:227
+#, gp-priority: normal
 msgid "Germany"
 msgstr "Alemania"
 
 #: includes/class-wc-payments-utils.php:229
+#, gp-priority: normal
 msgid "France"
 msgstr "Francia"
 
 #: includes/class-wc-payments-utils.php:225
+#, gp-priority: normal
 msgid "Canada"
 msgstr "Canadá"
 
 #: includes/class-wc-payments-utils.php:223
+#, gp-priority: normal
 msgid "Australia"
 msgstr "Australia"
 
-#: includes/multi-currency/MultiCurrency.php:827 dist/index.js:2
+#: includes/multi-currency/MultiCurrency.php:829 dist/index.js:2
+#, gp-priority: normal
 msgid "Dismiss"
 msgstr "Descartar"
 
 #: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:47
 #: dist/index.js:2 dist/multi-currency.js:2 dist/settings.js:2
+#, gp-priority: normal
 msgid "Cancel"
 msgstr "Cancelar"
 
 #: includes/notes/class-wc-payments-notes-qualitative-feedback.php:56
+#, gp-priority: normal
 msgid "Share feedback"
 msgstr "Compartir comentarios"
 
 #: includes/class-wc-payments-status.php:52
+#, gp-priority: normal
 msgid "Clear"
 msgstr "Limpiar"
 
-#: includes/class-wc-payment-gateway-wcpay.php:272 dist/settings.js:2
+#: includes/class-wc-payment-gateway-wcpay.php:283 dist/settings.js:2
+#, gp-priority: normal
 msgid "Checkout"
 msgstr "Finalizar compra"
 
-#: includes/class-wc-payment-gateway-wcpay.php:271 dist/settings.js:2
+#: includes/class-wc-payment-gateway-wcpay.php:282 dist/settings.js:2
+#, gp-priority: normal
 msgid "Cart"
 msgstr "Carrito"
 
-#: includes/admin/class-wc-payments-admin.php:82 dist/index.js:2
+#: includes/admin/class-wc-payments-admin.php:84 dist/index.js:2
+#, gp-priority: normal
 msgid "Overview"
 msgstr "Resumen"
 
 #. translators: 1: payment method likely credit card, 2: last 4 digit.
-#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:525
-#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:544
-#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:585
-#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:593
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:550
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:569
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:610
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:618
+#, gp-priority: normal
 msgid "%1$s ending in %2$s"
 msgstr "%1$s terminada en %2$s"
 
-#: includes/class-wc-payment-gateway-wcpay.php:255
+#: includes/class-wc-payment-gateway-wcpay.php:266
+#, gp-priority: normal
 msgid "Buy now"
 msgstr "Comprar ahora"
 
-#: includes/class-wc-payments-payment-request-button-handler.php:675
+#: includes/class-wc-payments-payment-request-button-handler.php:679
+#, gp-priority: normal
 msgid "OR"
 msgstr "O"
 
-#: includes/class-wc-payments-payment-request-button-handler.php:1361
-#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:145
+#: includes/class-wc-payments-payment-request-button-handler.php:1365
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:160
 #: dist/index.js:2
+#, gp-priority: normal
 msgid "Discount"
 msgstr "Descuento"
 
 #: includes/class-wc-payments-payment-request-button-handler.php:258
-#: includes/class-wc-payments-payment-request-button-handler.php:946
-#: includes/class-wc-payments-payment-request-button-handler.php:1347
-#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:154
+#: includes/class-wc-payments-payment-request-button-handler.php:950
+#: includes/class-wc-payments-payment-request-button-handler.php:1351
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:169
+#, gp-priority: normal
 msgid "Tax"
 msgstr "Impuesto"
 
 #: includes/class-wc-payments-payment-request-button-handler.php:266
-#: includes/class-wc-payments-payment-request-button-handler.php:954
-#: includes/class-wc-payments-payment-request-button-handler.php:1354
+#: includes/class-wc-payments-payment-request-button-handler.php:958
+#: includes/class-wc-payments-payment-request-button-handler.php:1358
+#, gp-priority: normal
 msgid "Shipping"
 msgstr "Envío"
 
-#: includes/class-wc-payment-gateway-wcpay.php:291
+#: includes/class-wc-payment-gateway-wcpay.php:302
+#, gp-priority: normal
 msgid "Default"
 msgstr "Por defecto"
 
 #: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:51
 #: dist/index.js:2
+#, gp-priority: normal
 msgid "Force secure checkout"
 msgstr "Forzar el pago seguro"
 
 #: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:59
 #: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:43
+#, gp-priority: normal
 msgid "Read more"
 msgstr "Leer más"
 
-#: includes/class-wc-payment-gateway-wcpay.php:671
+#: includes/class-wc-payment-gateway-wcpay.php:689
+#, gp-priority: normal
 msgid "Save payment information to my account for future purchases."
 msgstr "Guardar la información de pago en mi cuenta para futuras compras."
 
 #. Plugin Name of the plugin
 #: includes/admin/class-wc-payments-admin-sections-overwrite.php:65
-#: includes/admin/class-wc-payments-admin.php:145
-#: includes/admin/class-wc-payments-admin.php:207
-#: includes/admin/class-wc-payments-admin.php:244
-#: includes/class-wc-payment-gateway-wcpay.php:144
-#: includes/class-wc-payments-status.php:69 includes/class-wc-payments.php:324
-#: includes/payment-methods/class-upe-payment-gateway.php:76
-#: includes/payment-methods/class-upe-payment-gateway.php:78
-#: woocommerce-payments.php:81 woocommerce-payments.php:186 dist/index.js:2
+#: includes/admin/class-wc-payments-admin.php:147
+#: includes/admin/class-wc-payments-admin.php:212
+#: includes/admin/class-wc-payments-admin.php:268
+#: includes/class-wc-payment-gateway-wcpay.php:155
+#: includes/class-wc-payments-status.php:69 includes/class-wc-payments.php:370
+#: includes/payment-methods/class-upe-payment-gateway.php:91
+#: includes/payment-methods/class-upe-payment-gateway.php:93
+#: woocommerce-payments.php:81 woocommerce-payments.php:232 dist/index.js:2
 #: dist/settings.js:2 dist/upe-blocks-checkout.js:1
+#, gp-priority: normal
 msgid "WooCommerce Payments"
 msgstr "WooCommerce Payments"
 
-#: includes/class-wc-payments-utils.php:346
-#: includes/wc-payment-api/class-wc-payments-api-client.php:684 dist/index.js:2
+#: includes/class-wc-payments-utils.php:262
+#: includes/wc-payment-api/class-wc-payments-api-client.php:700 dist/index.js:2
+#, gp-priority: normal
 msgid "Order #"
 msgstr "Pedido #"
 
 #: includes/class-wc-payments-payment-request-button-handler.php:273
-#: includes/class-wc-payments-payment-request-button-handler.php:961
+#: includes/class-wc-payments-payment-request-button-handler.php:965
 #: dist/index.js:2
+#, gp-priority: normal
 msgid "Pending"
 msgstr "Pendiente"
 
 #. translators: This will be used to indicate an unknown value for an ID.
-#: includes/class-wc-payment-gateway-wcpay.php:2177
+#: includes/class-wc-payment-gateway-wcpay.php:2201
 #: includes/payment-methods/class-cc-payment-method.php:47 dist/index.js:2
+#, gp-priority: normal
 msgid "unknown"
 msgstr "desconocido"
 
-#: includes/admin/class-wc-payments-admin.php:158 dist/index.js:2
+#: includes/admin/class-wc-payments-admin.php:160 dist/index.js:2
+#, gp-priority: normal
 msgid "Connect"
 msgstr "Conectar"
 
 #. Author of the plugin
+#, gp-priority: normal
 msgid "Automattic"
 msgstr "Automattic"
 
 #. Author URI of the plugin
+#, gp-priority: normal
 msgid "https://woocommerce.com/"
 msgstr "https://woocommerce.com/"
 
-#: includes/class-wc-payment-gateway-wcpay.php:194
+#: includes/class-wc-payment-gateway-wcpay.php:205
+#, gp-priority: normal
 msgid "Debug log"
 msgstr "Registro de depuración"
 
-#: includes/admin/class-wc-payments-admin.php:140
-#: includes/admin/class-wc-payments-admin.php:202 dist/index.js:2
+#: includes/admin/class-wc-payments-admin.php:142
+#: includes/admin/class-wc-payments-admin.php:206 dist/index.js:2
+#, gp-priority: normal
 msgid "Payments"
 msgstr "Pagos"
 
-#: includes/admin/class-wc-payments-admin.php:247
-#: includes/admin/class-wc-payments-admin.php:689
-#: includes/class-wc-payments.php:362
+#: includes/admin/class-wc-payments-admin.php:271
+#: includes/admin/class-wc-payments-admin.php:756
+#: includes/class-wc-payments.php:408 dist/settings.js:2
+#, gp-priority: normal
 msgid "Settings"
 msgstr "Ajustes"

@@ -2,19 +2,20 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-29 16:51:16+0000\n"
+"PO-Revision-Date: 2022-04-27 10:33:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: el_GR\n"
 "Project-Id-Version: WordPress - 5.9.x - Development\n"
 
 #. translators: Use this to specify the proper Google Font name and variants to
 #. load that is supported by your language. Do not translate. Set to 'off' to
 #. disable loading.
-#: wp-includes/script-loader.php:1514
+#: wp-includes/script-loader.php:1524
+#, gp-priority: high
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
 msgstr "Noto Serif:400,400i,700,700i"
@@ -22,6 +23,7 @@ msgstr "Noto Serif:400,400i,700,700i"
 #. translators: If comment number in your language requires declension,
 #. translate this to 'on'. Do not translate into your own language.
 #: wp-includes/comment-template.php:915
+#, gp-priority: high
 msgctxt "Comment number declension: on or off"
 msgid "off"
 msgstr "off"
@@ -30,12 +32,14 @@ msgstr "off"
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
 #. not translate into your own language.
 #: wp-includes/general-template.php:871
+#, gp-priority: high
 msgid "html_lang_attribute"
 msgstr "html_lang_attribute"
 
 #. translators: If months in your language require a genitive case, translate
 #. this to 'on'. Do not translate into your own language.
 #: wp-includes/functions.php:347
+#, gp-priority: high
 msgctxt "decline months names: on or off"
 msgid "off"
 msgstr "on"
@@ -44,8 +48,9 @@ msgstr "on"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:3930 wp-includes/script-loader.php:1751
+#: wp-includes/formatting.php:3930 wp-includes/script-loader.php:1761
 #: wp-includes/js/dist/editor.js:10717
+#, gp-priority: high
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -54,44 +59,91 @@ msgstr "words"
 #: wp-includes/widgets/class-wp-widget-meta.php:91 wp-login.php:123
 #: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
 #: wp-admin/upgrade.php:68
+#, gp-priority: high
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
 #. translators: If there are characters in your language that are not supported
 #. by Open Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: wp-includes/script-loader.php:1424
+#: wp-includes/script-loader.php:1434
+#, gp-priority: high
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#. translators: Localized date and time format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Date/Time format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Links last updated date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: wp-includes/class-wp-locale.php:367 wp-includes/script-loader.php:154
+#: wp-includes/script-loader.php:375 wp-admin/includes/schema.php:430
+#, gp-priority: high
+msgid "F j, Y g:i a"
+msgstr "d/m/Y, H:i"
+
+#. translators: Localized date format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Date format, see https://www.php.net/manual/datetime.format.php
+#. translators: 1: Name of most recent post author, 2: Post edited date, 3:
+#. Post edited time.
+#. translators: 1: Post edited date, 2: Post edited time.
+#. translators: 1: Post creation date, 2: Post creation time.
+#. translators: Default date format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: 1: Date, 2: Time.
+#: wp-includes/class-wp-locale.php:363 wp-includes/media.php:4016
+#: wp-includes/script-loader.php:153 wp-includes/script-loader.php:373
+#: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
+#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:1573
+#: wp-admin/includes/ajax-actions.php:2811
+#: wp-admin/includes/ajax-actions.php:2814
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:71
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:86
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:226
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:229
+#: wp-admin/includes/class-wp-privacy-policy-content.php:382
+#: wp-admin/includes/dashboard.php:656 wp-admin/includes/media.php:1703
+#: wp-admin/includes/schema.php:426 wp-admin/options-general.php:293
+#: wp-admin/options-general.php:319 wp-admin/update-core.php:1057
+#, gp-priority: high
+msgid "F j, Y"
+msgstr "j F Y"
+
 #. translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
 #: wp-includes/class-wp-locale.php:217 wp-includes/script-loader.php:275
 #: wp-includes/js/dist/i18n.js:1465
+#, gp-priority: high
 msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
 #. translators: Closing curly single quote.
 #: wp-includes/formatting.php:99
+#, gp-priority: high
 msgctxt "closing curly single quote"
 msgid "&#8217;"
 msgstr "&#8217;"
 
 #. translators: Opening curly single quote.
 #: wp-includes/formatting.php:97
+#, gp-priority: high
 msgctxt "opening curly single quote"
 msgid "&#8216;"
 msgstr "&#8216;"
 
 #. translators: Closing curly double quote.
 #: wp-includes/formatting.php:86
+#, gp-priority: high
 msgctxt "closing curly double quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: Opening curly double quote.
 #: wp-includes/formatting.php:84 wp-includes/formatting.php:5524
+#, gp-priority: high
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -99,22 +151,191 @@ msgstr "&#8220;"
 #. translators: $thousands_sep argument for https://www.php.net/number_format,
 #. default is ','
 #: wp-includes/class-wp-locale.php:200
+#, gp-priority: high
 msgid "number_format_thousands_sep"
 msgstr "number_format_thousands_sep"
 
 #. translators: $dec_point argument for https://www.php.net/number_format,
 #. default is '.'
 #: wp-includes/class-wp-locale.php:208
+#, gp-priority: high
 msgid "number_format_decimal_point"
 msgstr "number_format_decimal_point"
 
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:128 wp-includes/class-wp-locale.php:137
+#: wp-includes/class-wp-locale.php:146
+#, gp-priority: high
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:127 wp-includes/class-wp-locale.php:136
+#: wp-includes/class-wp-locale.php:145
+#, gp-priority: high
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:126 wp-includes/class-wp-locale.php:135
+#: wp-includes/class-wp-locale.php:144
+#, gp-priority: high
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:125 wp-includes/class-wp-locale.php:134
+#: wp-includes/class-wp-locale.php:143
+#, gp-priority: high
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Ttree-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:124 wp-includes/class-wp-locale.php:133
+#: wp-includes/class-wp-locale.php:142
+#, gp-priority: high
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:123 wp-includes/class-wp-locale.php:132
+#: wp-includes/class-wp-locale.php:141
+#, gp-priority: high
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#. translators: Weekday.
+#: wp-includes/class-wp-locale.php:122 wp-includes/class-wp-locale.php:131
+#: wp-includes/class-wp-locale.php:140
+#, gp-priority: high
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:160 wp-includes/class-wp-locale.php:188
+#: wp-includes/js/dist/components.js:46842
+#, gp-priority: high
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
+#: wp-includes/js/dist/components.js:46840
+#, gp-priority: high
+msgid "November"
+msgstr "Νοέμβριος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
+#: wp-includes/js/dist/components.js:46838
+#, gp-priority: high
+msgid "October"
+msgstr "Οκτώβριος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
+#: wp-includes/js/dist/components.js:46836
+#, gp-priority: high
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
+#: wp-includes/js/dist/components.js:46834
+#, gp-priority: high
+msgid "August"
+msgstr "Αύγουστος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:155 wp-includes/class-wp-locale.php:183
+#: wp-includes/js/dist/components.js:46832
+#, gp-priority: high
+msgid "July"
+msgstr "Ιούλιος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:154 wp-includes/class-wp-locale.php:182
+#: wp-includes/js/dist/components.js:46830
+#, gp-priority: high
+msgid "June"
+msgstr "Ιούνιος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:153 wp-includes/class-wp-locale.php:181
+#: wp-includes/js/dist/components.js:46828
+#, gp-priority: high
+msgid "May"
+msgstr "Μάιος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:152 wp-includes/class-wp-locale.php:180
+#: wp-includes/js/dist/components.js:46826
+#, gp-priority: high
+msgid "April"
+msgstr "Απρίλιος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:151 wp-includes/class-wp-locale.php:179
+#: wp-includes/js/dist/components.js:46824
+#, gp-priority: high
+msgid "March"
+msgstr "Μάρτιος"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:150 wp-includes/class-wp-locale.php:178
+#: wp-includes/js/dist/components.js:46822
+#, gp-priority: high
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#. translators: Month name.
+#: wp-includes/class-wp-locale.php:149 wp-includes/class-wp-locale.php:177
+#: wp-includes/js/dist/components.js:46820
+#, gp-priority: high
+msgid "January"
+msgstr "Ιανουάριος"
+
 #: wp-includes/category-template.php:161
-#: wp-includes/js/dist/block-editor.js:49018
-#: wp-includes/js/dist/block-editor.js:49023
-#: wp-includes/js/dist/block-editor.js:49477
-#: wp-includes/js/dist/edit-post.js:5207 wp-admin/includes/upgrade.php:158
+#: wp-includes/js/dist/block-editor.js:49140
+#: wp-includes/js/dist/block-editor.js:49145
+#: wp-includes/js/dist/block-editor.js:49599
+#: wp-includes/js/dist/edit-post.js:5209 wp-admin/includes/upgrade.php:158
+#, gp-priority: high
 msgid "Uncategorized"
 msgstr "Χωρίς κατηγορία"
+
+#. translators: 1: Link to Site Editor documentation on HelpHub, 2: HTML
+#. button.
+#: wp-includes/script-loader.php:1225
+msgid "Hurray! Your theme supports Full Site Editing with blocks. <a href=\"%1$s\">Tell me more</a>. %2$s"
+msgstr "Το θέμα εμφάνισης που χρησιμοποιείτε υποστηρίζει πλήρη τροποποίηση του ιστότοπου με τη χρήση μπλοκ. <a href=\"%1$s\">Θέλω να μάθω περισσότερα</a>. %2$s"
+
+#: wp-includes/script-loader.php:1226 wp-includes/js/dist/edit-site.js:2966
+msgid "https://wordpress.org/support/article/site-editor/"
+msgstr "https://wordpress.org/support/article/site-editor/"
 
 #: wp-includes/blocks/site-logo.php:89
 msgid "Site icon."
@@ -260,14 +481,27 @@ msgctxt "block description"
 msgid "Display content in multiple columns, with blocks added to each column."
 msgstr "Εμφανίζει περιεχόμενο σε πολλές στήλες, με μπλοκ που προστίθενται σε κάθε στήλη."
 
-#: wp-includes/js/dist/edit-site.js:7426 wp-admin/site-editor.php:27
+#: wp-includes/js/dist/edit-site.js:8460 wp-admin/site-editor.php:27
 msgid "Editor (beta)"
 msgstr "Επεξεργαστής (δοκιμαστική έκδοση) "
 
-#: wp-includes/js/dist/block-library.js:21847 wp-admin/network/sites.php:122
+#: wp-includes/js/dist/block-library.js:21868 wp-admin/network/sites.php:122
 #: wp-admin/network/sites.php:209
 msgid "Confirm"
 msgstr "Επικύρωση"
+
+#: wp-includes/wp-db.php:3353
+msgid "Could not strip invalid text."
+msgstr "Δεν ήταν δυνατή η αφαίρεση μη έγκυρου κειμένου."
+
+#: wp-includes/wp-db.php:2911
+msgid "Could not retrieve table charset."
+msgstr "Δεν ήταν δυνατή η ανάκτηση του πίνακα χαρακτήρων."
+
+#. translators: %s: Database fields where the error occurred.
+#: wp-includes/wp-db.php:2584
+msgid "WordPress database error: Processing the values for the following fields failed: %s. The supplied values may be too long or contain invalid data."
+msgstr "Σφάλμα βάσης δεδομένων WordPress: Η επεξεργασία των τιμών των ακόλουθων πεδίων απέτυχε: %s. Η παρεχόμενη τιμή μπορεί να είναι πολύ μεγάλη ή περιλαμβάνει μη έγκυρα δεδομένα."
 
 #. translators: %s: Database field where the error occurred.
 #: wp-includes/wp-db.php:2578
@@ -277,6 +511,14 @@ msgstr "Σφάλμα βάσης δεδομένων WordPress: Η επεξεργ�
 #: wp-includes/wp-db.php:2040
 msgid "WordPress database error: Could not perform query because it contains invalid data."
 msgstr "Σφάλμα βάσης δεδομένων WordPress: Η ερώτηση δεν μπόρεσε να εκτελεστεί επειδή περιέχει μη έγκυρα δεδομένα."
+
+#: wp-includes/taxonomy.php:665
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "Η περιγραφή δεν εμφανίζεται από προεπιλογής, αλλά κάποια θέματα την εμφανίζουν."
+
+#: wp-includes/taxonomy.php:664
+msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
+msgstr "Ορίστε έναν γονικό όρο για να δημιουργήσετε μια ιεράρχηση. Ο όρος Τζαζ, παραδείγματος χάριν, θα ήταν γονικός για τους Bebop και Big Band."
 
 #: wp-includes/taxonomy.php:662
 msgid "The name is how it appears on your site."
@@ -302,17 +544,57 @@ msgstr "Περιορισμός του αποτελέσματος στους χρ
 msgid "Sorry, you are not allowed to filter users by capability."
 msgstr "Δυστυχώς, δεν επιτρέπεται να φιλτράρετε τους χρήστες με βάση τη δυνατότητα."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:260
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "Η διεύθυνση URL δεν βρέθηκε. Η απόκριση επέστρεψε έναν κωδικό κατάστασης που δεν είναι 200 για αυτήν τη διεύθυνση URL."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:210
+msgid "Sorry, you are not allowed to process remote urls."
+msgstr "Λυπούμαστε, δεν επιτρέπεται να επεξεργάζεστε απομακρυσμένες διευθύνσεις URL."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:138
 msgid "Invalid URL"
 msgstr "Μη έγκυρο URL"
+
+#. translators: 1: HTML meta tag, 2: HTML meta tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:111
+msgid "The Open Graph image link of the %1$s or %2$s element from the URL."
+msgstr "Ο σύνδεσμος εικόνας Open Graph του στοιχείου %1$s ή %2$s από το URL."
+
+#. translators: %s: HTML meta tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:101
+msgid "The content of the %s element from the URL."
+msgstr "Το περιεχόμενο του στοιχείου %s από το URL."
+
+#. translators: %s: HTML link tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:90
+msgid "The favicon image link of the %s element from the URL."
+msgstr "Ο σύνδεσμος εικόνας favicon του στοιχείου %s από τη διεύθυνση URL."
+
+#. translators: %s: HTML title tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:80
+msgid "The contents of the %s element from the URL."
+msgstr "Τα περιεχόμενα του στοιχείου %s από τη διεύθυνση URL."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:46
 msgid "The URL to process."
 msgstr "Η διεύθυνση URL για επεξεργασία."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:881
+msgid "Whether a template is a custom template."
+msgstr "Εάν ένα πρότυπο είναι ένα προσαρμοσμένο πρότυπο."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:872
 msgid "The ID for the author of the template."
 msgstr "Το ID για τον συντάκτη του προτύπου."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:839
+msgid "HTML title for the template, transformed for display."
+msgstr "Ο HTML τίτλος του άρθρου, τροποποιημένο για εμφάνιση. "
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:834
+msgid "Title for the template, as it exists in the database."
+msgstr "Ο τίτλος για το πρότυπο, όπως αυτό υπάρχει στη βάση δεδομένων."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:815
 msgid "Content for the template, as it exists in the database."
@@ -325,6 +607,14 @@ msgstr "Προέλευση προσαρμοσμένου προτύπου"
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:792
 msgid "Type of template."
 msgstr "Τύπος προτύπου."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:744
+msgid "Limit to the specified template part area."
+msgstr "Περιορισμός στην καθορισμένη περιοχή του τμήματος προτύπου."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:377
+msgid "REST namespace route for the taxonomy."
+msgstr "Διαδρομή REST namespace για την ταξινομία."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:361
 msgid "The visibility settings for the post type."
@@ -345,6 +635,10 @@ msgstr "Δεν είναι δυνατή η διαγραφή του μενού."
 #: wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php:103
 msgid "Sorry, you are not allowed to view menus."
 msgstr "Δυστυχώς, δεν επιτρέπεται να προβάλλετε μενού."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php:240
+msgid "The ID of the assigned menu."
+msgstr "Το ID για το καθορισμένο μενού."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php:234
 msgid "The description of the menu location."
@@ -369,13 +663,26 @@ msgstr "Δυστυχώς, δεν επιτρέπεται να προβάλλετ�
 msgid "An alphanumeric identifier for the menu location."
 msgstr "Ένα αλφαριθμητικό αναγνωριστικό για τη θέση του μενού"
 
+#. translators: %s: taxonomy name
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:902
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Οι ανατεθειμένοι όροι στο αντικείμενο στην %s ταξινομία."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:853
 msgid "The URL to which this menu item points."
 msgstr "Η διεύθυνση URL στην οποία οδηγεί αυτό το στοιχείο μενού."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:836
+msgid "The target attribute of the link element for this menu item."
+msgstr "Η ιδιότητα target του συνδέσμου για αυτό το στοιχείο μενού. "
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:802
 msgid "The description of this menu item."
 msgstr "Η περιγραφή αυτού του στοιχείου μενού."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:779
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Κείμενο για το χαρακτηριστικό του στοιχείου συνδέσμου για αυτό το στοιχείο μενου. "
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:771
 msgid "The ID for the parent of the object."
@@ -393,9 +700,17 @@ msgstr "Όνομα του τύπου."
 msgid "HTML title for the object, transformed for display."
 msgstr "Ο HTML τίτλος του αντικειμένου, τροποποιημένο για εμφάνιση"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:725
+msgid "Title for the object, as it exists in the database."
+msgstr "Τίτλος για το αντικείμενο, όπως υπάρχει στη βάση δεδομένων."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:690
 msgid "Get linked object."
 msgstr "Λάβετε ένα συνδεδμένο αντικείμενο."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:454
+msgid "The url is required when using a custom menu item type."
+msgstr "Το url απαιτείται όταν χρησιμοποιείτε ένα τύπο προσαρμοσμένου μενού."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:451
 msgid "The title is required when using a custom menu item type."
@@ -405,6 +720,10 @@ msgstr "Ο τίτλος απαιτείται όταν χρησιμοποιείτ
 msgid "Sorry, you are not allowed to access the global styles on this site."
 msgstr "Δυστυχώς, δεν επιτρέπεται η πρόσβαση στα καθολικά στυλ σε αυτόν τον ιστότοπο."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:489
+msgid "Title of the global styles variation."
+msgstr "Ο τίτλος για το γενικό στυλ παραλλαγής."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:484
 msgid "Global settings."
 msgstr "Γενικές ρυθμίσεις."
@@ -412,6 +731,10 @@ msgstr "Γενικές ρυθμίσεις."
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:479
 msgid "Global styles."
 msgstr "Γενικά στυλ."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:473
+msgid "ID of global styles config."
+msgstr "Το ID ρυθμίσεων των γενικών στυλ."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:135
 msgid "Sorry, you are not allowed to view this global style."
@@ -434,15 +757,19 @@ msgstr "Δυστυχώς, δεν επιτρέπεται να εξάγετε πρ
 msgid "The date when the block was last updated."
 msgstr "Η ημερομηνία τελευταίας ενημέρωσης του μπλοκ."
 
-#: wp-includes/post.php:3153
+#: wp-includes/post.php:3154
 msgctxt "file type group"
 msgid "Video"
 msgstr "Βίντεο"
 
-#: wp-includes/post.php:3144
+#: wp-includes/post.php:3145
 msgctxt "file type group"
 msgid "Audio"
 msgstr "Ήχος"
+
+#: wp-includes/post.php:502
+msgid "Navigation menus that can be inserted into your site."
+msgstr "Μενού πλοήγησης που μπορούν να εισαχθούν στον ιστότοπό σας."
 
 #: wp-includes/post.php:500
 msgid "Navigation Menus list"
@@ -464,6 +791,22 @@ msgstr "Φόρτωση σε αυτό το μενού πλοήγησης"
 msgid "Insert into Navigation Menu"
 msgstr "Εισαγωγή στο μενού πλοήγησης"
 
+#: wp-includes/post.php:495
+msgid "Navigation Menu archives"
+msgstr "Αρχεία μενού πλοήγησης"
+
+#: wp-includes/post.php:494
+msgid "No Navigation Menu found in Trash."
+msgstr "Δεν βρέθηκε μενού πλοήγησης στα διεγραμμένα."
+
+#: wp-includes/post.php:493
+msgid "No Navigation Menu found."
+msgstr "Δεν βρέθηκε μενού πλοήγησης."
+
+#: wp-includes/post.php:492
+msgid "Parent Navigation Menu:"
+msgstr "Γονικό μενού πλοήγησης:"
+
 #: wp-includes/post.php:491
 msgid "Search Navigation Menus"
 msgstr "Αναζήτησης μενού πλοήγησης"
@@ -479,6 +822,10 @@ msgstr "Επεξεργασία μενού πλοήγησης"
 #: wp-includes/post.php:487
 msgid "New Navigation Menu"
 msgstr "Νέο μενού πλοήγησης"
+
+#: wp-includes/post.php:486
+msgid "Add New Navigation Menu"
+msgstr "Προσθήκη νέου μενού πλοήγησης"
 
 #: wp-includes/post.php:485
 msgctxt "Navigation Menu"
@@ -504,11 +851,43 @@ msgctxt "post type general name"
 msgid "Global Styles"
 msgstr "Γενικά στυλ"
 
+#: wp-includes/post.php:415
+msgid "Template parts to include in your templates."
+msgstr "Τμήματα προτύπου που θα συμπεριληφθούν στο πρότυπο σας."
+
+#: wp-includes/post.php:413
+msgid "Template parts list"
+msgstr "Λίστα τμημάτων προτύπου"
+
 #: wp-includes/post.php:411
 msgid "Filter template parts list"
 msgstr "Φιλτράρισμα λίστας μερών προτύπων"
 
-#: wp-includes/post.php:403 wp-includes/js/dist/edit-site.js:5541
+#: wp-includes/post.php:410
+msgid "Uploaded to this template part"
+msgstr "Μεταφορτώθηκε σε αυτό το τμήμα προτύπου"
+
+#: wp-includes/post.php:409
+msgid "Insert into template part"
+msgstr "Εισαγωγή στο μέρος προτύπου"
+
+#: wp-includes/post.php:408
+msgid "Template part archives"
+msgstr "Αρχεία τμημάτων προτύπου"
+
+#: wp-includes/post.php:406
+msgid "No template parts found."
+msgstr "Δεν βρέθηκαν κομμάτια προτύπου."
+
+#: wp-includes/post.php:405
+msgid "Parent Template Part:"
+msgstr "Τμήμα γονικού προτύπου:"
+
+#: wp-includes/post.php:404
+msgid "Search Template Parts"
+msgstr "Αναζητήστε τμημάτων προτύπου"
+
+#: wp-includes/post.php:403 wp-includes/js/dist/edit-site.js:6553
 msgid "Template Parts"
 msgstr "Τμήματα προτύπου"
 
@@ -516,10 +895,27 @@ msgstr "Τμήματα προτύπου"
 msgid "View Template Part"
 msgstr "Προβολή τμήματος προτύπου"
 
+#: wp-includes/post.php:401
+msgid "Edit Template Part"
+msgstr "Επεξεργασία τμήματος προτύπου"
+
+#: wp-includes/post.php:400
+msgid "New Template Part"
+msgstr "Νέο τμήμα προτύπου"
+
+#: wp-includes/post.php:399
+msgid "Add New Template Part"
+msgstr "Προσθήκη νέου τμήματος προτύπου"
+
 #: wp-includes/post.php:398
 msgctxt "Template Part"
 msgid "Add New"
 msgstr "Προσθήκη Νέου"
+
+#: wp-includes/post.php:397
+msgctxt "post type singular name"
+msgid "Template Part"
+msgstr "Τμήμα προτύπου"
 
 #: wp-includes/post.php:396
 msgctxt "post type general name"
@@ -536,6 +932,22 @@ msgctxt "post type general name"
 msgid "Templates"
 msgstr "Πρότυπα"
 
+#: wp-includes/media.php:4474
+#: wp-admin/includes/class-wp-media-list-table.php:154
+msgctxt "media items"
+msgid "Unattached"
+msgstr "Ασύνδετο"
+
+#. translators: 1: Path to the JSON file, 2: Error message.
+#: wp-includes/functions.php:4494
+msgid "Error when decoding a JSON file at path %1$s: %2$s"
+msgstr "Σφάλμα στην αποκωδικοποίηση ενός JSON αρχείου στη διαδρομή %1$s: %2$s"
+
+#. translators: %s: Path to the JSON file.
+#: wp-includes/functions.php:4480
+msgid "File %s doesn't exist!"
+msgstr "Το αρχείο %s δεν υπάρχει!"
+
 #: wp-includes/functions.php:2850 wp-includes/script-loader.php:878
 #: wp-includes/js/dist/media-utils.js:664 wp-admin/includes/file.php:934
 msgid "Sorry, you are not allowed to upload this file type."
@@ -549,6 +961,13 @@ msgstr "Αυτό το θέμα δεν υποστηρίζει προσαρμογ�
 #: wp-includes/comment.php:3552
 msgid "<strong>Error</strong>: Please fill the required fields."
 msgstr "<strong>Σφάλμα</strong>: Παρακαλούμε συμπληρώστε τα απαραίτητα πεδία."
+
+#. translators: %s: Template part slug.
+#. translators: %s: Template part slug
+#: wp-includes/blocks/template-part.php:113
+#: wp-includes/js/dist/block-library.js:39552
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "Το τμήμα του προτύπου έχει διαγραφεί ή δεν είναι διαθέσιμο: %s"
 
 #: wp-includes/blocks/post-navigation-link.php:64
 msgctxt "label before the title of the previous post"
@@ -571,20 +990,24 @@ msgid "Next"
 msgstr "Επόμενο"
 
 #: wp-includes/blocks/navigation.php:555
-#: wp-includes/js/dist/block-library.js:21495
+#: wp-includes/js/dist/block-library.js:21516
 msgid "Close menu"
 msgstr "Κλείσιμο Μενού"
 
 #: wp-includes/blocks/navigation.php:554
-#: wp-includes/js/dist/block-library.js:21465
+#: wp-includes/js/dist/block-library.js:21486
 msgid "Open menu"
 msgstr "Άνοιγμα μενού"
 
 #. translators: Accessibility text. %s: Parent page title.
 #: wp-includes/blocks/navigation-submenu.php:193
-#: wp-includes/blocks/page-list.php:179
+#: wp-includes/blocks/page-list.php:184
 msgid "%s submenu"
 msgstr "%s δευτερεύον μενού"
+
+#: wp-includes/blocks/navigation-link.php:286
+msgid "A link to a post format"
+msgstr "Ένας σύνδεσμος στην μορφή άρθρου"
 
 #: wp-includes/blocks/navigation-link.php:285
 msgid "Post Format Link"
@@ -601,6 +1024,12 @@ msgstr "Δεν είναι δυνατόν να ανοιχθεί το αρχείο
 #: wp-includes/block-template-utils.php:916
 msgid "Zip Export not supported."
 msgstr "Η εξαγωγή zip δεν υποστηρίζεται."
+
+#. translators: %1$s: Template area type, %2$s: the uncategorized template area
+#. value.
+#: wp-includes/block-template-utils.php:216
+msgid "\"%1$s\" is not a supported wp_template_part area value and has been added as \"%2$s\"."
+msgstr "Το \"%1$s\" δεν είναι υποστηριζόμενη τιμή περιοχής wp_template_part και έχει προστεθεί ως \"%2$s\"."
 
 #: wp-includes/block-template-utils.php:178
 msgid "Displays when no content is found."
@@ -628,6 +1057,10 @@ msgstr "Αναζήτηση"
 msgid "Displays individual media items or attachments."
 msgstr "Εμφανίζει μεμονωμένα στοιχεία πολυμέσων ή συνημμένα αρχεία"
 
+#: wp-includes/block-template-utils.php:162
+msgid "Displays latest posts with single post tag."
+msgstr "Προβάλει τα τελευταία άρθρα με μονή ετικέτα άρθρου."
+
 #: wp-includes/block-template-utils.php:161
 msgctxt "Template name"
 msgid "Tag"
@@ -647,15 +1080,27 @@ msgctxt "Template name"
 msgid "Taxonomy"
 msgstr "Ταξινομία"
 
+#: wp-includes/block-template-utils.php:150
+msgid "Displays latest posts in single post category."
+msgstr "Εμφανίζει τις τελευταίες αναρτήσεις από μια επιλεγμένη κατηγορία."
+
 #: wp-includes/block-template-utils.php:149
 msgctxt "Template name"
 msgid "Category"
 msgstr "Κατηγορία"
 
+#: wp-includes/block-template-utils.php:146
+msgid "Displays latest posts written by a single author."
+msgstr "Προβάλει τα τελεταία άρθρα γραμμένα από μοναδικό συντάκτη."
+
 #: wp-includes/block-template-utils.php:145
 msgctxt "Template name"
 msgid "Author"
 msgstr "Συντάκτης"
+
+#: wp-includes/block-template-utils.php:142
+msgid "Displays post categories, tags, and other archives."
+msgstr "Προβάλει κατηγορίες άρθρων, ετικέτες, και άλλα ιστορικά."
 
 #: wp-includes/block-template-utils.php:141
 msgctxt "Template name"
@@ -706,6 +1151,21 @@ msgstr "Αρχική"
 #: wp-includes/block-template-utils.php:118
 msgid "Displays posts."
 msgstr "Εμφανίζει άρθρα."
+
+#: wp-includes/block-template-utils.php:117
+msgctxt "Template name"
+msgid "Index"
+msgstr "Ευρετήριο"
+
+#: wp-includes/block-template-utils.php:87
+#: wp-includes/js/dist/block-library.js:39638
+msgid "The Footer template defines a page area that typically contains site credits, social links, or any other combination of blocks."
+msgstr "Το πρότυπο του υποσέλιδου ορίζει μια περιοχή στη σελίδα η οποία συνήθως περιέχει πληροφορίες για τους συντελεστές του ιστότοπου, συνδέσμους για κοινωνικά δίκτυα ή οποιοδήποτε άλλο συνδυασμό από μπλοκ."
+
+#: wp-includes/block-template-utils.php:78
+#: wp-includes/js/dist/block-library.js:39629
+msgid "The Header template defines a page area that typically contains a title, logo, and main navigation."
+msgstr "Το πρότυπο της κεφαλίδας ορίζει μια περιοχή στη σελίδα η οποία συνήθως περιέχει ένα τίτλο, το λογότυπο και το κεντρικό μενού πλοήγησης."
 
 #: wp-includes/admin-bar.php:432
 msgid "Edit site"
@@ -887,16 +1347,16 @@ msgid "Small"
 msgstr "Μικρό"
 
 #: wp-includes/blocks/query-pagination-previous.php:22
-#: wp-includes/js/dist/block-library.js:31392
+#: wp-includes/js/dist/block-library.js:31465
 msgid "Previous Page"
 msgstr "Προηγούμενη Σελίδα"
 
 #: wp-includes/blocks/query-pagination-next.php:23
-#: wp-includes/js/dist/block-library.js:31179
+#: wp-includes/js/dist/block-library.js:31252
 msgid "Next Page"
 msgstr "Επόμενη Σελίδα"
 
-#: wp-includes/js/dist/block-library.js:30300
+#: wp-includes/js/dist/block-library.js:30373
 #: wp-admin/includes/plugin-install.php:333
 #: wp-admin/includes/theme-install.php:103
 msgid "Keyword"
@@ -1622,19 +2082,19 @@ msgstr "Εμφανίστε ένα μηνιαίο αρχείο των άρθρω�
 #: wp-admin/includes/class-wp-posts-list-table.php:998
 #: wp-admin/includes/class-wp-terms-list-table.php:365
 #: wp-admin/includes/class-wp-users-list-table.php:504
-#: wp-admin/update-core.php:570 wp-admin/update-core.php:744
+#: wp-admin/update-core.php:578 wp-admin/update-core.php:752
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:413
 #: wp-admin/includes/class-wp-ms-users-list-table.php:245
 msgid "Select %s"
 msgstr "Επιλογή %s"
 
-#: wp-includes/js/dist/block-editor.js:14889
-#: wp-includes/js/dist/block-library.js:26152 wp-admin/edit-form-blocks.php:185
+#: wp-includes/js/dist/block-editor.js:14885
+#: wp-includes/js/dist/block-library.js:26200 wp-admin/edit-form-blocks.php:185
 msgid "Type / to choose a block"
 msgstr "Πληκτρολογήστε / για να επιλέξετε ένα μπλοκ"
 
-#: wp-includes/js/dist/block-editor.js:45235
-#: wp-includes/js/dist/edit-site.js:3698 wp-includes/js/dist/edit-site.js:4581
+#: wp-includes/js/dist/block-editor.js:45357
+#: wp-includes/js/dist/edit-site.js:4720 wp-includes/js/dist/edit-site.js:5593
 #: wp-admin/includes/class-wp-screen.php:1204 wp-admin/includes/theme.php:342
 #: wp-admin/includes/theme.php:378 wp-admin/index.php:70
 msgid "Layout"
@@ -2098,22 +2558,22 @@ msgstr "Μοναδικό αναγνωριστικό για το συνημμέν
 msgid "Cookie check failed"
 msgstr "Ο έλεγχος cookie απέτυχε"
 
-#: wp-includes/post.php:1994
+#: wp-includes/post.php:1995
 msgctxt "navigation link block description"
 msgid "A link to a page."
 msgstr "Ένας σύνδεσμος προς μια σελίδα."
 
-#: wp-includes/post.php:1993
+#: wp-includes/post.php:1994
 msgctxt "navigation link block description"
 msgid "A link to a post."
 msgstr "Ένας σύνδεσμος προς ένα άρθρο."
 
-#: wp-includes/post.php:1990
+#: wp-includes/post.php:1991
 msgctxt "navigation link block title"
 msgid "Page Link"
 msgstr "Σύνδεσμος Σελίδας"
 
-#: wp-includes/post.php:1989
+#: wp-includes/post.php:1990
 msgctxt "navigation link block title"
 msgid "Post Link"
 msgstr "Σύνδεσμος Άρθρου"
@@ -2183,7 +2643,7 @@ msgctxt "Template"
 msgid "Add New"
 msgstr "Προσθήκη Νέου"
 
-#: wp-includes/post.php:343 wp-includes/js/dist/edit-site.js:5533
+#: wp-includes/post.php:343 wp-includes/js/dist/edit-site.js:6545
 msgid "Templates"
 msgstr "Πρότυπα"
 
@@ -2206,16 +2666,16 @@ msgstr "(Σύνδεσμος Αρχικής, ανοίγει σε μια νέα κ
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "Το μπλοκ \"%1$s\" δηλώνει υποστήριξη %2$s στο %3$s κάτω από %4$s. Η υποστήριξη του %2$s τώρα είναι δηλωμένη κάτω από %5$s"
 
-#: wp-includes/block-template.php:229
+#: wp-includes/block-template.php:233
 msgid "No matching template found"
 msgstr "Δεν βρέθηκε πρότυπο που να ταιριάζει"
 
-#: wp-includes/block-template.php:97
+#: wp-includes/block-template.php:101
 msgid "No matching template found."
 msgstr "Δεν βρέθηκε πρότυπο που να ταιριάζει."
 
 #. translators: %s: Template title
-#: wp-includes/block-template.php:81
+#: wp-includes/block-template.php:85
 msgid "Empty template: %s"
 msgstr "Κενό πρότυπο: %s"
 
@@ -2302,7 +2762,7 @@ msgstr[1] "%s διαθέσιμες ενημερώσεις"
 
 #: wp-includes/blocks/latest-posts.php:139
 #: wp-includes/blocks/latest-posts.php:154
-#: wp-includes/js/dist/block-library.js:26854
+#: wp-includes/js/dist/block-library.js:26902
 msgid "This content is password protected."
 msgstr "Το περιεχόμενο προστατεύεται με κωδικό πρόσβασης."
 
@@ -2528,7 +2988,7 @@ msgid "Filter by category"
 msgstr "Φίλτρο κατά κατηγορία"
 
 #. translators: Documentation explaining HTTPS and why it should be used.
-#: wp-includes/functions.php:8104
+#: wp-includes/functions.php:8111
 msgid "https://wordpress.org/support/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
 
@@ -2803,8 +3263,8 @@ msgstr "&larr; Επιστροφή στις ετικέτες"
 msgid "&#8592; Go to library"
 msgstr "&#8592; Μετάβαση στη βιβλιοθήκη"
 
-#: wp-includes/js/dist/block-editor.js:22759
-#: wp-includes/js/dist/edit-post.js:5329 wp-admin/menu.php:188
+#: wp-includes/js/dist/block-editor.js:22755
+#: wp-includes/js/dist/edit-post.js:5331 wp-admin/menu.php:188
 msgid "Appearance"
 msgstr "Εμφάνιση"
 
@@ -3134,15 +3594,15 @@ msgid "There is a new version of %s available, but it doesn&#8217;t work with yo
 msgstr "Υπάρχει μία νέα έκδοση διαθέσιμη για το θέμα %s, αλλά δεν είναι συμβατή με τις εκδόσεις του WordPress και της PHP που χρησιμοποιείτε."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:220
-#: wp-admin/includes/theme.php:996 wp-admin/theme-install.php:335
-#: wp-admin/theme-install.php:521 wp-admin/themes.php:501
+#: wp-admin/includes/theme.php:996 wp-admin/theme-install.php:336
+#: wp-admin/theme-install.php:524 wp-admin/themes.php:501
 #: wp-admin/themes.php:860 wp-admin/themes.php:1008
 msgid "This theme doesn&#8217;t work with your version of PHP."
 msgstr "Αυτό το θέμα δεν λειτουργεί με την δική σας έκδοση PHP."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:209
-#: wp-admin/includes/theme.php:985 wp-admin/theme-install.php:324
-#: wp-admin/theme-install.php:510 wp-admin/themes.php:492
+#: wp-admin/includes/theme.php:985 wp-admin/theme-install.php:325
+#: wp-admin/theme-install.php:513 wp-admin/themes.php:492
 #: wp-admin/themes.php:849 wp-admin/themes.php:997
 msgid "This theme doesn&#8217;t work with your version of WordPress."
 msgstr "Αυτό το θέμα δεν είναι συμβατό με την έκδοση του WordPress που χρησιμοποιείτε."
@@ -3160,15 +3620,15 @@ msgstr "Αυτό το θέμα δεν είναι συμβατό με την έκ
 #: wp-admin/includes/theme.php:931 wp-admin/includes/theme.php:977
 #: wp-admin/includes/theme.php:1000 wp-admin/includes/update-core.php:1036
 #: wp-admin/includes/update.php:745 wp-admin/includes/update.php:772
-#: wp-admin/install.php:244 wp-admin/theme-install.php:316
-#: wp-admin/theme-install.php:339 wp-admin/theme-install.php:502
-#: wp-admin/theme-install.php:525 wp-admin/themes.php:426
+#: wp-admin/install.php:244 wp-admin/theme-install.php:317
+#: wp-admin/theme-install.php:340 wp-admin/theme-install.php:505
+#: wp-admin/theme-install.php:528 wp-admin/themes.php:426
 #: wp-admin/themes.php:453 wp-admin/themes.php:486 wp-admin/themes.php:505
 #: wp-admin/themes.php:777 wp-admin/themes.php:808 wp-admin/themes.php:841
 #: wp-admin/themes.php:864 wp-admin/themes.php:989 wp-admin/themes.php:1012
 #: wp-admin/themes.php:1056 wp-admin/themes.php:1087
-#: wp-admin/update-core.php:100 wp-admin/update-core.php:533
-#: wp-admin/update-core.php:699 wp-admin/update-core.php:723
+#: wp-admin/update-core.php:100 wp-admin/update-core.php:541
+#: wp-admin/update-core.php:707 wp-admin/update-core.php:731
 #: wp-admin/upgrade.php:86
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
 msgstr "<a href=\"%s\">Μάθετε περισσότερα για την ενημέρωση της PHP</a>."
@@ -3185,13 +3645,13 @@ msgstr "<a href=\"%s\">Μάθετε περισσότερα για την ενη�
 #: wp-admin/includes/theme.php:894 wp-admin/includes/theme.php:916
 #: wp-admin/includes/theme.php:971 wp-admin/includes/theme.php:989
 #: wp-admin/includes/update.php:739 wp-admin/includes/update.php:759
-#: wp-admin/theme-install.php:310 wp-admin/theme-install.php:328
-#: wp-admin/theme-install.php:496 wp-admin/theme-install.php:514
+#: wp-admin/theme-install.php:311 wp-admin/theme-install.php:329
+#: wp-admin/theme-install.php:499 wp-admin/theme-install.php:517
 #: wp-admin/themes.php:420 wp-admin/themes.php:440 wp-admin/themes.php:480
 #: wp-admin/themes.php:496 wp-admin/themes.php:771 wp-admin/themes.php:793
 #: wp-admin/themes.php:835 wp-admin/themes.php:853 wp-admin/themes.php:983
 #: wp-admin/themes.php:1001 wp-admin/themes.php:1050 wp-admin/themes.php:1072
-#: wp-admin/update-core.php:693 wp-admin/update-core.php:714
+#: wp-admin/update-core.php:701 wp-admin/update-core.php:722
 msgid "<a href=\"%s\">Please update WordPress</a>."
 msgstr "<a href=\"%s\">Παρακαλούμε ενημερώστε το WordPress</a>."
 
@@ -3201,17 +3661,17 @@ msgstr "<a href=\"%s\">Παρακαλούμε ενημερώστε το WordPres
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:678
 #: wp-admin/includes/class-wp-plugins-list-table.php:1279
 #: wp-admin/includes/theme.php:886 wp-admin/includes/theme.php:963
-#: wp-admin/includes/update.php:731 wp-admin/theme-install.php:302
-#: wp-admin/theme-install.php:488 wp-admin/themes.php:412
+#: wp-admin/includes/update.php:731 wp-admin/theme-install.php:303
+#: wp-admin/theme-install.php:491 wp-admin/themes.php:412
 #: wp-admin/themes.php:472 wp-admin/themes.php:763 wp-admin/themes.php:827
 #: wp-admin/themes.php:975 wp-admin/themes.php:1042
-#: wp-admin/update-core.php:680
+#: wp-admin/update-core.php:688
 msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
 msgstr "<a href=\"%1$s\">Παρακαλούμε ενημερώστε το WordPress</a>, και στη συνέχεια <a href=\"%2$s\">μάθετε περισσότερα για την ενημέρωση της PHP</a>."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:183
-#: wp-admin/includes/theme.php:959 wp-admin/theme-install.php:298
-#: wp-admin/theme-install.php:484 wp-admin/themes.php:468
+#: wp-admin/includes/theme.php:959 wp-admin/theme-install.php:299
+#: wp-admin/theme-install.php:487 wp-admin/themes.php:468
 #: wp-admin/themes.php:823 wp-admin/themes.php:971
 msgid "This theme doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "Αυτό το θέμα δεν είναι συμβατό με την έκδοση του WordPress και της PHP που χρησιμοποιείτε."
@@ -3247,7 +3707,7 @@ msgstr "Λυπούμαστε, δεν σας επιτρέπεται να διαχ
 msgid "The REST API route definition for %1$s is missing the required %2$s argument. For REST API routes that are intended to be public, use %3$s as the permission callback."
 msgstr "Το απαιτούμενο όρισμα %2$s λείπει από τον ορισμό της διαδρομής %1$s του REST API. Για διαδρομές του REST API που πρόκειται να χρησιμοποιηθούν δημόσια, χρησιμοποιήστε το %3$s ως συνάρτηση επανάκλησης για τα δικαιώματα."
 
-#: wp-includes/post.php:4407
+#: wp-includes/post.php:4408
 msgid "Could not update attachment in the database."
 msgstr "Αδυναμία ενημέρωσης συνημμένου στη βάση δεδομένων."
 
@@ -3259,7 +3719,7 @@ msgstr "Λυπούμαστε, δεν σας επιτρέπεται να ενερ
 #. translators: byline. %s: current author.
 #. translators: %s: the author.
 #: wp-includes/blocks/latest-posts.php:115 wp-includes/blocks/rss.php:60
-#: wp-includes/js/dist/block-library.js:17952
+#: wp-includes/js/dist/block-library.js:17973
 msgid "by %s"
 msgstr "από %s"
 
@@ -3274,8 +3734,8 @@ msgid "Comment"
 msgstr "Σχόλιο"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1372
-#: wp-includes/js/dist/block-library.js:16294
-#: wp-includes/js/dist/block-library.js:33892
+#: wp-includes/js/dist/block-library.js:16315
+#: wp-includes/js/dist/block-library.js:33965
 #: wp-admin/includes/image-edit.php:54
 msgid "Crop"
 msgstr "Περικοπή"
@@ -3453,7 +3913,7 @@ msgstr "Λεπτομέρειες συνημμένου"
 msgid "Add media"
 msgstr "Προσθήκη πολυμέσων"
 
-#: wp-includes/post.php:4430
+#: wp-includes/post.php:4431
 msgid "Could not insert attachment into the database."
 msgstr "Δεν ήταν δυνατή η εισαγωγή του συνημμένου στη βάση δεδομένων."
 
@@ -3473,7 +3933,7 @@ msgstr "Το %s δεν είναι έγκυρο UUID."
 
 #: wp-includes/rest-api.php:2165
 msgid "Invalid hex color."
-msgstr "Μη έγκυρος δεκαεξαδικός χρωματικός κώδικας"
+msgstr "Μη έγκυρος δεκαεξαδικός χρωματικός κώδικας."
 
 #. translators: 1: Parameter, 2: Pattern.
 #: wp-includes/rest-api.php:2613
@@ -3718,7 +4178,7 @@ msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr "Ένα ενεργό πρόσθετο δεν μπορεί να διαγραφεί. Παρακαλώ απενεργοποιήστε το πρώτα."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:507
-#: wp-admin/includes/ajax-actions.php:4574 wp-admin/plugins.php:269
+#: wp-admin/includes/ajax-actions.php:4597 wp-admin/plugins.php:269
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "Λυπούμαστε, δεν σας επιτρέπεται να διαγράψετε πρόσθετα για αυτό τον ιστότοπο."
 
@@ -3727,12 +4187,12 @@ msgid "Unable to determine what plugin was installed."
 msgstr "Αδύνατον να προσδιοριστεί ποιο πρόσθετο εγκαταστάθηκε."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:349
-#: wp-admin/includes/ajax-actions.php:4108
-#: wp-admin/includes/ajax-actions.php:4238
-#: wp-admin/includes/ajax-actions.php:4302
-#: wp-admin/includes/ajax-actions.php:4402
-#: wp-admin/includes/ajax-actions.php:4529
-#: wp-admin/includes/ajax-actions.php:4598
+#: wp-admin/includes/ajax-actions.php:4128
+#: wp-admin/includes/ajax-actions.php:4261
+#: wp-admin/includes/ajax-actions.php:4325
+#: wp-admin/includes/ajax-actions.php:4425
+#: wp-admin/includes/ajax-actions.php:4552
+#: wp-admin/includes/ajax-actions.php:4621
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Αδύνατη η σύνδεση στο σύστημα αρχείων. Παρακαλώ επιβεβαιώστε τα διαπιστευτήρια σας."
 
@@ -3741,7 +4201,7 @@ msgid "Sorry, you are not allowed to activate plugins."
 msgstr "Λυπούμαστε, δεν σας επιτρέπεται η ενεργοποίηση προσθέτων."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:245
-#: wp-admin/includes/ajax-actions.php:4355 wp-admin/plugin-install.php:19
+#: wp-admin/includes/ajax-actions.php:4378 wp-admin/plugin-install.php:19
 #: wp-admin/update.php:107 wp-admin/update.php:152 wp-admin/update.php:186
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "Λυπούμαστε, δεν σας επιτρέπεται η εγκατάσταση προσθέτων σε αυτό τον ιστότοπο."
@@ -3755,8 +4215,8 @@ msgstr "Το πρόσθετο δεν βρέθηκε."
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:166
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:429
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:499
-#: wp-admin/includes/ajax-actions.php:4650
-#: wp-admin/includes/ajax-actions.php:4702 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:4673
+#: wp-admin/includes/ajax-actions.php:4725 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Λυπούμαστε, δεν σας επιτρέπεται να διαχειριστείτε πρόσθετα για αυτό τον ιστότοπο."
 
@@ -4153,11 +4613,11 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "σύνδεσμοι"
 
-#: wp-includes/media.php:4544 wp-includes/js/dist/block-library.js:40938
+#: wp-includes/media.php:4544 wp-includes/js/dist/block-library.js:41103
 msgid "Select poster image"
 msgstr "Επιλέξτε εικόνα εξωφύλλου"
 
-#: wp-includes/js/dist/edit-post.js:7501 wp-admin/edit-form-advanced.php:145
+#: wp-includes/js/dist/edit-post.js:7503 wp-admin/edit-form-advanced.php:145
 msgid "View post"
 msgstr "Προβολή άρθρου"
 
@@ -4381,7 +4841,7 @@ msgctxt "media modal menu actions"
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: wp-includes/post.php:3180
+#: wp-includes/post.php:3181
 msgctxt "file type group"
 msgid "Archives"
 msgstr "Αρχείο"
@@ -4392,7 +4852,7 @@ msgstr "Λίστα παραλειπόμενων μεγεθών του συνημ
 
 #: wp-includes/user.php:235
 msgid "Unknown email address. Check again or try your username."
-msgstr "Άγνωση διεύθυνση email. Ελέγξτε ξανά ή δοκιμάστε το όνομα χρήστη σας."
+msgstr "Άγνωστη διεύθυνση email. Ελέγξτε ξανά ή δοκιμάστε το όνομα χρήστη σας."
 
 #: wp-includes/media.php:4569
 msgid "Media list"
@@ -4402,20 +4862,20 @@ msgstr "Λίστα πολυμέσων"
 msgid "Filter media"
 msgstr "Φιλτράρισμα πολυμέσων"
 
-#: wp-includes/media-template.php:316 wp-includes/js/dist/block-editor.js:4876
-#: wp-includes/js/dist/block-library.js:17896
-#: wp-includes/js/dist/block-library.js:29812
-#: wp-includes/js/dist/block-library.js:32529
+#: wp-includes/media-template.php:316 wp-includes/js/dist/block-editor.js:4877
+#: wp-includes/js/dist/block-library.js:17917
+#: wp-includes/js/dist/block-library.js:29885
+#: wp-includes/js/dist/block-library.js:32602
 #: wp-admin/includes/class-wp-media-list-table.php:45
 msgid "Grid view"
 msgstr "Προβολή πλέγματος"
 
-#: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:4679
-#: wp-includes/js/dist/block-editor.js:4712
-#: wp-includes/js/dist/block-library.js:17889
-#: wp-includes/js/dist/block-library.js:29805
-#: wp-includes/js/dist/block-library.js:32522
-#: wp-includes/js/dist/edit-post.js:6796 wp-includes/js/dist/edit-site.js:6810
+#: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:4680
+#: wp-includes/js/dist/block-editor.js:4713
+#: wp-includes/js/dist/block-library.js:17910
+#: wp-includes/js/dist/block-library.js:29878
+#: wp-includes/js/dist/block-library.js:32595
+#: wp-includes/js/dist/edit-post.js:6798 wp-includes/js/dist/edit-site.js:7797
 #: wp-includes/js/dist/edit-widgets.js:3083
 #: wp-admin/includes/class-wp-media-list-table.php:44
 msgid "List view"
@@ -4497,7 +4957,7 @@ msgid "Block name must be a string."
 msgstr "Το όνομα του μπλοκ πρέπει να είναι ακολουθία χαρακτήρων."
 
 #. translators: Documentation explaining debugging in WordPress.
-#: wp-includes/functions.php:5757
+#: wp-includes/functions.php:5764
 #: wp-admin/includes/class-wp-site-health.php:1459
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/debugging-in-wordpress/"
@@ -4530,7 +4990,7 @@ msgstr "Δεν υπάρχουν αρκετά δεδομένα για την δη
 msgid "Sorry, marking a user as spam is only supported on Multisite."
 msgstr "Λυπούμαστε, ο χαρακτηρισμός ενός χρήστη ως ανεπιθύμητου υποστηρίζεται μόνο στο Multisite."
 
-#: wp-includes/media.php:5096
+#: wp-includes/media.php:5099
 msgid "User&#8217;s media data."
 msgstr "Δεδομένα πολυμέσων χρήστη."
 
@@ -4544,36 +5004,36 @@ msgid "Number of media items found: %d"
 msgstr "Αριθμός πολυμέσων που βρέθηκαν: %d"
 
 #. translators: %s: Number of archives.
-#: wp-includes/post.php:3183
+#: wp-includes/post.php:3184
 msgid "Archive <span class=\"count\">(%s)</span>"
 msgid_plural "Archives <span class=\"count\">(%s)</span>"
 msgstr[0] "Αρχείο <span class=\"count\">(%s)</span>"
 msgstr[1] "Αρχεία <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:3181
+#: wp-includes/post.php:3182
 msgid "Manage Archives"
 msgstr "Διαχείριση αρχείων"
 
 #. translators: %s: Number of spreadsheets.
-#: wp-includes/post.php:3174
+#: wp-includes/post.php:3175
 msgid "Spreadsheet <span class=\"count\">(%s)</span>"
 msgid_plural "Spreadsheets <span class=\"count\">(%s)</span>"
 msgstr[0] "Υπολογιστικό φύλλο <span class=\"count\">(%s)</span>"
 msgstr[1] "Υπολογιστικά φύλλα <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:3172
+#: wp-includes/post.php:3173
 msgid "Manage Spreadsheets"
 msgstr "Διαχείριση Λογιστικών Φύλλων"
 
-#: wp-includes/post.php:3171
+#: wp-includes/post.php:3172
 msgid "Spreadsheets"
 msgstr "Λογιστικά Φύλλα"
 
-#: wp-includes/post.php:3163
+#: wp-includes/post.php:3164
 msgid "Manage Documents"
 msgstr "Διαχείριση Εγγράφων"
 
-#: wp-includes/post.php:3162
+#: wp-includes/post.php:3163
 msgid "Documents"
 msgstr "Έγγραφα"
 
@@ -4877,7 +5337,7 @@ msgstr "Επαναφορά από τα διαγραμμένα"
 #: wp-admin/includes/translation-install.php:66
 #: wp-admin/includes/translation-install.php:80
 #: wp-admin/includes/translation-install.php:92
-#: wp-admin/includes/update.php:141 wp-admin/theme-install.php:64
+#: wp-admin/includes/update.php:141 wp-admin/theme-install.php:65
 msgid "https://wordpress.org/support/forums/"
 msgstr "https://el.wordpress.org/support/forums/ "
 
@@ -4898,7 +5358,7 @@ msgstr "[%s]  Αίτημα Αλλαγής Email Διαχειριστή Δικτ�
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:7617
+#: wp-includes/functions.php:7624
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] Το Email του Διαχειριστή άλλαξε"
 
@@ -5045,7 +5505,7 @@ msgstr "Ένα σφάλμα τύπου %1$s εντοπίστηκε στη γρα
 #: wp-includes/class-wp-theme.php:346
 #: wp-admin/includes/class-wp-themes-list-table.php:286
 #: wp-admin/theme-editor.php:44 wp-admin/theme-editor.php:371
-#: wp-admin/update-core.php:643
+#: wp-admin/update-core.php:651
 msgid "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 msgstr "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 
@@ -5097,8 +5557,8 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "Missing confirm key."
 msgstr "Λείπει το κλειδί επιβεβαίωσης."
 
-#: wp-login.php:1137 wp-admin/includes/ajax-actions.php:4765
-#: wp-admin/includes/ajax-actions.php:4955
+#: wp-login.php:1137 wp-admin/includes/ajax-actions.php:4788
+#: wp-admin/includes/ajax-actions.php:4978
 msgid "Missing request ID."
 msgstr "Λείπει το ID της αίτησης."
 
@@ -5106,7 +5566,7 @@ msgstr "Λείπει το ID της αίτησης."
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "Η χρήση του στοιχείου Τίτλος στο λογότυπο εισόδου δεν προτείνεται για λόγους προσβασιμότητας. Χρησιμοποιήστε εναλλακτικά το κείμενο με το σύνδεσμο."
 
-#: wp-includes/functions.php:8045
+#: wp-includes/functions.php:8052
 msgid "Update PHP"
 msgstr "Ενημέρωση PHP"
 
@@ -5125,7 +5585,7 @@ msgid "%1$s, and %2$s"
 msgstr "%1$s και %2$s"
 
 #. translators: %s: Number of failed requests.
-#: wp-includes/post.php:678
+#: wp-includes/post.php:679
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "Αποτυχία <span class=\"count\">(%s)</span>"
@@ -5214,11 +5674,11 @@ msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:7988
+#: wp-includes/functions.php:7995
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "Ο πόρος αυτός παρέχεται από τον φιλοξενητή σας και είναι συγκεκριμένος για τον ιστότοπο σας. Για περισσότερες πληροφορίες, <a href=\"%s\" target=\"_blank\">δείτε την επίσημη τεκμηρίωση του WordPress</a>."
 
-#: wp-includes/functions.php:7945
+#: wp-includes/functions.php:7952
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://el.wordpress.org/support/update-php/"
@@ -5294,8 +5754,8 @@ msgstr "Συντομεύσεις πληκτρολογίου κλασσικού �
 msgid "Sorry, you are not allowed to view autosaves of this post."
 msgstr "Λυπούμαστε, δεν μπορείτε να δείτε τις αυτόματες αποθηκεύσεις από αυτό το άρθρο."
 
-#: wp-includes/js/dist/block-library.js:39001
-#: wp-includes/js/dist/edit-post.js:8141 wp-includes/js/dist/edit-site.js:5837
+#: wp-includes/js/dist/block-library.js:39166
+#: wp-includes/js/dist/edit-post.js:8143 wp-includes/js/dist/edit-site.js:6849
 #: wp-admin/options-privacy.php:268
 msgid "Create"
 msgstr "Δημιουργία"
@@ -5305,8 +5765,8 @@ msgctxt "block description"
 msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
 msgstr "Δώστε οπτική έμφαση στο παράθεμα. «Παραθέτοντας άλλους, αναφερόμαστε στους εαυτούς μας.» - Χούλιο Κόρτασαρ"
 
-#: wp-includes/media.php:4520 wp-includes/js/dist/block-library.js:16776
-#: wp-includes/js/dist/block-library.js:16777
+#: wp-includes/media.php:4520 wp-includes/js/dist/block-library.js:16797
+#: wp-includes/js/dist/block-library.js:16798
 msgid "Edit image"
 msgstr "Επεξεργασία εικόνας"
 
@@ -5340,7 +5800,7 @@ msgstr "Μπορείτε να δημιουργήσετε περιεχόμενο 
 msgid "Embeds"
 msgstr "Ενσωματώσεις"
 
-#: wp-includes/js/dist/edit-post.js:5396 wp-includes/js/dist/edit-post.js:7606
+#: wp-includes/js/dist/edit-post.js:5398 wp-includes/js/dist/edit-post.js:7608
 #: wp-admin/includes/meta-boxes.php:1548 wp-admin/menu.php:363
 msgid "Discussion"
 msgstr "Συζήτηση"
@@ -5367,7 +5827,7 @@ msgstr "Αντιγράφηκε!"
 msgid "Submit for Review"
 msgstr "Υποβολή για έλεγχο"
 
-#: wp-includes/media.php:4518 wp-includes/js/dist/block-library.js:12891
+#: wp-includes/media.php:4518 wp-includes/js/dist/block-library.js:12894
 msgid "Replace image"
 msgstr "Αντικατάσταση εικόνας"
 
@@ -5382,23 +5842,22 @@ msgstr "Να επιτρέπονται τα σχόλια"
 msgid "Order"
 msgstr "Σειρά"
 
-#: wp-includes/js/dist/components.js:52621
+#: wp-includes/js/dist/components.js:52638
 #: wp-admin/includes/edit-tag-messages.php:14
 msgid "Item added."
 msgstr "Το στοιχείο προστέθηκε."
 
 #. translators: Accessibility text.
 #. translators: accessibility text
-#: wp-includes/blocks/site-title.php:38
 #: wp-includes/class-wp-customize-manager.php:4344
 #: wp-includes/class-wp-customize-manager.php:5666
 #: wp-includes/class-wp-customize-manager.php:5687
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
-#: wp-includes/functions.php:8047 wp-includes/media-template.php:167
+#: wp-includes/functions.php:8054 wp-includes/media-template.php:167
 #: wp-includes/widgets/class-wp-widget-custom-html.php:318 wp-login.php:648
-#: wp-includes/js/dist/components.js:48312
+#: wp-includes/js/dist/components.js:48318
 #: wp-includes/js/dist/customize-widgets.js:805
-#: wp-includes/js/dist/edit-post.js:4105
+#: wp-includes/js/dist/edit-post.js:4107 wp-includes/js/dist/edit-site.js:2973
 #: wp-includes/js/dist/edit-widgets.js:2677 wp-includes/js/dist/editor.js:7332
 #: wp-admin/includes/class-wp-privacy-policy-content.php:364
 #: wp-admin/includes/class-wp-site-health.php:753
@@ -5478,7 +5937,7 @@ msgstr "Οι ρυθμίσεις ορατότητας για αυτήν την τ
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:380
 msgid "Invalid type parameter."
-msgstr "Εσφαλμένος τύπος παραμέτρου"
+msgstr "Εσφαλμένος τύπος παραμέτρου."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:323
 msgid "Limit results to items of one or more object subtypes."
@@ -5533,45 +5992,45 @@ msgstr "Προεπισκόπιση συνδέσμου για το άρθρο"
 msgid "There is no autosave revision for this post."
 msgstr "Δεν υπάρχει προαποθηκευμένη αναθεώρηση για αυτό το άρθρο."
 
-#: wp-includes/post.php:1987 wp-admin/edit-form-advanced.php:197
+#: wp-includes/post.php:1988 wp-admin/edit-form-advanced.php:197
 #: wp-admin/edit-form-advanced.php:200
 msgid "Page updated."
 msgstr "Η σελίδα ενημερώθηκε."
 
-#: wp-includes/post.php:1987 wp-admin/edit-form-advanced.php:182
+#: wp-includes/post.php:1988 wp-admin/edit-form-advanced.php:182
 #: wp-admin/edit-form-advanced.php:185
 msgid "Post updated."
 msgstr "Το άρθρο ενημερώθηκε."
 
-#: wp-includes/post.php:1986
+#: wp-includes/post.php:1987
 msgid "Page scheduled."
 msgstr "Η σελίδα προγραμματίσθηκε."
 
-#: wp-includes/post.php:1986
+#: wp-includes/post.php:1987
 msgid "Post scheduled."
 msgstr "Το άρθρο προγραμματίσθηκε."
 
-#: wp-includes/post.php:1985
+#: wp-includes/post.php:1986
 msgid "Page reverted to draft."
 msgstr "Η σελίδα επανήλθε σε κατάσταση προσχεδίου."
 
-#: wp-includes/post.php:1985
+#: wp-includes/post.php:1986
 msgid "Post reverted to draft."
 msgstr "Το άρθρο άλλαξε σε πρόχειρο."
 
-#: wp-includes/post.php:1984
+#: wp-includes/post.php:1985
 msgid "Page published privately."
 msgstr "Η σελίδα δημοσιεύτηκε ως απόρρητη."
 
-#: wp-includes/post.php:1984
+#: wp-includes/post.php:1985
 msgid "Post published privately."
 msgstr "Το άρθρο δημοσιεύτικε κατ' ιδίαν."
 
-#: wp-includes/post.php:1983 wp-admin/edit-form-advanced.php:203
+#: wp-includes/post.php:1984 wp-admin/edit-form-advanced.php:203
 msgid "Page published."
 msgstr "Η σελίδα δημοσιεύθηκε."
 
-#: wp-includes/post.php:1983 wp-admin/edit-form-advanced.php:188
+#: wp-includes/post.php:1984 wp-admin/edit-form-advanced.php:188
 msgid "Post published."
 msgstr "Το άρθρο δημοσιεύθηκε."
 
@@ -5828,7 +6287,7 @@ msgstr "ID χρήστη"
 msgid "WordPress User"
 msgstr "Χρήστης WordPress"
 
-#: wp-includes/media.php:5039
+#: wp-includes/media.php:5042
 msgid "WordPress Media"
 msgstr "Πολυμέσα WordPress"
 
@@ -5868,12 +6327,12 @@ msgid "User Requests"
 msgstr "Αιτήματα χρήστη"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:7768
+#: wp-includes/functions.php:7775
 msgid "This content was deleted by the author."
 msgstr "Αυτό το περιεχόμενο διαγράφηκε από τον συντάκτη."
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:7764
+#: wp-includes/functions.php:7771
 msgid "[deleted]"
 msgstr "[διαγράφηκε]"
 
@@ -5922,22 +6381,22 @@ msgstr ""
 "Η ομάδα του ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/post.php:689 wp-includes/post.php:1231
+#: wp-includes/post.php:690 wp-includes/post.php:1232
 msgctxt "request status"
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
-#: wp-includes/post.php:674 wp-includes/post.php:1230
+#: wp-includes/post.php:675 wp-includes/post.php:1231
 msgctxt "request status"
 msgid "Failed"
 msgstr "Απέτυχε"
 
-#: wp-includes/post.php:659 wp-includes/post.php:1229
+#: wp-includes/post.php:660 wp-includes/post.php:1230
 msgctxt "request status"
 msgid "Confirmed"
 msgstr "Επιβεβαιωμένο"
 
-#: wp-includes/post.php:644 wp-includes/post.php:1228
+#: wp-includes/post.php:645 wp-includes/post.php:1229
 msgctxt "request status"
 msgid "Pending"
 msgstr "Σε αναμονή"
@@ -6058,7 +6517,7 @@ msgstr "Προγραμματισμένο"
 #: wp-includes/customize/class-wp-customize-theme-control.php:284
 #: wp-admin/includes/class-wp-theme-install-list-table.php:325
 #: wp-admin/includes/class-wp-theme-install-list-table.php:484
-#: wp-admin/theme-install.php:291
+#: wp-admin/theme-install.php:292
 msgctxt "theme"
 msgid "Installed"
 msgstr "Εγκατεστημένο"
@@ -6210,7 +6669,7 @@ msgid "View Location"
 msgstr "Προβολή τοποθεσίας"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:97
-#: wp-admin/theme-install.php:69 wp-admin/theme-install.php:252
+#: wp-admin/theme-install.php:70 wp-admin/theme-install.php:253
 #: wp-admin/themes.php:236 wp-admin/themes.php:577
 msgid "No themes found. Try a different search."
 msgstr "Δεν βρέθηκαν θέματα. Δοκιμάστε διαφορετική αναζήτηση."
@@ -6260,8 +6719,8 @@ msgid "Displays an image gallery."
 msgstr "Εμφανίζει μια συλλογή εικόνων."
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
-#: wp-includes/js/dist/block-library.js:12546
-#: wp-includes/js/dist/block-library.js:13400
+#: wp-includes/js/dist/block-library.js:12549
+#: wp-includes/js/dist/block-library.js:13403
 #: wp-includes/js/dist/editor.js:6916 wp-admin/includes/media.php:20
 msgid "Gallery"
 msgstr "Συλλογή"
@@ -6549,7 +7008,7 @@ msgstr "Φιλιππινέζικα"
 msgid "Estonian"
 msgstr "Εσθονιανά"
 
-#: wp-includes/script-loader.php:992 wp-includes/js/dist/block-library.js:40577
+#: wp-includes/script-loader.php:992 wp-includes/js/dist/block-library.js:40742
 #: wp-admin/includes/ms.php:669
 msgid "English"
 msgstr "Αγγλικά"
@@ -6610,7 +7069,7 @@ msgstr "Άφρικαανς"
 msgid "Live Broadcast"
 msgstr "Ζωντανή μετάδοση"
 
-#: wp-includes/script-loader.php:977 wp-includes/js/dist/block-library.js:40456
+#: wp-includes/script-loader.php:977 wp-includes/js/dist/block-library.js:40621
 msgid "Chapters"
 msgstr "Κεφάλαια"
 
@@ -6726,7 +7185,7 @@ msgstr "Ο έλεγχος scrape nonce απέτυχε. Παρακαλούμε π
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:7600
+#: wp-includes/functions.php:7607
 msgid ""
 "Hi,\n"
 "\n"
@@ -6752,7 +7211,7 @@ msgstr ""
 "Από όλους μας στο ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:7519
+#: wp-includes/functions.php:7526
 msgid "Only UUID V4 is supported at this time."
 msgstr "Μόνο το UUID V4 υποστηρίζεται αυτή τη στιγμή."
 
@@ -6853,22 +7312,22 @@ msgid "Hour"
 msgstr "Ώρα"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:160
-#: wp-includes/js/dist/components.js:46858
+#: wp-includes/js/dist/components.js:46864
 msgid "Time"
 msgstr "Ώρα"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:146
-#: wp-includes/js/dist/components.js:46791 wp-admin/includes/template.php:826
+#: wp-includes/js/dist/components.js:46797 wp-admin/includes/template.php:826
 msgid "Day"
 msgstr "Ημέρα"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:130
-#: wp-includes/js/dist/components.js:46806 wp-admin/includes/template.php:816
+#: wp-includes/js/dist/components.js:46812 wp-admin/includes/template.php:816
 msgid "Month"
 msgstr "Μήνας"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:127
-#: wp-includes/js/dist/components.js:46842
+#: wp-includes/js/dist/components.js:46848
 #: wp-admin/includes/ajax-actions.php:2192
 #: wp-admin/includes/class-wp-posts-list-table.php:700
 #: wp-admin/includes/class-wp-posts-list-table.php:1650
@@ -7392,42 +7851,42 @@ msgstr "Όλα τα χαρακτηριστικά που υποστηρίζοντ
 msgid "The password for the parent post of the comment (if the post is password protected)."
 msgstr "Το συνθηματικό για το γονικό άρθρο του σχολίου (αν το άρθρο προστατεύεται με συνθηματικό)."
 
-#: wp-includes/post.php:1978
+#: wp-includes/post.php:1979
 msgctxt "page"
 msgid "Use as featured image"
 msgstr "Χρήση ως χαρακτηριστική εικόνα"
 
-#: wp-includes/post.php:1978
+#: wp-includes/post.php:1979
 msgctxt "post"
 msgid "Use as featured image"
 msgstr "Χρήση ως χαρακτηριστική εικόνα"
 
-#: wp-includes/post.php:1977
+#: wp-includes/post.php:1978
 msgctxt "page"
 msgid "Remove featured image"
 msgstr "Αφαίρεση χαρακτηριστικής εικόνας"
 
-#: wp-includes/post.php:1977
+#: wp-includes/post.php:1978
 msgctxt "post"
 msgid "Remove featured image"
 msgstr "Αφαίρεση χαρακτηριστικής εικόνας"
 
-#: wp-includes/post.php:1976
+#: wp-includes/post.php:1977
 msgctxt "page"
 msgid "Set featured image"
 msgstr "Καθορισμός χαρακτηριστικής εικόνας"
 
-#: wp-includes/post.php:1976
+#: wp-includes/post.php:1977
 msgctxt "post"
 msgid "Set featured image"
 msgstr "Καθορισμός χαρακτηριστικής εικόνας"
 
-#: wp-includes/post.php:1975
+#: wp-includes/post.php:1976
 msgctxt "page"
 msgid "Featured image"
 msgstr "Χαρακτηριστική εικόνα"
 
-#: wp-includes/post.php:1975
+#: wp-includes/post.php:1976
 msgctxt "post"
 msgid "Featured image"
 msgstr "Χαρακτηριστική εικόνα"
@@ -7792,13 +8251,13 @@ msgstr "Δεν γίνεται να δημιουργηθεί σχόλιο με α
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:749
 msgid "Invalid slug."
-msgstr "Μη έγκυρο σύντομο όνομα"
+msgstr "Μη έγκυρο σύντομο όνομα."
 
 #: wp-includes/rest-api.php:2177
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:733
 #: wp-includes/user.php:4319 wp-admin/network/site-new.php:96
 msgid "Invalid email address."
-msgstr "Μη έγκυρη διέυθυνση ηλεκτρονικού ταχυδρομείου"
+msgstr "Μη έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:597
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:853
@@ -7809,14 +8268,14 @@ msgstr "Μη έγκυρο περιεχόμενο σχολίου"
 msgid "Invalid JSONP callback function."
 msgstr "Λάθος JSONP callback λειτουργία."
 
-#: wp-includes/post.php:4566
+#: wp-includes/post.php:4567
 msgid "Invalid page template."
 msgstr "Λάθος θέμα σελίδας."
 
-#: wp-includes/post.php:4209 wp-includes/rest-api.php:2171
+#: wp-includes/post.php:4210 wp-includes/rest-api.php:2171
 #: wp-includes/script-loader.php:1221 wp-admin/includes/post.php:191
 msgid "Invalid date."
-msgstr "Μη έγκυρη ημερομηνία"
+msgstr "Μη έγκυρη ημερομηνία."
 
 #: wp-includes/theme.php:1624
 msgid "Video is playing."
@@ -8257,7 +8716,7 @@ msgstr "Χρειάζομαι οπωσδήποτε μια ID για να δουλ
 msgid "Homepage"
 msgstr "Αρχική σελίδα"
 
-#: wp-includes/script-loader.php:828 wp-includes/js/dist/components.js:41876
+#: wp-includes/script-loader.php:828 wp-includes/js/dist/components.js:41882
 msgid "Item selected."
 msgstr "Το στοιχείο επιλέχθηκε."
 
@@ -8979,19 +9438,19 @@ msgstr "Λυπούμαστε, δεν σας επιτρέπεται να ανεβ
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "Το REST API δεν μπορεί να απενεργοποιηθεί εντελώς πλέον, αντ' αυτού μπορεί να χρησιμοποιηθεί το φίλτρο rest_authentication_errors για να περιορίσει την πρόσβαση στο API."
 
-#: wp-includes/post.php:1972 wp-admin/edit-form-advanced.php:419
+#: wp-includes/post.php:1973 wp-admin/edit-form-advanced.php:419
 msgid "Page Attributes"
 msgstr "Χαρακτηριστικά σελίδας"
 
-#: wp-includes/post.php:1972
+#: wp-includes/post.php:1973
 msgid "Post Attributes"
 msgstr "Χαρακτηριστικά άρθρου"
 
-#: wp-includes/post.php:1965
+#: wp-includes/post.php:1966
 msgid "View Pages"
 msgstr "Προβολή σελίδων"
 
-#: wp-includes/post.php:1965
+#: wp-includes/post.php:1966
 msgid "View Posts"
 msgstr "Προβολή άρθρων"
 
@@ -9196,7 +9655,7 @@ msgstr "Λυπούμαστε, το σχόλιό σας δε μπόρεσε να 
 
 #: wp-includes/class-wp-xmlrpc-server.php:2778
 msgid "Invalid role."
-msgstr "Εσφαλμένος ρόλος. "
+msgstr "Μη έγκυρος ρόλος."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2398
 msgid "Sorry, you are not allowed to assign this term."
@@ -9477,8 +9936,8 @@ msgstr "Ανύπαρκτοι όροι."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:252
-#: wp-admin/includes/theme.php:1046 wp-admin/theme-install.php:365
-#: wp-admin/theme-install.php:428 wp-admin/themes.php:548
+#: wp-admin/includes/theme.php:1046 wp-admin/theme-install.php:366
+#: wp-admin/theme-install.php:431 wp-admin/themes.php:548
 #: wp-admin/themes.php:908 wp-admin/themes.php:1129 wp-admin/js/updates.js:1400
 msgctxt "theme"
 msgid "Activate %s"
@@ -9566,7 +10025,7 @@ msgstr "Αδυναμία ανάκτησης του μηνύματος σφάλμ
 msgid "Edit Menu"
 msgstr "Επεξεργασία Μενού"
 
-#: wp-includes/script-loader.php:1805 wp-admin/includes/dashboard.php:1002
+#: wp-includes/script-loader.php:1815 wp-admin/includes/dashboard.php:1002
 msgid "Today"
 msgstr "Σήμερα"
 
@@ -9660,7 +10119,7 @@ msgstr "Επιλογές συνδέσμου"
 msgid "Link inserted."
 msgstr "Ο σύνδεσμος εισήχθηκε."
 
-#: wp-includes/script-loader.php:1132 wp-includes/js/dist/block-editor.js:7580
+#: wp-includes/script-loader.php:1132 wp-includes/js/dist/block-editor.js:7584
 msgid "Link selected."
 msgstr "Ο σύνδεσμος επιλέχθηκε."
 
@@ -9752,36 +10211,36 @@ msgstr "Πρέπει να οριστεί η διαδρομή."
 msgid "Routes must be namespaced with plugin or theme name and version."
 msgstr "Οι διαδρομές πρέπει να είναι ονομασμένες με το όνομα του πρόσθετου ή του θέματος και την έκδοση."
 
-#: wp-includes/post.php:1735
+#: wp-includes/post.php:1736
 msgid "Unregistering a built-in post type is not allowed"
 msgstr "Η απεγγραφή ενός ενσωματωμένου τύπου άρθρου δεν επιτρέπεται"
 
-#: wp-includes/post.php:609
+#: wp-includes/post.php:610
 msgctxt "post status"
 msgid "Trash"
 msgstr "Διαγραμμένο"
 
-#: wp-includes/post.php:595 wp-admin/includes/template.php:2191
+#: wp-includes/post.php:596 wp-admin/includes/template.php:2191
 msgctxt "post status"
 msgid "Private"
 msgstr "Ιδιωτικό"
 
-#: wp-includes/post.php:580 wp-admin/includes/template.php:2205
+#: wp-includes/post.php:581 wp-admin/includes/template.php:2205
 msgctxt "post status"
 msgid "Pending"
 msgstr "Εκκρεμεί"
 
-#: wp-includes/post.php:565 wp-admin/includes/template.php:2198
+#: wp-includes/post.php:566 wp-admin/includes/template.php:2198
 msgctxt "post status"
 msgid "Draft"
 msgstr "Προσχέδιο"
 
-#: wp-includes/post.php:551 wp-admin/includes/template.php:2213
+#: wp-includes/post.php:552 wp-admin/includes/template.php:2213
 msgctxt "post status"
 msgid "Scheduled"
 msgstr "Προγραμματισμένο"
 
-#: wp-includes/post.php:537
+#: wp-includes/post.php:538
 msgctxt "post status"
 msgid "Published"
 msgstr "Δημοσιευμένο"
@@ -9801,14 +10260,14 @@ msgstr "<strong>ΣΦΑΛΜΑ</strong>: Μη έγκυρο όνομα χρήστη
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Ροή για %1$s %2$s %3$s %4$s"
 
-#: wp-includes/functions.php:7083 wp-includes/media-template.php:199
-#: wp-includes/media-template.php:347 wp-includes/js/dist/components.js:53056
+#: wp-includes/functions.php:7090 wp-includes/media-template.php:199
+#: wp-includes/media-template.php:347 wp-includes/js/dist/components.js:53073
 msgid "Close dialog"
 msgstr "Κλείσιμο διαλόγου"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number,
 #. 4: __construct() method.
-#: wp-includes/functions.php:5403
+#: wp-includes/functions.php:5410
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Η κληθείσα μέθοδος δημιουργίας για %1$s σε %2$s έχει <strong>καταργηθεί</strong> από την έκδοση %3$s! Χρησιμοποιήστε την %4$s αντί αυτής."
 
@@ -9877,10 +10336,10 @@ msgstr "Λείπει το πρότυπο. Τα θέματα πρέπει να έ
 #: wp-includes/class-wp-metadata-lazyloader.php:77
 #: wp-includes/class-wp-metadata-lazyloader.php:117
 msgid "Invalid object type."
-msgstr "Μη έγκυρος τύπος αντικειμένου"
+msgstr "Μη έγκυρος τύπος αντικειμένου."
 
 #: wp-includes/class-wp-editor.php:1385
-#: wp-includes/js/dist/block-editor.js:7655
+#: wp-includes/js/dist/block-editor.js:7659
 msgid "Paste URL or type to search"
 msgstr "Επικολλήστε το URL ή πληκτρολογήστε για αναζήτηση"
 
@@ -9936,7 +10395,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Έχει ρυθμιστεί σε: %s)"
 
 #. translators: %s: Documentation URL.
-#: wp-includes/functions.php:5756
+#: wp-includes/functions.php:5763
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Παρακαλώ δείτε τη σελίδα <a href=\"%s\">Debugging in WordPress</a> για περισσότερες πληροφορίες."
 
@@ -10284,35 +10743,35 @@ msgstr "Λείπει παράμετρος(οι): %s"
 msgid "In %1$s, use the %2$s method, not the %3$s function. See %4$s."
 msgstr "Στη %1$s, χρησιμοποιείστε τη μέθοδο %2$s, όχι τη συνάρτηση %3$s. Δείτε το %4$s."
 
-#: wp-includes/post.php:1982
+#: wp-includes/post.php:1983
 msgid "Pages list"
 msgstr "Λίστα σελίδων"
 
-#: wp-includes/post.php:1982
+#: wp-includes/post.php:1983
 msgid "Posts list"
 msgstr "Λίστα άρθρων"
 
-#: wp-includes/post.php:1981
+#: wp-includes/post.php:1982
 msgid "Pages list navigation"
 msgstr "Πλοήγηση λίστας σελίδων"
 
-#: wp-includes/post.php:1981
+#: wp-includes/post.php:1982
 msgid "Posts list navigation"
 msgstr "Λίστα πλοήγησης άρθρων"
 
-#: wp-includes/post.php:1979
+#: wp-includes/post.php:1980
 msgid "Filter pages list"
 msgstr "Φίλτρο λίστας σελίδων"
 
-#: wp-includes/post.php:1979
+#: wp-includes/post.php:1980
 msgid "Filter posts list"
 msgstr "Φίλτρο λίστας άρθρων"
 
-#: wp-includes/post.php:1971
+#: wp-includes/post.php:1972
 msgid "Page Archives"
 msgstr "Αρχείο Σελίδων"
 
-#: wp-includes/post.php:1971
+#: wp-includes/post.php:1972
 msgid "Post Archives"
 msgstr "Αρχείο Άρθρων"
 
@@ -10388,7 +10847,7 @@ msgstr "Ιούν"
 #: wp-includes/class-wp-locale.php:181
 msgctxt "May abbreviation"
 msgid "May"
-msgstr "Μάιος"
+msgstr "Μάι"
 
 #. translators: Three-letter abbreviation of the month.
 #: wp-includes/class-wp-locale.php:180
@@ -10530,7 +10989,7 @@ msgid "Live Preview: %s"
 msgstr "Ζωντανή Προεπισκόπηση: %s"
 
 #: wp-includes/class-wp-customize-manager.php:580
-#: wp-admin/includes/ajax-actions.php:4287 wp-admin/includes/file.php:435
+#: wp-admin/includes/ajax-actions.php:4310 wp-admin/includes/file.php:435
 #: wp-admin/includes/file.php:445 wp-admin/theme-editor.php:70
 #: wp-admin/theme-editor.php:74 wp-admin/themes.php:28 wp-admin/themes.php:71
 msgid "The requested theme does not exist."
@@ -10659,7 +11118,7 @@ msgid "Hide header image"
 msgstr "Απόκρυψη εικόνας κεφαλίδας"
 
 #: wp-includes/class-wp-customize-manager.php:5163
-#: wp-includes/js/dist/edit-post.js:5711 wp-includes/js/dist/edit-site.js:5628
+#: wp-includes/js/dist/edit-post.js:5713 wp-includes/js/dist/edit-site.js:6640
 #: wp-includes/js/dist/editor.js:8893 wp-admin/includes/template.php:2343
 msgid "Site Icon"
 msgstr "Εικονίδιο ιστοτόπου"
@@ -10690,7 +11149,7 @@ msgid "Username may not be longer than 60 characters."
 msgstr "Το όνομα χρήστη δεν θα πρέπει να ξεπερνάει τους 60 χαρακτήρες."
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
-#: wp-includes/functions.php:5415
+#: wp-includes/functions.php:5422
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Η καλούμενη μέθοδος constructor για %1$s είναι <strong>παρωχημένη</strong> από την έκδοση %2$s! Χρησιμοποιείστε %3$s αντί αυτής."
 
@@ -10963,7 +11422,7 @@ msgstr "Σύνδεσμοι"
 #: wp-includes/customize/class-wp-customize-themes-section.php:130
 #: wp-includes/customize/class-wp-customize-themes-section.php:145
 #: wp-admin/plugin-install.php:103 wp-admin/plugins.php:547
-#: wp-admin/theme-install.php:110 wp-admin/themes.php:138
+#: wp-admin/theme-install.php:111 wp-admin/themes.php:138
 msgid "The search results will be updated as you type."
 msgstr "Τα αποτελέσματα αναζήτησης αλλάζουν καθώς πληκτρολογείτε."
 
@@ -11131,8 +11590,8 @@ msgid "Original: %s"
 msgstr "Στόχος: %s"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:133
-#: wp-includes/js/dist/block-library.js:23795
-#: wp-includes/js/dist/block-library.js:24890
+#: wp-includes/js/dist/block-library.js:23816
+#: wp-includes/js/dist/block-library.js:24911
 #: wp-admin/includes/class-walker-nav-menu-edit.php:235
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr "Η περιγραφή εμφανίζεται στο μενού εφόσον υποστηρίζεται από το ενεργό θέμα."
@@ -11227,7 +11686,7 @@ msgstr "Τα ονόματα ταξινομιών πρέπει να ειναι α
 msgid "Site Preview"
 msgstr "Προεπισκόπηση ιστοτόπου"
 
-#: wp-includes/post.php:1684 wp-includes/post.php:1685
+#: wp-includes/post.php:1685 wp-includes/post.php:1686
 msgid "Post type names must be between 1 and 20 characters in length."
 msgstr "Τα ονόματα των τύπων των άρθρων πρέπει να είναι από 1 έως 20 χαρακτήρες σε μήκος."
 
@@ -11242,7 +11701,7 @@ msgstr "F j, Y @ H:i:s"
 #: wp-includes/class-wp-customize-nav-menus.php:457
 #: wp-includes/class-wp-customize-nav-menus.php:506
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
-#: wp-includes/nav-menu.php:916 wp-includes/js/dist/block-library.js:23964
+#: wp-includes/nav-menu.php:916 wp-includes/js/dist/block-library.js:23985
 msgid "Custom Link"
 msgstr "Προσαρμοσμένος σύνδεσμος"
 
@@ -11390,7 +11849,7 @@ msgstr "Κείμενο συνδέσμου"
 #: wp-admin/includes/class-theme-upgrader-skin.php:103
 #: wp-admin/includes/class-wp-themes-list-table.php:223
 #: wp-admin/includes/theme.php:1053 wp-admin/includes/theme.php:1055
-#: wp-admin/theme-install.php:376 wp-admin/theme-install.php:392
+#: wp-admin/theme-install.php:378 wp-admin/theme-install.php:395
 #: wp-admin/themes.php:556 wp-admin/themes.php:565 wp-admin/themes.php:916
 #: wp-admin/themes.php:925 wp-admin/themes.php:1135 wp-admin/themes.php:1146
 #: wp-admin/js/updates.js:1415
@@ -11506,9 +11965,9 @@ msgstr "Διαγραφή"
 msgid "Edit Selection"
 msgstr "Επεξεργασία Επιλογής"
 
-#: wp-includes/script-loader.php:1809
-#: wp-includes/js/dist/block-library.js:27797
-#: wp-includes/js/dist/components.js:53256
+#: wp-includes/script-loader.php:1819
+#: wp-includes/js/dist/block-library.js:27870
+#: wp-includes/js/dist/components.js:53273
 msgid "Previous"
 msgstr "Προηγούμενα"
 
@@ -11637,15 +12096,14 @@ msgid "Custom color"
 msgstr "Προσαρμοσμένο χρώμα"
 
 #: wp-includes/class-wp-editor.php:1267
-#: wp-includes/js/dist/block-editor.js:41892
-#: wp-includes/js/dist/block-editor.js:42396
+#: wp-includes/js/dist/block-editor.js:42008
+#: wp-includes/js/dist/block-editor.js:42518
 #: wp-includes/js/dist/block-library.js:7869
-#: wp-includes/js/dist/block-library.js:22282
-#: wp-includes/js/dist/block-library.js:33263
-#: wp-includes/js/dist/block-library.js:33267
-#: wp-includes/js/dist/block-library.js:36299
-#: wp-includes/js/dist/edit-site.js:3351 wp-includes/js/dist/edit-site.js:4428
-#: wp-includes/js/dist/edit-site.js:4487 wp-includes/js/dist/edit-site.js:4544
+#: wp-includes/js/dist/block-library.js:22303
+#: wp-includes/js/dist/block-library.js:33336
+#: wp-includes/js/dist/block-library.js:33340
+#: wp-includes/js/dist/block-library.js:36286
+#: wp-includes/js/dist/edit-site.js:4373
 msgid "Color"
 msgstr "Χρώμα"
 
@@ -11750,7 +12208,7 @@ msgstr "Αναζήτηση πολυμέσων"
 msgid "Filter by type"
 msgstr "Φίλτρο κατά τύπο"
 
-#: wp-includes/media.php:4486 wp-includes/post.php:1980
+#: wp-includes/media.php:4486 wp-includes/post.php:1981
 msgid "Filter by date"
 msgstr "Φίλτρο κατά ημερομηνία"
 
@@ -11925,7 +12383,7 @@ msgid "Length"
 msgstr "Διάρκεια"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:151
-#: wp-includes/media.php:2900 wp-includes/js/dist/components.js:46847
+#: wp-includes/media.php:2900 wp-includes/js/dist/components.js:46853
 #: wp-admin/includes/template.php:827
 msgid "Year"
 msgstr "Έτος"
@@ -11946,7 +12404,7 @@ msgstr "Καλιτέχνης"
 
 #: wp-includes/media-template.php:1213
 #: wp-includes/widgets/class-wp-widget-media-image.php:130
-#: wp-includes/js/dist/block-editor.js:12088
+#: wp-includes/js/dist/block-editor.js:12083
 msgid "Link CSS Class"
 msgstr "Σύνδεση κλάσης CSS"
 
@@ -11964,12 +12422,12 @@ msgstr "Χαρακτηριστικός τίτλος εικόνας"
 msgid "Advanced Options"
 msgstr "Προχωρημένες ρυθμίσεις"
 
-#: wp-includes/media-template.php:1143 wp-includes/js/dist/components.js:51778
+#: wp-includes/media-template.php:1143 wp-includes/js/dist/components.js:51795
 msgid "Custom Size"
 msgstr "Προσαρμοσμένο μέγεθος"
 
 #: wp-includes/media-template.php:1090
-#: wp-includes/js/dist/block-library.js:33019
+#: wp-includes/js/dist/block-library.js:33092
 msgid "Display Settings"
 msgstr "Εμφάνιση ρυθμίσεων"
 
@@ -12169,7 +12627,7 @@ msgid "Replace"
 msgstr "Αντικατάσταση με"
 
 #: wp-includes/class-wp-editor.php:1240
-#: wp-includes/js/dist/block-library.js:26064
+#: wp-includes/js/dist/block-library.js:26112
 msgctxt "editor button"
 msgid "Left to right"
 msgstr "Αριστερά προς δεξιά"
@@ -12388,10 +12846,10 @@ msgstr "Δημιουργία νέας λίστας αναπαραγωγής"
 #: wp-includes/class-wp-customize-widgets.php:888
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:72
 #: wp-includes/customize/class-wp-customize-themes-panel.php:70
-#: wp-includes/media.php:4450 wp-includes/js/dist/components.js:54113
-#: wp-includes/js/dist/edit-post.js:4428 wp-includes/js/dist/edit-post.js:5736
-#: wp-includes/js/dist/edit-site.js:6163 wp-admin/includes/ms.php:49
-#: wp-admin/theme-install.php:60
+#: wp-includes/media.php:4450 wp-includes/js/dist/components.js:54130
+#: wp-includes/js/dist/edit-post.js:4430 wp-includes/js/dist/edit-post.js:5738
+#: wp-includes/js/dist/edit-site.js:7178 wp-admin/includes/ms.php:49
+#: wp-admin/theme-install.php:61
 msgid "Back"
 msgstr "Επιστροφή"
 
@@ -12405,14 +12863,14 @@ msgstr "Εικόνα αποστολέα"
 
 #: wp-includes/media-template.php:1309 wp-includes/media-template.php:1408
 #: wp-includes/js/dist/block-library.js:2351
-#: wp-includes/js/dist/block-library.js:40397
+#: wp-includes/js/dist/block-library.js:40562
 msgid "Autoplay"
 msgstr "Αυτόματη αναπαραγωγή"
 
 #: wp-includes/media-template.php:1300 wp-includes/media-template.php:1399
 #: wp-includes/js/dist/block-library.js:2374
-#: wp-includes/js/dist/block-library.js:40346
-#: wp-includes/js/dist/block-library.js:40459
+#: wp-includes/js/dist/block-library.js:40511
+#: wp-includes/js/dist/block-library.js:40624
 #: wp-admin/includes/meta-boxes.php:1465
 msgid "Metadata"
 msgstr "Μεταδεδομένα"
@@ -12446,11 +12904,11 @@ msgstr "Εισαγωγή σήμανσης Διαβάστε περισσότερ�
 msgid "Toolbar Toggle"
 msgstr "Εναλλαγή γραμμής εργαλείων"
 
-#: wp-includes/js/dist/block-editor.js:11715
-#: wp-includes/js/dist/block-editor.js:11721
-#: wp-includes/js/dist/block-library.js:21670
+#: wp-includes/js/dist/block-editor.js:11710
+#: wp-includes/js/dist/block-editor.js:11716
+#: wp-includes/js/dist/block-library.js:21691
 #: wp-includes/js/dist/customize-widgets.js:785
-#: wp-includes/js/dist/edit-post.js:4034 wp-includes/js/dist/edit-site.js:407
+#: wp-includes/js/dist/edit-post.js:4036 wp-includes/js/dist/edit-site.js:2959
 #: wp-includes/js/dist/edit-widgets.js:2657 wp-admin/menu.php:345
 #: wp-admin/tools.php:43
 msgid "Tools"
@@ -12461,19 +12919,15 @@ msgid "Show invisible characters"
 msgstr "Εμφάνιση κρυφών χαρακτήρων"
 
 #: wp-includes/class-wp-editor.php:1350
-#: wp-includes/js/dist/block-editor.js:42738
-#: wp-includes/js/dist/edit-site.js:4479
 msgid "Text color"
 msgstr "Χρώμα κειμένου"
 
 #: wp-includes/class-wp-editor.php:1349
-#: wp-includes/js/dist/block-editor.js:42742
-#: wp-includes/js/dist/edit-site.js:4421
 msgid "Background color"
 msgstr "Χρώμα υπόβαθρου"
 
 #: wp-includes/class-wp-editor.php:1318
-#: wp-includes/js/dist/block-library.js:37937
+#: wp-includes/js/dist/block-library.js:38102
 msgid "Delete column"
 msgstr "Διαγραφή στήλης"
 
@@ -12491,9 +12945,9 @@ msgstr "Κεφαλίδα κελιού"
 
 #. translators: accessibility text for the footer landmark region.
 #: wp-includes/block-template-utils.php:86
-#: wp-includes/js/dist/block-library.js:39472
+#: wp-includes/js/dist/block-library.js:39637
 #: wp-includes/js/dist/customize-widgets.js:3979
-#: wp-includes/js/dist/edit-post.js:3144 wp-includes/js/dist/edit-site.js:10120
+#: wp-includes/js/dist/edit-post.js:3146 wp-includes/js/dist/edit-site.js:11324
 #: wp-includes/js/dist/edit-widgets.js:4917
 msgid "Footer"
 msgstr "Υποσέλιδο"
@@ -12535,10 +12989,10 @@ msgid "Find and replace"
 msgstr "Εύρεση και αντικατάσταση"
 
 #: wp-includes/media-template.php:1226 wp-includes/media.php:4448
-#: wp-includes/js/dist/block-editor.js:9030
+#: wp-includes/js/dist/block-editor.js:9025
 #: wp-includes/js/dist/block-library.js:7818
-#: wp-includes/js/dist/block-library.js:39420
-#: wp-includes/js/dist/block-library.js:40950
+#: wp-includes/js/dist/block-library.js:39585
+#: wp-includes/js/dist/block-library.js:41115
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
@@ -12551,7 +13005,7 @@ msgid "Paste as text"
 msgstr "Επικόλληση ως κείμενο"
 
 #: wp-includes/class-wp-editor.php:1243
-#: wp-includes/js/dist/block-library.js:25159
+#: wp-includes/js/dist/block-library.js:25180
 msgid "Page break"
 msgstr "Διακοπή σελίδας"
 
@@ -12592,7 +13046,7 @@ msgid "Insert image"
 msgstr "Εισαγωγή εικόνας"
 
 #: wp-includes/class-wp-editor.php:1221
-#: wp-includes/js/dist/block-editor.js:14738
+#: wp-includes/js/dist/block-editor.js:14734
 msgid "Style"
 msgstr "Στυλ"
 
@@ -12633,7 +13087,7 @@ msgid "Visual aids"
 msgstr "Οπτικά βοηθήματα"
 
 #: wp-includes/class-wp-editor.php:1165
-#: wp-includes/js/dist/block-editor.js:47530
+#: wp-includes/js/dist/block-editor.js:47652
 msgid "Align left"
 msgstr "Στοίχιση αριστερά"
 
@@ -12650,7 +13104,7 @@ msgid "Decrease indent"
 msgstr "Μείωση κενού"
 
 #: wp-includes/class-wp-editor.php:1163
-#: wp-includes/js/dist/block-editor.js:47534
+#: wp-includes/js/dist/block-editor.js:47656
 msgid "Align center"
 msgstr "Στοίχιση στο κέντρο"
 
@@ -12661,9 +13115,9 @@ msgstr "Αφαίρεση μορφοποίησης"
 #. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #. translators: Text label for the Block Settings Sidebar tab.
 #: wp-includes/widgets/class-wp-widget-block.php:45
-#: wp-includes/js/dist/edit-post.js:6858 wp-includes/js/dist/edit-post.js:6877
-#: wp-includes/js/dist/edit-post.js:6879 wp-includes/js/dist/edit-site.js:5149
-#: wp-includes/js/dist/edit-site.js:5164 wp-includes/js/dist/edit-site.js:5166
+#: wp-includes/js/dist/edit-post.js:6860 wp-includes/js/dist/edit-post.js:6879
+#: wp-includes/js/dist/edit-post.js:6881 wp-includes/js/dist/edit-site.js:6161
+#: wp-includes/js/dist/edit-site.js:6176 wp-includes/js/dist/edit-site.js:6178
 #: wp-includes/js/dist/edit-widgets.js:2209
 msgid "Block"
 msgstr "Μπλοκ"
@@ -12677,7 +13131,7 @@ msgid "Numbered list"
 msgstr "Αριθμητική λίστα"
 
 #: wp-includes/class-wp-editor.php:1164
-#: wp-includes/js/dist/block-editor.js:47538
+#: wp-includes/js/dist/block-editor.js:47660
 msgid "Align right"
 msgstr "Στοίχιση δεξιά"
 
@@ -12694,7 +13148,7 @@ msgstr "Επιλέξτε μια περιοχή για να μετακινηθε�
 
 #: wp-includes/class-wp-customize-nav-menus.php:1093
 #: wp-includes/class-wp-customize-widgets.php:721
-#: wp-includes/js/dist/block-editor.js:16455
+#: wp-includes/js/dist/block-editor.js:16451
 #: wp-admin/includes/class-walker-nav-menu-edit.php:147
 #: wp-admin/includes/template.php:1345
 msgid "Move up"
@@ -12702,7 +13156,7 @@ msgstr "Μετακίνηση επάνω"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1094
 #: wp-includes/class-wp-customize-widgets.php:720
-#: wp-includes/js/dist/block-editor.js:16461
+#: wp-includes/js/dist/block-editor.js:16457
 #: wp-admin/includes/class-walker-nav-menu-edit.php:164
 #: wp-admin/includes/template.php:1355
 msgid "Move down"
@@ -12841,14 +13295,14 @@ msgstr "Μια λίστα των σελίδων του ιστότοπου σας
 #: wp-admin/includes/translation-install.php:65
 #: wp-admin/includes/translation-install.php:79
 #: wp-admin/includes/translation-install.php:91
-#: wp-admin/includes/update.php:140 wp-admin/theme-install.php:63
+#: wp-admin/includes/update.php:140 wp-admin/theme-install.php:64
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Ένα αναπάντεχο σφάλμα παρουσιάστηκε. Κάτι μπορει να είναι λάθος με το WordPress.org ή με τις ρυθμίσεις του διακομιστή. Αν συνεχίστε να έχετε προβλήματα, δοκιμάστε τα <a href=\"%s\">φόρα υποστήριξης</a>"
 
 #. translators: To add an additional Open Sans character subset specific to
 #. your language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
 #. translate into your own language.
-#: wp-includes/script-loader.php:1431
+#: wp-includes/script-loader.php:1441
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -12875,7 +13329,7 @@ msgstr "Προεπιλεγμένο"
 
 #: wp-includes/admin-bar.php:212 wp-includes/blocks/navigation.php:559
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:50
-#: wp-includes/js/dist/block-library.js:21460
+#: wp-includes/js/dist/block-library.js:21481
 #: wp-includes/js/dist/core-data.js:1968
 msgid "Menu"
 msgstr "Μενού"
@@ -12989,17 +13443,6 @@ msgstr "#%d (χωρίς τίτλο)"
 msgid "JavaScript must be enabled to use this feature."
 msgstr "Για τη λειτουργία αυτή πρέπει να ενεργοποιήσετε την JavaScript."
 
-#. translators: Localized date and time format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Date/Time format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Links last updated date format, see
-#. https://www.php.net/manual/datetime.format.php
-#: wp-includes/class-wp-locale.php:367 wp-includes/script-loader.php:154
-#: wp-includes/script-loader.php:375 wp-admin/includes/schema.php:430
-msgid "F j, Y g:i a"
-msgstr "d/m/Y, H:i"
-
 #. translators: Localized time format, see
 #. https://www.php.net/manual/datetime.format.php
 #. translators: Time format, see https://www.php.net/manual/datetime.format.php
@@ -13025,33 +13468,6 @@ msgstr "d/m/Y, H:i"
 #: wp-admin/options-general.php:356
 msgid "g:i a"
 msgstr "H:i"
-
-#. translators: Localized date format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Date format, see https://www.php.net/manual/datetime.format.php
-#. translators: 1: Name of most recent post author, 2: Post edited date, 3:
-#. Post edited time.
-#. translators: 1: Post edited date, 2: Post edited time.
-#. translators: 1: Post creation date, 2: Post creation time.
-#. translators: Default date format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: 1: Date, 2: Time.
-#: wp-includes/class-wp-locale.php:363 wp-includes/media.php:4016
-#: wp-includes/script-loader.php:153 wp-includes/script-loader.php:373
-#: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
-#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:1573
-#: wp-admin/includes/ajax-actions.php:2811
-#: wp-admin/includes/ajax-actions.php:2814
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:71
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:86
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:226
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:229
-#: wp-admin/includes/class-wp-privacy-policy-content.php:382
-#: wp-admin/includes/dashboard.php:656 wp-admin/includes/media.php:1703
-#: wp-admin/includes/schema.php:426 wp-admin/options-general.php:293
-#: wp-admin/options-general.php:319 wp-admin/update-core.php:1049
-msgid "F j, Y"
-msgstr "j F Y"
 
 #: wp-includes/class-wp-xmlrpc-server.php:546
 msgid "The URL to the admin area"
@@ -13085,7 +13501,7 @@ msgstr "Ο ιστότοπος που ψάχνετε, %s, δεν υπάρχει, 
 msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
 msgstr "Συμπληρώσατε σωστά την ηλ. διεύθυνσή σας; Η διεύθυνση που πληκτρολογήσατε είναι: %s. Αν είναι λάθος, δεν θα λάβετε μήνυμα."
 
-#: wp-includes/functions.php:7103
+#: wp-includes/functions.php:7110
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "Η σελίδα σύνδεσης θα ανοίξει σε νέα καρτέλα. Αφού συνδεθείτε μπορείτε να  κλείσετε την καρτέλα και να επιστρέψτε εδώ."
 
@@ -13110,7 +13526,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Αναζήτηση&hellip;"
 
-#: wp-includes/functions.php:7101 wp-includes/script-loader.php:1182
+#: wp-includes/functions.php:7108 wp-includes/script-loader.php:1182
 msgid "Session expired"
 msgstr "Η συνεδρία έληξε."
 
@@ -13147,7 +13563,7 @@ msgstr "'Ακυρο ID χρήστη."
 msgid "Random Order"
 msgstr "Τυχαία σειρά"
 
-#: wp-includes/media.php:4500 wp-includes/js/dist/block-editor.js:9663
+#: wp-includes/media.php:4500 wp-includes/js/dist/block-editor.js:9658
 msgid "Insert from URL"
 msgstr "Εισαγωγή από URL"
 
@@ -13165,7 +13581,7 @@ msgstr "Τυχαίος/α/ο"
 
 #: wp-includes/media-template.php:1475 wp-includes/media.php:4472
 #: wp-admin/includes/ajax-actions.php:2189
-#: wp-admin/includes/ajax-actions.php:3810
+#: wp-admin/includes/ajax-actions.php:3830
 #: wp-admin/includes/class-wp-list-table.php:339
 #: wp-admin/includes/class-wp-themes-list-table.php:93
 msgid "No items found."
@@ -13199,64 +13615,64 @@ msgstr "Απόκρυψη σφαλμάτων"
 
 #: wp-includes/media-template.php:322
 msgid "Uploading"
-msgstr "Μεταφόρτωση…"
+msgstr "Γίνεται μεταφόρτωση"
 
 #: wp-includes/media.php:3768
 msgid "No editor could be selected."
 msgstr "Αδύνατη η επιλογή επεξεργαστή εικόνων."
 
 #. translators: %s: Number of video files.
-#: wp-includes/post.php:3156
+#: wp-includes/post.php:3157
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Βίντεο <span class=\"count\">(%s)</span>"
 msgstr[1] "Βίντεο <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:3154
+#: wp-includes/post.php:3155
 msgid "Manage Video"
 msgstr "Διαχείριση βίντεο"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
-#: wp-includes/js/dist/block-editor.js:9613 wp-includes/js/dist/editor.js:6934
+#: wp-includes/js/dist/block-editor.js:9608 wp-includes/js/dist/editor.js:6934
 msgid "Video"
 msgstr "Βίντεο"
 
 #. translators: %s: Number of audio files.
-#: wp-includes/post.php:3147
+#: wp-includes/post.php:3148
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
 msgstr[0] "Ήχος <span class=\"count\">(%s)</span>"
 msgstr[1] "Ήχος <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:3145
+#: wp-includes/post.php:3146
 msgid "Manage Audio"
 msgstr "Διαχείριση Ήχων"
 
 #. translators: %s: Number of images.
-#: wp-includes/post.php:3138
+#: wp-includes/post.php:3139
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
 msgstr[0] "Εικόνες <span class=\"count\">(%s)</span>"
 msgstr[1] "Εικόνες <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:3136
+#: wp-includes/post.php:3137
 msgid "Manage Images"
 msgstr "Διαχείριση εικόνων"
 
-#: wp-includes/post.php:1974
+#: wp-includes/post.php:1975
 msgid "Uploaded to this page"
 msgstr "Μεταφορτώθηκε στην σελίδα"
 
-#: wp-includes/post.php:1973
+#: wp-includes/post.php:1974
 msgid "Insert into page"
 msgstr "Εισαγωγή στην σελίδα"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
-#: wp-includes/js/dist/block-editor.js:9609 wp-includes/js/dist/editor.js:6910
+#: wp-includes/js/dist/block-editor.js:9604 wp-includes/js/dist/editor.js:6910
 msgid "Audio"
 msgstr "Ήχος"
 
-#: wp-includes/post.php:1974
+#: wp-includes/post.php:1975
 msgid "Uploaded to this post"
 msgstr "Μεταφορτώθηκε στο άρθρο"
 
@@ -13272,12 +13688,12 @@ msgstr "Προσαρμοσμένο URL"
 
 #: wp-includes/class-wp-editor.php:1304 wp-includes/media-template.php:903
 #: wp-includes/js/dist/block-library.js:6103
-#: wp-includes/js/dist/block-library.js:12569
-#: wp-includes/js/dist/block-library.js:13424
-#: wp-includes/js/dist/block-library.js:17859
-#: wp-includes/js/dist/block-library.js:30254
-#: wp-includes/js/dist/block-library.js:32570
-#: wp-includes/js/dist/block-library.js:39826
+#: wp-includes/js/dist/block-library.js:12572
+#: wp-includes/js/dist/block-library.js:13427
+#: wp-includes/js/dist/block-library.js:17880
+#: wp-includes/js/dist/block-library.js:30327
+#: wp-includes/js/dist/block-library.js:32643
+#: wp-includes/js/dist/block-library.js:39991
 #: wp-admin/includes/class-wp-screen.php:1155
 msgid "Columns"
 msgstr "Στήλες"
@@ -13292,8 +13708,8 @@ msgstr "Στοιχεία συνημμένου"
 
 #: wp-includes/block-editor.php:167 wp-includes/media-template.php:856
 #: wp-includes/media-template.php:936 wp-includes/media-template.php:1127
-#: wp-includes/media.php:4081 wp-includes/js/dist/block-editor.js:37154
-#: wp-includes/js/dist/block-library.js:36184
+#: wp-includes/media.php:4081 wp-includes/js/dist/block-editor.js:37268
+#: wp-includes/js/dist/block-library.js:36171
 #: wp-admin/includes/class-custom-background.php:606
 #: wp-admin/includes/media.php:1179
 msgid "Large"
@@ -13328,7 +13744,7 @@ msgid "Insert gallery"
 msgstr "Εισαγωγή συλλογής"
 
 #: wp-includes/media-template.php:209 wp-includes/media-template.php:216
-#: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:47864
+#: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:47870
 #: wp-admin/includes/media.php:2247
 msgid "Drop files to upload"
 msgstr "Σύρετε εδώ αρχεία για μεταφόρτωση"
@@ -13337,7 +13753,7 @@ msgstr "Σύρετε εδώ αρχεία για μεταφόρτωση"
 msgid "Create gallery"
 msgstr "Δημιουργία συλλογής"
 
-#: wp-includes/media.php:4464 wp-includes/js/dist/block-editor.js:9681
+#: wp-includes/media.php:4464 wp-includes/js/dist/block-editor.js:9676
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:80
 #: wp-admin/upload.php:220
 msgid "Media Library"
@@ -13398,17 +13814,17 @@ msgstr ""
 
 #: wp-includes/media-template.php:819 wp-includes/media-template.php:894
 #: wp-includes/media-template.php:1167
-#: wp-includes/js/dist/block-editor.js:12017
-#: wp-includes/js/dist/block-library.js:12259
-#: wp-includes/js/dist/block-library.js:13073
+#: wp-includes/js/dist/block-editor.js:12012
+#: wp-includes/js/dist/block-library.js:12262
+#: wp-includes/js/dist/block-library.js:13076
 msgid "Media File"
 msgstr "Αρχείο πολυμέσων"
 
 #: wp-includes/media-template.php:826 wp-includes/media-template.php:891
 #: wp-includes/media-template.php:1170
-#: wp-includes/js/dist/block-editor.js:12025
-#: wp-includes/js/dist/block-library.js:12256
-#: wp-includes/js/dist/block-library.js:13070 wp-admin/includes/media.php:2624
+#: wp-includes/js/dist/block-editor.js:12020
+#: wp-includes/js/dist/block-library.js:12259
+#: wp-includes/js/dist/block-library.js:13073 wp-admin/includes/media.php:2624
 msgid "Attachment Page"
 msgstr "Σελίδα συνημμένων"
 
@@ -13486,10 +13902,10 @@ msgstr "%1$s %2$s"
 msgid "Could not insert term relationship into the database."
 msgstr "Αδύνατη η εισαγωγή της συσχέτισης όρου στη βάση δεδομένων."
 
-#: wp-includes/media-template.php:756 wp-includes/js/dist/components.js:39616
-#: wp-includes/js/dist/components.js:40743
-#: wp-includes/js/dist/components.js:48218 wp-admin/theme-install.php:217
-#: wp-admin/theme-install.php:239 wp-admin/js/color-picker.js:154
+#: wp-includes/media-template.php:756 wp-includes/js/dist/components.js:39623
+#: wp-includes/js/dist/components.js:40749
+#: wp-includes/js/dist/components.js:48224 wp-admin/theme-install.php:218
+#: wp-admin/theme-install.php:240 wp-admin/js/color-picker.js:154
 msgid "Clear"
 msgstr "Καθαρισμός"
 
@@ -13497,7 +13913,7 @@ msgstr "Καθαρισμός"
 msgid "Add to gallery"
 msgstr "Προσθήκη στη συλλογή"
 
-#: wp-includes/post.php:1973
+#: wp-includes/post.php:1974
 msgid "Insert into post"
 msgstr "Εισαγωγή στο άρθρο"
 
@@ -13582,7 +13998,7 @@ msgid "Header Text Color"
 msgstr "Χρώμα κειμένου κεφαλίδας"
 
 #: wp-includes/class-wp-customize-manager.php:5227
-#: wp-includes/js/dist/edit-site.js:3695 wp-includes/js/dist/edit-site.js:4168
+#: wp-includes/js/dist/edit-site.js:4717 wp-includes/js/dist/edit-site.js:5190
 msgid "Colors"
 msgstr "Χρώματα"
 
@@ -13606,7 +14022,7 @@ msgstr "Επιλέξτε αρχείο"
 #: wp-admin/customize.php:206
 #: wp-admin/includes/class-theme-upgrader-skin.php:92
 #: wp-admin/includes/theme.php:1035 wp-admin/menu.php:224
-#: wp-admin/theme-install.php:378 wp-admin/themes.php:543
+#: wp-admin/theme-install.php:381 wp-admin/themes.php:543
 #: wp-admin/themes.php:902 wp-admin/themes.php:1122
 msgid "Customize"
 msgstr "Προσαρμογή"
@@ -13692,7 +14108,7 @@ msgid "Change image"
 msgstr "Αλλαγή εικόνας"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:140
-#: wp-includes/js/dist/block-library.js:12896
+#: wp-includes/js/dist/block-library.js:12899
 #: wp-includes/js/dist/editor.js:6679
 msgid "Remove image"
 msgstr "Αφαίρεση εικόνας"
@@ -13719,18 +14135,18 @@ msgstr "Επιτρεπόμενα αρχεία"
 #: wp-includes/customize/class-wp-customize-media-control.php:259
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:158
 #: wp-includes/media-template.php:574 wp-includes/media.php:4449
-#: wp-includes/js/dist/block-library.js:40960
-#: wp-includes/js/dist/edit-post.js:3878
+#: wp-includes/js/dist/block-library.js:41125
+#: wp-includes/js/dist/edit-post.js:3880
 #: wp-admin/includes/class-walker-nav-menu-edit.php:287
 #: wp-admin/includes/class-wp-users-list-table.php:269
 #: wp-admin/includes/class-wp-users-list-table.php:463
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: wp-includes/js/dist/block-editor.js:9153
-#: wp-includes/js/dist/block-editor.js:9713
-#: wp-includes/js/dist/block-editor.js:9726
-#: wp-includes/js/dist/block-library.js:40717
+#: wp-includes/js/dist/block-editor.js:9148
+#: wp-includes/js/dist/block-editor.js:9708
+#: wp-includes/js/dist/block-editor.js:9721
+#: wp-includes/js/dist/block-library.js:40882
 #: wp-admin/includes/class-custom-background.php:339
 #: wp-admin/includes/class-custom-image-header.php:651
 #: wp-admin/includes/class-wp-theme-install-list-table.php:63
@@ -13827,11 +14243,11 @@ msgstr "Φύλλο στυλ (stylesheet)"
 #. translators: ARIA label for the Template Settings Sidebar tab, not selected.
 #. translators: Text label for the Template Settings Sidebar tab.
 #: wp-includes/class-wp-xmlrpc-server.php:566
-#: wp-includes/js/dist/edit-post.js:5380 wp-includes/js/dist/edit-post.js:6859
-#: wp-includes/js/dist/edit-post.js:6871 wp-includes/js/dist/edit-post.js:6872
-#: wp-includes/js/dist/edit-post.js:8249 wp-includes/js/dist/edit-site.js:5146
-#: wp-includes/js/dist/edit-site.js:5157 wp-includes/js/dist/edit-site.js:5159
-#: wp-includes/js/dist/edit-site.js:8271
+#: wp-includes/js/dist/edit-post.js:5382 wp-includes/js/dist/edit-post.js:6861
+#: wp-includes/js/dist/edit-post.js:6873 wp-includes/js/dist/edit-post.js:6874
+#: wp-includes/js/dist/edit-post.js:8252 wp-includes/js/dist/edit-site.js:6158
+#: wp-includes/js/dist/edit-site.js:6169 wp-includes/js/dist/edit-site.js:6171
+#: wp-includes/js/dist/edit-site.js:9313
 #: wp-admin/includes/class-wp-posts-list-table.php:1810
 #: wp-admin/includes/meta-boxes.php:979
 msgid "Template"
@@ -13850,8 +14266,8 @@ msgid "Link rating"
 msgstr "Αξιολόγηση συνδέσμου"
 
 #: wp-includes/widgets/class-wp-widget-links.php:158
-#: wp-includes/js/dist/block-library.js:23803
-#: wp-includes/js/dist/block-library.js:24898
+#: wp-includes/js/dist/block-library.js:23824
+#: wp-includes/js/dist/block-library.js:24919
 msgid "Link title"
 msgstr "Τίτλος συνδέσμου"
 
@@ -13895,8 +14311,8 @@ msgid "Your latest posts"
 msgstr "Τα τελευταία σας άρθρα"
 
 #. translators: 'navigation' as in website navigation.
-#: wp-includes/js/dist/block-library.js:20972
-#: wp-includes/js/dist/block-library.js:21397 wp-admin/index.php:57
+#: wp-includes/js/dist/block-library.js:20993
+#: wp-includes/js/dist/block-library.js:21418 wp-admin/index.php:57
 msgid "Navigation"
 msgstr "Πλοήγηση"
 
@@ -13939,7 +14355,7 @@ msgstr "Λυπούμαστε, δεν επιτρέπεται να επεξεργ�
 msgid "Edit Site"
 msgstr "Επεξεργασία ιστοτόπου"
 
-#: wp-includes/post.php:5215 wp-admin/includes/ajax-actions.php:124
+#: wp-includes/post.php:5216 wp-admin/includes/ajax-actions.php:124
 #: wp-admin/includes/meta-boxes.php:539 wp-admin/includes/post.php:548
 #: wp-admin/includes/post.php:2104 wp-admin/js/inline-edit-post.js:330
 #: wp-admin/js/tags-box.js:9 wp-admin/js/tags-suggest.js:12
@@ -14161,12 +14577,12 @@ msgstr "Τεκμηρίωση"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:5251 wp-includes/ms-load.php:471
+#: wp-includes/functions.php:5258 wp-includes/ms-load.php:471
 #: wp-includes/wp-db.php:1801
 msgid "Error establishing a database connection"
 msgstr "Σφάλμα κατά τη σύνδεση με τη βάση δεδομένων"
 
-#: wp-includes/functions.php:5251
+#: wp-includes/functions.php:5258
 msgid "Database Error"
 msgstr "Σφάλμα βάσης δεδομένων"
 
@@ -14265,19 +14681,20 @@ msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a 
 msgstr "Ο λογαριασμός σας τώρα έχει ενεργοποιηθεί. <a href=\"%1$s\">Δείτε τον ιστότοπό σας</a> ή <a href=\"%2$s\">συνδεθείτε</a>"
 
 #: wp-includes/class-wp-editor.php:1256
+#: wp-includes/js/dist/block-editor.js:42870
 #: wp-includes/js/dist/block-library.js:3783
-#: wp-includes/js/dist/block-library.js:23777
-#: wp-includes/js/dist/block-library.js:24877
+#: wp-includes/js/dist/block-library.js:23798
+#: wp-includes/js/dist/block-library.js:24898
 #: wp-includes/js/dist/editor.js:6922
 #: wp-includes/js/dist/format-library.js:1299
 msgid "Link"
 msgstr "Σύνδεσμος"
 
-#: wp-includes/post.php:1970
+#: wp-includes/post.php:1971
 msgid "All Pages"
 msgstr "Όλες οι σελίδες"
 
-#: wp-includes/post.php:1970
+#: wp-includes/post.php:1971
 msgid "All Posts"
 msgstr "Όλα τα άρθρα"
 
@@ -14300,7 +14717,7 @@ msgstr "Αποστολέας"
 #: wp-includes/media-template.php:1296 wp-includes/media-template.php:1395
 #: wp-includes/widgets/class-wp-widget-media-audio.php:72
 #: wp-includes/widgets/class-wp-widget-media-video.php:74
-#: wp-includes/js/dist/block-library.js:40418
+#: wp-includes/js/dist/block-library.js:40583
 msgid "Preload"
 msgstr "Προφόρτωση"
 
@@ -14354,12 +14771,12 @@ msgstr "Ο χρήστης είναι ήδη ενεργός."
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: WordPress version number.
-#: wp-includes/functions.php:5763
+#: wp-includes/functions.php:5770
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "Η %1$s κλήθηκε <strong>εσφαλμένα</strong>. %2$s %3$s"
 
 #. translators: %s: Version number.
-#: wp-includes/functions.php:5751
+#: wp-includes/functions.php:5758
 msgid "(This message was added in version %s.)"
 msgstr "(Το μήνυμα αυτό προστέθηκε στην έκδ. %s.)"
 
@@ -14390,7 +14807,7 @@ msgstr "Ήχος"
 #: wp-includes/class-wp-xmlrpc-server.php:5394
 #: wp-includes/class-wp-xmlrpc-server.php:5749
 msgid "Invalid post format."
-msgstr "Εσφαλμένη μορφή άρθρου"
+msgstr "Εσφαλμένη μορφή άρθρου."
 
 #: wp-includes/class-wp-editor.php:1892
 msgid "No search term specified. Showing recent items."
@@ -14400,7 +14817,7 @@ msgstr "Δεν ορίσατε όρο αναζήτησης. Προβάλλοντ�
 msgid "Only a static class method or function can be used in an uninstall hook."
 msgstr "Σε μια ζεύξη απεγκατάστασης μπορούν να χρησιμοποιηθούν μόνο κλάσεις στατικής μεθόδου ή συναρτήσεις."
 
-#: wp-includes/post.php:3934
+#: wp-includes/post.php:3935
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
 msgstr "Η χρήση ακεραίου αριθμού άρθρων είναι αποδοκιμαστέα. Χρησιμοποιήστε σειρά (array) ορισμάτων."
 
@@ -14444,15 +14861,15 @@ msgctxt "Post format"
 msgid "Aside"
 msgstr "Μικροάρθρο"
 
-#: wp-includes/post.php:1968
+#: wp-includes/post.php:1969
 msgid "No pages found in Trash."
 msgstr "Δεν βρέθηκαν διαγραμμένες σελίδες."
 
-#: wp-includes/post.php:1968
+#: wp-includes/post.php:1969
 msgid "No posts found in Trash."
 msgstr "Δεν βρέθηκαν άρθρα στα διαγραμμένα."
 
-#: wp-includes/post.php:1967
+#: wp-includes/post.php:1968
 msgid "No pages found."
 msgstr "Δεν βρέθηκαν σελίδες."
 
@@ -14551,9 +14968,9 @@ msgid "Blavatar"
 msgstr "Μπλάβαταρ"
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/post.php:4496
+#: wp-includes/post.php:4497
 msgid "Invalid taxonomy: %s."
-msgstr "Μη έγκυρη ταξινομία: %s"
+msgstr "Μη έγκυρη ταξινομία: %s."
 
 #: wp-includes/taxonomy.php:148
 msgid "New Link Category Name"
@@ -14689,46 +15106,46 @@ msgstr "Κάντε λίγο υπομονή ακόμη. Καμιά φορά η π
 msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
 msgstr "Το μήνυμα εγγραφής θα αποσταλεί σε αυτή τη διεύθυνση. (Πριν συνεχίσετε, βεβαιωθείτε ότι είναι σωστή.)"
 
-#: wp-includes/post.php:1969
+#: wp-includes/post.php:1970
 msgid "Parent Page:"
 msgstr "Γονική σελίδα:"
 
-#: wp-includes/post.php:1966
+#: wp-includes/post.php:1967
 msgid "Search Pages"
 msgstr "Αναζήτηση σελίδων"
 
-#: wp-includes/post.php:1966
+#: wp-includes/post.php:1967
 msgid "Search Posts"
 msgstr "Αναζήτηση άρθρων"
 
-#: wp-includes/post.php:1962
+#: wp-includes/post.php:1963
 msgid "Edit Page"
 msgstr "Επεξεργασία σελίδας"
 
-#: wp-includes/post.php:1961
+#: wp-includes/post.php:1962
 msgid "Add New Page"
 msgstr "Προσθήκη νέας σελίδας"
 
-#: wp-includes/post.php:1961
+#: wp-includes/post.php:1962
 msgid "Add New Post"
 msgstr "Προσθήκη άρθρου"
 
-#: wp-includes/post.php:1959
+#: wp-includes/post.php:1960
 msgctxt "post type singular name"
 msgid "Page"
 msgstr "Σελίδα"
 
-#: wp-includes/post.php:1959
+#: wp-includes/post.php:1960
 msgctxt "post type singular name"
 msgid "Post"
 msgstr "Άρθρο"
 
-#: wp-includes/post.php:1958
+#: wp-includes/post.php:1959
 msgctxt "post type general name"
 msgid "Pages"
 msgstr "Σελίδες"
 
-#: wp-includes/post.php:1958 wp-admin/export.php:185
+#: wp-includes/post.php:1959 wp-admin/export.php:185
 #: wp-admin/includes/class-wp-users-list-table.php:365
 msgctxt "post type general name"
 msgid "Posts"
@@ -14919,7 +15336,7 @@ msgid "Could not calculate resized image dimensions"
 msgstr "Αδύνατος ο υπολογισμός των νέων διαστάσεων της εικόνας"
 
 #. translators: %s: Number of completed requests.
-#: wp-includes/post.php:693
+#: wp-includes/post.php:694
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
 msgstr[0] "Ολοκληρώθηκε <span class=\"count\">(%s)</span>"
@@ -15135,8 +15552,8 @@ msgstr "Μία απάντηση στο %s"
 #: wp-includes/admin-bar.php:1025
 #: wp-includes/class-wp-customize-nav-menus.php:672
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:98
-#: wp-includes/js/dist/block-library.js:21319
-#: wp-includes/js/dist/block-library.js:21642 wp-admin/menu.php:228
+#: wp-includes/js/dist/block-library.js:21340
+#: wp-includes/js/dist/block-library.js:21663 wp-admin/menu.php:228
 #: wp-admin/nav-menus.php:678
 msgid "Menus"
 msgstr "Μενού"
@@ -15221,7 +15638,7 @@ msgstr "Λυπούμαστε, δεν σας επιτρέπεται να επεξ
 #: wp-includes/class-wp-xmlrpc-server.php:5369
 #: wp-includes/class-wp-xmlrpc-server.php:5442
 #: wp-includes/class-wp-xmlrpc-server.php:5737
-#: wp-includes/class-wp-xmlrpc-server.php:5810 wp-includes/post.php:1728
+#: wp-includes/class-wp-xmlrpc-server.php:5810 wp-includes/post.php:1729
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:444
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:141
 #: wp-admin/async-upload.php:46 wp-admin/edit.php:13 wp-admin/edit.php:36
@@ -15287,14 +15704,14 @@ msgstr "Ο συντάκτης σχολίου απαιτείται να συμπ�
 #: wp-includes/class-wp-xmlrpc-server.php:6611
 #: wp-includes/class-wp-xmlrpc-server.php:6669
 #: wp-includes/class-wp-xmlrpc-server.php:6794 wp-includes/comment.php:2483
-#: wp-includes/post.php:4092 wp-includes/post.php:4735
+#: wp-includes/post.php:4093 wp-includes/post.php:4736
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:361
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:828
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:432
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:447
 #: wp-includes/revision.php:324
 msgid "Invalid post ID."
-msgstr "Εσφαλμένο ID δημοσίευσης"
+msgstr "Λανθασμένο ID ανάρτησης."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3644
 #: wp-includes/class-wp-xmlrpc-server.php:3808
@@ -15366,9 +15783,9 @@ msgid "%s is your new username"
 msgstr "%s είναι το νέο όνομα χρήστη σας"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1112
-#: wp-includes/script-loader.php:1808 wp-signup.php:626
-#: wp-includes/js/dist/block-library.js:27797
-#: wp-includes/js/dist/components.js:53259
+#: wp-includes/script-loader.php:1818 wp-signup.php:626
+#: wp-includes/js/dist/block-library.js:27870
+#: wp-includes/js/dist/components.js:53276
 msgid "Next"
 msgstr "Επόμενο"
 
@@ -15488,7 +15905,7 @@ msgstr "<strong>ΣΦΑΛΜΑ</strong>: Το WordPress %1$s απαιτεί MySQL 
 msgid "Sidebar %d"
 msgstr "Πλευρική στήλη %d"
 
-#: wp-includes/functions.php:7102 wp-includes/user.php:295
+#: wp-includes/functions.php:7109 wp-includes/user.php:295
 msgid "Please log in again."
 msgstr "Παρακαλούμε συνδεθείτε ξανά."
 
@@ -15595,7 +16012,7 @@ msgstr "από"
 
 #: wp-includes/class-wp-editor.php:1212 wp-includes/script-loader.php:860
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
-#: wp-includes/js/dist/block-editor.js:9611 wp-includes/js/dist/editor.js:6919
+#: wp-includes/js/dist/block-editor.js:9606 wp-includes/js/dist/editor.js:6919
 #: wp-admin/includes/media.php:2941
 msgid "Image"
 msgstr "Εικόνα"
@@ -15652,34 +16069,34 @@ msgstr "Αδύνατη η δημιουργία χρήστη με κενό όνο
 msgid "Cannot create a revision of a revision"
 msgstr "Δεν είναι δυνατή η δημιουργία αναθεώρησης μιας αναθεώρησης."
 
-#: wp-includes/post.php:4432
+#: wp-includes/post.php:4433
 msgid "Could not insert post into the database."
 msgstr "Δεν ήταν δυνατή η εισαγωγή του άρθρου στη βάση δεδομένων."
 
-#: wp-includes/post.php:4409
+#: wp-includes/post.php:4410
 msgid "Could not update post in the database."
 msgstr "Δεν ήταν δυνατή η ενημέρωση του άρθρου στη βάση δεδομένων."
 
-#: wp-includes/post.php:4141
+#: wp-includes/post.php:4142
 msgid "Content, title, and excerpt are empty."
 msgstr "Περιεχόμενο, τίτλος και απόσπασμα είναι κενά."
 
 #. translators: %s: Number of documents.
-#: wp-includes/post.php:3165
+#: wp-includes/post.php:3166
 msgid "Document <span class=\"count\">(%s)</span>"
 msgid_plural "Documents <span class=\"count\">(%s)</span>"
 msgstr[0] "Αρχείο <span class=\"count\">(%s)</span>"
 msgstr[1] "Αρχεία <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of trashed posts.
-#: wp-includes/post.php:613
+#: wp-includes/post.php:614
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Διαγραμμένο <span class=\"count\">(%s)</span>"
 msgstr[1] "Διεγραμμένα <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of private posts.
-#: wp-includes/post.php:599
+#: wp-includes/post.php:600
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "Απόρρητο <span class=\"count\">(%s)</span>"
@@ -15687,28 +16104,28 @@ msgstr[1] "Απόρρητα <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of pending posts.
 #. translators: %s: Number of pending requests.
-#: wp-includes/post.php:584 wp-includes/post.php:648
+#: wp-includes/post.php:585 wp-includes/post.php:649
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
 msgstr[0] "Για έλεγχο <span class=\"count\">(%s)</span>"
 msgstr[1] "Για έλεγχο <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of draft posts.
-#: wp-includes/post.php:569
+#: wp-includes/post.php:570
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "Προσχέδιο <span class=\"count\">(%s)</span>"
 msgstr[1] "Προσχέδια <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of scheduled posts.
-#: wp-includes/post.php:555
+#: wp-includes/post.php:556
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Προγραμματισμένο <span class=\"count\">(%s)</span>"
 msgstr[1] "Προγραμματισμένα <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of published posts.
-#: wp-includes/post.php:541
+#: wp-includes/post.php:542
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Δημοσιευμένα <span class=\"count\">(%s)</span>"
@@ -15732,7 +16149,7 @@ msgstr "%s [Αυτόματη αποθήκευση]"
 
 #. translators: 'Home' as in a website's home page.
 #: wp-includes/post-template.php:1436
-#: wp-includes/js/dist/block-library.js:23089 wp-admin/menu.php:26
+#: wp-includes/js/dist/block-library.js:23110 wp-admin/menu.php:26
 #: wp-admin/network/menu.php:13
 msgid "Home"
 msgstr "Αρχική"
@@ -15749,7 +16166,7 @@ msgstr "Προηγούμενη σελίδα"
 msgid "Next page"
 msgstr "Επόμενη σελίδα"
 
-#: wp-includes/post-template.php:417 wp-includes/js/dist/block-library.js:27332
+#: wp-includes/post-template.php:417 wp-includes/js/dist/block-library.js:27380
 msgid "There is no excerpt because this is a protected post."
 msgstr "Δεν υπάρχει απόσπασμα διότι το άρθρο είναι προστατευμένο."
 
@@ -15908,13 +16325,13 @@ msgstr "Ο χρήστης δεν υπάρχει."
 
 #: wp-includes/class-wp-locale.php:194
 #: wp-includes/customize/class-wp-customize-date-time-control.php:173
-#: wp-includes/js/dist/components.js:46895
+#: wp-includes/js/dist/components.js:46901
 msgid "PM"
 msgstr "ΜΜ"
 
 #: wp-includes/class-wp-locale.php:193
 #: wp-includes/customize/class-wp-customize-date-time-control.php:172
-#: wp-includes/js/dist/components.js:46891
+#: wp-includes/js/dist/components.js:46897
 msgid "AM"
 msgstr "ΠΜ"
 
@@ -15961,13 +16378,13 @@ msgid "Fill Screen"
 msgstr "Γέμισμα οθόνης"
 
 #: wp-includes/class-wp-editor.php:1253
-#: wp-includes/js/dist/block-editor.js:12126
+#: wp-includes/js/dist/block-editor.js:12121
 msgid "Remove link"
 msgstr "Αφαίρεση συνδέσμου"
 
 #: wp-includes/class-wp-editor.php:1257 wp-includes/script-loader.php:671
-#: wp-includes/js/dist/block-editor.js:11820
-#: wp-includes/js/dist/block-editor.js:12097
+#: wp-includes/js/dist/block-editor.js:11815
+#: wp-includes/js/dist/block-editor.js:12092
 msgid "Insert link"
 msgstr "Εισαγωγή συνδέσμου"
 
@@ -15989,7 +16406,7 @@ msgstr "Γράμμα"
 
 #: wp-includes/media-template.php:1209
 #: wp-includes/widgets/class-wp-widget-media-image.php:137
-#: wp-includes/js/dist/block-editor.js:12084
+#: wp-includes/js/dist/block-editor.js:12079
 msgid "Link Rel"
 msgstr "Σχέση συνδέσμου (rel)"
 
@@ -16029,16 +16446,17 @@ msgstr "Σίγαση"
 msgid "Fullscreen"
 msgstr "Πλήρης οθόνη"
 
-#: wp-includes/admin-bar.php:1036 wp-includes/js/dist/block-library.js:22291
-#: wp-includes/js/dist/edit-site.js:4114 wp-includes/js/dist/edit-site.js:4425
+#: wp-includes/admin-bar.php:1036 wp-includes/js/dist/block-editor.js:42864
+#: wp-includes/js/dist/block-library.js:22312
+#: wp-includes/js/dist/edit-site.js:5136 wp-includes/js/dist/edit-site.js:5446
 #: wp-includes/js/dist/format-library.js:1698
 #: wp-admin/includes/class-custom-background.php:65 wp-admin/menu.php:238
 msgid "Background"
 msgstr "Φόντο"
 
 #: wp-includes/media-template.php:1028 wp-includes/media-template.php:1092
-#: wp-includes/js/dist/block-editor.js:2729
-#: wp-includes/js/dist/block-editor.js:47579
+#: wp-includes/js/dist/block-editor.js:2730
+#: wp-includes/js/dist/block-editor.js:47701
 msgid "Align"
 msgstr "Στοίχιση"
 
@@ -16046,11 +16464,11 @@ msgstr "Στοίχιση"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:77
 #: wp-includes/widgets/class-wp-widget-media-video.php:80
 #: wp-includes/js/dist/block-library.js:2356
-#: wp-includes/js/dist/block-library.js:40402
+#: wp-includes/js/dist/block-library.js:40567
 msgid "Loop"
 msgstr "Βρόγχος"
 
-#: wp-includes/js/dist/components.js:40575
+#: wp-includes/js/dist/components.js:40581
 #: wp-admin/includes/ajax-actions.php:2192
 msgid "Type"
 msgstr "Τύπος"
@@ -16060,7 +16478,7 @@ msgid "Constrain proportions"
 msgstr "Περιορισμός διαστάσεων"
 
 #: wp-includes/block-template-utils.php:68 wp-includes/class-wp-editor.php:1214
-#: wp-includes/js/dist/edit-post.js:5321
+#: wp-includes/js/dist/edit-post.js:5323
 msgid "General"
 msgstr "Γενικά"
 
@@ -16086,7 +16504,7 @@ msgstr "Μέση"
 #: wp-includes/class-wp-editor.php:1334
 #: wp-includes/customize/class-wp-customize-background-position-control.php:47
 #: wp-includes/js/dist/components.js:31353
-#: wp-includes/js/dist/components.js:50179
+#: wp-includes/js/dist/components.js:50185
 #: wp-admin/includes/class-custom-background.php:375
 msgid "Top"
 msgstr "Πάνω"
@@ -16100,18 +16518,17 @@ msgid "Vertical space"
 msgstr "Κατακόρυφο διάστημα"
 
 #: wp-includes/class-wp-editor.php:1222
-#: wp-includes/js/dist/block-editor.js:12501
-#: wp-includes/js/dist/block-editor.js:12559
-#: wp-includes/js/dist/block-library.js:27512
-#: wp-includes/js/dist/edit-site.js:3504
+#: wp-includes/js/dist/block-editor.js:12496
+#: wp-includes/js/dist/block-editor.js:12554
+#: wp-includes/js/dist/edit-site.js:4526
 msgid "Dimensions"
 msgstr "Διαστάσεις"
 
 #: wp-includes/class-wp-editor.php:1217
-#: wp-includes/js/dist/block-editor.js:12504
-#: wp-includes/js/dist/block-editor.js:12562
-#: wp-includes/js/dist/block-editor.js:42275
-#: wp-includes/js/dist/edit-site.js:3335
+#: wp-includes/js/dist/block-editor.js:12499
+#: wp-includes/js/dist/block-editor.js:12557
+#: wp-includes/js/dist/block-editor.js:42397
+#: wp-includes/js/dist/edit-site.js:4357
 msgid "Border"
 msgstr "Περιθώριο"
 
@@ -16129,7 +16546,7 @@ msgstr "Επικόλληση"
 
 #: wp-includes/class-wp-customize-manager.php:4347
 #: wp-includes/class-wp-editor.php:1171
-#: wp-includes/js/dist/block-editor.js:14365
+#: wp-includes/js/dist/block-editor.js:14361
 #: wp-includes/js/dist/components.js:38371 wp-includes/js/dist/editor.js:9078
 msgid "Copy"
 msgstr "Αντιγραφή"
@@ -16149,13 +16566,13 @@ msgid "Subscript"
 msgstr "Δείκτης"
 
 #: wp-includes/class-wp-editor.php:1152
-#: wp-includes/js/dist/block-editor.js:34332
+#: wp-includes/js/dist/block-editor.js:34446
 #: wp-includes/js/dist/format-library.js:1435
 msgid "Strikethrough"
 msgstr "Διεγραμμένα"
 
 #: wp-includes/class-wp-editor.php:1151
-#: wp-includes/js/dist/block-editor.js:34328
+#: wp-includes/js/dist/block-editor.js:34442
 #: wp-includes/js/dist/format-library.js:1481
 msgid "Underline"
 msgstr "Υπογραμμισμένα"
@@ -16204,7 +16621,7 @@ msgid "Heading 1"
 msgstr "Κεφαλίδα 1"
 
 #: wp-includes/class-wp-editor.php:1143
-#: wp-includes/js/dist/block-library.js:34493
+#: wp-includes/js/dist/block-library.js:34541
 msgid "Paragraph"
 msgstr "Παράγραφος"
 
@@ -16230,7 +16647,7 @@ msgid "Column"
 msgstr "Στήλη"
 
 #: wp-includes/class-wp-editor.php:1301
-#: wp-includes/js/dist/block-library.js:14494
+#: wp-includes/js/dist/block-library.js:14503
 msgid "Row"
 msgstr "Σειρά"
 
@@ -16271,27 +16688,27 @@ msgid "Merge table cells"
 msgstr "Συγχώνευση κελιών πίνακα"
 
 #: wp-includes/class-wp-editor.php:1314
-#: wp-includes/js/dist/block-library.js:37932
+#: wp-includes/js/dist/block-library.js:38097
 msgid "Insert column after"
 msgstr "Εισαγωγή στήλης μετά"
 
 #: wp-includes/class-wp-editor.php:1313
-#: wp-includes/js/dist/block-library.js:37927
+#: wp-includes/js/dist/block-library.js:38092
 msgid "Insert column before"
 msgstr "Εισαγωγή στήλης πριν"
 
 #: wp-includes/class-wp-editor.php:1317
-#: wp-includes/js/dist/block-library.js:37922
+#: wp-includes/js/dist/block-library.js:38087
 msgid "Delete row"
 msgstr "Διαγραφή σειράς"
 
 #: wp-includes/class-wp-editor.php:1312
-#: wp-includes/js/dist/block-library.js:37917
+#: wp-includes/js/dist/block-library.js:38082
 msgid "Insert row after"
 msgstr "Εισαγωγή σειράς μετά"
 
 #: wp-includes/class-wp-editor.php:1311
-#: wp-includes/js/dist/block-library.js:37912
+#: wp-includes/js/dist/block-library.js:38077
 msgid "Insert row before"
 msgstr "Εισαγωγή σειράς πριν"
 
@@ -16342,143 +16759,6 @@ msgstr "Δε"
 #: wp-includes/class-wp-locale.php:140
 msgid "Sun"
 msgstr "Κυ"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:128 wp-includes/class-wp-locale.php:137
-#: wp-includes/class-wp-locale.php:146
-msgid "Saturday"
-msgstr "Σάββατο"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:127 wp-includes/class-wp-locale.php:136
-#: wp-includes/class-wp-locale.php:145
-msgid "Friday"
-msgstr "Παρασκευή"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:126 wp-includes/class-wp-locale.php:135
-#: wp-includes/class-wp-locale.php:144
-msgid "Thursday"
-msgstr "Πέμπτη"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:125 wp-includes/class-wp-locale.php:134
-#: wp-includes/class-wp-locale.php:143
-msgid "Wednesday"
-msgstr "Τετάρτη"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Ttree-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:124 wp-includes/class-wp-locale.php:133
-#: wp-includes/class-wp-locale.php:142
-msgid "Tuesday"
-msgstr "Τρίτη"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:123 wp-includes/class-wp-locale.php:132
-#: wp-includes/class-wp-locale.php:141
-msgid "Monday"
-msgstr "Δευτέρα"
-
-#. translators: Weekday.
-#: wp-includes/class-wp-locale.php:122 wp-includes/class-wp-locale.php:131
-#: wp-includes/class-wp-locale.php:140
-msgid "Sunday"
-msgstr "Κυριακή"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:160 wp-includes/class-wp-locale.php:188
-#: wp-includes/js/dist/components.js:46836
-msgid "December"
-msgstr "Δεκέμβριος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
-#: wp-includes/js/dist/components.js:46834
-msgid "November"
-msgstr "Νοέμβριος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
-#: wp-includes/js/dist/components.js:46832
-msgid "October"
-msgstr "Οκτώβριος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
-#: wp-includes/js/dist/components.js:46830
-msgid "September"
-msgstr "Σεπτέμβριος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
-#: wp-includes/js/dist/components.js:46828
-msgid "August"
-msgstr "Αύγουστος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:155 wp-includes/class-wp-locale.php:183
-#: wp-includes/js/dist/components.js:46826
-msgid "July"
-msgstr "Ιούλιος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:154 wp-includes/class-wp-locale.php:182
-#: wp-includes/js/dist/components.js:46824
-msgid "June"
-msgstr "Ιούνιος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:153 wp-includes/class-wp-locale.php:181
-#: wp-includes/js/dist/components.js:46822
-msgid "May"
-msgstr "Μάι"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:152 wp-includes/class-wp-locale.php:180
-#: wp-includes/js/dist/components.js:46820
-msgid "April"
-msgstr "Απρίλιος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:151 wp-includes/class-wp-locale.php:179
-#: wp-includes/js/dist/components.js:46818
-msgid "March"
-msgstr "Μάρτιος"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:150 wp-includes/class-wp-locale.php:178
-#: wp-includes/js/dist/components.js:46816
-msgid "February"
-msgstr "Φεβρουάριος"
-
-#. translators: Month name.
-#: wp-includes/class-wp-locale.php:149 wp-includes/class-wp-locale.php:177
-#: wp-includes/js/dist/components.js:46814
-msgid "January"
-msgstr "Ιανουάριος"
 
 #: wp-includes/class-wp-http-curl.php:243
 #: wp-includes/class-wp-http-curl.php:292 wp-includes/class-wp-http.php:1041
@@ -16578,7 +16858,7 @@ msgid "Remember Me"
 msgstr "Να με θυμάσαι"
 
 #: wp-includes/general-template.php:380
-#: wp-includes/js/dist/block-library.js:18911
+#: wp-includes/js/dist/block-library.js:18932
 msgid "Log out"
 msgstr "Αποσύνδεση"
 
@@ -16587,34 +16867,34 @@ msgstr "Αποσύνδεση"
 msgid "Log in"
 msgstr "Σύνδεση"
 
-#: wp-includes/functions.php:6400
+#: wp-includes/functions.php:6407
 msgid "Manual Offsets"
 msgstr "Χειροκίνητη ρύθμιση"
 
-#: wp-includes/functions.php:6391 wp-includes/functions.php:6396
+#: wp-includes/functions.php:6398 wp-includes/functions.php:6403
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:6346
+#: wp-includes/functions.php:6353
 msgid "Select a city"
 msgstr "Επιλέξτε πόλη"
 
 #. translators: 1: PHP function name, 2: Version number.
-#: wp-includes/functions.php:5606
+#: wp-includes/functions.php:5613
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Η %1$s κλήθηκε με όρισμα που είναι <strong>παρωχημένο</strong> από την έκδοση %2$s και μετά. Δεν υπάρχει εναλλακτικό όρισμα."
 
 #. translators: 1: PHP function name, 2: Version number, 3: Optional message
 #. regarding the change.
-#: wp-includes/functions.php:5595
+#: wp-includes/functions.php:5602
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "Η %1$s κλήθηκε με όρισμα που είναι <strong>παρωχημένο</strong> από την έκδοση %2$s και μετά! %3$s."
 
 #. translators: 1: PHP function name, 2: Version number.
 #. translators: 1: PHP file name, 2: Version number.
 #. translators: 1: WordPress hook name, 2: Version number.
-#: wp-includes/functions.php:5322 wp-includes/functions.php:5512
-#: wp-includes/functions.php:5697
+#: wp-includes/functions.php:5329 wp-includes/functions.php:5519
+#: wp-includes/functions.php:5704
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Το %1$s είναι <strong>παρωχημένο</strong> από την έκδοση %2$s και μετά και δεν υπάρχει εναλλακτική λύση."
 
@@ -16623,8 +16903,8 @@ msgstr "Το %1$s είναι <strong>παρωχημένο</strong> από την
 #. translators: 1: PHP file name, 2: Version number, 3: Alternative file name.
 #. translators: 1: WordPress hook name, 2: Version number, 3: Alternative hook
 #. name.
-#: wp-includes/functions.php:5311 wp-includes/functions.php:5501
-#: wp-includes/functions.php:5686
+#: wp-includes/functions.php:5318 wp-includes/functions.php:5508
+#: wp-includes/functions.php:5693
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Το %1$s είναι <strong>παρωχημένο</strong> από την έκδοση %2$s και μετά! Χρησιμoποιήστε το %3$s αντ' αυτού."
 
@@ -16772,7 +17052,7 @@ msgstr "Ονομάστε το κανάλι RSS (προαιρετικό):"
 msgid "Enter the RSS feed URL here:"
 msgstr "Ορίστε τη διεύθυνση του καναλιού RSS:"
 
-#: wp-includes/widgets.php:1619 wp-includes/js/dist/edit-post.js:6532
+#: wp-includes/widgets.php:1619 wp-includes/js/dist/edit-post.js:6534
 #: wp-includes/js/dist/editor.js:5164
 msgid "Untitled"
 msgstr "Χωρίς τίτλο"
@@ -16808,9 +17088,10 @@ msgid "Automatically add paragraphs"
 msgstr "Αυτόματη προσθήκη παραγράφων"
 
 #: wp-includes/widgets/class-wp-widget-text.php:43
-#: wp-includes/js/dist/block-library.js:22287 wp-includes/js/dist/blocks.js:247
-#: wp-includes/js/dist/edit-site.js:3965 wp-includes/js/dist/edit-site.js:3995
-#: wp-includes/js/dist/edit-site.js:4136 wp-includes/js/dist/edit-site.js:4484
+#: wp-includes/js/dist/block-editor.js:42860
+#: wp-includes/js/dist/block-library.js:22308 wp-includes/js/dist/blocks.js:247
+#: wp-includes/js/dist/edit-site.js:4987 wp-includes/js/dist/edit-site.js:5017
+#: wp-includes/js/dist/edit-site.js:5158 wp-includes/js/dist/edit-site.js:5498
 #: wp-includes/js/dist/format-library.js:1695
 msgid "Text"
 msgstr "Κείμενο"
@@ -16824,7 +17105,7 @@ msgstr "Ημερολόγιο"
 #: wp-includes/widgets/class-wp-widget-categories.php:198
 #: wp-includes/js/dist/block-library.js:1672
 #: wp-includes/js/dist/block-library.js:4714
-#: wp-includes/js/dist/block-library.js:38512
+#: wp-includes/js/dist/block-library.js:38677
 msgid "Show post counts"
 msgstr "Προβολή αριθμού άρθρων"
 
@@ -17042,9 +17323,9 @@ msgstr "Σχόλια στο %s"
 #: wp-includes/class-wp-customize-nav-menus.php:335
 #: wp-includes/script-loader.php:823 wp-includes/script-loader.php:1131
 #: wp-includes/js/dist/block-directory.js:1355
-#: wp-includes/js/dist/block-editor.js:25384
-#: wp-includes/js/dist/block-library.js:28135
-#: wp-includes/js/dist/components.js:54644 wp-admin/includes/nav-menu.php:600
+#: wp-includes/js/dist/block-editor.js:25405
+#: wp-includes/js/dist/block-library.js:28208
+#: wp-includes/js/dist/components.js:54661 wp-admin/includes/nav-menu.php:600
 #: wp-admin/includes/nav-menu.php:895 wp-admin/js/nav-menu.js:1463
 msgid "No results found."
 msgstr "Δεν βρέθηκαν αποτελέσματα."
@@ -17059,10 +17340,10 @@ msgstr "&laquo; Προηγούμενη Σελίδα"
 
 #. translators: 'Label. Used to signify a layout property (eg: margin, padding)
 #. will apply uniformly to all screensizes.'
-#: wp-includes/js/dist/block-editor.js:11501
+#: wp-includes/js/dist/block-editor.js:11496
 #: wp-includes/js/dist/components.js:31352
-#: wp-includes/js/dist/components.js:55704
-#: wp-includes/js/dist/components.js:55721 wp-admin/export.php:189
+#: wp-includes/js/dist/components.js:55721
+#: wp-includes/js/dist/components.js:55738 wp-admin/export.php:189
 #: wp-admin/export.php:201 wp-admin/export.php:226 wp-admin/export.php:248
 #: wp-admin/export.php:273
 msgid "All"
@@ -17075,7 +17356,7 @@ msgstr "Λυπούμαστε, τα σχόλια για το αντικείμεν
 
 #: wp-includes/admin-bar.php:1014
 #: wp-includes/class-wp-customize-widgets.php:418
-#: wp-includes/functions.php:5198 wp-includes/js/dist/blocks.js:256
+#: wp-includes/functions.php:5199 wp-includes/js/dist/blocks.js:256
 #: wp-includes/js/dist/core-data.js:1932
 #: wp-includes/js/dist/customize-widgets.js:1886
 #: wp-includes/js/dist/edit-widgets.js:2784
@@ -17085,7 +17366,7 @@ msgid "Widgets"
 msgstr "Μικροεφαρμογές"
 
 #. translators: %s: Number of confirmed requests.
-#: wp-includes/post.php:663
+#: wp-includes/post.php:664
 msgid "Confirmed <span class=\"count\">(%s)</span>"
 msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] "Επιβεβαιωμένο <span class=\"count\">(%s)</span>"
@@ -17123,20 +17404,22 @@ msgstr "Τίτλος:"
 #: wp-includes/customize/class-wp-customize-media-control.php:237
 #: wp-includes/customize/class-wp-customize-media-control.php:248
 #: wp-includes/customize/class-wp-customize-media-control.php:258
-#: wp-includes/js/dist/block-editor.js:22783
-#: wp-includes/js/dist/block-editor.js:23677
-#: wp-includes/js/dist/components.js:47087
-#: wp-includes/js/dist/components.js:51491
-#: wp-includes/js/dist/edit-post.js:6417 wp-includes/js/dist/edit-post.js:6546
-#: wp-includes/js/dist/edit-site.js:4232 wp-includes/js/dist/edit-site.js:4286
+#: wp-includes/js/dist/block-editor.js:22779
+#: wp-includes/js/dist/block-editor.js:23673
+#: wp-includes/js/dist/components.js:47093
+#: wp-includes/js/dist/components.js:51508
+#: wp-includes/js/dist/edit-post.js:6419 wp-includes/js/dist/edit-post.js:6548
+#: wp-includes/js/dist/edit-site.js:5254 wp-includes/js/dist/edit-site.js:5308
 #: wp-admin/js/color-picker.js:149
 msgid "Default"
 msgstr "Προεπιλογή"
 
 #: wp-includes/class-wp-editor.php:1324 wp-includes/media-template.php:1155
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
-#: wp-includes/js/dist/block-editor.js:7188
-#: wp-includes/js/dist/block-library.js:27519 wp-admin/options-media.php:65
+#: wp-includes/js/dist/block-editor.js:7192
+#: wp-includes/js/dist/block-library.js:27561
+#: wp-includes/js/dist/block-library.js:27571
+#: wp-includes/js/dist/block-library.js:36624 wp-admin/options-media.php:65
 msgid "Height"
 msgstr "Ύψος"
 
@@ -17146,7 +17429,7 @@ msgid "Time Format"
 msgstr "Μορφή ώρας"
 
 #: wp-includes/class-wp-xmlrpc-server.php:598
-#: wp-includes/js/dist/block-library.js:27106 wp-admin/options-general.php:307
+#: wp-includes/js/dist/block-library.js:27154 wp-admin/options-general.php:307
 #: wp-admin/options-general.php:309
 msgid "Date Format"
 msgstr "Μορφή Ημερομηνίας"
@@ -17169,7 +17452,7 @@ msgid "Site Title"
 msgstr "Τίτλος ιστότοπου"
 
 #: wp-includes/taxonomy.php:194 wp-includes/js/dist/blocks.js:259
-#: wp-includes/js/dist/edit-site.js:4226 wp-includes/js/dist/edit-site.js:4280
+#: wp-includes/js/dist/edit-site.js:5248 wp-includes/js/dist/edit-site.js:5302
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:331
 msgid "Theme"
 msgstr "Θέμα"
@@ -17179,19 +17462,19 @@ msgid "First Post"
 msgstr "Πρώτο άρθρο"
 
 #. translators: accessibility text for the settings landmark region.
-#: wp-includes/admin-bar.php:596 wp-includes/js/dist/block-library.js:30239
-#: wp-includes/js/dist/block-library.js:31018
-#: wp-includes/js/dist/block-library.js:33854
+#: wp-includes/admin-bar.php:596 wp-includes/js/dist/block-library.js:30312
+#: wp-includes/js/dist/block-library.js:31091
+#: wp-includes/js/dist/block-library.js:33927
 #: wp-includes/js/dist/customize-widgets.js:3973
-#: wp-includes/js/dist/edit-post.js:3138 wp-includes/js/dist/edit-post.js:8398
-#: wp-includes/js/dist/edit-site.js:5369 wp-includes/js/dist/edit-site.js:10114
+#: wp-includes/js/dist/edit-post.js:3140 wp-includes/js/dist/edit-post.js:8401
+#: wp-includes/js/dist/edit-site.js:6381 wp-includes/js/dist/edit-site.js:11318
 #: wp-includes/js/dist/edit-widgets.js:2215
 #: wp-includes/js/dist/edit-widgets.js:4911 wp-admin/includes/ms.php:1082
 #: wp-admin/menu.php:359 wp-admin/options.php:22 wp-admin/network/menu.php:109
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: wp-includes/post.php:1960
+#: wp-includes/post.php:1961
 msgctxt "page"
 msgid "Add New"
 msgstr "Προσθήκη Νέας"
@@ -17204,7 +17487,7 @@ msgstr "Οι ιστότοποι μου"
 #: wp-includes/customize/class-wp-customize-themes-panel.php:77
 #: wp-includes/taxonomy.php:193 wp-includes/js/dist/core-data.js:2016
 #: wp-admin/includes/ms.php:1077 wp-admin/themes.php:249
-#: wp-admin/update-core.php:619 wp-admin/update-core.php:632
+#: wp-admin/update-core.php:627 wp-admin/update-core.php:640
 #: wp-admin/network/menu.php:78 wp-admin/network/themes.php:338
 msgid "Themes"
 msgstr "Θέματα"
@@ -17245,7 +17528,7 @@ msgstr "Δείκτης ισχύος"
 #. translators: Network menu item.
 #: wp-includes/admin-bar.php:401 wp-includes/admin-bar.php:542
 #: wp-includes/admin-bar.php:649 wp-includes/deprecated.php:2812
-#: wp-includes/deprecated.php:2814 wp-includes/js/dist/edit-site.js:5518
+#: wp-includes/deprecated.php:2814 wp-includes/js/dist/edit-site.js:6530
 #: wp-admin/index.php:33 wp-admin/menu.php:24 wp-admin/my-sites.php:128
 #: wp-admin/user/menu.php:10
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:708
@@ -17266,12 +17549,14 @@ msgstr "<strong>ΣΦΑΛΜΑ</strong>: Παρακαλώ πληκτρολογήσ
 
 #: wp-includes/class-wp-editor.php:1325 wp-includes/media-template.php:1150
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
-#: wp-includes/js/dist/block-editor.js:7181
-#: wp-includes/js/dist/block-editor.js:42233
+#: wp-includes/js/dist/block-editor.js:7185
+#: wp-includes/js/dist/block-editor.js:42355
 #: wp-includes/js/dist/block-library.js:5515
-#: wp-includes/js/dist/block-library.js:27527
-#: wp-includes/js/dist/block-library.js:33021
-#: wp-includes/js/dist/edit-site.js:3341
+#: wp-includes/js/dist/block-library.js:27580
+#: wp-includes/js/dist/block-library.js:27590
+#: wp-includes/js/dist/block-library.js:33094
+#: wp-includes/js/dist/block-library.js:36617
+#: wp-includes/js/dist/edit-site.js:4363
 #: wp-includes/js/dist/format-library.js:611 wp-admin/options-media.php:62
 msgid "Width"
 msgstr "Πλάτος"
@@ -17284,7 +17569,7 @@ msgstr "Ανοιχτό"
 msgid "Yellow"
 msgstr "Κίτρινο"
 
-#: wp-includes/class-wp-theme.php:982 wp-includes/js/dist/block-editor.js:37081
+#: wp-includes/class-wp-theme.php:982 wp-includes/js/dist/block-editor.js:37195
 msgid "White"
 msgstr "Λευκό"
 
@@ -17320,7 +17605,7 @@ msgstr "Καφέ"
 msgid "Blue"
 msgstr "Μπλε"
 
-#: wp-includes/class-wp-theme.php:971 wp-includes/js/dist/block-editor.js:37073
+#: wp-includes/class-wp-theme.php:971 wp-includes/js/dist/block-editor.js:37187
 msgid "Black"
 msgstr "Μαύρο"
 
@@ -17329,7 +17614,7 @@ msgstr "Μαύρο"
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:82
 #: wp-includes/customize/class-wp-customize-themes-panel.php:83
 #: wp-includes/js/dist/customize-widgets.js:801
-#: wp-includes/js/dist/edit-post.js:4101
+#: wp-includes/js/dist/edit-post.js:4103 wp-includes/js/dist/edit-site.js:2969
 #: wp-includes/js/dist/edit-widgets.js:2673 wp-admin/customize.php:233
 #: wp-admin/includes/class-wp-screen.php:976
 msgid "Help"
@@ -17339,8 +17624,8 @@ msgstr "Βοήθεια"
 #: wp-includes/blocks/latest-posts.php:103 wp-includes/blocks/rss.php:31
 #: wp-includes/media.php:4039 wp-includes/script-loader.php:1130
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:114
-#: wp-includes/js/dist/block-library.js:17948
-#: wp-includes/js/dist/core-data.js:5285 wp-includes/js/dist/edit-post.js:7988
+#: wp-includes/js/dist/block-library.js:17969
+#: wp-includes/js/dist/core-data.js:5296 wp-includes/js/dist/edit-post.js:7990
 #: wp-includes/js/dist/editor.js:9061 wp-admin/includes/ajax-actions.php:2195
 #: wp-admin/includes/media.php:3327 wp-admin/includes/revision.php:59
 #: wp-admin/includes/revision.php:62 wp-admin/includes/template.php:1990
@@ -17348,7 +17633,7 @@ msgstr "Βοήθεια"
 msgid "(no title)"
 msgstr "(χωρίς τίτλο)"
 
-#: wp-includes/post.php:1963
+#: wp-includes/post.php:1964
 msgid "New Post"
 msgstr "Νέο άρθρο"
 
@@ -17356,12 +17641,12 @@ msgstr "Νέο άρθρο"
 msgid "Edit Media"
 msgstr "Επεξεργασία πολυμέσων"
 
-#: wp-includes/post.php:1963
+#: wp-includes/post.php:1964
 msgid "New Page"
 msgstr "Νέα σελίδα"
 
-#: wp-includes/media.php:4445 wp-includes/js/dist/block-editor.js:11732
-#: wp-includes/js/dist/block-library.js:40950
+#: wp-includes/media.php:4445 wp-includes/js/dist/block-editor.js:11727
+#: wp-includes/js/dist/block-library.js:41115
 #: wp-includes/js/dist/editor.js:5154 wp-admin/includes/template.php:1955
 #: wp-admin/nav-menus.php:905 wp-admin/plugin-editor.php:236
 #: wp-admin/theme-editor.php:239
@@ -17372,20 +17657,21 @@ msgstr "Επιλογή"
 #: wp-includes/class-wp-customize-manager.php:5694
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1858
 #: wp-includes/script-loader.php:862 wp-includes/script-loader.php:1175
-#: wp-includes/script-loader.php:1804 wp-includes/js/dist/block-editor.js:11837
-#: wp-includes/js/dist/block-editor.js:49358
-#: wp-includes/js/dist/block-library.js:20623
-#: wp-includes/js/dist/block-library.js:25432
-#: wp-includes/js/dist/block-library.js:40599
-#: wp-includes/js/dist/components.js:46984
+#: wp-includes/script-loader.php:1814 wp-includes/js/dist/block-editor.js:11832
+#: wp-includes/js/dist/block-editor.js:49480
+#: wp-includes/js/dist/block-library.js:20644
+#: wp-includes/js/dist/block-library.js:25453
+#: wp-includes/js/dist/block-library.js:40764
+#: wp-includes/js/dist/components.js:46990
 #: wp-includes/js/dist/customize-widgets.js:715
-#: wp-includes/js/dist/edit-post.js:4840 wp-includes/js/dist/edit-post.js:5495
-#: wp-includes/js/dist/edit-post.js:5868 wp-includes/js/dist/edit-post.js:8108
-#: wp-includes/js/dist/edit-site.js:5769 wp-includes/js/dist/edit-site.js:7897
+#: wp-includes/js/dist/edit-post.js:4842 wp-includes/js/dist/edit-post.js:5497
+#: wp-includes/js/dist/edit-post.js:5870 wp-includes/js/dist/edit-post.js:8110
+#: wp-includes/js/dist/edit-site.js:2678 wp-includes/js/dist/edit-site.js:6781
+#: wp-includes/js/dist/edit-site.js:8934
 #: wp-includes/js/dist/edit-widgets.js:2592
 #: wp-includes/js/dist/reusable-blocks.js:459
 #: wp-admin/includes/class-wp-theme-install-list-table.php:394
-#: wp-admin/theme-install.php:421
+#: wp-admin/theme-install.php:424
 msgid "Close"
 msgstr "Κλείσιμο"
 
@@ -17403,18 +17689,18 @@ msgid "Email: %s"
 msgstr "Email: %s"
 
 #: wp-includes/widgets/class-wp-widget-links.php:29
-#: wp-includes/js/dist/edit-site.js:3970 wp-includes/js/dist/edit-site.js:3999
-#: wp-includes/js/dist/edit-site.js:4158 wp-includes/js/dist/edit-site.js:4541
+#: wp-includes/js/dist/edit-site.js:4992 wp-includes/js/dist/edit-site.js:5021
+#: wp-includes/js/dist/edit-site.js:5180 wp-includes/js/dist/edit-site.js:5551
 #: wp-admin/includes/class-wp-terms-list-table.php:200
 #: wp-admin/link-manager.php:50 wp-admin/menu.php:80
 msgid "Links"
 msgstr "Σύνδεσμοι"
 
-#: wp-includes/post.php:1964
+#: wp-includes/post.php:1965
 msgid "View Page"
 msgstr "Προβολή σελίδας"
 
-#: wp-includes/post.php:3135
+#: wp-includes/post.php:3136
 msgid "Images"
 msgstr "Εικόνες"
 
@@ -17433,14 +17719,14 @@ msgstr "Εικόνες"
 #: wp-admin/includes/class-wp-theme-install-list-table.php:369
 #: wp-admin/includes/class-wp-theme-install-list-table.php:501
 #: wp-admin/includes/class-wp-themes-list-table.php:263
-#: wp-admin/includes/theme.php:845 wp-admin/theme-install.php:353
-#: wp-admin/theme-install.php:452 wp-admin/themes.php:523
+#: wp-admin/includes/theme.php:845 wp-admin/theme-install.php:354
+#: wp-admin/theme-install.php:455 wp-admin/themes.php:523
 #: wp-admin/themes.php:882 wp-admin/themes.php:963
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:720
 msgid "By %s"
 msgstr "Από %s"
 
-#: wp-includes/js/dist/block-library.js:38391
+#: wp-includes/js/dist/block-library.js:38556
 #: wp-admin/includes/class-plugin-installer-skin.php:217
 #: wp-admin/includes/class-theme-installer-skin.php:240
 #: wp-admin/includes/class-wp-debug-data.php:69
@@ -17451,14 +17737,14 @@ msgstr "Έκδοση"
 
 #: wp-includes/admin-bar.php:1109 wp-includes/admin-bar.php:1110
 #: wp-includes/blocks/search.php:25 wp-includes/blocks/search.php:26
-#: wp-includes/blocks/search.php:49 wp-includes/class-wp-editor.php:1879
+#: wp-includes/blocks/search.php:46 wp-includes/class-wp-editor.php:1879
 #: wp-includes/media.php:4444 wp-includes/media.php:4488
-#: wp-includes/js/dist/block-editor.js:40319
-#: wp-includes/js/dist/block-editor.js:49178
-#: wp-includes/js/dist/block-editor.js:49774
-#: wp-includes/js/dist/block-library.js:33146
-#: wp-includes/js/dist/block-library.js:33147
-#: wp-includes/js/dist/components.js:53708
+#: wp-includes/js/dist/block-editor.js:40434
+#: wp-includes/js/dist/block-editor.js:49300
+#: wp-includes/js/dist/block-editor.js:49896
+#: wp-includes/js/dist/block-library.js:33219
+#: wp-includes/js/dist/block-library.js:33220
+#: wp-includes/js/dist/components.js:53725
 #: wp-admin/includes/class-wp-media-list-table.php:307
 #: wp-admin/includes/class-wp-theme-install-list-table.php:59
 #: wp-admin/includes/nav-menu.php:522 wp-admin/includes/nav-menu.php:585
@@ -17485,7 +17771,7 @@ msgstr "Όλες οι κατηγορίες"
 
 #: wp-includes/class-wp-customize-control.php:637
 #: wp-includes/class-wp-customize-nav-menus.php:1229
-#: wp-includes/js/dist/edit-post.js:5868 wp-admin/includes/meta-boxes.php:555
+#: wp-includes/js/dist/edit-post.js:5870 wp-admin/includes/meta-boxes.php:555
 #: wp-admin/includes/meta-boxes.php:1148
 msgid "Add"
 msgstr "Προσθήκη"
@@ -17516,7 +17802,7 @@ msgstr "Ενημέρωση"
 msgid "Public"
 msgstr "Δημόσιο"
 
-#: wp-includes/post.php:1191 wp-includes/post.php:1211
+#: wp-includes/post.php:1192 wp-includes/post.php:1212
 #: wp-includes/js/dist/editor.js:8024
 #: wp-admin/includes/class-wp-posts-list-table.php:1719
 #: wp-admin/includes/class-wp-posts-list-table.php:1919
@@ -17535,7 +17821,7 @@ msgstr "Εντάξει"
 msgid "Image URL"
 msgstr "URL εικόνας"
 
-#: wp-includes/js/dist/edit-site.js:7988 wp-includes/js/dist/edit-site.js:8277
+#: wp-includes/js/dist/edit-site.js:9025 wp-includes/js/dist/edit-site.js:9319
 #: wp-admin/includes/media.php:2584
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:370
 msgid "Actions"
@@ -17544,7 +17830,7 @@ msgstr "Ενέργειες"
 #. translators: Default privacy policy heading.
 #: wp-includes/block-template-utils.php:165
 #: wp-includes/class-wp-editor.php:1229 wp-includes/media.php:4441
-#: wp-includes/media.php:5095 wp-includes/js/dist/block-editor.js:9606
+#: wp-includes/media.php:5098 wp-includes/js/dist/block-editor.js:9601
 #: wp-includes/js/dist/blocks.js:250 wp-includes/js/dist/core-data.js:1901
 #: wp-admin/export.php:293
 #: wp-admin/includes/class-wp-privacy-policy-content.php:504
@@ -17573,15 +17859,15 @@ msgstr "Στοίχιση"
 #: wp-includes/media-template.php:843 wp-includes/media-template.php:922
 #: wp-includes/media-template.php:1114
 #: wp-includes/widgets/class-wp-widget-media-image.php:72
-#: wp-includes/js/dist/block-library.js:36266
-#: wp-includes/js/dist/block-library.js:36267
-#: wp-includes/js/dist/components.js:51704 wp-admin/includes/media.php:1228
+#: wp-includes/js/dist/block-library.js:36253
+#: wp-includes/js/dist/block-library.js:36254
+#: wp-includes/js/dist/components.js:51721 wp-admin/includes/media.php:1228
 msgid "Size"
 msgstr "Μέγεθος"
 
 #: wp-includes/block-editor.php:168 wp-includes/media-template.php:857
 #: wp-includes/media-template.php:937 wp-includes/media-template.php:1128
-#: wp-includes/media.php:4082 wp-includes/js/dist/block-editor.js:37157
+#: wp-includes/media.php:4082 wp-includes/js/dist/block-editor.js:37271
 #: wp-admin/includes/class-custom-background.php:607
 #: wp-admin/includes/media.php:1180
 msgid "Full Size"
@@ -17589,7 +17875,7 @@ msgstr "Πλήρες μέγεθος"
 
 #: wp-includes/block-editor.php:166 wp-includes/media-template.php:855
 #: wp-includes/media-template.php:935 wp-includes/media-template.php:1126
-#: wp-includes/media.php:4080 wp-includes/js/dist/block-editor.js:37151
+#: wp-includes/media.php:4080 wp-includes/js/dist/block-editor.js:37265
 #: wp-admin/includes/class-custom-background.php:605
 #: wp-admin/includes/media.php:1178
 msgid "Medium"
@@ -17617,7 +17903,7 @@ msgstr "Κέντρο"
 #: wp-includes/customize/class-wp-customize-background-position-control.php:57
 #: wp-includes/media-template.php:776 wp-includes/media-template.php:1032
 #: wp-includes/media-template.php:1096 wp-includes/js/dist/components.js:31355
-#: wp-includes/js/dist/components.js:50174
+#: wp-includes/js/dist/components.js:50180
 #: wp-admin/includes/class-custom-background.php:385
 #: wp-admin/includes/media.php:1135 wp-admin/includes/media.php:2978
 msgid "Left"
@@ -17649,7 +17935,7 @@ msgstr "Το αρχείο %s δεν υπάρχει;"
 
 #: wp-includes/block-editor.php:165 wp-includes/media-template.php:854
 #: wp-includes/media-template.php:934 wp-includes/media-template.php:1125
-#: wp-includes/media.php:4079 wp-includes/js/dist/block-editor.js:37148
+#: wp-includes/media.php:4079 wp-includes/js/dist/block-editor.js:37262
 #: wp-admin/includes/class-custom-background.php:604
 #: wp-admin/includes/image-edit.php:235 wp-admin/includes/media.php:1177
 msgid "Thumbnail"
@@ -17657,7 +17943,7 @@ msgstr "Μικρογραφία"
 
 #: wp-includes/class-wp-editor.php:1175
 #: wp-includes/js/dist/customize-widgets.js:881
-#: wp-includes/js/dist/edit-site.js:2060
+#: wp-includes/js/dist/edit-site.js:3086
 #: wp-includes/js/dist/edit-widgets.js:2338 wp-includes/js/dist/editor.js:4904
 #: wp-admin/includes/image-edit.php:81
 msgid "Redo"
@@ -17665,14 +17951,14 @@ msgstr "Επανάληψη"
 
 #: wp-includes/general-template.php:518 wp-login.php:1395
 #: wp-admin/includes/class-wp-posts-list-table.php:1707
-#: wp-admin/includes/file.php:2346 wp-admin/install.php:137
+#: wp-admin/includes/file.php:2348 wp-admin/install.php:137
 #: wp-admin/install.php:427 wp-admin/options-writing.php:167
 #: wp-admin/setup-config.php:224 wp-admin/user-new.php:558
 msgid "Password"
 msgstr "Συνθηματικό"
 
 #: wp-login.php:1065 wp-admin/includes/class-wp-users-list-table.php:361
-#: wp-admin/includes/file.php:2345 wp-admin/install.php:118
+#: wp-admin/includes/file.php:2347 wp-admin/install.php:118
 #: wp-admin/install.php:423 wp-admin/setup-config.php:219
 #: wp-admin/user-edit.php:411 wp-admin/user-new.php:508
 #: wp-admin/includes/class-wp-ms-users-list-table.php:197
@@ -17696,9 +17982,9 @@ msgstr "Πλευρική στήλη"
 
 #. translators: accessibility text for the top bar landmark region.
 #: wp-includes/admin-bar.php:1050 wp-includes/block-template-utils.php:77
-#: wp-includes/js/dist/block-library.js:39463
+#: wp-includes/js/dist/block-library.js:39628
 #: wp-includes/js/dist/customize-widgets.js:3964
-#: wp-includes/js/dist/edit-post.js:3129 wp-includes/js/dist/edit-site.js:10105
+#: wp-includes/js/dist/edit-post.js:3131 wp-includes/js/dist/edit-site.js:11309
 #: wp-includes/js/dist/edit-widgets.js:4902
 #: wp-admin/includes/class-custom-image-header.php:73 wp-admin/menu.php:233
 msgid "Header"
@@ -17735,14 +18021,14 @@ msgid "Save Draft"
 msgstr "Αποθήκευση Προσχέδιου"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:49
-#: wp-includes/js/dist/block-library.js:30289
+#: wp-includes/js/dist/block-library.js:30362
 msgid "Tags"
 msgstr "Ετικέτες"
 
 #. translators: accessibility text for the content landmark region.
-#: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:26341
+#: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:26362
 #: wp-includes/js/dist/customize-widgets.js:3967
-#: wp-includes/js/dist/edit-post.js:3132 wp-includes/js/dist/edit-site.js:10108
+#: wp-includes/js/dist/edit-post.js:3134 wp-includes/js/dist/edit-site.js:11312
 #: wp-includes/js/dist/edit-widgets.js:4905 wp-admin/includes/dashboard.php:576
 #: wp-admin/index.php:104
 msgid "Content"
@@ -17750,22 +18036,22 @@ msgstr "Περιεχόμενο"
 
 #: wp-includes/class-wp-editor.php:1178 wp-includes/class-wp-editor.php:1904
 #: wp-includes/media.php:4446 wp-includes/script-loader.php:1174
-#: wp-includes/js/dist/block-editor.js:7025
-#: wp-includes/js/dist/block-editor.js:9649
-#: wp-includes/js/dist/block-editor.js:9652
-#: wp-includes/js/dist/block-library.js:21830
-#: wp-includes/js/dist/block-library.js:21839
-#: wp-includes/js/dist/block-library.js:25446
-#: wp-includes/js/dist/block-library.js:38981
-#: wp-includes/js/dist/block-library.js:38996
-#: wp-includes/js/dist/edit-post.js:8136 wp-includes/js/dist/edit-site.js:5832
-#: wp-includes/js/dist/edit-site.js:7921 wp-includes/js/dist/editor.js:9201
+#: wp-includes/js/dist/block-editor.js:7029
+#: wp-includes/js/dist/block-editor.js:9644
+#: wp-includes/js/dist/block-editor.js:9647
+#: wp-includes/js/dist/block-library.js:21851
+#: wp-includes/js/dist/block-library.js:21860
+#: wp-includes/js/dist/block-library.js:25467
+#: wp-includes/js/dist/block-library.js:39146
+#: wp-includes/js/dist/block-library.js:39161
+#: wp-includes/js/dist/edit-post.js:8138 wp-includes/js/dist/edit-site.js:6844
+#: wp-includes/js/dist/edit-site.js:8958 wp-includes/js/dist/editor.js:9201
 #: wp-includes/js/dist/reusable-blocks.js:486 wp-admin/comment.php:247
 #: wp-admin/includes/class-walker-nav-menu-edit.php:305
 #: wp-admin/includes/class-wp-posts-list-table.php:2011
 #: wp-admin/includes/class-wp-terms-list-table.php:699
 #: wp-admin/includes/dashboard.php:200 wp-admin/includes/dashboard.php:1378
-#: wp-admin/includes/file.php:2444 wp-admin/includes/image-edit.php:98
+#: wp-admin/includes/file.php:2446 wp-admin/includes/image-edit.php:98
 #: wp-admin/includes/media.php:1742 wp-admin/includes/media.php:2277
 #: wp-admin/includes/meta-boxes.php:156 wp-admin/includes/meta-boxes.php:209
 #: wp-admin/includes/template.php:498 wp-admin/includes/template.php:741
@@ -17778,9 +18064,9 @@ msgid "Cancel"
 msgstr "Ακύρωση"
 
 #: wp-includes/admin-bar.php:585 wp-includes/js/dist/core-data.js:2025
-#: wp-includes/js/dist/edit-post.js:6080 wp-includes/js/dist/edit-site.js:1941
-#: wp-admin/plugins.php:602 wp-admin/update-core.php:450
-#: wp-admin/update-core.php:469 wp-admin/network/menu.php:103
+#: wp-includes/js/dist/edit-post.js:6082 wp-includes/js/dist/edit-site.js:2953
+#: wp-admin/plugins.php:602 wp-admin/update-core.php:458
+#: wp-admin/update-core.php:477 wp-admin/network/menu.php:103
 #: wp-admin/network/settings.php:487
 msgid "Plugins"
 msgstr "Πρόσθετα"
@@ -17796,16 +18082,16 @@ msgstr "Πρόσφατα σχόλια"
 #: wp-includes/class-wp-editor.php:1245 wp-includes/media-template.php:1488
 #: wp-includes/js/dist/block-editor.js:1097
 #: wp-includes/js/dist/block-editor.js:1430
-#: wp-includes/js/dist/block-editor.js:12174
-#: wp-includes/js/dist/block-library.js:15640 wp-admin/customize.php:207
+#: wp-includes/js/dist/block-editor.js:12169
+#: wp-includes/js/dist/block-library.js:15661 wp-admin/customize.php:207
 #: wp-admin/includes/class-custom-background.php:264
 #: wp-admin/includes/class-custom-image-header.php:537
 #: wp-admin/includes/class-wp-posts-list-table.php:1483
 #: wp-admin/includes/class-wp-theme-install-list-table.php:345
 #: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1802
-#: wp-admin/theme-install.php:381 wp-admin/theme-install.php:394
-#: wp-admin/theme-install.php:404 wp-admin/theme-install.php:411
-#: wp-admin/theme-install.php:547
+#: wp-admin/theme-install.php:384 wp-admin/theme-install.php:397
+#: wp-admin/theme-install.php:407 wp-admin/theme-install.php:414
+#: wp-admin/theme-install.php:550
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
@@ -17815,8 +18101,8 @@ msgstr "Προεπισκόπηση"
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/js/dist/block-editor.js:8901
-#: wp-includes/js/dist/block-editor.js:11844
+#: wp-includes/js/dist/block-editor.js:8896
+#: wp-includes/js/dist/block-editor.js:11839
 #: wp-admin/includes/dashboard.php:1375 wp-admin/setup-config.php:249
 msgid "Submit"
 msgstr "Υποβολή"
@@ -17829,7 +18115,7 @@ msgstr "Ανώνυμος"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-#: wp-includes/js/dist/components.js:41505 wp-admin/includes/widgets.php:297
+#: wp-includes/js/dist/components.js:41511 wp-admin/includes/widgets.php:297
 #: wp-admin/js/set-post-thumbnail.js:21
 msgid "Done"
 msgstr "Ολοκλήρωση"
@@ -17843,15 +18129,15 @@ msgstr "Ολοκλήρωση"
 msgid "Users"
 msgstr "Χρήστες"
 
-#: wp-includes/post.php:1962
+#: wp-includes/post.php:1963
 msgid "Edit Post"
 msgstr "Επεξεργασία άρθρου"
 
-#: wp-includes/post.php:1964
+#: wp-includes/post.php:1965
 msgid "View Post"
 msgstr "Προβολή άρθρου"
 
-#: wp-includes/post.php:1960
+#: wp-includes/post.php:1961
 msgctxt "post"
 msgid "Add New"
 msgstr "Προσθήκη Νέου"
@@ -17865,8 +18151,8 @@ msgstr "Επεξεργασία Ετικέτας"
 #: wp-includes/media-template.php:1041 wp-includes/media-template.php:1058
 #: wp-includes/media-template.php:1105 wp-includes/media-template.php:1181
 #: wp-includes/media-template.php:1301 wp-includes/media-template.php:1400
-#: wp-includes/script-loader.php:978 wp-includes/js/dist/block-editor.js:47526
-#: wp-includes/js/dist/block-library.js:13076 wp-admin/edit-tag-form.php:188
+#: wp-includes/script-loader.php:978 wp-includes/js/dist/block-editor.js:47648
+#: wp-includes/js/dist/block-library.js:13079 wp-admin/edit-tag-form.php:188
 #: wp-admin/edit-tags.php:477 wp-admin/includes/class-wp-debug-data.php:1123
 #: wp-admin/includes/media.php:1134 wp-admin/includes/media.php:1262
 #: wp-admin/includes/media.php:2976 wp-admin/includes/media.php:2992
@@ -17876,8 +18162,8 @@ msgstr "Καμία"
 #: wp-includes/class-wp-editor.php:1208
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:131
 #: wp-includes/media-template.php:506 wp-includes/media-template.php:735
-#: wp-includes/js/dist/block-library.js:23794
-#: wp-includes/js/dist/block-library.js:24889 wp-admin/edit-link-form.php:130
+#: wp-includes/js/dist/block-library.js:23815
+#: wp-includes/js/dist/block-library.js:24910 wp-admin/edit-link-form.php:130
 #: wp-admin/edit-tag-form.php:204 wp-admin/edit-tags.php:513
 #: wp-admin/includes/class-walker-nav-menu-edit.php:233
 #: wp-admin/includes/class-wp-plugins-list-table.php:463
@@ -17889,10 +18175,10 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: wp-includes/comment-template.php:2368
-#: wp-includes/js/dist/block-library.js:32383
-#: wp-includes/js/dist/block-library.js:38987
-#: wp-includes/js/dist/edit-post.js:8120 wp-includes/js/dist/edit-site.js:5787
-#: wp-includes/js/dist/edit-site.js:7908
+#: wp-includes/js/dist/block-library.js:32456
+#: wp-includes/js/dist/block-library.js:39152
+#: wp-includes/js/dist/edit-post.js:8122 wp-includes/js/dist/edit-site.js:6799
+#: wp-includes/js/dist/edit-site.js:8945
 #: wp-includes/js/dist/reusable-blocks.js:474 wp-admin/edit-form-comment.php:49
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:29
 #: wp-admin/includes/class-wp-debug-data.php:1129
@@ -17904,7 +18190,7 @@ msgid "Name"
 msgstr "Όνομα"
 
 #: wp-includes/class-wp-editor.php:1215
-#: wp-includes/js/dist/block-editor.js:12583 wp-admin/edit-link-form.php:34
+#: wp-includes/js/dist/block-editor.js:12578 wp-admin/edit-link-form.php:34
 msgid "Advanced"
 msgstr "Περισσότερα"
 
@@ -17919,15 +18205,15 @@ msgstr "Στόχος"
 #: wp-includes/widgets/class-wp-widget-categories.php:48
 #: wp-includes/js/dist/block-library.js:4689
 #: wp-includes/js/dist/block-library.js:4727
-#: wp-includes/js/dist/block-library.js:30284
-#: wp-includes/js/dist/components.js:55709 wp-admin/edit-link-form.php:31
+#: wp-includes/js/dist/block-library.js:30357
+#: wp-includes/js/dist/components.js:55726 wp-admin/edit-link-form.php:31
 #: wp-admin/includes/class-wp-links-list-table.php:135
 #: wp-admin/includes/upgrade.php:417
 msgid "Categories"
 msgstr "Kατηγορίες"
 
-#: wp-includes/class-wp-editor.php:1247 wp-includes/js/dist/edit-site.js:2000
-#: wp-includes/js/dist/edit-site.js:7924 wp-includes/js/dist/editor.js:5423
+#: wp-includes/class-wp-editor.php:1247 wp-includes/js/dist/edit-site.js:3029
+#: wp-includes/js/dist/edit-site.js:8961 wp-includes/js/dist/editor.js:5423
 #: wp-includes/js/dist/editor.js:9489
 #: wp-includes/js/dist/reusable-blocks.js:489
 #: wp-includes/js/dist/widgets.js:392 wp-admin/edit-form-comment.php:90
@@ -17964,8 +18250,8 @@ msgstr "Κατηγορίες συνδέσμων"
 msgid "Revisions"
 msgstr "Αναθεωρήσεις"
 
-#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:17756
-#: wp-includes/js/dist/edit-post.js:5391 wp-includes/js/dist/edit-post.js:7386
+#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:17777
+#: wp-includes/js/dist/edit-post.js:5393 wp-includes/js/dist/edit-post.js:7388
 #: wp-admin/includes/meta-boxes.php:703 wp-admin/includes/meta-boxes.php:1513
 #: wp-admin/options-reading.php:165
 msgid "Excerpt"
@@ -17975,8 +18261,8 @@ msgstr "Απόσπασμα"
 #: wp-includes/class-wp-customize-manager.php:4818
 #: wp-includes/script-loader.php:1162
 #: wp-includes/js/dist/customize-widgets.js:3976
-#: wp-includes/js/dist/edit-post.js:3141 wp-includes/js/dist/edit-post.js:6950
-#: wp-includes/js/dist/edit-site.js:10117
+#: wp-includes/js/dist/edit-post.js:3143 wp-includes/js/dist/edit-post.js:6952
+#: wp-includes/js/dist/edit-site.js:11321
 #: wp-includes/js/dist/edit-widgets.js:4914 wp-includes/js/dist/editor.js:7750
 #: wp-includes/js/dist/editor.js:7941 wp-admin/customize.php:193
 #: wp-admin/includes/meta-boxes.php:359 wp-admin/includes/meta-boxes.php:360
@@ -18001,10 +18287,10 @@ msgstr "Σχόλια"
 
 #: wp-includes/class-wp-customize-widgets.php:799
 #: wp-includes/class-wp-editor.php:1386 wp-includes/media.php:4485
-#: wp-includes/js/dist/block-editor.js:7023
-#: wp-includes/js/dist/block-editor.js:9305
-#: wp-includes/js/dist/block-editor.js:9422
-#: wp-includes/js/dist/block-library.js:35867
+#: wp-includes/js/dist/block-editor.js:7027
+#: wp-includes/js/dist/block-editor.js:9300
+#: wp-includes/js/dist/block-editor.js:9417
+#: wp-includes/js/dist/block-library.js:35915
 #: wp-includes/js/dist/format-library.js:617
 #: wp-admin/includes/class-wp-list-table.php:513
 #: wp-admin/includes/class-wp-screen.php:1092
@@ -18014,7 +18300,7 @@ msgstr "Εφαρμογή"
 #. translators: %s: Number of comments.
 #: wp-includes/class-wp-editor.php:1174
 #: wp-includes/js/dist/customize-widgets.js:869
-#: wp-includes/js/dist/edit-site.js:1228 wp-includes/js/dist/edit-site.js:2031
+#: wp-includes/js/dist/edit-site.js:1113 wp-includes/js/dist/edit-site.js:3057
 #: wp-includes/js/dist/edit-widgets.js:2309 wp-includes/js/dist/editor.js:4946
 #: wp-admin/edit-comments.php:297 wp-admin/edit-comments.php:308
 #: wp-admin/edit.php:436 wp-admin/includes/image-edit.php:80
@@ -18044,13 +18330,13 @@ msgstr "%s πριν"
 #: wp-includes/class-walker-comment.php:261
 #: wp-includes/class-walker-comment.php:460
 #: wp-includes/class-wp-editor.php:1384
-#: wp-includes/js/dist/block-editor.js:8502
-#: wp-includes/js/dist/block-editor.js:9264
-#: wp-includes/js/dist/block-editor.js:11729
-#: wp-includes/js/dist/block-library.js:25535
-#: wp-includes/js/dist/block-library.js:25537
-#: wp-includes/js/dist/block-library.js:40509
-#: wp-includes/js/dist/edit-post.js:8101 wp-admin/comment.php:238
+#: wp-includes/js/dist/block-editor.js:8497
+#: wp-includes/js/dist/block-editor.js:9259
+#: wp-includes/js/dist/block-editor.js:11724
+#: wp-includes/js/dist/block-library.js:25557
+#: wp-includes/js/dist/block-library.js:25559
+#: wp-includes/js/dist/block-library.js:40674
+#: wp-includes/js/dist/edit-post.js:8103 wp-admin/comment.php:238
 #: wp-admin/edit-form-comment.php:139
 #: wp-admin/includes/class-walker-nav-menu-edit.php:185
 #: wp-admin/includes/class-wp-comments-list-table.php:798
@@ -18098,12 +18384,12 @@ msgstr "Σχόλιο"
 #: wp-includes/media-template.php:837 wp-includes/media-template.php:1063
 #: wp-includes/media-template.php:1186 wp-includes/media-template.php:1260
 #: wp-includes/media-template.php:1351 wp-includes/media.php:4442
-#: wp-includes/media.php:5088
+#: wp-includes/media.php:5091
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:61
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:175
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
-#: wp-includes/js/dist/block-editor.js:7683
-#: wp-includes/js/dist/block-editor.js:9415
+#: wp-includes/js/dist/block-editor.js:7687
+#: wp-includes/js/dist/block-editor.js:9410
 #: wp-includes/js/dist/block-library.js:10046 wp-admin/comment.php:183
 #: wp-admin/edit-form-comment.php:59
 #: wp-admin/includes/class-walker-nav-menu-edit.php:196
@@ -18115,8 +18401,8 @@ msgid "URL"
 msgstr "URL"
 
 #: wp-includes/class-wp-editor.php:1209 wp-includes/theme-compat/sidebar.php:29
-#: wp-includes/js/dist/block-library.js:26493
-#: wp-includes/js/dist/components.js:55720 wp-includes/js/dist/editor.js:6322
+#: wp-includes/js/dist/block-library.js:26541
+#: wp-includes/js/dist/components.js:55737 wp-includes/js/dist/editor.js:6322
 #: wp-includes/js/dist/editor.js:6384 wp-admin/comment.php:172
 #: wp-admin/edit-form-comment.php:43
 #: wp-admin/includes/class-plugin-installer-skin.php:218
@@ -18160,7 +18446,7 @@ msgstr "Επισκεφθείτε τον ιστότοπο"
 msgid "Y/m/d"
 msgstr "d/m/Y"
 
-#: wp-includes/post.php:1189 wp-includes/post.php:1210
+#: wp-includes/post.php:1190 wp-includes/post.php:1211
 #: wp-includes/js/dist/editor.js:9348 wp-admin/includes/ajax-actions.php:2210
 #: wp-admin/includes/class-wp-posts-list-table.php:1924
 #: wp-admin/includes/meta-boxes.php:122 wp-admin/includes/meta-boxes.php:150
@@ -18168,13 +18454,13 @@ msgstr "d/m/Y"
 msgid "Draft"
 msgstr "Προσχέδιο"
 
-#: wp-includes/post.php:1190 wp-admin/includes/ajax-actions.php:2207
+#: wp-includes/post.php:1191 wp-admin/includes/ajax-actions.php:2207
 #: wp-admin/includes/class-wp-posts-list-table.php:1923
 #: wp-admin/includes/meta-boxes.php:118 wp-admin/includes/meta-boxes.php:148
 msgid "Pending Review"
 msgstr "Για έλεγχο"
 
-#: wp-includes/post.php:1192 wp-includes/post.php:1212
+#: wp-includes/post.php:1193 wp-includes/post.php:1213
 #: wp-includes/script-loader.php:1163 wp-admin/includes/ajax-actions.php:2201
 #: wp-admin/includes/class-wp-posts-list-table.php:1160
 #: wp-admin/includes/class-wp-posts-list-table.php:1916
@@ -18185,8 +18471,8 @@ msgstr "Δημοσιεύτηκε"
 
 #: wp-includes/class-wp-editor.php:1205 wp-includes/media-template.php:484
 #: wp-includes/media-template.php:713 wp-includes/revision.php:32
-#: wp-includes/js/dist/block-library.js:39191
-#: wp-includes/js/dist/edit-post.js:6426 wp-includes/js/dist/edit-site.js:2414
+#: wp-includes/js/dist/block-library.js:39356
+#: wp-includes/js/dist/edit-post.js:6428 wp-includes/js/dist/edit-site.js:3436
 #: wp-includes/js/dist/editor.js:4627 wp-includes/js/dist/editor.js:5269
 #: wp-includes/js/dist/widgets.js:1481 wp-admin/includes/ajax-actions.php:2192
 #: wp-admin/includes/class-wp-posts-list-table.php:1631
@@ -18195,7 +18481,7 @@ msgstr "Δημοσιεύτηκε"
 msgid "Title"
 msgstr "Τίτλος"
 
-#: wp-includes/post.php:1967 wp-includes/js/dist/block-library.js:17882
+#: wp-includes/post.php:1968 wp-includes/js/dist/block-library.js:17903
 msgid "No posts found."
 msgstr "Δεν βρέθηκαν άρθρα."
 
@@ -18224,8 +18510,8 @@ msgstr "Ο λογαριασμός σας ενεργοποιήθηκε!"
 #: wp-admin/includes/class-wp-plugins-list-table.php:601
 #: wp-admin/includes/class-wp-plugins-list-table.php:869
 #: wp-admin/includes/class-wp-themes-list-table.php:216
-#: wp-admin/includes/theme.php:1049 wp-admin/theme-install.php:369
-#: wp-admin/theme-install.php:431 wp-admin/themes.php:550
+#: wp-admin/includes/theme.php:1049 wp-admin/theme-install.php:370
+#: wp-admin/theme-install.php:434 wp-admin/themes.php:550
 #: wp-admin/themes.php:910 wp-admin/themes.php:1132 wp-admin/js/updates.js:765
 #: wp-admin/js/updates.js:1404
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:711

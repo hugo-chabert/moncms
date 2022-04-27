@@ -76,7 +76,7 @@ class WC_Payments_Features {
 			update_option( self::WCPAY_SUBSCRIPTIONS_FLAG_NAME, $enabled );
 		}
 
-		return '1' === $enabled;
+		return apply_filters( 'wcpay_is_wcpay_subscriptions_enabled', '1' === $enabled );
 	}
 
 	/**
@@ -110,6 +110,7 @@ class WC_Payments_Features {
 				'upeSettingsPreview'      => self::is_upe_settings_preview_enabled(),
 				'multiCurrency'           => self::is_customer_multi_currency_enabled(),
 				'accountOverviewTaskList' => self::is_account_overview_task_list_enabled(),
+				'platformCheckout'        => self::is_platform_checkout_enabled(),
 			]
 		);
 	}

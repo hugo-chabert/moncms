@@ -183,11 +183,11 @@ msgstr "La chiave per inviare con MailPoet non è valida!"
 msgid "Purchase a key"
 msgstr "Acquista una chiave"
 
-#: lib/API/JSON/v1/Settings.php:180
+#: lib/API/JSON/v1/Settings.php:184
 msgid "No email address specified."
 msgstr "Non hai specificato un indirizzo email."
 
-#: lib/API/JSON/v1/Settings.php:189
+#: lib/API/JSON/v1/Settings.php:193
 msgid "Can’t use this email yet! Please authorize it first."
 msgstr "Non puoi ancora usare questo indirizzo email! Prima lo devi autorizzare."
 
@@ -337,23 +337,23 @@ msgstr "Acquistato in questa categoria"
 msgid "Please contact our technical support for assistance."
 msgstr "Contatta il nostro supporto tecnico per assistenza."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:52
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:54
 msgid "Send an email to logged-in visitors who have items in their shopping carts but left your website without checking out. Can convert up to 5% of abandoned carts."
 msgstr "Invia un'email ai visitatori registrati che hanno degli articoli nei loro carrelli ma hanno lasciato il tuo sito senza avere completato l'acquisto. Potresti convertire fino al 5% dei carrelli abbandonati."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:64
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:66
 msgid "hour(s) later"
 msgstr "ora(e) dopo"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:68
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:70
 msgid "day(s) later"
 msgstr "giorno(i) dopo"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:72
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:74
 msgid "week(s) later"
 msgstr "settimana(e) dopo"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:79
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:81
 msgid "We recommend setting up 3 abandoned cart emails. Here’s why."
 msgstr "Ti raccomandiamo di impostare 3 diverse email per l'abbandono dell'acquisto. Per queste ragioni:"
 
@@ -377,17 +377,17 @@ msgstr "È necessario WooCommerce"
 msgid "WooCommerce %s event is misconfigured."
 msgstr "L'evento %s di WooCommerce è configurato male."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:51
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
 msgctxt "This is the name of a type of automatic email for ecommerce. Those emails are sent automatically when a customer adds product to his shopping cart but never complete the checkout process."
 msgid "Abandoned Shopping Cart"
 msgstr "Carrello abbandonato"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:53
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
 msgctxt "Description of Abandoned Shopping Cart email"
 msgid "Email sent when a customer abandons his cart."
 msgstr "Email inviata quando il cliente abbandona l'acquisto."
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:60
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:62
 msgctxt "This is a trigger setting. It means that we will send an automatic email to a visitor 30 minutes after this visitor had left the website."
 msgid "30 minutes after last page loaded"
 msgstr "30 minuti dopo l'ultimo caricamento della pagina"
@@ -408,7 +408,7 @@ msgstr "Compila il campo CAPTCHA."
 msgid "The characters you entered did not match the CAPTCHA image. Please try again with this new image."
 msgstr "I caratteri digitati non corrispondono all'immagine del CAPTCHA. Riprova con questa nuova immagine."
 
-#: lib/Config/Populator.php:374
+#: lib/Config/Populator.php:379
 msgid "Newsletter mailing list"
 msgstr "Mailing list della newsletter"
 
@@ -474,7 +474,7 @@ msgstr ""
 "\n"
 "Il Team"
 
-#: lib/Config/Populator.php:304
+#: lib/Config/Populator.php:309
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "I would like to receive exclusive emails with discounts and product information"
 msgstr "Sì, voglio ricevere mail esclusive con offerte e informazioni sui prodotti."
@@ -647,7 +647,7 @@ msgstr "Sei stato iscritto con successo alla nostra newsletter!"
 msgid "Manage features"
 msgstr "Gestisci le funzionalità"
 
-#: lib/Config/Populator.php:303
+#: lib/Config/Populator.php:308
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "Yes, I would like to be added to your mailing list"
 msgstr "Sì, vorrei essere aggiunto alla tua mailing list"
@@ -789,11 +789,11 @@ msgstr "Software"
 msgid "WordPress Theme"
 msgstr "Tema di WordPress"
 
-#: lib/Models/Segment.php:161 lib/Segments/SegmentsRepository.php:63
+#: lib/Models/Segment.php:162 lib/Segments/SegmentsRepository.php:63
 msgid "WooCommerce Customers"
 msgstr "Clienti WooCommerce"
 
-#: lib/Models/Segment.php:163 lib/Segments/SegmentsRepository.php:65
+#: lib/Models/Segment.php:164 lib/Segments/SegmentsRepository.php:65
 msgid "This list contains all of your WooCommerce customers."
 msgstr "Questa lista contiene tutti i tuoi clienti di WooCommerce"
 
@@ -955,7 +955,7 @@ msgstr "Nota che non funziona su un host locale."
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:55
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:57
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:77
 msgid "Must-have"
 msgstr "Da avere"
@@ -1219,7 +1219,7 @@ msgstr "L'importazione è stata fermata dall'utente"
 msgid "Invalid API endpoint method."
 msgstr "Il metodo endpoint API non è valido."
 
-#: lib/Config/Initializer.php:142
+#: lib/Config/Initializer.php:148
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "Impossibile connettersi al database (il database non è in grado di aprire un file o una cartella), la connessione probabilmente non è configurata correttamente. Leggi il nostro [link] articolo Knowledge Base [/link] per le istruzioni su come risolverlo."
 
@@ -1893,7 +1893,7 @@ msgstr "Non ci sono iscritti in questa lista."
 msgid "This newsletter has not been sent yet."
 msgstr "Questa newsletter non è stata ancora inviata."
 
-#: lib/API/JSON/v1/Settings.php:121
+#: lib/API/JSON/v1/Settings.php:125
 msgid "You have not specified any settings to be saved."
 msgstr "Non hai ancora specificato alcuna impostazione da salvare."
 
@@ -1959,7 +1959,7 @@ msgstr "Impostazioni"
 msgid "In any WordPress role"
 msgstr "In qualsiasi ruolo di WordPress"
 
-#: lib/Config/Populator.php:376
+#: lib/Config/Populator.php:381
 msgid "This list is automatically created when you install MailPoet."
 msgstr "Questa lista viene creata automaticamente quando installi MailPoet."
 
@@ -2451,7 +2451,7 @@ msgstr "La regione SES di Amazon non è supportata"
 
 #: lib/API/JSON/v1/DynamicSegments.php:124 lib/API/JSON/v1/ImportExport.php:113
 #: lib/API/JSON/v1/Segments.php:129 lib/Models/CustomField.php:30
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:31
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "Specifica un nome."
 
@@ -2510,7 +2510,7 @@ msgstr "Non attiva"
 msgid "Please specify a newsletter type."
 msgstr "Specifica un tipo di newsletter."
 
-#: lib/Models/Segment.php:145
+#: lib/Models/Segment.php:146
 msgid "This list contains all of your WordPress users."
 msgstr "Questa lista contiene tutti i tuoi utenti WordPress."
 
@@ -2891,7 +2891,7 @@ msgstr "Puoi cambiare il colore di sfondo del layout facendo clic sull'icona del
 msgid "You can add as many layout blocks as you want!"
 msgstr "Puoi aggiungere tutti i blocchi di layout che vuoi!"
 
-#: lib/Models/Segment.php:143
+#: lib/Models/Segment.php:144
 msgid "WordPress Users"
 msgstr "Utenti WordPress"
 

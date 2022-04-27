@@ -8972,7 +8972,7 @@ msgstr "Kung ayaw mong mag-upload ng sariling larawan, maaari mong gamitin ang m
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:489
+#: wp-admin/about.php:509
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Ang Bersyon %1$s</strong> ay naaksyunan ang isyu sa seguridad at naayos ang %2$s na bug."
@@ -9047,7 +9047,7 @@ msgstr[0] "%s na komento ang namarkahan bilang spam."
 msgstr[1] "%s na mga komento ang namarkahan bilang spam."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:278 wp-admin/about.php:485
+#: wp-admin/about.php:298 wp-admin/about.php:505
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Ang Bersyon %1$s</strong> ay naaksyunan ang %2$s bug."
@@ -9075,7 +9075,7 @@ msgstr "Ilathala ang mga Setting"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:267 wp-admin/about.php:274 wp-admin/about.php:493
+#: wp-admin/about.php:287 wp-admin/about.php:294 wp-admin/about.php:513
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Ang Bersyon na %1$s</strong> ay naaksyunan ang ibang mga isyu ukol sa seguridad at naiayos ang %2$s bug."
@@ -9237,7 +9237,7 @@ msgstr "Pangunahing nilalaman"
 msgid "You can use one of these cool headers or show a random one on each page."
 msgstr "Maari mong gamitin ang mga header o magpakita ng random na header sa bawat pahina."
 
-#: wp-admin/about.php:459
+#: wp-admin/about.php:479
 msgid "Go to Dashboard"
 msgstr "Pumunta sa Dashboard"
 
@@ -9386,7 +9386,7 @@ msgstr "Mga Credit"
 msgid "Overview"
 msgstr "Overview"
 
-#: wp-admin/about.php:456
+#: wp-admin/about.php:476
 msgid "Return to Updates"
 msgstr "Bumalik sa mga Update"
 
@@ -9480,7 +9480,7 @@ msgstr "Ilipat sa Basurahan"
 msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
 msgstr "Huwag kalimutang pindutin ang \"I-save ang mga Pagbabago\" kung ikaw ay tapos na! "
 
-#: wp-admin/about.php:473
+#: wp-admin/about.php:493
 msgid "Security Release"
 msgstr "Security Release"
 
@@ -9529,10 +9529,10 @@ msgstr "Ang ibang mga tema ay naglalaman ng adisyonal na larawan sa header. Kung
 #: wp-admin/about.php:59 wp-admin/about.php:79 wp-admin/about.php:99
 #: wp-admin/about.php:119 wp-admin/about.php:139 wp-admin/about.php:159
 #: wp-admin/about.php:179 wp-admin/about.php:199 wp-admin/about.php:219
-#: wp-admin/about.php:239 wp-admin/about.php:255 wp-admin/about.php:259
-#: wp-admin/about.php:262 wp-admin/about.php:265 wp-admin/about.php:269
-#: wp-admin/about.php:272 wp-admin/about.php:276 wp-admin/about.php:280
-#: wp-admin/about.php:497
+#: wp-admin/about.php:239 wp-admin/about.php:259 wp-admin/about.php:275
+#: wp-admin/about.php:279 wp-admin/about.php:282 wp-admin/about.php:285
+#: wp-admin/about.php:289 wp-admin/about.php:292 wp-admin/about.php:296
+#: wp-admin/about.php:300 wp-admin/about.php:517
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Para sa higit pang impormasyon, bisitahin <a href=\"%s\">ang release notes</a>."
 
@@ -9613,7 +9613,7 @@ msgstr "Ang komentong ito ay namarkahan na bilang spam."
 msgid "Show header text with your image."
 msgstr "Ipakita ang teks ng header sa iyong larawan."
 
-#: wp-admin/about.php:456
+#: wp-admin/about.php:476
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Bumalik sa Dashboard &rarr; Mga Update"
 
@@ -9623,7 +9623,7 @@ msgctxt "comment"
 msgid "Mark as Spam"
 msgstr "Markahan bilang Spam"
 
-#: wp-admin/about.php:459
+#: wp-admin/about.php:479
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Pumunta sa Dashboard Home "
 
@@ -9632,7 +9632,7 @@ msgctxt "Translate this to be the equivalent of English Translators in your lang
 msgid "Translators"
 msgstr "Mga tagapagsaling-wika"
 
-#: wp-admin/about.php:476
+#: wp-admin/about.php:496
 msgid "Maintenance and Security Release"
 msgstr "Maintenance at Security Release"
 
@@ -9648,10 +9648,10 @@ msgid "What&#8217;s New"
 msgstr "Anong Bago? "
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:52 wp-admin/about.php:92 wp-admin/about.php:112
-#: wp-admin/about.php:132 wp-admin/about.php:152 wp-admin/about.php:172
-#: wp-admin/about.php:192 wp-admin/about.php:212 wp-admin/about.php:232
-#: wp-admin/about.php:251 wp-admin/about.php:261 wp-admin/about.php:482
+#: wp-admin/about.php:72 wp-admin/about.php:112 wp-admin/about.php:132
+#: wp-admin/about.php:152 wp-admin/about.php:172 wp-admin/about.php:192
+#: wp-admin/about.php:212 wp-admin/about.php:232 wp-admin/about.php:252
+#: wp-admin/about.php:271 wp-admin/about.php:281 wp-admin/about.php:502
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Ang Bersiyon %1$s</strong> ay napangasiwaan na ang isyu tungkol sa seguridad."
 
@@ -9659,7 +9659,7 @@ msgstr "<strong>Ang Bersiyon %1$s</strong> ay napangasiwaan na ang isyu tungkol 
 msgid "Core Contributors to WordPress %s"
 msgstr "Mga Core Kontribyutor sa WordPress %s "
 
-#: wp-admin/about.php:470
+#: wp-admin/about.php:490
 msgid "Maintenance Release"
 msgstr "Maintenance Release"
 
@@ -9772,11 +9772,11 @@ msgstr "Maling pahina ng plugin. "
 msgid "In reply to %s."
 msgstr "Kasagutan sa %s."
 
-#: wp-admin/about.php:441
+#: wp-admin/about.php:461
 msgid "Media Widgets API"
 msgstr "Media Widgets API"
 
-#: wp-admin/about.php:445
+#: wp-admin/about.php:465
 msgid "Customizer Width Variable"
 msgstr "Lawak ng Customizer at Napapalitan"
 
@@ -9784,84 +9784,84 @@ msgstr "Lawak ng Customizer at Napapalitan"
 msgid "Thank you for updating to the latest version! WordPress %s adds more ways for you to express yourself and represent your brand."
 msgstr "Salamat sa pag update ng pinakabagong version! Ang WordPress %s ay nagdagdag ng mga paraan para maipahayag ang iyong sarili at mai-pakita ang iyong brand."
 
-#: wp-admin/about.php:383
+#: wp-admin/about.php:403
 msgid "Nearby WordPress Events"
 msgstr "Mga nalalapit na WordPress Events"
 
-#: wp-admin/about.php:354
+#: wp-admin/about.php:374
 msgid "Rich Text Widget"
 msgstr "Rich Text Widget"
 
-#: wp-admin/about.php:363
+#: wp-admin/about.php:383
 msgid "Link Boundaries"
 msgstr "Hangganan ng Links"
 
-#: wp-admin/about.php:294
+#: wp-admin/about.php:314
 msgid "Exciting Widget Updates"
 msgstr "Nakakapanabik na Widget Updates"
 
-#: wp-admin/about.php:425
+#: wp-admin/about.php:445
 msgid "More Accessible Admin Panel Headings"
 msgstr "Mas Accessible na Admin Panel Headings"
 
-#: wp-admin/about.php:433
+#: wp-admin/about.php:453
 msgid "Multisite Updates"
 msgstr "Multisite Updates"
 
-#: wp-admin/about.php:286
+#: wp-admin/about.php:306
 msgid "An Update with You in Mind"
 msgstr "Update na ikaw ang nasa isip."
 
-#: wp-admin/about.php:287
+#: wp-admin/about.php:307
 msgid "WordPress 4.8 adds some great new features. Gear up for a more intuitive WordPress!"
 msgstr "Maraming bago sa WordPress 4.8. Maghanda para sa isang WordPress na mas madaling gamitin!"
 
-#: wp-admin/about.php:347
+#: wp-admin/about.php:367
 msgid "A welcome video is a great way to humanize the branding of your website. You can now add any video from the Media Library to a sidebar on your site with the new Video widget. Use this to showcase a welcome video to introduce visitors to your site or promote your latest and greatest content."
 msgstr "Ang isang malugod na video ay isang mahusay na paraan upang makatao ang pagba-brand ng iyong website. Maaari ka na ngayong magdagdag ng anumang video mula sa Media Library sa isang sidebar sa iyong site gamit ang bagong Video widget. Gamitin ito upang ipakita ang isang malugod na video upang ipakilala ang mga bisita sa iyong site o i-promote ang iyong pinakabagong at pinakamahusay na nilalaman."
 
-#: wp-admin/about.php:437
+#: wp-admin/about.php:457
 msgid "Text-Editor JavaScript API"
 msgstr "Text-Editor JavaScript API"
 
-#: wp-admin/about.php:385
+#: wp-admin/about.php:405
 msgid "Did you know that WordPress has a thriving offline community with groups meeting regularly in more than 400 cities around the world? WordPress now draws your attention to the events that help you continue improving your WordPress skills, meet friends, and, of course, publish!"
 msgstr "Alam mo ba na ang WordPress ay may isang maunlad na offline na komunidad na may mga grupo na regular na nakikipag-ugnay sa higit sa 400 lungsod sa buong mundo? Ang WordPress ngayon ay nakakakuha ng iyong pansin sa mga kaganapan na makakatulong sa iyong patuloy na mapabuti ang iyong mga kasanayan sa WordPress, matugunan ang mga kaibigan, at, siyempre, i-publish!"
 
-#: wp-admin/about.php:343
+#: wp-admin/about.php:363
 msgid "Adding an image to a widget is now a simple task that is achievable for any WordPress user without needing to know code. Simply insert your image right within the widget settings. Try adding something like a headshot or a photo of your latest weekend adventure &mdash; and see it appear automatically."
 msgstr "Ang pagdaragdag ng isang imahe sa isang widget ay isang simpleng gawain na matatamo para sa anumang gumagamit ng WordPress nang hindi na kailangang malaman ang code. Ipasok lamang ang iyong larawan sa loob ng mga setting ng widget. Subukan ang pagdaragdag ng isang bagay tulad ng isang headshot o isang larawan ng iyong pinakabagong adventure weekend &mdash; at makita itong lilitaw nang awtomatiko."
 
-#: wp-admin/about.php:288
+#: wp-admin/about.php:308
 msgid "Though some updates seem minor, they&#8217;ve been built by hundreds of contributors with <em>you</em> in mind. Get ready for new features you&#8217;ll welcome like an old friend: link improvements, <em>three</em> new media widgets covering images, audio, and video, an updated text widget that supports visual editing, and an upgraded news section in your dashboard which brings in nearby and upcoming WordPress events."
 msgstr "Ang pagpapakilala ng isang bagong base media widget REST API schema sa 4.8 ay nagbukas ng mga posibilidad para sa higit pang mga widget ng media (tulad ng mga gallery o playlist) sa hinaharap. Ang tatlong bagong media widgets ay pinalakas ng isang shared base class na sumasaklaw sa karamihan ng mga pakikipag-ugnayan sa media modal. Pinapadali din ng klase iyon na lumikha ng mga bagong widget ng media at paves ang daan para sa higit pang darating."
 
-#: wp-admin/about.php:355
+#: wp-admin/about.php:375
 msgid "This feature deserves a parade down the center of town! Rich-text editing capabilities are now native for Text widgets. Add a widget anywhere and format away. Create lists, add emphasis, and quickly and easily insert links. Have fun with your newfound formatting powers, and watch what you can accomplish in a short amount of time."
 msgstr "Ang tampok na ito ay nararapat sa isang parada pababa sa gitna ng bayan! Ang mga kakayahan sa pag-edit ng rich text ay natutunan na ngayon para sa mga widget ng Teksto. Magdagdag ng widget kahit saan at i-format ang layo. Lumikha ng mga listahan, idagdag ang diin, at mabilis at madaling magpasok ng mga link. Magpakasaya sa iyong mga bagong kakayahan sa pag-format, at panoorin kung ano ang maaari mong maisagawa sa maikling panahon."
 
-#: wp-admin/about.php:442
+#: wp-admin/about.php:462
 msgid "The introduction of a new base media widget REST API schema to 4.8 opens up possibilities for even more media widgets (like galleries or playlists) in the future. The three new media widgets are powered by a shared base class that covers most of the interactions with the media modal. That class also makes it easier to create new media widgets and paves the way for more to come."
 msgstr "Ang pagpapakilala ng isang bagong base media widget REST API schema sa 4.8 ay nagbukas ng mga posibilidad para sa higit pang mga widget ng media (tulad ng mga gallery o playlist) sa hinaharap. Ang tatlong bagong media widgets ay pinalakas ng isang shared base class na sumasaklaw sa karamihan ng mga pakikipag-ugnayan sa media modal. Pinapadali din ng klase iyon na lumikha ng mga bagong widget ng media at paves ang daan para sa higit pang darating."
 
-#: wp-admin/about.php:446
+#: wp-admin/about.php:466
 msgid "Rejoice! New responsive breakpoints have been added to the customizer sidebar to make it wider on high-resolution screens. Customizer controls should use percentage-based widths instead of pixels."
 msgstr "Magalak ka! Ang mga bagong tumutugon breakpoints ay idinagdag sa sidebar ng customizer upang gawing mas malawak ito sa mga screen na may mataas na resolution. Ang mga kontrol ng customizer ay dapat gumamit ng mga lapad na batay sa porsyento sa halip ng mga pixel."
 
-#: wp-admin/about.php:438
+#: wp-admin/about.php:458
 msgid "With the addition of TinyMCE to the text widget in 4.8 comes a new JavaScript API for instantiating the editor after page load. This can be used to add an editor instance to any text area, and customize it with buttons and functions. Great for plugin authors!"
 msgstr "Sa pagdaragdag ng TinyMCE sa widget ng teksto sa 4.8 ay isang bagong JavaScript API para sa instantiating ang editor pagkatapos ng pag-load ng pahina. Maaari itong magamit upang magdagdag ng isang halimbawa ng editor sa anumang lugar ng teksto, at i-customize ito gamit ang mga pindutan at pag-andar. Mahusay para sa mga may-akda ng plugin!"
 
-#: wp-admin/about.php:430
+#: wp-admin/about.php:450
 msgid "As fewer and fewer browsers support Silverlight, file formats which require the presence of the Silverlight plugin are being removed from core support. Files will still display as a download link, but will no longer be embedded automatically."
 msgstr "Tulad ng mas kaunti at mas kaunting mga browser ang sumusuporta sa Silverlight, ang mga format ng file na nangangailangan ng pagkakaroon ng Silverlight plugin ay inaalis mula sa core support. Ang mga file ay magpapakita pa rin bilang isang link sa pag-download, ngunit hindi na ma-embed na awtomatiko."
 
-#: wp-admin/about.php:429
+#: wp-admin/about.php:449
 msgid "Removal of Core Support for WMV and WMA Files"
 msgstr "Pag-alis ng Core Support para sa WMV at WMA Files"
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:418
+#: wp-admin/about.php:438
 msgid "Even More Developer Happiness %s"
 msgstr "Mas madaming Happiness para sa Developer %s"
 
@@ -9869,11 +9869,11 @@ msgstr "Mas madaming Happiness para sa Developer %s"
 msgid "The Customizer allows you to preview changes to your site before publishing them. You can navigate to different pages on your site within the preview. Edit shortcuts are shown for some editable elements."
 msgstr "Pinapayagan ka ng Customizer na i-preview ang mga pagbabago sa iyong site bago i-publish ang mga ito. Maaari kang mag-navigate sa iba't ibang mga pahina sa iyong site sa loob ng preview. Ang mga shortcut ay ipinapakita para sa ilang mga nae-edit na elemento."
 
-#: wp-admin/about.php:351
+#: wp-admin/about.php:371
 msgid "Are you a podcaster, musician, or avid blogger? Adding a widget with your audio file has never been easier. Upload your audio file to the Media Library, go to the widget settings, select your file, and you&#8217;re ready for listeners. This would be a easy way to add a more personal welcome message, too!"
 msgstr "Ikaw ba ay isang podcaster, musikero, o masugid na blogger? Mas lalo nang madaling madagdag ng widget gamit ang iyong audio file. I-upload ang iyong audio file sa Media Library, pumunta sa mga setting ng widget, piliin ang iyong file, at handa ka na para sa iyong mga tagapakinig. Magiging isang madaling paraan din ito upang magdagdag ng isang mas personal na pambungad na mensahe!"
 
-#: wp-admin/about.php:364
+#: wp-admin/about.php:384
 msgid "Have you ever tried updating a link, or the text around a link, and found you can&#8217;t seem to edit it correctly? When you edit the text after the link, your new text also ends up linked. Or you edit the text in the link, but your text ends up outside of it. This can be frustrating! With link boundaries, a great new feature, the process is streamlined and your links will work well. You’ll be happier. We promise."
 msgstr "Nakarating na ba sinubukang i-update ang isang link, o ang teksto sa paligid ng isang link, at natagpuan maaari mong i-edit ito nang tama? Kapag na-edit mo ang teksto pagkatapos ng link, ang iyong bagong teksto ay nagtatapos din naka-link. O i-edit mo ang teksto sa link, ngunit ang iyong teksto ay nagtatapos sa labas nito. Ito ay maaaring nakakabigo! Sa mga hangganan ng link, isang mahusay na bagong tampok, ang proseso ay naka-streamline at ang iyong mga link ay gagana nang maayos. Mas masaya ka. Ipinapangako namin."
 
@@ -9881,6 +9881,6 @@ msgstr "Nakarating na ba sinubukang i-update ang isang link, o ang teksto sa pal
 msgid "Visual mode gives you an editor that is similar to a word processor. Click the Toolbar Toggle button to get a second row of controls."
 msgstr "Binibigyan ka ng Visual Mode ng isang editor na katulad ng isang word processor. I-click ang pindutan ng I-toggle sa Toolbar upang makakuha ng pangalawang hilera ng mga kontrol."
 
-#: wp-admin/about.php:387
+#: wp-admin/about.php:407
 msgid "This is quickly becoming one of our favorite features. While you are in the dashboard (because you&#8217;re running updates and writing posts, right?) all upcoming WordCamps and WordPress Meetups &mdash; local to you &mdash; will be displayed."
 msgstr "Mabilis itong nagiging isa sa aming mga paboritong features. Habang nasa dashboard ka (dahil nag-u-update at nagsusulat lang mga post, di ba?) ang lahat ng paparating na WordCamp at WordPress Meetup &mdash; na lokal sa iyo & mdash; ay ipapakita."

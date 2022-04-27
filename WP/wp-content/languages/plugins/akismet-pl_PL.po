@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-31 13:43:13+0000\n"
+"PO-Revision-Date: 2022-03-31 06:46:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -667,7 +667,7 @@ msgstr "Pokaż oś czasu komentarzy"
 
 #: class.akismet-admin.php:541
 msgid "Un-spammed by %s"
-msgstr "Oznaczenie tego komentarza jako spam zostało cofnięte; wykonawca działania: %s"
+msgstr "Cofnięte ze spamu przez %s"
 
 #: class.akismet-admin.php:539
 msgid "Flagged as spam by %s"
